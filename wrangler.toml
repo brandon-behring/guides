@@ -1,0 +1,18 @@
+# Cloudflare Pages config — guides.brandon-behring.dev (hub repo).
+#
+# This Pages project is connected to github.com/brandon-behring/guides
+# via the Cloudflare dashboard. Build configured there:
+#
+#   Framework preset: Astro
+#   Build command:    npm run build
+#   Build output:     dist
+#   Root directory:   /
+#   Node version:     20
+#
+# Phase 1 deliverable: extend with subroute proxy for pilot:
+#   guides.brandon-behring.dev/experimentation/* → pilot Pages project
+# See design doc v0.2 §18.1.
+
+name = "guides-hub"
+compatibility_date = "2026-05-19"
+pages_build_output_dir = "./dist"

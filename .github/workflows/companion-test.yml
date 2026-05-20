@@ -1,0 +1,42 @@
+# companion-test.yml — Phase 1 SKETCH (not active).
+#
+# This workflow activates when the hub repo gains a companion/ Python package.
+# Currently the hub does NOT host companion code (per-guide repos do). This
+# file is present so Phase 1 retrospective work has a template to adapt per
+# design doc v0.2 §18.2.
+#
+# To activate (Phase 1+):
+#   1. Add companion/ subdirectory with pyproject.toml + tests/
+#   2. Uncomment the `jobs:` block below
+#   3. Add `companion/` to path filters in the `on:` block
+
+name: companion-test
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'companion/**'
+      - '.github/workflows/companion-test.yml'
+  pull_request:
+    paths:
+      - 'companion/**'
+
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest
+#     defaults:
+#       run:
+#         working-directory: companion
+#     steps:
+#       - uses: actions/checkout@v4
+#       - name: Install uv
+#         run: curl -LsSf https://astral.sh/uv/install.sh | sh
+#       - name: Install Python deps
+#         run: uv sync --all-extras
+#       - name: ruff
+#         run: uv run ruff check .
+#       - name: mypy
+#         run: uv run mypy .
+#       - name: pytest
+#         run: uv run pytest --hypothesis-show-statistics

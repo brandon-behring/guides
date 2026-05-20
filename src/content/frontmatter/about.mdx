@@ -1,0 +1,52 @@
+---
+slug: about
+title: About
+order: 1
+description: About this site, the author, AI collaboration disclosure, and licenses.
+---
+
+import AICollaborationDisclosure from '@brandon_m_behring/book-scaffold-astro/components/AICollaborationDisclosure.astro';
+import PreReleaseBanner from '@brandon_m_behring/book-scaffold-astro/components/PreReleaseBanner.astro';
+
+<PreReleaseBanner state="alpha" />
+
+# About
+
+This site hosts public, open-access interview-prep guides for data science, ML engineering, and AI engineering roles (target audience: mid-to-senior IC candidates, L4–L6 equivalent). Per-guide content lives in sibling repos and deploys to subroutes of this hub.
+
+## Author
+
+**Brandon Behring** — applied math PhD (2022), data scientist, currently working toward an Anthropic 1-year arc (Fellows / Research Engineer / Alignment Science). These guides are a career-bridge artifact: they let me crystallize material I work with, demonstrate AI-assisted authoring methodology at scale, and contribute the kind of compact, equation-fluent technical writing that doesn't yet exist for this audience across the open web.
+
+## AI collaboration
+
+<AICollaborationDisclosure
+  model="Claude Opus 4.7 + Sonnet 4.6 (Anthropic)"
+  role="content drafting, schema design, structural review, dossier synthesis"
+  commit_attribution="Co-Authored-By: Claude <noreply@anthropic.com>"
+/>
+
+For the full workflow — which skills, which prompts, which review steps — see [/methodology](./methodology/).
+
+This site follows the AI-collaboration disclosure norms set by [ACM 2023](https://www.acm.org/publications/policies/frequently-asked-questions), [Nature 2023](https://www.nature.com/nature-portfolio/editorial-policies/ai), and [COPE 2023](https://publicationethics.org/cope-position-statements/ai-author). AI tooling is not listed as an author; humans take final responsibility.
+
+## Licenses
+
+- **Content** (text, diagrams, prose under `src/content/`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **Source code** (Astro config, scripts, `.github/workflows/`, `.claude/skills/`): [MIT](https://opensource.org/licenses/MIT)
+
+Each per-guide repo carries its own LICENSE + LICENSE-SCRIPTS following the same split.
+
+## Repos
+
+- Hub (this site): [github.com/brandon-behring/guides](https://github.com/brandon-behring/guides)
+- Pilot guide (Phase 1): [github.com/brandon-behring/guides-experimentation](https://github.com/brandon-behring/guides-experimentation)
+- Scaffold: [github.com/brandon-behring/book-scaffold-astro](https://github.com/brandon-behring/book-scaffold-astro)
+
+## Status
+
+- **Phase 0b** (Q3 2026, ongoing): hub bootstrap + pilot skeleton. This page is live; the pilot guide is in development.
+- **Phase 1** (Q3–Q4 2026): pilot guide v1.0 — full 16-chapter experimentation guide.
+- **Phase 2** (Q1 2027): second guide (prompt injection — Anthropic-arc-relevant).
+
+See [/methodology](./methodology/) for the full roadmap, design rationale, and AI-collaboration discipline.

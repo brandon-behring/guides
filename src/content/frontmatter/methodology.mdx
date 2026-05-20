@@ -1,0 +1,134 @@
+---
+slug: methodology
+title: Methodology
+order: 2
+description: Design rationale, research foundation, Claude Code workflow, and AI-collaboration discipline behind these guides.
+---
+
+import PreReleaseBanner from '@brandon_m_behring/book-scaffold-astro/components/PreReleaseBanner.astro';
+
+<PreReleaseBanner state="alpha" />
+
+# Methodology
+
+This page documents the design rationale, research foundation, and AI-collaboration discipline behind `guides.brandon-behring.dev`. It is intentionally explicit about what is human-authored, what is AI-assisted, and where each artifact sits on the originality spectrum — because the methodology *is* part of the artifact.
+
+## Three portfolio surfaces
+
+The guides repo isn't one thing; it's three concentric artifacts at different originality levels.
+
+| Surface | What it is | Originality basis |
+|---|---|---|
+| **System design** | Scaffold contributions (PRs to `book-scaffold-astro` v3.6.0+), `.claude/skills/` authoring workflow, ADR-driven authoring discipline, per-guide architecture | Design ownership in ADRs — novel methodology |
+| **Per-guide capstones** | ADR-driven novel demonstrations — modeled on [`prompt-injection-detection-prototype`](https://github.com/brandon-behring/prompt-injection-detection-prototype) at lighter scale. Required for arc-relevant guides (prompt-injection, ai-engineering, llms, mlops); optional for the pilot (domain-pedagogy tier) | ADRs + executable artifact |
+| **This methodology page** | Design doc + 5 dossier links + Claude Code workflow disclosure + comparative critique + scaffold-dogfooding lessons | Curated synthesis with original framing |
+
+Each artifact's `_meta.yml.spectrum` declaration is explicit. Content under `src/content/<guide>/` (per-guide chapters and their companion packages) is **AI-generated curation** — synthesis flowing through the system. The methodology page and the scaffold/skills system carry the "originality" weight; the content is what flows through them.
+
+## Audience + intentional ambiguity
+
+These guides target **mid-to-senior data scientists and ML engineers (L4–L6 IC equivalent)** who already know basic A/B testing, can read pandas / numpy / scikit-learn fluently, and want compact, equation-fluent references. The guides assume peer audience — not students, not generalists.
+
+Two pedagogical mechanisms (UDL multi-path variant in `v1.1`, LLM-as-coach interface in `v1.1`) might serve broader audiences. Whether they *do* is an open question the pilot answers; the design optimizes for peers, with the mechanisms as opt-in extensions.
+
+## Research foundation — 5 dossiers, 116 entries
+
+Phase 0a (complete 2026-05-19) gathered, built, and agent-indexed 5 research dossiers feeding style-guide v0.0:
+
+| Dossier | Entries | Scope |
+|---|---|---|
+| `technical_book_design` | 32 | LaTeX → MDX heuristics, Tufte conventions, KaTeX, Pagefind, BibTeX-flavored MDX |
+| `learning_pedagogy` | 17 | Cognitive load theory, retrieval practice, interleaving, spacing — classical pedagogy |
+| `interview_prep_pedagogy` | 19 | What interviewers test, calibration vs preparation, mock-interview research |
+| `documentation_methodology` | 22 | Diátaxis (tutorial / how-to / reference / explanation), OER conventions, ACM/Nature/COPE AI-disclosure norms |
+| `ai_assisted_authoring` | 26 | ABScribe co-writing patterns, AI-as-delivery vs AI-as-authoring, evaluation methodology for AI-generated technical content |
+
+All entries are `unverified` (no audit pass yet). The dossiers live in `~/interview_prep_series/docs/research/<dossier>/` and are migrating to this hub as Phase 1 lands. The comparative pedagogy critique that drove v0.2 of the design doc surveys 9 additional paradigms (Constructionism, Cognitive Apprenticeship, Problem-Based Learning, Threshold Concepts, Variation Theory, 4C/ID, Backward Design, Multi-paradigm presentation, Transfer & Adaptive Expertise).
+
+## Design doc v0.2 — the operating manual
+
+The canonical design rationale lives in [`docs/plans/active/2026-05-19_guides_design_rethink_v0.2.md`](https://github.com/brandon-behring/interview_prep_series/blob/main/docs/plans/active/2026-05-19_guides_design_rethink_v0.2.md) (1100 lines, 18 sections). v0.2 supersedes v0.1 and locks 28 decisions across:
+
+- **Transfer model declaration (Path D — hybrid)**: per-chapter `target: retention | transfer | both` declared in frontmatter. Coherent-combinations lint planned (§17.1).
+- **Tier 1 metadata**: backward-design audit gate, conditional self-explain, research-debt-addressed declaration, per-chapter `ordering` field, threshold-concept metadata flag.
+- **Tier 2 components**: `<ContrastingCases>`, invention activities, `<VariationCluster>`, task-class declaration, `<ExpertTrace>`, `<PairProgramTranscript>` — pilot-first override; upstream PRs filed during dogfooding.
+- **Dim 7 multi-paradigm presentation**: per-guide `paradigms` array declaration. v1.1 ships ONE pilot UDL variant chapter; blocked on scaffold v3.6.0+ multi-path support.
+- **LLM-as-coach commitment**: v1.1 interface design hooks; possible fourth portfolio surface (decide at pilot).
+- **Scaffold dependency**: `book-scaffold-astro` v3.5.0 `research-portfolio` preset consumed as-is; per-guide Zod schema extension in `src/content.config.ts`.
+- **Phase mapping**: 0a done; 0b (~4-6 wk); 1 (~10-12 wk, EOY 2026 MVP); 1.5 (~3-4 wk, Q1 2027 pilot capstone); 2 (~10-12 wk, Q1 2027 prompt-injection arc-bridge artifact).
+
+The v0.2 doc was built across 6 rounds of clarifying questions; ~28 locked decisions. v0.1 was 1276 lines; the [comparative pedagogy critique](https://github.com/brandon-behring/interview_prep_series/blob/main/docs/plans/active/2026-05-19_guides_pedagogy_alt_perspectives.md) (384 lines) drove the round 1, 2, 4, and 6 deltas.
+
+## Claude Code workflow disclosure
+
+These guides are co-authored with Claude (Anthropic) via Claude Code. The discipline is intentional:
+
+### Skills used during authoring
+
+| Skill | Phase | What it does |
+|---|---|---|
+| `research-plan` | 0a | Scopes a topic; decomposes into 4–8 sub-areas; drafts claim-family taxonomy |
+| `research-gather` | 0a | Populates `bib_ledger.yml` from web searches + targeted reads |
+| `dossier-build` | 0a | Renders bib_ledger into topic-organized Markdown tables |
+| `agent-index` | 0a | Synthesizes dossier into a dual-audience indexed folder with lookup recipes + glossary |
+| `dataset-research` | 0a/1 | Discovers public datasets per topic (used for capstone bootstrap, Phase 1.5) |
+| Pilot authoring skills (Phase 1, TBD) | 1 | `author-chapter`, `citation-check`, `callout-refactor` — refined during pilot |
+
+The skills live at `~/Claude/research_toolkit/.claude/skills/`. They're the same skills used to build the [vol25_prompt_injection](https://github.com/brandon-behring/interview_prep_series/tree/main/docs/research/vol25_prompt_injection) dossier (~520 verified entries) and 4 other research dossiers in the interview-prep-series LaTeX monorepo.
+
+### Authoring loops (per surface)
+
+| Surface | Loop |
+|---|---|
+| Content (chapter MDX) | HITL co-writing via ABScribe pattern. Claude drafts from human-led outline; human reviews every claim. No autonomous commits to chapter MDX. |
+| Companion (Python package) | Pair-programming. Claude writes test-first code; human reviews + accepts. House-Python-style: uv + pytest + mypy + ruff + hypothesis. |
+| Capstone | AI-assisted, user-led, ADR-driven. ADRs are human-authored; capstone code is Claude-drafted, human-reviewed. **No autonomous commits to `capstone/src/`.** Capstone CLAUDE.md documents the workflow. |
+| System (scaffold + skills) | User-designed; Claude Code executes per user spec. PRs from Brandon land in `book-scaffold-astro`. |
+
+### AI-disclosure norms
+
+Per [ACM 2023](https://www.acm.org/publications/policies/frequently-asked-questions), [Nature 2023](https://www.nature.com/nature-portfolio/editorial-policies/ai), and [COPE 2023](https://publicationethics.org/cope-position-statements/ai-author), AI tooling is not listed as an author; humans take final responsibility. Each MDX page includes a footer disclosure; per-guide `AUTHORS.md` carries the full statement. Commit attribution: `Co-Authored-By: Claude <noreply@anthropic.com>`.
+
+## Originality spectrum
+
+| Position | Artifacts | What's original |
+|---|---|---|
+| Novel methodology | Scaffold contributions (Brandon's PRs to `book-scaffold-astro` v3.6.0+), `.claude/skills/` authoring workflow, ADR-driven authoring discipline, per-guide capstone artifacts | Design ownership in ADRs |
+| Novel methodology (TBD per pilot) | LLM-as-coach interface design (v1.1) | If pilot validates: portfolio-grade contribution to AI-as-delivery; novel methodology surface. If pilot reveals it's just a Claude Code config: folds into existing system surface. |
+| Curated synthesis with original framing | This /methodology page (design doc + 5 dossiers + Claude Code workflow + comparative critique + scaffold-dogfooding lessons) | Original framing of synthesis |
+| AI-generated curation | Per-guide `content/` MDX + `companion/` packages | Synthesis flowing through the system |
+
+The honest distinction matters because the career-bridge framing (pitchable to Anthropic Fellows / Research Engineer / Alignment Science) depends on what's load-bearing. The system + capstones + methodology surfaces are load-bearing; the content alone is not.
+
+## Scaffold-dogfooding retrospective
+
+This site is the consumer-pilot dogfooding pass for [`book-scaffold-astro`](https://github.com/brandon-behring/book-scaffold-astro). Phase 0b discoveries:
+
+- **CLI lag**: `@brandon_m_behring/create-book@3.5.0` doesn't yet support `--profile=research-portfolio`. The scaffold package supports the preset at runtime via `defineBookConfig({ preset: 'research-portfolio' })`, but the bootstrap CLI hardcodes only `academic | tools | minimal`. Filed: [issue TBD] for CLI to accept all 5 presets in v3.6.0.
+- **v3.5.1 reference correction**: design doc v0.2 referenced `v3.5.1` throughout; npm latest is `v3.5.0` (v3.5.1 was never published). Errata note added to design doc §15.
+- **Component prop API**: `<PreReleaseBanner>` uses `state`, not `status`. `<AICollaborationDisclosure>` uses `model`/`role`, not `tool`/`vendor`/`scope`. Documented in this repo's commit history.
+
+Phase 1 will accumulate more lessons and file them upstream. Many land as PRs from Brandon since the scaffold is his repo.
+
+## Status + commitment
+
+This methodology page is **alpha v0.1**. The pilot guide and per-guide capstones land through Phase 1 + 1.5 + 2 (EOY 2026 — Q1 2027). v1.0 of this page lands after Phase 1 completes and the pilot is `validated`.
+
+The `_meta.yml.commitment: long-lived` declaration signals the maintenance bar: what ships stays maintained. If extrinsic motivation (Anthropic-arc) decays, honest re-classification (`long-lived` → `frozen`) is the escape hatch — not silent rot.
+
+## Open questions (deferred to pilot)
+
+- LLM-as-coach interface: synchronous (live chat) vs asynchronous (PR-comment-style)?
+- Multi-path content variant: sibling files (`08-cuped.mdx` + `08-cuped--udl.mdx`) vs single file with `<PathVariant path="udl">` blocks?
+- Task-class granularity: is "CUPED" a single task class or three (CUPED-clean / CUPED-clustered / CUPED-non-stationary)?
+- Per-chapter `research_debt_addressed`: lint rule enforce or advisory?
+- LLM-as-coach: fourth portfolio surface or folds into system surface (decide at pilot)?
+
+## Cross-references
+
+- [Phase 0b plan](https://github.com/brandon-behring/interview_prep_series/blob/main/docs/plans/active) — local plan file (not yet in this repo)
+- [Design doc v0.2](https://github.com/brandon-behring/interview_prep_series/blob/main/docs/plans/active/2026-05-19_guides_design_rethink_v0.2.md) — 1100 lines, 18 sections (operating manual)
+- [Comparative pedagogy critique](https://github.com/brandon-behring/interview_prep_series/blob/main/docs/plans/active/2026-05-19_guides_pedagogy_alt_perspectives.md) — what the design doc accepts + rejects
+- [`book-scaffold-astro`](https://github.com/brandon-behring/book-scaffold-astro) — the technical scaffold
+- [`prompt-injection-detection-prototype`](https://github.com/brandon-behring/prompt-injection-detection-prototype) — capstone structural model
+- [`eval-toolkit`](https://github.com/brandon-behring/eval-toolkit) — voice anchor + house-Python-style

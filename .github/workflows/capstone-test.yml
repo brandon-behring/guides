@@ -1,0 +1,42 @@
+# capstone-test.yml — Phase 1.5 SKETCH (not active).
+#
+# This workflow activates when the hub repo gains a capstone/ artifact.
+# Currently the hub does NOT host capstone code (per-guide repos do, and
+# only arc-relevant guides require capstones — pilot is domain-pedagogy
+# tier per design doc v0.2 §10.6.5).
+#
+# To activate (Phase 1.5+):
+#   1. Add capstone/ subdirectory with pyproject.toml + src/ + evals/
+#   2. Uncomment the `jobs:` block below
+#   3. Mirror per-capstone needs: Python pytest, Quarto render, etc.
+
+name: capstone-test
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'capstone/**'
+      - '.github/workflows/capstone-test.yml'
+  pull_request:
+    paths:
+      - 'capstone/**'
+
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest
+#     defaults:
+#       run:
+#         working-directory: capstone
+#     steps:
+#       - uses: actions/checkout@v4
+#       - name: Install uv
+#         run: curl -LsSf https://astral.sh/uv/install.sh | sh
+#       - name: Install Python deps
+#         run: uv sync --all-extras
+#       - name: pytest
+#         run: uv run pytest
+#       - name: Render WRITEUP.md (Quarto)
+#         run: |
+#           sudo apt-get install -y quarto
+#           quarto render WRITEUP.md
