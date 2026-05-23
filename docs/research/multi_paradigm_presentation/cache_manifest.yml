@@ -1,0 +1,46 @@
+schema_version: 2
+topic: multi_paradigm_presentation
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+cache_root: ~/Claude/research_cache
+
+entries:
+- cache_id: cache_02f490511fe7c4bb
+  source_url: https://udlguidelines.cast.org/static/udlg2.2-text-a11y.pdf
+  fetched_at: 2026-05-23
+  content_type: application/pdf
+  bytes: 1075109
+  sha256: 02f490511fe7c4bb61b136ef3c0e9bbe3e5b5949ebce0d85164fcbe16dd68e14
+  raw_path: ~/Claude/research_cache/blobs/sha256/02f490511fe7c4bb61b136ef3c0e9bbe3e5b5949ebce0d85164fcbe16dd68e14
+  text_path: ~/Claude/research_cache/text/sha256/02f490511fe7c4bb61b136ef3c0e9bbe3e5b5949ebce0d85164fcbe16dd68e14.txt
+  metadata_path: ~/Claude/research_cache/metadata/sha256/02f490511fe7c4bb61b136ef3c0e9bbe3e5b5949ebce0d85164fcbe16dd68e14.json
+  restricted: false
+  rights_status: private_use
+  extraction_status: raw_only
+
+- cache_id: cache_0be955fe68a5ed41
+  source_url: https://files.eric.ed.gov/fulltext/ED476972.pdf
+  fetched_at: 2026-05-23
+  content_type: application/pdf
+  bytes: 153418
+  sha256: 0be955fe68a5ed4163bf5ca8d155d2fda9010281a59d45dd01c173d916002452
+  raw_path: ~/Claude/research_cache/blobs/sha256/0be955fe68a5ed4163bf5ca8d155d2fda9010281a59d45dd01c173d916002452
+  text_path: ~/Claude/research_cache/text/sha256/0be955fe68a5ed4163bf5ca8d155d2fda9010281a59d45dd01c173d916002452.txt
+  metadata_path: ~/Claude/research_cache/metadata/sha256/0be955fe68a5ed4163bf5ca8d155d2fda9010281a59d45dd01c173d916002452.json
+  restricted: false
+  rights_status: private_use
+  extraction_status: raw_only
+
+- cache_id: cache_69bf2f42ed9de220
+  source_url: https://assets.cambridge.org/97811071/87504/frontmatter/9781107187504_frontmatter.pdf
+  fetched_at: 2026-05-23
+  content_type: application/pdf
+  bytes: 279383
+  sha256: 69bf2f42ed9de2207972daf98af1156b1cf3a7694ec39608a9a8013a05037dbb
+  raw_path: ~/Claude/research_cache/blobs/sha256/69bf2f42ed9de2207972daf98af1156b1cf3a7694ec39608a9a8013a05037dbb
+  text_path: ~/Claude/research_cache/text/sha256/69bf2f42ed9de2207972daf98af1156b1cf3a7694ec39608a9a8013a05037dbb.txt
+  metadata_path: ~/Claude/research_cache/metadata/sha256/69bf2f42ed9de2207972daf98af1156b1cf3a7694ec39608a9a8013a05037dbb.json
+  restricted: false
+  rights_status: private_use
+  extraction_status: raw_only

@@ -1,0 +1,16 @@
+schema_version: 3
+topic: capstone_portfolio_assessment
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+
+fetches:
+- fetch_id: fetch_kuh2008high
+  sub_area: A2
+  query: 'Kuh High-Impact Educational Practices 2008 AAC&U capstones'
+  source_url: https://assess.ucr.edu/sites/default/files/2019-02/kuh_2008.pdf
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  decision: accept
+  reason: 'Kuh 2008 AAC&U high-impact-practices framework. Capstones as one of 10. Sub-area A2 anchor.'
+  assigned_bibkey: kuh2008high

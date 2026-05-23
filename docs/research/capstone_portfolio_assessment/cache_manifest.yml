@@ -1,0 +1,20 @@
+schema_version: 2
+topic: capstone_portfolio_assessment
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+cache_root: ~/Claude/research_cache
+
+entries:
+- cache_id: cache_7355bf1d68d6f302
+  source_url: https://assess.ucr.edu/sites/default/files/2019-02/kuh_2008.pdf
+  fetched_at: 2026-05-23
+  content_type: application/pdf
+  bytes: 79295
+  sha256: 7355bf1d68d6f302dfef3116c1545c145a405349face8fb56ae1d03f569506c0
+  raw_path: ~/Claude/research_cache/blobs/sha256/7355bf1d68d6f302dfef3116c1545c145a405349face8fb56ae1d03f569506c0
+  text_path: ~/Claude/research_cache/text/sha256/7355bf1d68d6f302dfef3116c1545c145a405349face8fb56ae1d03f569506c0.txt
+  metadata_path: ~/Claude/research_cache/metadata/sha256/7355bf1d68d6f302dfef3116c1545c145a405349face8fb56ae1d03f569506c0.json
+  restricted: false
+  rights_status: private_use
+  extraction_status: raw_only

@@ -1,0 +1,34 @@
+schema_version: 3
+topic: multi_paradigm_presentation
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+
+fetches:
+- fetch_id: fetch_cast2018udl
+  sub_area: A1
+  query: 'CAST Universal Design for Learning Guidelines version 2.2 2018'
+  source_url: https://udlguidelines.cast.org/static/udlg2.2-text-a11y.pdf
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  decision: accept
+  reason: 'Official CAST UDL framework. Sub-area A1 anchor.'
+  assigned_bibkey: cast2018udl
+- fetch_id: fetch_paivio1991dual
+  sub_area: A3
+  query: 'Paivio dual coding theory 1991 retrospect Canadian Psychology'
+  source_url: https://files.eric.ed.gov/fulltext/ED476972.pdf
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  decision: accept
+  reason: 'Foundational dual-coding theory paper. Sub-area A3 anchor.'
+  assigned_bibkey: paivio1991dual
+- fetch_id: fetch_mayer2014cambridge
+  sub_area: A2
+  query: 'Mayer Cambridge Handbook of Multimedia Learning 2014'
+  source_url: https://assets.cambridge.org/97811071/87504/frontmatter/9781107187504_frontmatter.pdf
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: partial, is_useful: 5}
+  decision: accept
+  reason: 'Canonical multimedia learning handbook. Only frontmatter cached (full book paywalled).'
+  assigned_bibkey: mayer2014cambridge

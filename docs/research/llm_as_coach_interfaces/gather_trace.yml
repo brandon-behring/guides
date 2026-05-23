@@ -1,0 +1,34 @@
+schema_version: 3
+topic: llm_as_coach_interfaces
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+
+fetches:
+- fetch_id: fetch_vanlehn2011
+  sub_area: A1
+  query: 'VanLehn relative effectiveness human tutoring intelligent tutoring systems Educational Psychologist 2011'
+  source_url: https://asu.elsevierpure.com/en/publications/the-relative-effectiveness-of-human-tutoring-intelligent-tutoring/
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  decision: accept
+  reason: 'Foundational ITS meta-analysis. Sub-area A1 anchor.'
+  assigned_bibkey: vanlehn2011relative
+- fetch_id: fetch_khan2024
+  sub_area: A6
+  query: 'Khan Academy Khanmigo evaluation learning outcomes 2024'
+  source_url: https://blog.khanacademy.org/khan-academy-efficacy-results-november-2024/
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: partial, is_useful: 4}
+  decision: accept
+  reason: 'Official Khan Academy efficacy report. Sub-area A6 deployment.'
+  assigned_bibkey: khan2024efficacy
+- fetch_id: fetch_shabsigh2024
+  sub_area: A6
+  query: 'Khan Academy Khanmigo evaluation learning outcomes 2024'
+  source_url: https://jtl.uwindsor.ca/index.php/jtl/article/view/10052
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: partial, is_useful: 4}
+  decision: accept
+  reason: 'Peer-reviewed Khanmigo case study. Sub-area A6 deployment.'
+  assigned_bibkey: shabsigh2024khanmigo

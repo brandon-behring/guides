@@ -1,0 +1,78 @@
+schema_version: 3
+topic: transfer_evaluation_methods
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+
+entries:
+- evidence_id: ev_transfer_evaluation_methods_0001
+  source_url: https://aaalab.stanford.edu/assets/papers/2005/Efficiency_and_Innovation_in_Transfer.pdf
+  source_type: paper
+  source_quality: primary
+  retrieved_at: 2026-05-23
+  verification_method: webfetch
+  cache_ids: [cache_1a5560f2b30263ad]
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0001
+    field_path: bib_ledger.entries[0].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.80
+  excerpt: 'Schwartz, Bransford & Sears (2005) introduce the two-dimensional efficiency-vs-innovation framework + Preparation for Future Learning (PFL) as a transfer assessment paradigm distinct from sequestered problem-solving tests.'
+  rights_status: private_use
+  confidence: {score: 0.85, factors: [primary chapter cached]}
+
+- evidence_id: ev_transfer_evaluation_methods_0002
+  source_url: https://doi.org/10.1080/07370000802212669
+  source_type: paper
+  source_quality: primary
+  retrieved_at: 2026-05-23
+  verification_method: webfetch
+  cache_ids: [cache_354796c725d948f4]
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0002
+    field_path: bib_ledger.entries[1].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.80
+  excerpt: 'Kapur (2008) — engaging students in solving complex, ill-structured problems without scaffolding before instruction produces stronger transfer than well-structured-first sequence. Empirical study with 11th-grade Newtonian kinematics.'
+  rights_status: private_use
+  confidence: {score: 0.85, factors: [primary KU Leuven PDF]}
+
+- evidence_id: ev_transfer_evaluation_methods_0003
+  source_url: https://doi.org/10.1037/0033-2909.128.4.612
+  source_type: paper
+  source_quality: primary
+  retrieved_at: 2026-05-23
+  verification_method: webfetch
+  cache_ids: [cache_3676ca35794db6ec]
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0003
+    field_path: bib_ledger.entries[2].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: 'Barnett & Ceci (2002) — 9-dimensional taxonomy of far transfer (content × context dimensions). Diagnoses why a century of transfer research has failed to resolve "does far transfer exist" — comparisons across studies measured different dimensions without acknowledging it.'
+  rights_status: private_use
+  confidence: {score: 0.75, factors: [PubMed abstract page only; full text not cached]}
+
+- evidence_id: ev_transfer_evaluation_methods_0004
+  source_url: https://gwern.net/doc/iq/1993-detterman.pdf
+  source_type: paper
+  source_quality: primary
+  retrieved_at: 2026-05-23
+  verification_method: webfetch
+  cache_ids: [cache_633583518b9eccf2]
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0004
+    field_path: bib_ledger.entries[3].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.80
+  excerpt: 'Detterman (1993) — the canonical pessimistic argument that little evidence supports transfer of complex school-taught skills. "Transfer as epiphenomenon" reframing.'
+  rights_status: private_use
+  confidence: {score: 0.85, factors: [primary chapter cached]}

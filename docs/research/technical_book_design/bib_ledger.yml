@@ -1,0 +1,281 @@
+# Bibliography ledger — technical_book_design
+# First-pass gather (~30 canonical entries). Status defaults to `unverified` per the
+# /research-gather verification protocol; promotion to `verified` happens in dossier-audit.
+# This pass deliberately covers the known-landmarks list + a curated set of
+# representative additions per sub-area, not the full 200-300 heavy-depth target.
+
+entries:
+
+# === A1: chapter_pattern ===
+
+- bibkey: koller2009pgm
+  primary_url: https://mitpress.mit.edu/9780262013192/probabilistic-graphical-models/
+  title: 'Probabilistic Graphical Models: Principles and Techniques'
+  status: unverified
+  claim_family: chapter_pattern
+  authors: Koller & Friedman (2009)
+  venue: MIT Press
+
+- bibkey: procida_diataxis
+  primary_url: https://diataxis.fr/
+  title: 'Diátaxis: A systematic framework for technical documentation authoring'
+  status: unverified
+  claim_family: chapter_pattern
+  authors: Procida (ongoing)
+  venue: diataxis.fr
+
+- bibkey: polya1945howtosolveit
+  primary_url: https://press.princeton.edu/books/paperback/9780691164076/how-to-solve-it
+  title: 'How to Solve It: A New Aspect of Mathematical Method'
+  status: unverified
+  claim_family: chapter_pattern
+  authors: Pólya (1945)
+  venue: Princeton University Press
+
+- bibkey: xie2017bookdown
+  primary_url: https://bookdown.org/yihui/bookdown/
+  title: 'bookdown: Authoring Books and Technical Documents with R Markdown'
+  status: unverified
+  claim_family: chapter_pattern
+  authors: Xie (2017)
+  venue: Chapman & Hall / CRC The R Series
+
+- bibkey: bruner1960process
+  primary_url: https://www.hup.harvard.edu/books/9780674710016
+  title: The Process of Education
+  status: unverified
+  claim_family: chapter_pattern
+  authors: Bruner (1960)
+  venue: Harvard University Press
+
+# === A2: information_design ===
+
+- bibkey: tufte1983visual
+  primary_url: https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/
+  title: The Visual Display of Quantitative Information
+  status: unverified
+  claim_family: information_design
+  authors: Tufte (1983; 2nd ed 2001)
+  venue: Graphics Press
+
+- bibkey: tufte1990envisioning
+  primary_url: https://www.edwardtufte.com/book/envisioning-information/
+  title: Envisioning Information
+  status: unverified
+  claim_family: information_design
+  authors: Tufte (1990)
+  venue: Graphics Press
+
+- bibkey: tufte1997visual
+  primary_url: https://www.edwardtufte.com/book/visual-explanations-images-and-quantities-evidence-and-narrative/
+  title: 'Visual Explanations: Images and Quantities, Evidence and Narrative'
+  status: unverified
+  claim_family: information_design
+  authors: Tufte (1997)
+  venue: Graphics Press
+
+- bibkey: tufte2006beautiful
+  primary_url: https://www.edwardtufte.com/book/beautiful-evidence/
+  title: Beautiful Evidence
+  status: unverified
+  claim_family: information_design
+  authors: Tufte (2006)
+  venue: Graphics Press
+
+- bibkey: tufte_css
+  primary_url: https://edwardtufte.github.io/tufte-css/
+  title: 'Tufte CSS: Style your web articles in the manner of Edward Tufte'
+  status: unverified
+  claim_family: information_design
+  authors: Liepmann et al.
+  venue: GitHub Pages
+  code_url: https://github.com/edwardtufte/tufte-css
+
+- bibkey: knuth1984texbook
+  primary_url: https://www-cs-faculty.stanford.edu/~knuth/abcde.html
+  title: The TeXbook
+  status: unverified
+  claim_family: information_design
+  authors: Knuth (1984)
+  venue: Addison-Wesley
+
+- bibkey: bringhurst2004elements
+  primary_url: https://www.hartleyandmarks.com/9780881792126/the-elements-of-typographic-style/
+  title: The Elements of Typographic Style
+  status: unverified
+  claim_family: information_design
+  authors: Bringhurst (2004; multiple editions)
+  venue: Hartley & Marks
+
+# === A3: figure_integration ===
+
+- bibkey: olah2017researchdebt
+  primary_url: https://distill.pub/2017/research-debt/
+  title: Research Debt
+  status: unverified
+  claim_family: figure_integration
+  authors: Olah & Carter (2017)
+  venue: Distill
+
+- bibkey: distill_about
+  primary_url: https://distill.pub/about/
+  title: 'About Distill: Clarity, transparency, and accessibility in machine learning research'
+  status: unverified
+  claim_family: figure_integration
+  authors: Distill editorial team
+  venue: Distill
+
+- bibkey: victor2011ladder
+  primary_url: https://worrydream.com/LadderOfAbstraction/
+  title: Up and Down the Ladder of Abstraction
+  status: unverified
+  claim_family: figure_integration
+  authors: Victor (2011)
+  venue: worrydream.com
+
+- bibkey: victor2011explorable
+  primary_url: https://worrydream.com/ExplorableExplanations/
+  title: Explorable Explanations
+  status: unverified
+  claim_family: figure_integration
+  authors: Victor (2011)
+  venue: worrydream.com
+
+- bibkey: bush1945memex
+  primary_url: https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/
+  title: As We May Think
+  status: unverified
+  claim_family: figure_integration
+  authors: Bush (1945)
+  venue: The Atlantic Monthly
+
+# === A4: exemplar_artifact ===
+
+- bibkey: murphy2022pml1
+  primary_url: https://probml.github.io/pml-book/book1.html
+  title: 'Probabilistic Machine Learning: An Introduction'
+  status: unverified
+  claim_family: exemplar_artifact
+  authors: Murphy (2022)
+  venue: MIT Press
+  code_url: https://github.com/probml/pyprobml
+
+- bibkey: murphy2023pml2
+  primary_url: https://probml.github.io/pml-book/book2.html
+  title: 'Probabilistic Machine Learning: Advanced Topics'
+  status: unverified
+  claim_family: exemplar_artifact
+  authors: Murphy (2023)
+  venue: MIT Press
+  code_url: https://github.com/probml/pyprobml
+
+- bibkey: zhang2021d2l
+  primary_url: https://d2l.ai/
+  title: 'Dive into Deep Learning'
+  status: unverified
+  claim_family: exemplar_artifact
+  authors: Zhang, Lipton, Li & Smola (2021)
+  venue: Cambridge University Press
+  code_url: https://github.com/d2l-ai/d2l-en
+
+- bibkey: zhang2021d2l_arxiv
+  primary_url: https://arxiv.org/abs/2106.11342
+  title: 'Dive into Deep Learning'
+  status: unverified
+  claim_family: exemplar_artifact
+  authors: Zhang, Lipton, Li & Smola (2021)
+  venue: arXiv preprint
+
+- bibkey: mcelreath2020rethinking
+  primary_url: https://xcelab.net/rm/
+  title: 'Statistical Rethinking: A Bayesian Course with Examples in R and STAN'
+  status: unverified
+  claim_family: exemplar_artifact
+  authors: McElreath (2020; 2nd ed)
+  venue: Chapman & Hall / CRC Texts in Statistical Science
+
+- bibkey: wickham2023r4ds
+  primary_url: https://r4ds.hadley.nz/
+  title: 'R for Data Science: Import, Tidy, Transform, Visualize, and Model Data'
+  status: unverified
+  claim_family: exemplar_artifact
+  authors: Wickham, Çetinkaya-Rundel & Grolemund (2023; 2nd ed)
+  venue: O'Reilly Media
+  code_url: https://github.com/hadley/r4ds
+
+- bibkey: kohavi2020trustworthy
+  primary_url: https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59
+  title: 'Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing'
+  status: unverified
+  claim_family: exemplar_artifact
+  authors: Kohavi, Tang & Xu (2020)
+  venue: Cambridge University Press
+
+- bibkey: hyndman2021fpp3
+  primary_url: https://otexts.com/fpp3/
+  title: 'Forecasting: Principles and Practice (3rd ed)'
+  status: unverified
+  claim_family: exemplar_artifact
+  authors: Hyndman & Athanasopoulos (2021)
+  venue: OTexts
+
+- bibkey: hastie2009esl
+  primary_url: https://hastie.su.domains/ElemStatLearn/
+  title: 'The Elements of Statistical Learning: Data Mining, Inference, and Prediction'
+  status: unverified
+  claim_family: exemplar_artifact
+  authors: Hastie, Tibshirani & Friedman (2009; 2nd ed)
+  venue: Springer Series in Statistics
+
+- bibkey: geron2022handsonml
+  primary_url: https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/
+  title: 'Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow'
+  status: unverified
+  claim_family: exemplar_artifact
+  authors: Géron (2022; 3rd ed)
+  venue: O'Reilly Media
+
+# === A5: web_print_tradeoff + reader_flow ===
+
+- bibkey: pagedjs_about
+  primary_url: https://pagedjs.org/en/about/
+  title: 'About Paged.js: a free and open source JavaScript library to paginate content in the browser'
+  status: unverified
+  claim_family: web_print_tradeoff
+  authors: Coko Foundation / paged.js maintainers
+  venue: pagedjs.org
+  code_url: https://github.com/pagedjs/pagedjs
+
+- bibkey: pagedjs_w3c_position
+  primary_url: https://pagedjs.org/posts/en/our-position-paper-for-the-w3c-css-print-workshop/
+  title: Our position paper for the W3C CSS print workshop
+  status: unverified
+  claim_family: web_print_tradeoff
+  authors: Coko Foundation / paged.js maintainers
+  venue: pagedjs.org
+
+- bibkey: pagedjs_bigpicture
+  primary_url: https://pagedjs.org/en/documentation/1-the-big-picture/
+  title: 'Paged.js documentation: The big picture'
+  status: unverified
+  claim_family: web_print_tradeoff
+  authors: Coko Foundation / paged.js maintainers
+  venue: pagedjs.org
+
+- bibkey: prepostprint_resources
+  primary_url: https://prepostprint.org/resources/
+  title: 'PrePostPrint: Resources for web-to-print'
+  status: unverified
+  claim_family: web_print_tradeoff
+  authors: PrePostPrint community
+  venue: prepostprint.org
+
+# === reader_flow (additional) ===
+
+- bibkey: matuschak_evergreen
+  primary_url: https://notes.andymatuschak.org/Evergreen_notes
+  title: Evergreen notes
+  status: unverified
+  claim_family: reader_flow
+  authors: Matuschak (ongoing)
+  venue: notes.andymatuschak.org

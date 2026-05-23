@@ -1,0 +1,60 @@
+schema_version: 3
+topic: llm_as_coach_interfaces
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+
+entries:
+- evidence_id: ev_llm_as_coach_interfaces_0001
+  source_url: https://doi.org/10.1080/00461520.2011.611369
+  source_type: paper
+  source_quality: primary
+  retrieved_at: 2026-05-23
+  verification_method: webfetch
+  cache_ids: [cache_a765ac3588af337d]
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0001
+    field_path: bib_ledger.entries[0].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.80
+  excerpt: 'VanLehn (2011) meta-analysis — ITS effect size d=0.76, human tutoring d=0.79. ITS nearly matches human tutoring effectiveness. Foundational for LLM-tutor expectations.'
+  rights_status: private_use
+  confidence: {score: 0.85, factors: [ASU Elsevier publication page cached]}
+
+- evidence_id: ev_llm_as_coach_interfaces_0002
+  source_url: https://blog.khanacademy.org/khan-academy-efficacy-results-november-2024/
+  source_type: blog
+  source_quality: official
+  retrieved_at: 2026-05-23
+  verification_method: webfetch
+  cache_ids: [cache_43e97abed5de87ba]
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0002
+    field_path: bib_ledger.entries[1].title
+    evidence_role: identifies
+    evidence_role_strength: partial
+    extraction_method: paraphrase
+    link_confidence: 0.70
+  excerpt: 'Khan Academy (2024) — Khanmigo efficacy results November 2024. Growth from 68K to 700K+ users (2023-24 to 2024-25); efficacy studies underway; significant learning gains across conditions but no statistically significant differences between groups in one study.'
+  rights_status: private_use
+  confidence: {score: 0.70, factors: [official Khan Academy blog; living doc]}
+
+- evidence_id: ev_llm_as_coach_interfaces_0003
+  source_url: https://jtl.uwindsor.ca/index.php/jtl/article/view/10052
+  source_type: paper
+  source_quality: primary
+  retrieved_at: 2026-05-23
+  verification_method: webfetch
+  cache_ids: [cache_14036d46f1a13346]
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0003
+    field_path: bib_ledger.entries[2].title
+    evidence_role: identifies
+    evidence_role_strength: partial
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: 'JTL (Windsor) study — Khanmigo personalized tutoring for scientific concepts. Recent LLM-tutor deployment case study.'
+  rights_status: private_use
+  confidence: {score: 0.75, factors: [peer-reviewed journal article]}

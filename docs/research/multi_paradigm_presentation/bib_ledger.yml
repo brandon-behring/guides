@@ -1,0 +1,54 @@
+schema_version: 2
+topic: multi_paradigm_presentation
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+
+entries:
+- bibkey: cast2018udl
+  primary_url: https://udlguidelines.cast.org/static/udlg2.2-text-a11y.pdf
+  title: 'Universal Design for Learning Guidelines version 2.2'
+  status: unverified
+  claim_family: principle
+  authors: CAST (2018)
+  venue: CAST (Center for Applied Special Technology)
+  retrieved_at: 2026-05-23
+  verified_at:
+  verification_method: webfetch
+  verified_fields: [primary_url]
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids: [ev_multi_paradigm_presentation_0001]
+  cache_ids: [cache_02f490511fe7c4bb]
+
+- bibkey: paivio1991dual
+  primary_url: https://files.eric.ed.gov/fulltext/ED476972.pdf
+  title: 'Dual coding theory: Retrospect and current status'
+  status: unverified
+  claim_family: theory
+  authors: Paivio (1991)
+  venue: Canadian Journal of Psychology 45(3)
+  retrieved_at: 2026-05-23
+  verified_at:
+  verification_method: webfetch
+  verified_fields: [primary_url]
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids: [ev_multi_paradigm_presentation_0002]
+  cache_ids: [cache_0be955fe68a5ed41]
+
+- bibkey: mayer2014cambridge
+  primary_url: https://www.cambridge.org/core/books/cambridge-handbook-of-multimedia-learning/09E09224829AB8D3D327EF8A0E9B5288
+  title: 'The Cambridge Handbook of Multimedia Learning'
+  status: unverified
+  claim_family: principle
+  authors: Mayer (ed.) (2014 — 2nd ed.; 3rd ed. 2022)
+  venue: Cambridge University Press
+  retrieved_at: 2026-05-23
+  verified_at:
+  verification_method: webfetch
+  verified_fields: [primary_url]
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids: [ev_multi_paradigm_presentation_0003]
+  cache_ids: [cache_69bf2f42ed9de220]

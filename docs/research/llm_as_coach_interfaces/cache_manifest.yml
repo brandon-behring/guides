@@ -1,0 +1,46 @@
+schema_version: 2
+topic: llm_as_coach_interfaces
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+cache_root: ~/Claude/research_cache
+
+entries:
+- cache_id: cache_a765ac3588af337d
+  source_url: https://asu.elsevierpure.com/en/publications/the-relative-effectiveness-of-human-tutoring-intelligent-tutoring/
+  fetched_at: 2026-05-23
+  content_type: text/html
+  bytes: 54028
+  sha256: a765ac3588af337d0879e6e7a1a958ea248368f820999c7c720e26d9bcbbc9ae
+  raw_path: ~/Claude/research_cache/blobs/sha256/a765ac3588af337d0879e6e7a1a958ea248368f820999c7c720e26d9bcbbc9ae
+  text_path: ~/Claude/research_cache/text/sha256/a765ac3588af337d0879e6e7a1a958ea248368f820999c7c720e26d9bcbbc9ae.txt
+  metadata_path: ~/Claude/research_cache/metadata/sha256/a765ac3588af337d0879e6e7a1a958ea248368f820999c7c720e26d9bcbbc9ae.json
+  restricted: false
+  rights_status: private_use
+  extraction_status: ok
+
+- cache_id: cache_43e97abed5de87ba
+  source_url: https://blog.khanacademy.org/khan-academy-efficacy-results-november-2024/
+  fetched_at: 2026-05-23
+  content_type: text/html
+  bytes: 104118
+  sha256: 43e97abed5de87ba1652c9ec3abe54556daa7c9fa014394f2081cd6daf8b8a49
+  raw_path: ~/Claude/research_cache/blobs/sha256/43e97abed5de87ba1652c9ec3abe54556daa7c9fa014394f2081cd6daf8b8a49
+  text_path: ~/Claude/research_cache/text/sha256/43e97abed5de87ba1652c9ec3abe54556daa7c9fa014394f2081cd6daf8b8a49.txt
+  metadata_path: ~/Claude/research_cache/metadata/sha256/43e97abed5de87ba1652c9ec3abe54556daa7c9fa014394f2081cd6daf8b8a49.json
+  restricted: false
+  rights_status: private_use
+  extraction_status: ok
+
+- cache_id: cache_14036d46f1a13346
+  source_url: https://jtl.uwindsor.ca/index.php/jtl/article/view/10052
+  fetched_at: 2026-05-23
+  content_type: text/html
+  bytes: 52641
+  sha256: 14036d46f1a1334661529890e0b008e8f4ec276165104ec503368c8ddb9cb941
+  raw_path: ~/Claude/research_cache/blobs/sha256/14036d46f1a1334661529890e0b008e8f4ec276165104ec503368c8ddb9cb941
+  text_path: ~/Claude/research_cache/text/sha256/14036d46f1a1334661529890e0b008e8f4ec276165104ec503368c8ddb9cb941.txt
+  metadata_path: ~/Claude/research_cache/metadata/sha256/14036d46f1a1334661529890e0b008e8f4ec276165104ec503368c8ddb9cb941.json
+  restricted: false
+  rights_status: private_use
+  extraction_status: ok

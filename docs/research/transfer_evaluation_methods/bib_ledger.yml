@@ -1,0 +1,70 @@
+schema_version: 2
+topic: transfer_evaluation_methods
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+
+entries:
+- bibkey: schwartz2005efficiency
+  primary_url: https://aaalab.stanford.edu/assets/papers/2005/Efficiency_and_Innovation_in_Transfer.pdf
+  title: 'Efficiency and Innovation in Transfer'
+  status: unverified
+  claim_family: methodology
+  authors: Schwartz, Bransford & Sears (2005)
+  venue: in Mestre (ed.) Transfer of Learning from a Modern Multidisciplinary Perspective (Information Age)
+  retrieved_at: 2026-05-23
+  verified_at:
+  verification_method: webfetch
+  verified_fields: [primary_url]
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids: [ev_transfer_evaluation_methods_0001]
+  cache_ids: [cache_1a5560f2b30263ad]
+
+- bibkey: kapur2008productive
+  primary_url: https://doi.org/10.1080/07370000802212669
+  title: 'Productive Failure'
+  status: unverified
+  claim_family: methodology
+  authors: Kapur (2008)
+  venue: Cognition and Instruction 26(3)
+  retrieved_at: 2026-05-23
+  verified_at:
+  verification_method: webfetch
+  verified_fields: [primary_url]
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids: [ev_transfer_evaluation_methods_0002]
+  cache_ids: [cache_354796c725d948f4]
+
+- bibkey: barnett2002when
+  primary_url: https://doi.org/10.1037/0033-2909.128.4.612
+  title: 'When and where do we apply what we learn? A taxonomy for far transfer'
+  status: unverified
+  claim_family: theory
+  authors: Barnett & Ceci (2002)
+  venue: Psychological Bulletin 128(4)
+  retrieved_at: 2026-05-23
+  verified_at:
+  verification_method: webfetch
+  verified_fields: [primary_url]
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids: [ev_transfer_evaluation_methods_0003]
+  cache_ids: [cache_3676ca35794db6ec]
+
+- bibkey: detterman1993transfer
+  primary_url: https://gwern.net/doc/iq/1993-detterman.pdf
+  title: 'The Case for the Prosecution: Transfer as an Epiphenomenon'
+  status: unverified
+  claim_family: evidence
+  authors: Detterman (1993)
+  venue: in Detterman & Sternberg Transfer on Trial (Ablex)
+  retrieved_at: 2026-05-23
+  verified_at:
+  verification_method: webfetch
+  verified_fields: [primary_url]
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids: [ev_transfer_evaluation_methods_0004]
+  cache_ids: [cache_633583518b9eccf2]

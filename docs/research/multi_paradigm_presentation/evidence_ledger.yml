@@ -1,0 +1,60 @@
+schema_version: 3
+topic: multi_paradigm_presentation
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+
+entries:
+- evidence_id: ev_multi_paradigm_presentation_0001
+  source_url: https://udlguidelines.cast.org/static/udlg2.2-text-a11y.pdf
+  source_type: standard
+  source_quality: official
+  retrieved_at: 2026-05-23
+  verification_method: webfetch
+  cache_ids: [cache_02f490511fe7c4bb]
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0001
+    field_path: bib_ledger.entries[0].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.85
+  excerpt: 'CAST UDL Guidelines v2.2 (2018) — 3 principles (engagement / representation / action+expression), 9 guidelines, 31 checkpoints. Each principle maps to a neuroscience network (recognition / strategic / affective).'
+  rights_status: private_use
+  confidence: {score: 0.90, factors: [official CAST publication]}
+
+- evidence_id: ev_multi_paradigm_presentation_0002
+  source_url: https://doi.org/10.1037/h0084295
+  source_type: paper
+  source_quality: primary
+  retrieved_at: 2026-05-23
+  verification_method: webfetch
+  cache_ids: [cache_0be955fe68a5ed41]
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0002
+    field_path: bib_ledger.entries[1].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.80
+  excerpt: 'Paivio (1991) — dual-coding theory: separate but interconnected verbal + nonverbal (imagery) representations in memory. Foundational for visual-symbolic-verbal coordination in multimedia learning.'
+  rights_status: private_use
+  confidence: {score: 0.85, factors: [primary ERIC PDF cached]}
+
+- evidence_id: ev_multi_paradigm_presentation_0003
+  source_url: https://www.cambridge.org/core/books/cambridge-handbook-of-multimedia-learning/09E09224829AB8D3D327EF8A0E9B5288
+  source_type: paper
+  source_quality: primary
+  retrieved_at: 2026-05-23
+  verification_method: webfetch
+  cache_ids: [cache_69bf2f42ed9de220]
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0003
+    field_path: bib_ledger.entries[2].title
+    evidence_role: identifies
+    evidence_role_strength: partial
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: 'Mayer (ed.) Cambridge Handbook of Multimedia Learning (2nd ed. 2014; 3rd ed. 2022). Canonical reference for the 12 multimedia-learning principles: coherence + redundancy + spatial/temporal contiguity + modality + multimedia + signaling + segmenting + pre-training + personalization + voice + image principles.'
+  rights_status: private_use
+  confidence: {score: 0.75, factors: [frontmatter cached; full handbook paywalled]}

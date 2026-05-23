@@ -1,0 +1,172 @@
+# Bibliography ledger — interview_prep_pedagogy
+# First-pass gather (19 entries). Status defaults to `unverified` per the
+# /research-gather verification protocol; promotion to `verified` happens in dossier-audit.
+# Heavy-depth target is 200-300 entries; this first-pass establishes anchor coverage
+# across all 6 sub-areas (A1-A6). Re-run /research-gather on the same plan to append.
+
+entries:
+
+# === A1: highstakes_testprep ===
+
+- bibkey: cfa_300hours
+  primary_url: https://300hours.com/cfa-pass-rates/
+  title: 'CFA Pass Rates: Latest Data & Historical Trends'
+  status: unverified
+  claim_family: highstakes_testprep
+  authors: 300Hours editorial team (2026)
+  venue: 300hours.com (CFA prep resource)
+
+- bibkey: soa_actuarial_exams
+  primary_url: https://www.coachingactuaries.com/blog/study-tips/a-comprehensive-guide-to-the-different-actuarial-exams-and-how-to-prepare-for-each
+  title: 'A Comprehensive Guide to the Different Actuarial Exams and How To Prepare for Each'
+  status: unverified
+  claim_family: highstakes_testprep
+  authors: Coaching Actuaries editorial team
+  venue: Coaching Actuaries blog
+
+- bibkey: usmle_step1_prep
+  primary_url: https://thematchguy.com/high-yield-usmle-step-1-topics-you-must-know/
+  title: 'High-Yield USMLE Step 1 Topics You Must Know'
+  status: unverified
+  claim_family: highstakes_testprep
+  authors: The Match Guy editorial (2026)
+  venue: thematchguy.com
+
+# === A2: interview_research ===
+
+- bibkey: behroozi2018dazed
+  primary_url: https://denaeford.me/papers/dazed-ICSE-2018.pdf
+  title: 'Dazed: Measuring the Cognitive Load of Solving Technical Interview Problems at the Whiteboard'
+  status: unverified
+  claim_family: interview_research
+  authors: Behroozi, Lui, Moore, Ford, & Parnin (2018)
+  venue: ICSE NIER 2018
+
+- bibkey: behroozi2020stress
+  primary_url: https://dl.acm.org/doi/abs/10.1145/3368089.3409712
+  title: 'Does Stress Impact Technical Interview Performance?'
+  status: unverified
+  claim_family: interview_research
+  authors: Behroozi, Shirolkar, Barik, & Parnin (2020)
+  venue: ESEC/FSE 2020
+
+- bibkey: ford2017techtalk
+  primary_url: https://denaeford.me/papers/tech-talk-balance-CHASE-2017.pdf
+  title: 'The Tech-Talk Balance: What Technical Interviewers Expect from Technical Candidates'
+  status: unverified
+  claim_family: interview_research
+  authors: Ford, Barik, Rand-Pickett, & Parnin (2017)
+  venue: IEEE/ACM CHASE 2017
+
+- bibkey: ford2019hiring
+  primary_url: https://www.researchgate.net/publication/334448588_Hiring_is_Broken_What_Do_Developers_Say_About_Technical_Interviews
+  title: 'Hiring is Broken: What Do Developers Say About Technical Interviews?'
+  status: unverified
+  claim_family: interview_research
+  authors: Behroozi, Parnin, & Barik (2019)
+  venue: IEEE VL/HCC 2019
+
+# === A3: spaced_repetition_credentialing ===
+
+- bibkey: dunlosky2013improving
+  primary_url: https://journals.sagepub.com/doi/abs/10.1177/1529100612453266
+  title: 'Improving Students'' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology'
+  status: unverified
+  claim_family: spaced_repetition_credentialing
+  authors: Dunlosky, Rawson, Marsh, Nathan, & Willingham (2013)
+  venue: Psychological Science in the Public Interest 14(1)
+
+- bibkey: wothe2023anki
+  primary_url: https://journals.sagepub.com/doi/full/10.1177/23821205231173289
+  title: 'Academic and Wellness Outcomes Associated with use of Anki Spaced Repetition Software in Medical School'
+  status: unverified
+  claim_family: spaced_repetition_credentialing
+  authors: Wothe et al. (2023)
+  venue: Journal of Medical Education and Curricular Development
+
+- bibkey: roediger2006testing
+  primary_url: http://psychnet.wustl.edu/memory/wp-content/uploads/2018/04/Roediger-Karpicke-2006_PPS.pdf
+  title: 'The Power of Testing Memory: Basic Research and Implications for Educational Practice'
+  status: unverified
+  claim_family: spaced_repetition_credentialing
+  authors: Roediger & Karpicke (2006)
+  venue: Perspectives on Psychological Science 1(3)
+
+# === A4: expert_problemsolving ===
+
+- bibkey: polya1945howtosolveit
+  primary_url: https://press.princeton.edu/books/paperback/9780691164076/how-to-solve-it
+  title: 'How to Solve It: A New Aspect of Mathematical Method'
+  status: unverified
+  claim_family: expert_problemsolving
+  authors: Pólya (1945; 2nd ed. 1957)
+  venue: Princeton University Press
+
+- bibkey: schoenfeld1985mathematical
+  primary_url: https://books.google.com/books/about/Mathematical_Problem_Solving.html?id=0cbSBQAAQBAJ
+  title: 'Mathematical Problem Solving'
+  status: unverified
+  claim_family: expert_problemsolving
+  authors: Schoenfeld (1985)
+  venue: Academic Press
+
+- bibkey: soloway1989novice
+  primary_url: https://www.routledge.com/Studying-the-Novice-Programmer/Soloway-Spohrer/p/book/9780805800036
+  title: 'Studying the Novice Programmer'
+  status: unverified
+  claim_family: expert_problemsolving
+  authors: Soloway & Spohrer (eds.) (1989)
+  venue: Lawrence Erlbaum Associates
+
+- bibkey: mcdowell2015cracking
+  primary_url: https://www.crackingthecodinginterview.com/
+  title: 'Cracking the Coding Interview: 189 Programming Questions and Solutions'
+  status: unverified
+  claim_family: expert_problemsolving
+  authors: McDowell (2015; 6th ed.)
+  venue: CareerCup
+
+# === A5: mock_practice ===
+
+- bibkey: janz1986behaviordescription
+  primary_url: https://archive.org/details/behaviordescript00janz
+  title: 'Behavior Description Interviewing: New, Accurate, Cost Effective'
+  status: unverified
+  claim_family: mock_practice
+  authors: Janz, Hellervik, & Gilmore (1986)
+  venue: Allyn and Bacon
+
+- bibkey: mcdaniel1994validity
+  primary_url: https://home.ubalt.edu/tmitch/645/articles/McDanieletal1994CriterionValidityInterviewsMeta.pdf
+  title: 'The Validity of Employment Interviews: A Comprehensive Review and Meta-Analysis'
+  status: unverified
+  claim_family: mock_practice
+  authors: McDaniel, Whetzel, Schmidt, & Maurer (1994)
+  venue: Journal of Applied Psychology 79
+
+- bibkey: ericsson1993protocol
+  primary_url: https://www.ida.liu.se/~nilda08/Anders_Ericsson/Ericsson_protocol.pdf
+  title: 'Protocol Analysis: Verbal Reports as Data (Revised Edition)'
+  status: unverified
+  claim_family: mock_practice
+  authors: Ericsson & Simon (1993; rev. of 1984 ed.)
+  venue: MIT Press
+
+# === A6: signaling_communication ===
+
+- bibkey: faang_leveling
+  primary_url: https://www.tryapt.ai/blog/faang-levels-explained-google-meta-amazon
+  title: 'FAANG Levels Explained: L4, L5, and L6 at Google, Meta, Amazon'
+  status: unverified
+  claim_family: signaling_communication
+  authors: Apt editorial team (2025)
+  venue: tryapt.ai (industry resource)
+
+- bibkey: techinterviewhandbook_behavioral
+  primary_url: https://www.techinterviewhandbook.org/behavioral-interview-rubrics/
+  title: 'How candidates are evaluated in behavioral interviews at top tech companies'
+  status: unverified
+  claim_family: signaling_communication
+  authors: Yangshun Tay et al. (Tech Interview Handbook contributors)
+  venue: techinterviewhandbook.org
+  code_url: https://github.com/yangshun/tech-interview-handbook

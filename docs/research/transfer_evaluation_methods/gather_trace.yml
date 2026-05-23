@@ -1,0 +1,64 @@
+schema_version: 3
+topic: transfer_evaluation_methods
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+
+fetches:
+- fetch_id: fetch_schwartz2005
+  sub_area: A3
+  query: 'Schwartz Bransford Sears Efficiency and innovation in transfer preparation for future learning 2005'
+  source_url: https://aaalab.stanford.edu/assets/papers/2005/Efficiency_and_Innovation_in_Transfer.pdf
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  decision: accept
+  reason: 'PFL framework — core to sub-area A3 conditions-that-promote-transfer.'
+  assigned_bibkey: schwartz2005efficiency
+
+- fetch_id: fetch_kapur2008
+  sub_area: A3
+  query: 'Kapur productive failure Cognition and Instruction 2008'
+  source_url: https://arch.kuleuven.be/studeren/tall/artikels/productive-failure-kapur.pdf/@@download/file/Productive%20Failure%20Kapur.pdf
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  decision: accept
+  reason: 'Productive failure foundational paper. Sub-area A3.'
+  assigned_bibkey: kapur2008productive
+
+- fetch_id: fetch_barnett2002
+  sub_area: A1
+  query: 'Barnett Ceci taxonomy far transfer Psychological Bulletin 2002'
+  source_url: https://pubmed.ncbi.nlm.nih.gov/12081085/
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: partial, is_useful: 5}
+  decision: accept
+  reason: 'Canonical far-transfer taxonomy. PubMed abstract cached; full text not freely available.'
+  assigned_bibkey: barnett2002when
+
+- fetch_id: fetch_detterman1993
+  sub_area: A2
+  query: 'Detterman transfer as epiphenomenon 1993 Sternberg pessimism'
+  source_url: https://gwern.net/doc/iq/1993-detterman.pdf
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  decision: accept
+  reason: 'The pessimistic canon paper. Sub-area A2 (empirical evidence that transfer is hard).'
+  assigned_bibkey: detterman1993transfer
+
+- fetch_id: fetch_bransford2000_reject
+  sub_area: A1
+  query: 'Bransford Brown Cocking How People Learn NAP 2000 transfer chapter 3'
+  source_url: https://www-personal.umd.umich.edu/~pksmith/HowPeopleLearn.pdf
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  decision: reject
+  reason: 'cache_source.py timed out or failed silently — bransford2000how not cached this round. Dropped from first-pass; should retry in depth-expansion round (book is freely available from NAP).'
+
+- fetch_id: fetch_barnett_semantic_reject
+  sub_area: A1
+  query: 'Barnett Ceci taxonomy far transfer (semantic scholar)'
+  source_url: https://www.semanticscholar.org/paper/When-and-where-do-we-apply-what-we-learn-A-taxonomy-Barnett-Ceci/e43a3199d5f9070f595c7f37dcc71f17589bbab9
+  fetched_at: 2026-05-23
+  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  decision: reject
+  reason: 'SemanticScholar cache returned 0 bytes (JS-rendered shell — same pattern as research_toolkit#10). Used PubMed alternate.'

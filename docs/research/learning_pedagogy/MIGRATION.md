@@ -1,0 +1,1 @@
+MIGRATION NOTE: Moved to ~/guides/docs/research/learning_pedagogy/ on 2026-05-23 as part of Research workstream v2 Phase B. Schema remains v1-era (no schema_version, no evidence_ledger/cache_manifest/gather_trace). 10 of 17 primary URLs cached during migration; 7 paywall/Cloudflare 403s. Full v2.2+ strict-live upgrade deferred to a later depth-expansion round.

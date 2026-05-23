@@ -1,0 +1,54 @@
+schema_version: 2
+topic: llm_as_coach_interfaces
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+
+entries:
+- bibkey: vanlehn2011relative
+  primary_url: https://doi.org/10.1080/00461520.2011.611369
+  title: 'The Relative Effectiveness of Human Tutoring, Intelligent Tutoring Systems, and Other Tutoring Systems'
+  status: unverified
+  claim_family: theory
+  authors: VanLehn (2011)
+  venue: Educational Psychologist 46(4)
+  retrieved_at: 2026-05-23
+  verified_at:
+  verification_method: webfetch
+  verified_fields: [primary_url]
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids: [ev_llm_as_coach_interfaces_0001]
+  cache_ids: [cache_a765ac3588af337d]
+
+- bibkey: khan2024efficacy
+  primary_url: https://blog.khanacademy.org/khan-academy-efficacy-results-november-2024/
+  title: 'Khan Academy Efficacy Results, November 2024'
+  status: unverified
+  claim_family: evidence
+  authors: Khan Academy (2024)
+  venue: Khan Academy blog
+  retrieved_at: 2026-05-23
+  verified_at:
+  verification_method: webfetch
+  verified_fields: [primary_url]
+  freshness_tier: volatile
+  stale_after_days: 30
+  evidence_ids: [ev_llm_as_coach_interfaces_0002]
+  cache_ids: [cache_43e97abed5de87ba]
+
+- bibkey: shabsigh2024khanmigo
+  primary_url: https://jtl.uwindsor.ca/index.php/jtl/article/view/10052
+  title: 'Leveraging Khanmigo Generative AI-Powered Tool for Personalized Tutoring to Learn Scientific Concepts'
+  status: unverified
+  claim_family: deployment
+  authors: Various (2024)
+  venue: Journal of Teaching and Learning (Windsor)
+  retrieved_at: 2026-05-23
+  verified_at:
+  verification_method: webfetch
+  verified_fields: [primary_url]
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids: [ev_llm_as_coach_interfaces_0003]
+  cache_ids: [cache_14036d46f1a13346]

@@ -1,0 +1,157 @@
+# Bibliography ledger — learning_pedagogy
+# First-pass gather (17 entries). Status defaults to `unverified` per the
+# /research-gather verification protocol; promotion to `verified` happens in dossier-audit.
+# Heavy-depth target is 200-300 entries; this first-pass establishes anchor coverage
+# across all 7 sub-areas (A1-A7). Re-run /research-gather on the same plan to append.
+
+entries:
+
+# === A1: retrieval_practice ===
+
+- bibkey: roediger2006testing
+  primary_url: http://psychnet.wustl.edu/memory/wp-content/uploads/2018/04/Roediger-Karpicke-2006_PPS.pdf
+  title: 'The Power of Testing Memory: Basic Research and Implications for Educational Practice'
+  status: unverified
+  claim_family: retrieval_practice
+  authors: Roediger & Karpicke (2006)
+  venue: Perspectives on Psychological Science 1(3)
+
+- bibkey: karpicke2008critical
+  primary_url: https://www.science.org/doi/abs/10.1126/science.1152408
+  title: 'The Critical Importance of Retrieval for Learning'
+  status: unverified
+  claim_family: retrieval_practice
+  authors: Karpicke & Roediger (2008)
+  venue: Science 319(5865)
+
+# === A2: spaced_interleaving ===
+
+- bibkey: cepeda2006distributed
+  primary_url: https://digitalcommons.usf.edu/psy_facpub/1771/
+  title: 'Distributed Practice in Verbal Recall Tasks: A Review and Quantitative Synthesis'
+  status: unverified
+  claim_family: spaced_interleaving
+  authors: Cepeda, Pashler, Vul, Wixted, & Rohrer (2006)
+  venue: Psychological Bulletin 132(3)
+
+- bibkey: rohrer2007shuffling
+  primary_url: http://uweb.cas.usf.edu/~drohrer/pdfs/Rohrer&Taylor2007IS.pdf
+  title: 'The shuffling of mathematics problems improves learning'
+  status: unverified
+  claim_family: spaced_interleaving
+  authors: Rohrer & Taylor (2007)
+  venue: Instructional Science 35
+
+- bibkey: bjork1994memory
+  primary_url: https://gwern.net/doc/psychology/spaced-repetition/1994-bjork.pdf
+  title: 'Memory and metamemory considerations in the training of human beings'
+  status: unverified
+  claim_family: spaced_interleaving
+  authors: Bjork (1994)
+  venue: 'Metcalfe & Shimamura (eds.), Metacognition, MIT Press'
+
+# === A3: cognitive_load ===
+
+- bibkey: sweller1988cognitive
+  primary_url: https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog1202_4
+  title: 'Cognitive Load During Problem Solving: Effects on Learning'
+  status: unverified
+  claim_family: cognitive_load
+  authors: Sweller (1988)
+  venue: Cognitive Science 12(2)
+
+- bibkey: kalyuga2003expertise
+  primary_url: https://link.springer.com/article/10.1007/s10648-007-9054-3
+  title: 'Expertise Reversal Effect and Its Implications for Learner-Tailored Instruction'
+  status: unverified
+  claim_family: cognitive_load
+  authors: Kalyuga (2007; based on Kalyuga, Ayres, Chandler & Sweller 2003)
+  venue: Educational Psychology Review
+
+# === A4: multimedia_learning ===
+
+- bibkey: mayer2009multimedia
+  primary_url: https://www.cambridge.org/core/books/multimedia-learning/A0BEF8AB04EC11FCD2C4A89C5DFFB1A2
+  title: 'Multimedia Learning (2nd ed.)'
+  status: unverified
+  claim_family: multimedia_learning
+  authors: Mayer (2009)
+  venue: Cambridge University Press
+
+- bibkey: mayer2014cambridge
+  primary_url: https://www.cambridge.org/core/books/cambridge-handbook-of-multimedia-learning/09E09224829AB8D3D327EF8A0E9B5288
+  title: 'The Cambridge Handbook of Multimedia Learning (2nd ed.)'
+  status: unverified
+  claim_family: multimedia_learning
+  authors: Mayer (ed.) (2014)
+  venue: Cambridge University Press
+
+- bibkey: mayer2003redundancy
+  primary_url: https://www.researchgate.net/publication/232540768_Revising_the_Redundancy_Principle_in_Multimedia_Learning
+  title: 'Nine Ways to Reduce Cognitive Load in Multimedia Learning'
+  status: unverified
+  claim_family: multimedia_learning
+  authors: Mayer & Moreno (2003)
+  venue: Educational Psychologist 38(1)
+
+# === A5: expertise_development ===
+
+- bibkey: ericsson1993role
+  primary_url: https://psycnet.apa.org/doi/10.1037/0033-295X.100.3.363
+  title: 'The Role of Deliberate Practice in the Acquisition of Expert Performance'
+  status: unverified
+  claim_family: expertise_development
+  authors: Ericsson, Krampe, & Tesch-Römer (1993)
+  venue: Psychological Review 100(3)
+
+- bibkey: chase1973perception
+  primary_url: https://www.sciencedirect.com/science/article/abs/pii/0010028573900042
+  title: 'Perception in Chess'
+  status: unverified
+  claim_family: expertise_development
+  authors: Chase & Simon (1973)
+  venue: Cognitive Psychology 4(1)
+
+# === A6: learning_outcomes ===
+
+- bibkey: anderson2001taxonomy
+  primary_url: https://www.scribd.com/document/369062951/Lorin-W-Anderson-David-R-Krathwohl-A-taxonomy-for-learning-teaching-and-assessing-a-revision-of-Bloom-s-taxonomy-of-educational-objetives-Longman
+  title: 'A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom''s Taxonomy of Educational Objectives'
+  status: unverified
+  claim_family: learning_outcomes
+  authors: Anderson, Krathwohl, et al. (2001)
+  venue: Longman / Pearson
+
+- bibkey: krathwohl2002overview
+  primary_url: https://cmapspublic2.ihmc.us/rid=1Q2PTM7HL-26LTFBX-9YN8/Krathwohl%202002.pdf
+  title: 'A Revision of Bloom''s Taxonomy: An Overview'
+  status: unverified
+  claim_family: learning_outcomes
+  authors: Krathwohl (2002)
+  venue: Theory Into Practice 41(4)
+
+# === A7: active_strategies ===
+
+- bibkey: chi1989selfexplanation
+  primary_url: https://onlinelibrary.wiley.com/doi/abs/10.1207/s15516709cog1302_1
+  title: 'Self-Explanations: How Students Study and Use Examples in Learning to Solve Problems'
+  status: unverified
+  claim_family: active_strategies
+  authors: Chi, Bassok, Lewis, Reimann, & Glaser (1989)
+  venue: Cognitive Science 13(2)
+
+- bibkey: dunlosky2013improving
+  primary_url: https://journals.sagepub.com/doi/abs/10.1177/1529100612453266
+  title: 'Improving Students'' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology'
+  status: unverified
+  claim_family: active_strategies
+  authors: Dunlosky, Rawson, Marsh, Nathan, & Willingham (2013)
+  venue: Psychological Science in the Public Interest 14(1)
+
+- bibkey: pashler2008learningstyles
+  primary_url: https://journals.sagepub.com/doi/10.1111/j.1539-6053.2009.01038.x
+  title: 'Learning Styles: Concepts and Evidence'
+  status: unverified
+  claim_family: active_strategies
+  authors: Pashler, McDaniel, Rohrer, & Bjork (2008)
+  venue: Psychological Science in the Public Interest 9(3)

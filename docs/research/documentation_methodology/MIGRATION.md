@@ -1,0 +1,1 @@
+MIGRATION NOTE: Moved to ~/guides/docs/research/documentation_methodology/ on 2026-05-23 as part of Research workstream v2 Phase C. Schema remains v1-era. Full v2.2+ strict-live upgrade deferred to a later depth-expansion round.

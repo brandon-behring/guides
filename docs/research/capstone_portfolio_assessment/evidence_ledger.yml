@@ -1,0 +1,24 @@
+schema_version: 3
+topic: capstone_portfolio_assessment
+generated_at: 2026-05-23
+current_as_of: 2026-05-23
+freshness_policy: strict_live
+
+entries:
+- evidence_id: ev_capstone_portfolio_assessment_0001
+  source_url: https://assess.ucr.edu/sites/default/files/2019-02/kuh_2008.pdf
+  source_type: paper
+  source_quality: primary
+  retrieved_at: 2026-05-23
+  verification_method: webfetch
+  cache_ids: [cache_7355bf1d68d6f302]
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0001
+    field_path: bib_ledger.entries[0].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.80
+  excerpt: 'Kuh (2008 AAC&U) — identifies 10 high-impact educational practices including capstone courses/projects. Recommends every undergraduate participate in ≥2 high-impact activities across their program.'
+  rights_status: private_use
+  confidence: {score: 0.85, factors: [primary excerpt cached]}

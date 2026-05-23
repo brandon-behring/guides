@@ -11,6 +11,8 @@ import PreReleaseBanner from '@brandon_m_behring/book-scaffold-astro/components/
 
 # Methodology
 
+> **v0.2 update (2026-05-23)**: This page reflects design doc v0.3 (the first design doc native to this repo, at `docs/design/2026-05-23_design_v0.3.md`). Four new pedagogy dossiers (`transfer_evaluation_methods`, `multi_paradigm_presentation`, `capstone_portfolio_assessment`, `llm_as_coach_interfaces`) + two content sub-dossiers (`experimentation_foundations`, `experimentation_advanced`) joined the corpus. The 5 originally-listed dossiers migrated from `interview_prep_series/docs/research/` to `docs/research/` in this repo (Phases B + C of Research Workstream v2). New sections: "Research backing", "Transfer model", "Multi-paradigm presentation", "Provenance + audit trail". AI-disclosure section updated with LLM-as-coach design constraints.
+
 This page documents the design rationale, research foundation, and AI-collaboration discipline behind `guides.brandon-behring.dev`. It is intentionally explicit about what is human-authored, what is AI-assisted, and where each artifact sits on the originality spectrum — because the methodology *is* part of the artifact.
 
 ## Three portfolio surfaces
@@ -124,11 +126,70 @@ The `_meta.yml.commitment: long-lived` declaration signals the maintenance bar: 
 - Per-chapter `research_debt_addressed`: lint rule enforce or advisory?
 - LLM-as-coach: fourth portfolio surface or folds into system surface (decide at pilot)?
 
+## Research backing
+
+Eleven dossiers ground these guides — five migrated from earlier LaTeX work, four added 2026-05-23, and two content sub-dossiers in the pilot repo:
+
+| Dossier | Location | Schema | Entries |
+|---|---|---|---|
+| `technical_book_design` | `docs/research/technical_book_design/` | v1-era (migrated) | 32 |
+| `learning_pedagogy` | `docs/research/learning_pedagogy/` | v1-era (migrated) | 17 |
+| `interview_prep_pedagogy` | `docs/research/interview_prep_pedagogy/` | v1-era (migrated) | 19 |
+| `documentation_methodology` | `docs/research/documentation_methodology/` | v1-era (migrated) | 22 |
+| `ai_assisted_authoring` | `docs/research/ai_assisted_authoring/` | v1-era (migrated) | 26 |
+| `transfer_evaluation_methods` | `docs/research/transfer_evaluation_methods/` | v2.2 strict-live | 4 |
+| `multi_paradigm_presentation` | `docs/research/multi_paradigm_presentation/` | v2.2 strict-live | 3 |
+| `capstone_portfolio_assessment` | `docs/research/capstone_portfolio_assessment/` | v2.2 strict-live | 1 |
+| `llm_as_coach_interfaces` | `docs/research/llm_as_coach_interfaces/` | v2.2 strict-live | 3 |
+| `experimentation_foundations` | (pilot repo) `guides-experimentation/docs/research/experimentation_foundations/` | v2.2 strict-live | 14 |
+| `experimentation_advanced` | (pilot repo) `guides-experimentation/docs/research/experimentation_advanced/` | v2.2 strict-live | 11 |
+
+Each v2.2+ strict-live dossier ships `bib_ledger.yml` + `evidence_ledger.yml` + `cache_manifest.yml` + `gather_trace.yml` + `claim_graph.jsonl` + `dashboard.md` + `agent_index/`. Citations in chapter prose use the bibkey + evidence_id pair (e.g., `kapur2008productive` + `ev_transfer_evaluation_methods_0002`).
+
+First-pass density is intentionally light (1-14 entries per dossier); depth-expansion is a future, iterative concern.
+
+## Transfer model — Path D
+
+These guides optimize for **transfer** (the ability to apply learned concepts to novel problems) over **retention** (the ability to recall stated facts). This commitment, locked in design doc v0.2 and re-confirmed in v0.3, is operationalized via two patterns:
+
+- **PFL-style stretch problems**: per `schwartz2005efficiency`, each chapter ends with a problem that introduces a *related but unseen* technique and asks the learner to reason about it using the chapter's tools. Tests Preparation for Future Learning rather than only sequestered recall.
+- **Productive failure**: per `kapur2008productive`, hard chapters open with an ill-structured "what would you do?" framing *before* presenting formal machinery. The intuition-then-formalization sequence produces stronger transfer than well-structured-first.
+
+Reading-track design respects the empirical pessimism: per `detterman1993transfer` + `barnett2002when`, far transfer remains rare. The guides aspire to *near transfer within a domain* + *medium transfer to adjacent technical roles* — not far transfer to unrelated domains.
+
+## Multi-paradigm presentation
+
+Each chapter declares a `paradigms[]` frontmatter field (`visual`, `symbolic`, `code`, `prose`, `tabular`, `interactive`). Per `cast2018udl` UDL's "multiple means of representation" principle, key concepts must be accessible via ≥2 paradigms — complementarily, not redundantly. Per `mayer2014cambridge`, presentation respects the 12 multimedia learning principles (notably: redundancy avoidance, modality preference, signaling). Per `paivio1991dual`, dual-coding (verbal + nonverbal) representations strengthen retrieval — supports prose + symbolic + visual combinations, not prose + on-screen-text duplication.
+
+A frontmatter validation rule (lint, v0.3) warns if `paradigms[]` declares fewer than 2 entries.
+
+## LLM-as-coach (Phase 2 commitment, design constraints locked v0.3)
+
+When the LLM-as-coach interface lands (Phase 2+), it follows constraints driven by the `llm_as_coach_interfaces` dossier:
+
+- **ITS-class benefit expectation**: per `vanlehn2011relative`, ITS effect size d=0.76 ≈ human tutoring d=0.79. Don't oversell.
+- **Empirical uncertainty**: per `khan2024efficacy`, Khanmigo studies show learning gains across conditions but no statistically significant differences between groups — LLM tutoring's marginal benefit is uncertain at scale.
+- **Socratic, not authoritative**: coach prompts learners to articulate reasoning before presenting canonical answers.
+- **Mandatory source citation**: every LLM-coach response cites bibkeys from the in-repo dossiers. Hallucinated citations are a hard-fail.
+- **No mastery claims from interaction alone**: sycophancy + hallucination + illusion-of-competence are documented LLM-tutor failure modes; mastery signaling requires external evidence (capstone artifact, peer review).
+
+## Provenance + audit trail
+
+Every dossier produces a `dashboard.md` (trust state summary) + `claim_graph.jsonl` (machine-readable graph of entities + sources + claims + evidence) — both kept in-repo alongside the markdown agent_index files. To verify a claim cited in a chapter:
+1. Look up the bibkey + evidence_id in the chapter prose
+2. Open `docs/research/<topic>/evidence_ledger.yml` (or the pilot repo equivalent for content claims)
+3. Follow the `cache_ids:` reference to `cache_manifest.yml`
+4. Open the cached text at `~/Claude/research_cache/text/sha256/<sha>.txt` (cache is local + gitignored; manifests are committed)
+
+Future Attribute-First Phase 2 byte-offset anchoring will tighten this from `extraction_method: paraphrase` (link_confidence ≤ 0.85) to `verbatim_match` (link_confidence ≤ 1.0). Current first-pass evidence is all paraphrase-only.
+
 ## Cross-references
 
-- [Phase 0b plan](https://github.com/brandon-behring/interview_prep_series/blob/main/docs/plans/active) — local plan file (not yet in this repo)
-- [Design doc v0.2](https://github.com/brandon-behring/interview_prep_series/blob/main/docs/plans/active/2026-05-19_guides_design_rethink_v0.2.md) — 1100 lines, 18 sections (operating manual)
+- [Design doc v0.3](https://github.com/brandon-behring/guides/blob/main/docs/design/2026-05-23_design_v0.3.md) — canonical (this repo, post-2026-05-23)
+- [Design doc v0.2](https://github.com/brandon-behring/interview_prep_series/blob/main/docs/plans/active/2026-05-19_guides_design_rethink_v0.2.md) — superseded; lineage reference
+- [Research Workstream v2 plan](https://github.com/brandon-behring/guides/blob/main/docs/plans/active/2026-05-22_research_workstream_v2.md) — workstream that produced the v0.3 + this v0.2 methodology update
 - [Comparative pedagogy critique](https://github.com/brandon-behring/interview_prep_series/blob/main/docs/plans/active/2026-05-19_guides_pedagogy_alt_perspectives.md) — what the design doc accepts + rejects
-- [`book-scaffold-astro`](https://github.com/brandon-behring/book-scaffold-astro) — the technical scaffold
+- [`book-scaffold-astro`](https://github.com/brandon-behring/book-scaffold-astro) — the technical scaffold (v3.5.0+ shipped; v3.6.0+ for UDL paradigms validation)
+- [`research_toolkit`](https://github.com/brandon-behring/research_toolkit) — the v2.2+ strict-live research pipeline driving the dossiers
 - [`prompt-injection-detection-prototype`](https://github.com/brandon-behring/prompt-injection-detection-prototype) — capstone structural model
 - [`eval-toolkit`](https://github.com/brandon-behring/eval-toolkit) — voice anchor + house-Python-style

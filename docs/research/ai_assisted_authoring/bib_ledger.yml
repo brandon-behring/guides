@@ -1,0 +1,233 @@
+# Bibliography ledger — ai_assisted_authoring
+# First-pass gather (26 entries). Status defaults to `unverified` per the
+# /research-gather verification protocol; promotion to `verified` happens in dossier-audit.
+# Heavy-depth target is 200-300 entries; this first-pass establishes anchor coverage
+# across all 6 sub-areas (A1-A6). Re-run /research-gather on the same plan to append
+# additional entries — the skill dedupes by bibkey.
+
+entries:
+
+# === A1: llm_writing_efficacy ===
+
+- bibkey: noy2023chatgpt
+  primary_url: https://doi.org/10.1126/science.adh2586
+  title: 'Experimental evidence on the productivity effects of generative artificial intelligence'
+  status: unverified
+  claim_family: llm_writing_efficacy
+  authors: Noy & Zhang (2023)
+  venue: Science
+
+- bibkey: peng2023copilot
+  primary_url: https://arxiv.org/abs/2302.06590
+  title: 'The Impact of AI on Developer Productivity: Evidence from GitHub Copilot'
+  status: unverified
+  claim_family: llm_writing_efficacy
+  authors: Peng et al. (2023)
+  venue: arXiv preprint
+
+- bibkey: brynjolfsson2023work
+  primary_url: https://www.nber.org/papers/w31161
+  title: 'Generative AI at Work'
+  status: unverified
+  claim_family: llm_writing_efficacy
+  authors: Brynjolfsson, Li, & Raymond (2023)
+  venue: NBER Working Paper 31161
+
+- bibkey: dellacqua2023jagged
+  primary_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321
+  title: 'Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality'
+  status: unverified
+  claim_family: llm_writing_efficacy
+  authors: Dell'Acqua et al. (2023)
+  venue: HBS Working Paper / SSRN
+
+# === A2: disclosure_norms ===
+
+- bibkey: acm_aitools_policy
+  primary_url: https://www.acm.org/publications/policies/new-acm-policy-on-authorship
+  title: 'ACM Policy on Authorship'
+  status: unverified
+  claim_family: disclosure_norms
+  authors: ACM (2023)
+  venue: ACM Publications Policy
+
+- bibkey: nature_aiauthorship_2023
+  primary_url: https://www.nature.com/nature-portfolio/editorial-policies/ai
+  title: 'Artificial Intelligence (AI) — Editorial Policies'
+  status: unverified
+  claim_family: disclosure_norms
+  authors: Nature Portfolio (2023)
+  venue: Springer Nature editorial policies
+
+- bibkey: cope2023authorship
+  primary_url: https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools
+  title: 'Authorship and AI tools'
+  status: unverified
+  claim_family: disclosure_norms
+  authors: COPE (2023)
+  venue: Committee on Publication Ethics position statement
+
+# === A3: hitl_patterns ===
+
+- bibkey: lee2022coauthor
+  primary_url: https://arxiv.org/abs/2201.06796
+  title: 'CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities'
+  status: unverified
+  claim_family: hitl_patterns
+  authors: Lee, Liang, & Yang (2022)
+  venue: CHI 2022
+
+- bibkey: yuan2022wordcraft
+  primary_url: https://dl.acm.org/doi/10.1145/3490099.3511105
+  title: 'Wordcraft: Story Writing With Large Language Models'
+  status: unverified
+  claim_family: hitl_patterns
+  authors: Yuan et al. (2022)
+  venue: IUI 2022
+  code_url: https://github.com/PAIR-code/wordcraft
+
+- bibkey: dhillon2024shaping
+  primary_url: https://arxiv.org/abs/2402.11723
+  title: 'Shaping Human-AI Collaboration: Varied Scaffolding Levels in Co-writing with Language Models'
+  status: unverified
+  claim_family: hitl_patterns
+  authors: Dhillon et al. (2024)
+  venue: CHI 2024
+
+- bibkey: reza2024abscribe
+  primary_url: https://arxiv.org/abs/2310.00117
+  title: 'ABScribe: Rapid Exploration & Organization of Multiple Writing Variations in Human-AI Co-Writing Tasks using Large Language Models'
+  status: unverified
+  claim_family: hitl_patterns
+  authors: Reza et al. (2024)
+  venue: CHI 2024
+  code_url: https://github.com/mohireza/abscribe
+
+- bibkey: kim2024evallm
+  primary_url: https://arxiv.org/abs/2309.13633
+  title: 'EvalLM: Interactive Evaluation of Large Language Model Prompts on User-Defined Criteria'
+  status: unverified
+  claim_family: hitl_patterns
+  authors: Kim et al. (2024)
+  venue: CHI 2024
+  code_url: https://github.com/kixlab/EvalLM
+
+# === A4: style_constraint ===
+
+- bibkey: bai2022constitutional
+  primary_url: https://arxiv.org/abs/2212.08073
+  title: 'Constitutional AI: Harmlessness from AI Feedback'
+  status: unverified
+  claim_family: style_constraint
+  authors: Bai et al. (2022)
+  venue: arXiv preprint
+
+- bibkey: wei2022cot
+  primary_url: https://arxiv.org/abs/2201.11903
+  title: 'Chain-of-Thought Prompting Elicits Reasoning in Large Language Models'
+  status: unverified
+  claim_family: style_constraint
+  authors: Wei et al. (2022)
+  venue: NeurIPS 2022
+
+- bibkey: ouyang2022instructgpt
+  primary_url: https://arxiv.org/abs/2203.02155
+  title: 'Training language models to follow instructions with human feedback'
+  status: unverified
+  claim_family: style_constraint
+  authors: Ouyang et al. (2022)
+  venue: NeurIPS 2022
+
+- bibkey: schick2023toolformer
+  primary_url: https://arxiv.org/abs/2302.04761
+  title: 'Toolformer: Language Models Can Teach Themselves to Use Tools'
+  status: unverified
+  claim_family: style_constraint
+  authors: Schick et al. (2023)
+  venue: NeurIPS 2023
+
+- bibkey: schulhoff2024prompt
+  primary_url: https://arxiv.org/abs/2406.06608
+  title: 'The Prompt Report: A Systematic Survey of Prompting Techniques'
+  status: unverified
+  claim_family: style_constraint
+  authors: Schulhoff et al. (2024)
+  venue: arXiv preprint
+
+# === A5: multiagent_workflow ===
+
+- bibkey: du2023improving
+  primary_url: https://arxiv.org/abs/2305.14325
+  title: 'Improving Factuality and Reasoning in Language Models through Multiagent Debate'
+  status: unverified
+  claim_family: multiagent_workflow
+  authors: Du et al. (2023)
+  venue: ICML 2024
+
+- bibkey: park2023generative
+  primary_url: https://arxiv.org/abs/2304.03442
+  title: 'Generative Agents: Interactive Simulacra of Human Behavior'
+  status: unverified
+  claim_family: multiagent_workflow
+  authors: Park et al. (2023)
+  venue: UIST 2023
+  code_url: https://github.com/joonspk-research/generative_agents
+
+- bibkey: wu2023autogen
+  primary_url: https://arxiv.org/abs/2308.08155
+  title: 'AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework'
+  status: unverified
+  claim_family: multiagent_workflow
+  authors: Wu et al. (2023)
+  venue: arXiv preprint
+
+- bibkey: hong2023metagpt
+  primary_url: https://arxiv.org/abs/2308.00352
+  title: 'MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework'
+  status: unverified
+  claim_family: multiagent_workflow
+  authors: Hong et al. (2023)
+  venue: arXiv preprint
+
+- bibkey: qian2023chatdev
+  primary_url: https://arxiv.org/abs/2307.07924
+  title: 'ChatDev: Communicative Agents for Software Development'
+  status: unverified
+  claim_family: multiagent_workflow
+  authors: Qian et al. (2023)
+  venue: arXiv preprint
+  code_url: https://github.com/OpenBMB/ChatDev
+
+# === A6: ai_writing_evaluation ===
+
+- bibkey: gao2022comparing
+  primary_url: https://www.biorxiv.org/content/10.1101/2022.12.23.521610v1
+  title: 'Comparing scientific abstracts generated by ChatGPT to original abstracts using an artificial intelligence output detector, plagiarism detector, and blinded human reviewers'
+  status: unverified
+  claim_family: ai_writing_evaluation
+  authors: Gao et al. (2022)
+  venue: bioRxiv (later npj Digital Medicine 2023)
+
+- bibkey: mitchell2023detectgpt
+  primary_url: https://arxiv.org/abs/2301.11305
+  title: 'DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature'
+  status: unverified
+  claim_family: ai_writing_evaluation
+  authors: Mitchell et al. (2023)
+  venue: ICML 2023
+
+- bibkey: kirchenbauer2023watermark
+  primary_url: https://arxiv.org/abs/2301.10226
+  title: 'A Watermark for Large Language Models'
+  status: unverified
+  claim_family: ai_writing_evaluation
+  authors: Kirchenbauer et al. (2023)
+  venue: ICML 2023
+
+- bibkey: liang2024monitoring
+  primary_url: https://arxiv.org/abs/2403.07183
+  title: 'Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews'
+  status: unverified
+  claim_family: ai_writing_evaluation
+  authors: Liang et al. (2024)
+  venue: ICML 2024

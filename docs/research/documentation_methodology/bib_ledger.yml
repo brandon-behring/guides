@@ -1,0 +1,195 @@
+# Bibliography ledger — documentation_methodology
+# First-pass gather (22 entries). Status defaults to `unverified` per the
+# /research-gather verification protocol; promotion to `verified` happens in dossier-audit.
+# Heavy-depth target is 200-300 entries; this first-pass establishes anchor coverage
+# across all 5 sub-areas (A1-A5). Re-run /research-gather on the same plan to append.
+
+entries:
+
+# === A1: docs_framework ===
+
+- bibkey: procida_diataxis
+  primary_url: https://diataxis.fr/
+  title: 'Diátaxis: A systematic framework for technical documentation authoring'
+  status: unverified
+  claim_family: docs_framework
+  authors: Procida (ongoing)
+  venue: diataxis.fr
+
+- bibkey: horn1976mapping
+  primary_url: https://informationmapping.com/pages/information-mapping-methodology
+  title: 'Information Mapping methodology'
+  status: unverified
+  claim_family: docs_framework
+  authors: Horn et al. (ongoing; method origin 1969–1976)
+  venue: Information Mapping Inc.
+
+- bibkey: dita_oasis
+  primary_url: https://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html
+  title: 'Darwin Information Typing Architecture (DITA) Version 1.2 Specification'
+  status: unverified
+  claim_family: docs_framework
+  authors: OASIS DITA Technical Committee (2010)
+  venue: OASIS Standard
+
+# === A2: oer_research ===
+
+- bibkey: hilton2016cost
+  primary_url: https://link.springer.com/article/10.1007/s11423-016-9434-9
+  title: 'Open educational resources and college textbook choices: a review of research on efficacy and perceptions'
+  status: unverified
+  claim_family: oer_research
+  authors: Hilton (2016)
+  venue: Educational Technology Research and Development 64
+
+- bibkey: hilton2020synthesis
+  primary_url: https://link.springer.com/article/10.1007/s11423-019-09700-4
+  title: 'Open educational resources, student efficacy, and user perceptions: a synthesis of research published between 2015 and 2018'
+  status: unverified
+  claim_family: oer_research
+  authors: Hilton (2020)
+  venue: Educational Technology Research and Development 68
+
+- bibkey: wiley_5r
+  primary_url: https://opencontent.org/definition/
+  title: 'Defining the "Open" in Open Content and Open Educational Resources'
+  status: unverified
+  claim_family: oer_research
+  authors: Wiley (n.d.; 5R framework, 5th R added 2014)
+  venue: opencontent.org
+
+- bibkey: hewlett_oer
+  primary_url: https://hewlett.org/twenty-years-of-open-educational-resources-building-robust-networks-for-innovation/
+  title: 'Twenty years of Open Educational Resources: Building robust networks for innovation'
+  status: unverified
+  claim_family: oer_research
+  authors: Hewlett Foundation (2022)
+  venue: William and Flora Hewlett Foundation
+
+- bibkey: unesco2019oer
+  primary_url: https://www.unesco.org/en/legal-affairs/recommendation-open-educational-resources-oer
+  title: 'Recommendation on Open Educational Resources (OER)'
+  status: unverified
+  claim_family: oer_research
+  authors: UNESCO (2019)
+  venue: UNESCO General Conference 40th Session
+
+# === A3: oer_adoption ===
+
+- bibkey: pitt2017openstax
+  primary_url: https://www.irrodl.org/index.php/irrodl/article/view/2462
+  title: 'Student and Faculty Perceptions of OpenStax in High Enrollment Courses'
+  status: unverified
+  claim_family: oer_adoption
+  authors: Pitt et al. (2017)
+  venue: International Review of Research in Open and Distributed Learning
+
+- bibkey: pressbooks_bccampus_case
+  primary_url: https://opentextbc.ca/sertcasestudies/chapter/pressbooks/
+  title: 'Three Models for Sustaining Open Source Software: Pressbooks – Pooling Resources, Building Value'
+  status: unverified
+  claim_family: oer_adoption
+  authors: BCcampus / Pressbooks (2019)
+  venue: BCcampus SERT Case Studies
+
+- bibkey: bccampus_open_textbook
+  primary_url: https://bccampus.ca/2014/10/16/open-textbook-project-2012-2014/
+  title: 'Open Textbook Project turns two'
+  status: unverified
+  claim_family: oer_adoption
+  authors: BCcampus (2014)
+  venue: BCcampus
+
+- bibkey: jhangiani2016faculty
+  primary_url: https://www.researchgate.net/publication/326350980_Eight_Patterns_of_Open_Textbook_Adoption_in_British_Columbia
+  title: 'Eight Patterns of Open Textbook Adoption in British Columbia'
+  status: unverified
+  claim_family: oer_adoption
+  authors: Jhangiani et al. (2018)
+  venue: International Review of Research in Open and Distributed Learning
+
+# === A4: docs_as_code ===
+
+- bibkey: gentle2017docsascode
+  primary_url: https://justwriteclick.com/books/docs-like-code/
+  title: 'Docs Like Code'
+  status: unverified
+  claim_family: docs_as_code
+  authors: Gentle (2017; 3rd ed. 2022)
+  venue: Just Write Click (self-published)
+
+- bibkey: writethedocs_principles
+  primary_url: https://www.writethedocs.org/guide/writing/docs-principles/
+  title: 'Documentation principles'
+  status: unverified
+  claim_family: docs_as_code
+  authors: Write the Docs community (ongoing)
+  venue: writethedocs.org
+
+- bibkey: readthedocs_platform
+  primary_url: https://about.readthedocs.com/
+  title: 'Read the Docs — Full featured documentation deployment platform'
+  status: unverified
+  claim_family: docs_as_code
+  authors: Holscher et al. (since 2010)
+  venue: readthedocs.com
+  code_url: https://github.com/readthedocs/readthedocs.org
+
+- bibkey: mdn_writing_guide
+  primary_url: https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide
+  title: 'Writing style guide'
+  status: unverified
+  claim_family: docs_as_code
+  authors: MDN Web Docs / Mozilla (ongoing)
+  venue: developer.mozilla.org
+
+- bibkey: sphinx_doc
+  primary_url: https://www.sphinx-doc.org/en/master/
+  title: 'Sphinx — Python documentation generator'
+  status: unverified
+  claim_family: docs_as_code
+  authors: Brandl et al. (since 2008)
+  venue: sphinx-doc.org
+  code_url: https://github.com/sphinx-doc/sphinx
+
+# === A5: hypertext_patterns ===
+
+- bibkey: matuschak_evergreen
+  primary_url: https://notes.andymatuschak.org/Evergreen_notes
+  title: 'Evergreen notes'
+  status: unverified
+  claim_family: hypertext_patterns
+  authors: Matuschak (ongoing)
+  venue: notes.andymatuschak.org
+
+- bibkey: bush1945memex
+  primary_url: https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/
+  title: 'As We May Think'
+  status: unverified
+  claim_family: hypertext_patterns
+  authors: Bush (1945)
+  venue: The Atlantic Monthly
+
+- bibkey: luhmann_zettelkasten
+  primary_url: https://zettelkasten.de/introduction/
+  title: 'Introduction to the Zettelkasten Method'
+  status: unverified
+  claim_family: hypertext_patterns
+  authors: Schmidt / Zettelkasten.de (ongoing; based on Luhmann archive)
+  venue: zettelkasten.de
+
+- bibkey: ahrens2017smartnotes
+  primary_url: https://www.soenkeahrens.de/en/takesmartnotes
+  title: 'How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking'
+  status: unverified
+  claim_family: hypertext_patterns
+  authors: Ahrens (2017)
+  venue: CreateSpace (self-published)
+
+- bibkey: wikipedia_linking
+  primary_url: https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Linking
+  title: 'Wikipedia:Manual of Style/Linking'
+  status: unverified
+  claim_family: hypertext_patterns
+  authors: Wikipedia editorial community (ongoing)
+  venue: en.wikipedia.org
