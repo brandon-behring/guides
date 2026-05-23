@@ -17,12 +17,12 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "@brandon_m_behring/book-scaffold-astro": "^3.5.0",
     "@astrojs/mdx": "^5.0.3",
     "@astrojs/preact": "^5.1.1",
+    "@brandon_m_behring/book-scaffold-astro": "^3.6.5",
     "astro": "^6.1.7",
-    "preact": "^10.29.1",
     "katex": "^0.16.11",
+    "preact": "^10.29.1",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0"
   }
