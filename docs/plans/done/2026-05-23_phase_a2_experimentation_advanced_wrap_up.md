@@ -66,3 +66,37 @@ Next per workstream plan: Phase B (`learning_pedagogy` migration-path pilot — 
 ## Commits in this phase
 
 - `~/guides-experimentation`: single commit covering research_plan + bib_ledger + cache_manifest + evidence_ledger + gather_trace + claim_graph + dashboard + agent_index + final audit promotions (on session close)
+
+---
+
+## Addendum (2026-05-23): Phase A.2-post — file research_toolkit issues + PDF backfill
+
+After Phase A.2 closed, three friction findings from Phase A + Phase A.2 manual `/research-gather` execution warranted upstream filing on `brandon-behring/research_toolkit`. Mirrors Phase A.0's "file scaffold issues before authoring scales" pattern.
+
+**4 issues filed (#9–#12) with `consumer:guides` label:**
+
+| # | Title | Type | Priority |
+|---|---|---|---|
+| 9 | cache_source.py Playwright escalation on 403 not firing | bug | P2 |
+| 10 | cache_source.py undersized HTML stub detection | bug | P3 |
+| 11 | Add PDF text extraction (currently raw_only) | enhancement | P2 |
+| 12 | consumer:guides reproduction of existing #2 (cache_manifest absolute paths) | bug | P2 |
+
+Also applied `consumer:guides` label to existing #2 for cross-cutting tracking.
+
+**Consumer-side workaround: PDF backfill**
+
+Wrote `~/guides/scripts/backfill_pdf_cache_text.py` (~110 LOC, idempotent) that runs `pdftotext` (poppler-utils, already on PATH) against raw_only PDF caches:
+
+- 17 PDFs extracted total (8 from Phase A + A.2; 9 more from other research sessions in the shared `~/Claude/research_cache/`)
+- All 8 project-relevant PDF caches now have `extraction_status: ok`:
+  - Phase A foundations (6): Kohavi ch1, Deng 2013 CUPED, Xie 2016 KDD, Kohavi 2012 puzzling, Kohavi 2015 keynote, ASA p-value Berkeley
+  - Phase A.2 advanced (2): Chapelle 2011 Thompson sampling, Kohavi 2014 seven rules
+- Both `cache_manifest.yml` files updated (`raw_only → ok` via `replace_all=true` since all `raw_only` entries in these files were PDFs to flip)
+- Both dashboards + claim_graphs rebuilt
+
+Script is marked **delete-able** once research_toolkit#11 lands upstream (the toolkit will handle PDFs natively).
+
+**Verified-anchored coverage uplift**: With 8 PDF caches now text-extracted, future depth-expansion + dossier-audit rounds can promote PDF-backed evidence from `extraction_method: paraphrase` (link_confidence ≤ 0.85) to `verbatim_match` (link_confidence ≤ 1.0). Phase D + B benefit automatically.
+
+Phase A.2-post wrap-up acceptance gates: all met (4 issues filed + label propagated; backfill script idempotent; 8 caches flipped to `ok`; both cache_manifests + dashboards + claim_graphs re-validated green; memory updated).
