@@ -37,6 +37,103 @@ The 2-dossier initial split is a reasonable starting partition; `/research-plan`
 - **Content dossiers** (specific to one guide's subject matter): `~/<guide-repo>/docs/research/<sub-topic>/`. `experimentation_foundations` + `experimentation_advanced` (initial 2) live in the pilot repo. Each future guide repo (`guides-mle`, `guides-prompt-injection`, etc.) owns its content research, and may chunk into multiple sub-dossiers along chapter clusters.
 - Both flavors run the same v2.2+ pipeline; only the parent dir differs.
 
+## Phase A.2-post: file research_toolkit dogfooding issues (NEW, 2026-05-23)
+
+Three friction findings from Phase A + Phase A.2 manual `/research-gather` execution warrant filing as upstream issues on `brandon-behring/research_toolkit`. Pattern mirrors Phase A.0 (which filed 7 book-scaffold-astro findings); same durable upstream-issue policy applies — toolkit issues file upstream, not patched locally.
+
+**Repo state** (verified 2026-05-23): `github.com/brandon-behring/research_toolkit` is public; 2 open issues already (#2 cache_manifest absolute paths bug, #1 dataset-synthesize feature request); no `consumer:*` label pattern yet (research_toolkit uses bug/enhancement/documentation/P2/P3/tracked labels).
+
+### Pre-flight
+
+- Create `consumer:guides` label on `brandon-behring/research_toolkit` (purple `#5319e7`, matching the book-scaffold-astro convention) — first consumer-pilot to file findings against the toolkit.
+
+### Four issues to file (3 new + 1 reproduction of existing #2)
+
+**Issue 1 — `cache_source.py`: Playwright escalation on 403 not firing**
+
+- Title: `cache_source.py: Playwright escalation on 403 not firing for Cloudflare-protected + publisher domains`
+- Labels: `bug`, `consumer:guides`, `P2`
+- Body:
+  - Per `references/strict_live_v2.md`, v2.2.1 added "urllib first → escalate to Playwright on HTTP 403/429 or JS-required markers." Observed behavior in practice: urllib returns 403 and `cache_source.py` exits with `ERROR caching <url>: HTTP Error 403: Forbidden`, no Playwright fallback triggered.
+  - 4+ reproductions across Phases A + A.2:
+    - `https://doi.org/10.1145/2433396.2433413` (CUPED 2013 → ACM DL paywall)
+    - `https://doi.org/10.1145/2939672.2939733` (Xie 2016 → ACM DL paywall)
+    - `https://www.cambridge.org/9781108724265` (Kohavi 2020 book)
+    - `https://www.tandfonline.com/doi/full/10.1080/00031305.2016.1154108` (ASA p-value statement)
+    - `https://careersatdoordash.com/blog/switchback-tests-and-randomized-experimentation-under-network-effects-at-doordash/` (DoorDash engineering blog — likely Cloudflare anti-bot)
+  - Worked around in consumer by retrying with alternate URLs (author-hosted PDFs, free mirrors), but the in-toolkit escalation should handle this transparently per spec.
+  - **Fix scope**: either implement the documented Playwright fallback in `scripts/cache_source.py`, OR clarify in docs that consumers must pass `--escalate-on-failure` to enable Playwright (the `--escalate-on-failure` flag exists per `--help` but its semantics + default behavior aren't documented in the strict-live spec).
+
+**Issue 2 — `cache_source.py`: undersized HTML stub detection for JS-rendered pages**
+
+- Title: `cache_source.py should detect undersized HTML stubs (JS-rendered pages like projecteuclid)`
+- Labels: `bug`, `consumer:guides`, `P3`
+- Body:
+  - Reproduction: cached `https://projecteuclid.org/journals/annals-of-statistics/volume-47/issue-2/Generalized-random-forests/10.1214/18-AOS1709.full` as a **1152-byte HTML stub** (JS framework shell, no abstract content). `extraction_status: ok` was set but `text_path` contains essentially no usable text.
+  - Impact: `/agent-index` Phase 2a tries to span-anchor against `text_path` and fails silently (the page is empty).
+  - Retried via arxiv 1610.01271 — succeeded (46217 bytes, real abstract content) → this is the workaround pattern: prefer arxiv URL when both are available.
+  - **Fix scope**: add post-fetch size heuristic. If `content_type == text/html` AND `bytes < 5000` AND text extraction finds JS-framework markers (`<noscript>`, `id="root"`, `id="__next"`, `window.__NUXT__`), emit a warning + suggest `--escalate-to-playwright`. Optionally set `extraction_status: stub` instead of `ok` for these.
+
+**Issue 3 — `cache_source.py`: add PDF text extraction (currently `extraction_status: raw_only`)**
+
+- Title: `Add PDF text extraction to cache_source.py (currently extraction_status: raw_only blocks Attribute-First Phase 2a)`
+- Labels: `enhancement`, `consumer:guides`, `P2`
+- Body:
+  - Reproduction: all PDF caches in Phase A + Phase A.2 returned with `extraction_status: raw_only` (text NOT extracted):
+    - Phase A: Deng 2013 CUPED, Xie 2016 KDD, Kohavi 2012 puzzling, Kohavi 2015 keynote, ASA p-value (Berkeley mirror), Kohavi 2020 ch1
+    - Phase A.2: Chapelle 2011 NeurIPS, Kohavi 2014 seven rules
+    - 8 of 25 total caches across the two phases (~32%) — significant blast radius.
+  - Impact: `/agent-index` Phase 2a Attribute-First span-anchoring reads `cache_manifest.yml.text_path` for byte-offset span selection. With raw-only PDFs, those primary sources **cannot participate in v2.2+ verbatim_match evidence anchoring** — they're stuck at `extraction_method: paraphrase` (link_confidence ≤ 0.85) in `evidence_ledger.yml`. Also blocks `/dossier-audit` from confirming title/authors against cache (must re-WebFetch the abstract page instead).
+  - Per `references/strict_live_v2.md` "Max local cache" goal: "extracted text/Markdown derivative" is listed as cache content — but currently absent for PDFs.
+  - **Fix scope (open question for maintainer)**: minimum is a text-encoded-PDF extractor (e.g., `pdfminer.six` — pure Python, MIT licensed, no system deps). On successful extraction, write text to `~/Claude/research_cache/text/sha256/<sha>.txt` and set `extraction_status: ok`. Stretch question for the maintainer: should this also include OCR fallback (Tesseract) for image-only/scanned PDFs? OCR adds significant dependency weight + latency but covers a long-tail of older + scanned papers. Filing leaves the scope decision to the maintainer rather than prescribing it.
+
+**Issue 4 — `consumer:guides` reproduction of existing #2 (cache_manifest absolute paths)**
+
+- Title: `consumer:guides reproduction of #2 — Phase A + A.2 cache_manifest.yml files now contain absolute paths`
+- Labels: `bug`, `consumer:guides`, `tracked`, `P2` (matches existing #2's label set)
+- Body:
+  - Cross-references existing #2 (Cross-platform path portability).
+  - 2 cache_manifest.yml files now ship in `brandon-behring/guides-experimentation` containing absolute `raw_path` / `text_path` / `metadata_path` values starting with `~/Claude/research_cache/...` (expand to absolute on read):
+    - `docs/research/experimentation_foundations/cache_manifest.yml` (14 entries)
+    - `docs/research/experimentation_advanced/cache_manifest.yml` (11 entries)
+  - These match the toolkit's current `templates/cache_manifest.template.yml` shape, so consumers writing per-spec produce non-portable files.
+  - Surfaces the consumer-side impact for prioritization: any teammate who clones `guides-experimentation` and tries to run validators against the manifests must have the same `~/Claude/research_cache/` path expansion — breaks reproducibility.
+  - **Action requested**: link this issue to #2 (consumer impact), apply `consumer:guides` label to #2 as well for downstream tracking.
+
+### Local consumer-side workaround: PDF backfill (independent of upstream fix)
+
+Per user decision: don't gate Phase D on the toolkit shipping issue #3's PDF extraction. Instead, run a **one-time consumer-side backfill** on existing raw_only PDF caches:
+
+- Write a small one-shot Python script: `~/guides/scripts/backfill_pdf_cache_text.py` (in hub repo for consumer-side use; ~30 LOC).
+- Logic: for each `~/Claude/research_cache/metadata/sha256/*.json` where `extraction_status: raw_only` AND `content_type: application/pdf`, run `pdfminer.six.extract_text()` → write to `~/Claude/research_cache/text/sha256/<sha>.txt` → update metadata JSON's `extraction_status: ok`.
+- Run once across the existing 8 raw_only PDF caches (5 Phase A + 3 Phase A.2: Deng 2013, Xie 2016, Kohavi 2012/2015/2014, Chapelle 2011, ASA p-value, Kohavi 2020 ch1).
+- Update affected `cache_manifest.yml` files in `~/guides-experimentation/docs/research/*/` to flip `extraction_status: raw_only → ok` on the touched entries.
+- Re-run `build_dashboard.py` to refresh dashboard's claim-health stats.
+- Subsequent gather rounds (Phase D + B) will benefit automatically: the toolkit fix is the long-term solve, this script is just consumer-side mitigation until then.
+- Mark this script as **delete-able** once issue #3 lands upstream (the toolkit will handle PDFs natively).
+
+### Filing mechanics + acceptance gates
+
+- Use `gh issue create -R brandon-behring/research_toolkit --title "..." --label "bug,consumer:guides,P2" --body-file <md>` pattern from Phase A.0.
+- Write each body to `/tmp/research_toolkit-issues/0{1,2,3,4}-*.md` for clarity.
+- Verify each issue URL after filing; record IDs in `~/.claude/projects/-Users-brandonbehring-guides/memory/reference_research_toolkit_v2.md`.
+- Update Phase A.2 wrap-up doc (`~/guides/docs/plans/done/2026-05-23_phase_a2_experimentation_advanced_wrap_up.md`) "Open follow-ups" section to reference the filed issue IDs.
+- Run the local PDF backfill script (Phase A.2-post-backfill); confirm extraction_status flipped to `ok` for the 8 PDF caches.
+- Commit + push the script + the updated cache_manifest.yml files (both `experimentation_*` dossiers) + an addendum to the Phase A.2 wrap-up doc noting the verified-anchored coverage uplift.
+- Acceptance gates:
+  - [ ] 4 issues exist on `brandon-behring/research_toolkit` with `consumer:guides` label (3 new + 1 cross-ref on #2)
+  - [ ] `~/guides/scripts/backfill_pdf_cache_text.py` exists, runnable, idempotent (re-runnable without re-extracting already-extracted PDFs)
+  - [ ] 8 PDF caches now have `extraction_status: ok` in metadata + cache_manifest
+  - [ ] Both repos' `cache_manifest.yml` files re-validated green
+  - [ ] Dashboard claim-health stats refresh (atoms-fully-supported should rise from 86% baseline as backfill enables better evidence anchoring in future audit rounds)
+  - [ ] Memory `reference_research_toolkit_v2.md` updated with 4 filed issue IDs
+
+### Why this fits the workstream
+
+The toolkit is the bottleneck for all 11 dossier upgrades — every Phase B/C/D run will exercise the same caching path. Filing these 3 issues now establishes the upstream-feedback loop before scaling to 9 more dossiers. Mirrors Phase A.0's "file scaffold issues before authoring scales" rationale.
+
+---
+
 ## Scaffold awareness + upstream-issue policy
 
 `@brandon_m_behring/book-scaffold-astro` is **live infrastructure under active development**, not a frozen dependency. The research workstream needs to be aware of what's shipping and where to push findings.
