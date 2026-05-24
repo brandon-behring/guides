@@ -73,3 +73,34 @@ Chapter 1 ended up being the third sub-task of a single very long session that c
 
 - `~/guides-experimentation`: chapter 1 MDX + bibliography.bib + src/pages/ files (on session close)
 - scaffold repo: 1 new issue #63
+
+---
+
+## Update 2026-05-24 — #63 RESOLVED; chapter 1 renders
+
+**Scaffold #63 closed in v4.1.2** (same-day round-trip from filing to fix). Combined with `draft: true → false` flip on both ch 0 + ch 1, chapter 1 now renders end-to-end:
+
+- `dist/chapters/introduction/index.html` + `dist/chapters/industrial-narrative/index.html` both emit (PREVIOUSLY MISSING)
+- `book-scaffold validate` reports **2 chapter(s) checked** (was 0)
+- `<Cite>` components render as clean Author-Year hyperlinks: `<a href="/references#kohavi2012puzzling" class="cite">Kohavi et al. (2012)</a>`
+- Sidebar lists both chapters; auto-generated table of contents works
+- CI green on Node 22
+
+**The "blocked by #63" caveat throughout this wrap-up doc is fully reversed.**
+
+Full resolution detail in the v4 migration wrap-up: `~/guides/docs/plans/done/2026-05-24_scaffold_v4_migration_wrap_up.md`.
+
+### Open follow-ups that REMAIN open
+
+Listed above + still applicable:
+- **paradigms[] field semantic clarification** — design v0.3 vs v0.2 schema mismatch persists; resolve in v0.4
+- **Sources frontmatter usage** — chapter 1 still has `sources: []`; structured citation list still owed
+- **Citation-level verification deferred** — full audit still pending depth-expansion + dossier-audit rounds
+
+### What's NEWLY closed by the v4 migration
+
+- ~~Chapter 2 planning blocked by #63~~ — UNBLOCKED. Chapter 2 (likely "Randomization + AA tests" from A5) is the natural next unit.
+
+### New finding from this round
+
+The "third symptom" of #63 (`draft: true` filtering chapters out of `getCollection`) led to filing a 9th `consumer:guides` scaffold issue as a docs improvement (see Resume-session handoff at `~/guides/docs/plans/active/2026-05-24_session_handoff.md` for the full open-issues list).
