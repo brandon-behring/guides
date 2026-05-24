@@ -1,5 +1,20 @@
 # Session handoff — 2026-05-24
 
+## Update 2026-05-24 (later same day) — Phase D depth-expansion DONE
+
+Follow-up **(c)** from §4 below was executed. All 4 thin Phase D dossiers depth-expanded + agent-indexed:
+
+| Dossier | Start → End | agent_index/ |
+|---|---|---|
+| capstone_portfolio_assessment | 1 → **48** | ✅ |
+| multi_paradigm_presentation | 3 → **49** | ✅ |
+| llm_as_coach_interfaces | 3 → **38** | ✅ |
+| transfer_evaluation_methods | 4 → **42** | ✅ |
+
+177 entries total; all v2.2 strict-live artifacts + `agent_index/` validated green. Entries default `status: unverified` → a `/dossier-audit` promotion pass is the natural next round. **research_toolkit #18 filed** (expose `--escalate-on-failure` on `/research-gather`); all 5 prior consumer:guides issues now closed. Full detail: `docs/plans/done/2026-05-24_phase_d_depth_expansion_wrap_up.md`. Item (c) below is now closed; next-pick reverts to **(a) Phase 1 ch 2** or a **dossier-audit** round.
+
+---
+
 ## TL;DR
 
 A 1.5-day session (2026-05-23 → 2026-05-24) closed **Research Workstream v2** (all 11 phases), drafted **Phase 1 chapter 1** of the experimentation pilot guide, migrated the whole stack to **scaffold v4.2.0**, and closed **all 8 of our filed consumer:guides scaffold issues**. Canonical artifacts live at `docs/design/2026-05-23_design_v0.3.md` + `src/content/frontmatter/methodology.mdx` (v0.2) + `docs/research/` (9 pedagogy dossiers) + `guides-experimentation/docs/research/` (2 content sub-dossiers). **Suggested next action: Phase 1 ch 2 authoring** (most natural next unit; #63 is unblocked; the experimentation_foundations dossier has dense citation backing for sub-area A5 randomization).
