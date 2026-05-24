@@ -4,11 +4,16 @@
  * Per-guide content lives in sibling repos (e.g., github.com/brandon-behring/guides-experimentation),
  * deployed to subroutes (e.g., guides.brandon-behring.dev/experimentation/).
  *
- * Phase 0b uses research-portfolio preset as-is per design doc v0.2 §15.1.
+ * v4 (2026-05-24): migrated from `preset: 'research-portfolio'` to the
+ * `styles: [researchPortfolioStyle, guidesFamilyStyle]` composition per
+ * book-scaffold-astro v4.0.0. The family style supplies site +
+ * routes.frontmatter (prefix '' → mount /methodology + /about at root) +
+ * deploy: 'pages' (closes scaffold #49 + #50).
  */
-import { defineBookConfig } from '@brandon_m_behring/book-scaffold-astro';
+import { defineBookConfig, researchPortfolioStyle } from '@brandon_m_behring/book-scaffold-astro';
+import { guidesFamilyStyle } from './shared/styles/guides-family.js';
 
 export default await defineBookConfig({
-  preset: 'research-portfolio',
-  site: 'https://guides.brandon-behring.dev',
+  styles: [researchPortfolioStyle, guidesFamilyStyle],
+  // site, routes.frontmatter, deploy all come from guidesFamilyStyle.
 });
