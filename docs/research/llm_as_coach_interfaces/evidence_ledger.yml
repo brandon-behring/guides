@@ -832,3 +832,111 @@ entries:
     score: 0.75
     factors:
     - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0039
+  source_url: https://arxiv.org/abs/2512.03501
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_fd4b8a1f94c49ad7
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0039
+    field_path: bib_ledger.entries[38].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Presents a scaffolded interaction design that turns an LLM into a guided Socratic CS tutor, requiring students to articulate their understanding before receiving feedback rather than dispensing
+    direct answers.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0040
+  source_url: https://arxiv.org/abs/2603.07277
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_21d23b7c18cb29d9
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0040
+    field_path: bib_ledger.entries[39].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Studies interactive LLM scaffolding that prompts learners to explain their current understanding and attempted strategies before feedback, transforming transactional Q&A into a more cognitively
+    demanding active-learning interaction.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0041
+  source_url: https://doi.org/10.1057/s41599-026-07019-z
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_e45505c3a6995f63
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0041
+    field_path: bib_ledger.entries[40].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Meta-analysis of 35 experimental studies (2022-2024) reporting a moderately positive overall effect of ChatGPT on student learning outcomes across cognitive and non-cognitive skills.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0042
+  source_url: https://arxiv.org/abs/2506.10051
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_dfa46733fddaac3e
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0042
+    field_path: bib_ledger.entries[41].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Empirical study measuring how computing students programming effectiveness, efficiency, and processes change when using GitHub Copilot on brownfield (modify-existing-code) tasks.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0043
+  source_url: https://doi.org/10.1016/j.chb.2024.108352
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_c91b77a843dbc1e5
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0043
+    field_path: bib_ledger.entries[42].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Incentivized interactive behavioral experiment finding that the mere knowledge that advice is AI-generated causes people to over-rely on it, even when it contradicts available contextual information
+    and their own assessment.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source

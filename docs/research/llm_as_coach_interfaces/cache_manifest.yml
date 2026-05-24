@@ -526,3 +526,72 @@ entries:
   rights_status: private_use
   extraction_status: ok
   fetch_method: playwright_rendered
+- cache_id: cache_fd4b8a1f94c49ad7
+  source_url: https://arxiv.org/abs/2512.03501
+  fetched_at: 2026-05-24
+  record_type: capture
+  content_type: text/html
+  bytes: 45019
+  sha256: fd4b8a1f94c49ad75e2d6c151b16c5086954997f03ca4dfb0b49c2135a3ba6b7
+  raw_path: blobs/sha256/fd4b8a1f94c49ad75e2d6c151b16c5086954997f03ca4dfb0b49c2135a3ba6b7
+  text_path: text/sha256/fd4b8a1f94c49ad75e2d6c151b16c5086954997f03ca4dfb0b49c2135a3ba6b7.txt
+  metadata_path: metadata/sha256/fd4b8a1f94c49ad75e2d6c151b16c5086954997f03ca4dfb0b49c2135a3ba6b7.json
+  restricted: false
+  rights_status: private_use
+  extraction_status: ok
+  http_last_modified: Thu, 04 Dec 2025 01:27:35 GMT
+- cache_id: cache_21d23b7c18cb29d9
+  source_url: https://arxiv.org/abs/2603.07277
+  fetched_at: 2026-05-24
+  record_type: capture
+  content_type: text/html
+  bytes: 47789
+  sha256: 21d23b7c18cb29d9cfb3925ec4658057a193a93ee42c140636801ed2eebc2fba
+  raw_path: blobs/sha256/21d23b7c18cb29d9cfb3925ec4658057a193a93ee42c140636801ed2eebc2fba
+  text_path: text/sha256/21d23b7c18cb29d9cfb3925ec4658057a193a93ee42c140636801ed2eebc2fba.txt
+  metadata_path: metadata/sha256/21d23b7c18cb29d9cfb3925ec4658057a193a93ee42c140636801ed2eebc2fba.json
+  restricted: false
+  rights_status: private_use
+  extraction_status: ok
+  http_last_modified: Tue, 10 Mar 2026 00:49:28 GMT
+- cache_id: cache_e45505c3a6995f63
+  source_url: https://doi.org/10.1057/s41599-026-07019-z
+  fetched_at: 2026-05-24
+  record_type: capture
+  content_type: text/html
+  bytes: 745073
+  sha256: e45505c3a6995f63769bc71889584a89796bb33ddeb772a6b7cc1aecb0205bc3
+  raw_path: blobs/sha256/e45505c3a6995f63769bc71889584a89796bb33ddeb772a6b7cc1aecb0205bc3
+  text_path: text/sha256/e45505c3a6995f63769bc71889584a89796bb33ddeb772a6b7cc1aecb0205bc3.txt
+  metadata_path: metadata/sha256/e45505c3a6995f63769bc71889584a89796bb33ddeb772a6b7cc1aecb0205bc3.json
+  restricted: false
+  rights_status: private_use
+  extraction_status: ok
+  fetch_method: playwright_rendered
+- cache_id: cache_dfa46733fddaac3e
+  source_url: https://arxiv.org/abs/2506.10051
+  fetched_at: 2026-05-24
+  record_type: capture
+  content_type: text/html
+  bytes: 50604
+  sha256: dfa46733fddaac3e0b3c08e4b057a70a49af29ce3e6cad540fd8e847cf516383
+  raw_path: blobs/sha256/dfa46733fddaac3e0b3c08e4b057a70a49af29ce3e6cad540fd8e847cf516383
+  text_path: text/sha256/dfa46733fddaac3e0b3c08e4b057a70a49af29ce3e6cad540fd8e847cf516383.txt
+  metadata_path: metadata/sha256/dfa46733fddaac3e0b3c08e4b057a70a49af29ce3e6cad540fd8e847cf516383.json
+  restricted: false
+  rights_status: private_use
+  extraction_status: ok
+  http_last_modified: Fri, 13 Jun 2025 00:01:28 GMT
+- cache_id: cache_c91b77a843dbc1e5
+  source_url: https://doi.org/10.1016/j.chb.2024.108352
+  fetched_at: 2026-05-24
+  record_type: capture
+  content_type: text/html
+  bytes: 2715
+  sha256: c91b77a843dbc1e5bf9266d6ddc1ccc29408385b2dc50ee41533d00b87190e54
+  raw_path: blobs/sha256/c91b77a843dbc1e5bf9266d6ddc1ccc29408385b2dc50ee41533d00b87190e54
+  text_path: text/sha256/c91b77a843dbc1e5bf9266d6ddc1ccc29408385b2dc50ee41533d00b87190e54.txt
+  metadata_path: metadata/sha256/c91b77a843dbc1e5bf9266d6ddc1ccc29408385b2dc50ee41533d00b87190e54.json
+  restricted: false
+  rights_status: private_use
+  extraction_status: ok

@@ -6,8 +6,8 @@ Current as of: 2026-05-24
 ## Trust State
 
 - stale blockers: 0
-- evidence coverage: 38/38 claims
-- cache completeness: 38/38 sources
+- evidence coverage: 43/43 claims
+- cache completeness: 43/43 sources
 - conflicts: 0
 - weak claims: 0
 
@@ -20,17 +20,17 @@ Current as of: 2026-05-24
 
 ## Claim Health (FACT framework)
 
-- total support links: 38
-- verbatim-anchored: 0/38 (0%)
-- strongly grounded: 0/38 (0%)
-- partially grounded: 38/38
-- weakly grounded (inferred/propagated): 0/38
-- corroborated (≥2 independent sources): 0/38 (0%)
-- atoms fully supported: 36/38 (95%)
+- total support links: 43
+- verbatim-anchored: 0/43 (0%)
+- strongly grounded: 0/43 (0%)
+- partially grounded: 43/43
+- weakly grounded (inferred/propagated): 0/43
+- corroborated (≥2 independent sources): 0/43 (0%)
+- atoms fully supported: 41/43 (95%)
 
 ## Discovery Rigor
 
-- fetches reviewed: 38
-- accept rate: 38/38 (100%)
+- fetches reviewed: 43
+- accept rate: 43/43 (100%)
 - rejected: 0
 - escalations needing manual review: 0

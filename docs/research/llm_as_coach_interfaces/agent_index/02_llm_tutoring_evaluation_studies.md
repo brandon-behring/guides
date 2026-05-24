@@ -32,17 +32,7 @@ Sub-area `A2` of the Research Plan: LLM-as-coach interfaces for technical learni
   - **Status:** Unverified
   - **Evidence:** ev_llm_as_coach_interfaces_0014
 
-## A2.4 Khan Academy Efficacy Results, November 2024
-
-- **Khan Academy Efficacy Results, November 2024** — Khan Academy (2024); *Khan Academy blog*. [evidence]
-  - **Source:** https://blog.khanacademy.org/khan-academy-efficacy-results-november-2024/
-  - **Code:** —
-  - **Mechanism:** See source.
-  - **Result:** See Mechanism.
-  - **Status:** Unverified
-  - **Evidence:** ev_llm_as_coach_interfaces_0002
-
-## A2.5 The Impact of ChatGPT on Students' Academic Achievement: A Meta-Analysis
+## A2.4 The Impact of ChatGPT on Students' Academic Achievement: A Meta-Analysis
 
 - **The Impact of ChatGPT on Students' Academic Achievement: A Meta-Analysis** — Liu et al. (2025); *Journal of Computer Assisted Learning (2025)*. [evidence]
   - **Source:** https://doi.org/10.1111/jcal.70096
@@ -52,7 +42,7 @@ Sub-area `A2` of the Research Plan: LLM-as-coach interfaces for technical learni
   - **Status:** Unverified
   - **Evidence:** ev_llm_as_coach_interfaces_0016
 
-## A2.6 Artificial intelligence in education: The three paradigms
+## A2.5 Artificial intelligence in education: The three paradigms
 
 - **Artificial intelligence in education: The three paradigms** — Ouyang & Jiao (2021); *Computers and Education: Artificial Intelligence, 2:100020 (2021)*. [theory]
   - **Source:** https://doi.org/10.1016/j.caeai.2021.100020
@@ -61,3 +51,13 @@ Sub-area `A2` of the Research Plan: LLM-as-coach interfaces for technical learni
   - **Result:** Most-cited Ouyang framing review; supplies the AI-directed/supported/empowered taxonomy for tutoring modalities.
   - **Status:** Unverified
   - **Evidence:** ev_llm_as_coach_interfaces_0018
+
+## A2.6 ChatGPT's impact on student learning outcomes: a meta-analysis of 35 experimental studies
+
+- **ChatGPT's impact on student learning outcomes: a meta-analysis of 35 experimental studies** — Wu et al. (2026); *Humanities and Social Sciences Communications (2026)*. [evidence]
+  - **Source:** https://doi.org/10.1057/s41599-026-07019-z
+  - **Code:** —
+  - **Mechanism:** Meta-analysis of 35 experimental studies (2022-2024) reporting a moderately positive overall effect of ChatGPT on student learning outcomes across cognitive and non-cognitive skills.
+  - **Result:** Newest large experimental-study meta-analysis of ChatGPT learning effects; recovered with first author Xinning Wu confirmed via Crossref.
+  - **Status:** Unverified
+  - **Evidence:** ev_llm_as_coach_interfaces_0041

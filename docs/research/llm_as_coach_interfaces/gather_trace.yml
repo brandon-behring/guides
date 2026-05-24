@@ -460,3 +460,63 @@ fetches:
   decision: accept
   reason: Khanmigo deployment learnings distinct from the existing efficacy/launch bibkeys (engineering + scale-up focus).
   assigned_bibkey: khanacademy2024learnings
+- fetch_id: fetch_sunil2025socraticai
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2512.03501
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Scaffolded/Socratic interface pattern for coding tutoring; recovered after provenance verification (arXiv 2512.03501 confirmed real).
+  assigned_bibkey: sunil2025socraticai
+- fetch_id: fetch_chen2026interactivescaffolding
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2603.07277
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Directly addresses chat-vs-scaffolded-exercise interface tradeoffs; recovered after verification (arXiv 2603.07277, Chen/Li/Liu/Qu/Xie 2026).
+  assigned_bibkey: chen2026interactivescaffolding
+- fetch_id: fetch_wu2026chatgptmeta35
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.1057/s41599-026-07019-z
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Newest large experimental-study meta-analysis of ChatGPT learning effects; recovered with first author Xinning Wu confirmed via Crossref.
+  assigned_bibkey: wu2026chatgptmeta35
+- fetch_id: fetch_shihab2025copilotbrownfield
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2506.10051
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Measured-outcome study of GitHub Copilot as a learning tool in CS coursework; recovered with first author Md Istiak Hossain Shihab confirmed (arXiv 2506.10051, ICER 2025).
+  assigned_bibkey: shihab2025copilotbrownfield
+- fetch_id: fetch_klingbeil2024overreliance
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.1016/j.chb.2024.108352
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Quantifies automation-bias / overtrust costs in a controlled experiment; recovered with first author Artur Klingbeil confirmed (CHB 2024).
+  assigned_bibkey: klingbeil2024overreliance

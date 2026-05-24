@@ -821,3 +821,112 @@ selections:
     sha256_of_span: b7907ea7a787e8fa8c02456e89ebd7b805053a5df205a732d610f2a4bbde3a6b
     excerpt: serif;font-size:26px;}h4{font-family:Source Serif Pro, serif;font-size:30px;line-height:1.2em;}h2{font-family:Lato, sans-serif;font-weight:700;font-size:16px;line-height:1em;margin-bottom:10px;}button:not(.menu-toggle),html
       input[type="butt
+- selection_id: sel_sunil2025socraticai_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_sunil2025socraticai
+  cache_id: cache_fd4b8a1f94c49ad7
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: e2b05c3d99ead3869d1f765384e2c535ddc7ac7758bbda1f6f439ce147de1b68
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2512.03501] SocraticAI: Transforming LLMs into Guided CS Tutors Through Scaffolded Interaction</title> <meta name="viewport" content="width=device-width,
+      initial-scale=1"> <link rel="app'
+- selection_id: sel_sunil2025socraticai_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_sunil2025socraticai
+  cache_id: cache_fd4b8a1f94c49ad7
+  span:
+    text_path_offset:
+    - 15005
+    - 15245
+    sha256_of_span: 632daa1141868cf1091eb4065456b6ca7f086c2db4f33ddd82b73bdfb9dad737
+    excerpt: of deliberate, strategic AI use. </blockquote> <!--CONTEXT--> <div class="metatable"> <table summary="Additional metadata"> <tr> <td class="tablecell label">Comments:</td> <td class="tablecell
+      c
+- selection_id: sel_chen2026interactivescaffolding_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_chen2026interactivescaffolding
+  cache_id: cache_21d23b7c18cb29d9
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 9a60a891f757e17eb23467a4b2711b0593313971d489a8e6efc7fe5b68c70a2f
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2603.07277] From Passive Consumption to Active Interaction: Exploring Interactive LLM Scaffolding to Support Learning Engagement</title> <meta
+      name="viewport" content="width=device-width,'
+- selection_id: sel_chen2026interactivescaffolding_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_chen2026interactivescaffolding
+  cache_id: cache_21d23b7c18cb29d9
+  span:
+    text_path_offset:
+    - 15924
+    - 16164
+    sha256_of_span: d7684a94aa2df7879aa2c6b04b1bf485604975dd40c9f711692001674051eccc
+    excerpt: explore whether embedding lightweight interactive components into LLM-generated scaffolding responses can promote learning-oriented engagement and improve short-term learning outcomes. We evaluated
+      this approach through a within-subjects la
+- selection_id: sel_wu2026chatgptmeta35_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_wu2026chatgptmeta35
+  cache_id: cache_e45505c3a6995f63
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 05f6da40a5fbc12e3b87efd0abcbd08a72ba84cf446cf75d9efc81916e7c5bb8
+    excerpt: '<!DOCTYPE html><html lang="en" class="js"><head> <title>ChatGPT’s impact on student learning outcomes: a meta-analysis of 35 experimental studies | Humanities and Social Sciences Communications</title>
+      <link rel="alternate'
+- selection_id: sel_wu2026chatgptmeta35_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_wu2026chatgptmeta35
+  cache_id: cache_e45505c3a6995f63
+  span:
+    text_path_offset:
+    - 247712
+    - 247952
+    sha256_of_span: dcefc35e12b31519533a88bf85f04cb150c18c7ec13d801999568683d8ea363a
+    excerpt: tools in education.</p><p>However, Zhu et al. (<a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2023" title="Zhu
+      G, Fan X, Hou C, Zhong T, Seow P, Shen-Hsing A
+- selection_id: sel_shihab2025copilotbrownfield_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_shihab2025copilotbrownfield
+  cache_id: cache_dfa46733fddaac3e
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: ac3c672b28044a7f10ec4f36c43441fcbcabba9feaa56e8b58a41f794f72aa33
+    excerpt: <!DOCTYPE html> <html lang="en"> <head> <title>[2506.10051] The Effects of GitHub Copilot on Computing Students&#39; Programming Effectiveness, Efficiency, and Processes in Brownfield Programming
+      Tasks</title> <meta name="viewport" cont
+- selection_id: sel_shihab2025copilotbrownfield_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_shihab2025copilotbrownfield
+  cache_id: cache_dfa46733fddaac3e
+  span:
+    text_path_offset:
+    - 16798
+    - 17038
+    sha256_of_span: 545bf4b54a92d19efa434db54f2cd9d79393ebf0b6826f803b1ce0a38ec60988
+    excerpt: href="https://arxiv.org/search/cs?searchtype=author&amp;query=Mulanda,+B" rel="nofollow">Brian Mulanda</a></div> <div id="download-button-info" hidden>View a PDF of the paper titled The Effects
+      of GitHub Copilot on Computing Stud
+- selection_id: sel_klingbeil2024overreliance_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_klingbeil2024overreliance
+  cache_id: cache_c91b77a843dbc1e5
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_klingbeil2024overreliance_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_klingbeil2024overreliance
+  cache_id: cache_c91b77a843dbc1e5
+  span:
+    text_path_offset:
+    - 886
+    - 1126
+    sha256_of_span: a078bc322c9f34c14ce0830abe38c04c33eb126f830da1cd0bd8f9f176c9256c
+    excerpt: type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url = '/retrieve/'+document.getElementById('resultName').value+'?Red

@@ -6,7 +6,7 @@
 **Primary intended consumer:** future Claude Code / LLM agents working on adjacent guide-authoring tasks; secondary: humans reading directly.
 **Self-containedness guarantee:** this folder has no hard dependence on sibling files outside itself.
 **Scope:** How LLM-tutor UX patterns are designed, evaluated, and deployed in educational + skill-acquisition contexts — with attention to interview-prep + technical-skills training as direct applications. Underwrites v0.2 design doc's LLM-as-coach commitment. Target: ~40-80 entries (literature is younger; depth target lower than other pedagogy dossiers).
-**Coverage:** 38 entries across 6 sub-areas; 5-bullet entries (Source / Code / Mechanism / Result / Status / Evidence).
+**Coverage:** 43 entries across 6 sub-areas; 5-bullet entries (Source / Code / Mechanism / Result / Status / Evidence).
 **Last updated:** 2026-05-24.
 
 ## ⚠️ Scope boundary
@@ -28,16 +28,16 @@ This dossier covers **Research Plan: LLM-as-coach interfaces for technical learn
 | `01_intelligent_tutoring_systems.md` | Intelligent tutoring systems (ITS) historical foundations | 7 |
 | `02_llm_tutoring_evaluation_studies.md` | LLM tutoring evaluation studies (2023-2026) | 6 |
 | `03_pedagogical_prompt_engineering_scaffoldi.md` | Pedagogical prompt engineering + scaffolding patterns | 6 |
-| `04_interactive_learning_interfaces.md` | Interactive learning interfaces (chat vs notebook vs structured exercise) | 4 |
-| `05_risks_failure_modes.md` | Risks + failure modes (hallucination, sycophancy, illusion of mastery) | 7 |
-| `06_specific_deployments_their_published_out.md` | Specific deployments + their published outcomes | 8 |
+| `04_interactive_learning_interfaces.md` | Interactive learning interfaces (chat vs notebook vs structured exercise) | 6 |
+| `05_risks_failure_modes.md` | Risks + failure modes (hallucination, sycophancy, illusion of mastery) | 8 |
+| `06_specific_deployments_their_published_out.md` | Specific deployments + their published outcomes | 10 |
 
 ## Lookup recipes
 
 - **"Intelligent tutoring systems?"** → `01_intelligent_tutoring_systems.md` § A1.1 (Anderson, Corbett, Koedinger & Pelletier (1995)).
 - **"LLM tutoring evaluation studies?"** → `02_llm_tutoring_evaluation_studies.md` § A2.1 (Deng et al. (2024)).
 - **"Pedagogical prompt engineering + scaffolding patterns?"** → `03_pedagogical_prompt_engineering_scaffoldi.md` § A3.1 (Anthropic (2025)).
-- **"Interactive learning interfaces?"** → `04_interactive_learning_interfaces.md` § A4.1 (Kazemitabaar et al. (2023)).
+- **"Interactive learning interfaces?"** → `04_interactive_learning_interfaces.md` § A4.1 (Chen et al. (2026)).
 - **"Risks + failure modes?"** → `05_risks_failure_modes.md` § A5.1 (Ai et al. (2024)).
 - **"Specific deployments + their published outcomes?"** → `06_specific_deployments_their_published_out.md` § A6.1 (Bastani et al. (2025)).
 

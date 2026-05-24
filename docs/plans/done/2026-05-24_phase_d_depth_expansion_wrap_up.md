@@ -5,6 +5,14 @@
 **Scope:** Depth-expand + agent-index all 4 thin Phase D pedagogy dossiers (handoff §4 item (c))
 **Session duration:** ~1 focused session
 
+## Update 2026-05-24 (follow-on session)
+
+Two findings from this wrap-up were addressed in an immediate follow-on session:
+- **research_toolkit #18 fixed + closed** (commit `a45b85a`, v2.4.1) — `--escalate-on-failure` is now threaded through `/research-gather` (+ freshness-audit, citation-audit), default-on at the skill boundary, with a `PlaywrightUnavailable` graceful-degradation safeguard in `cache_source.py` so the "usable without Playwright" contract holds. 2 regression tests added.
+- **5 dropped llm_as_coach candidates recovered** — all 5 verified real (Explore agent + Crossref), added to `llm_as_coach_interfaces` (**38 → 43**; corpus total **177 → 182**). See revised Friction #4 below. (`khan2024efficacy` also reclassified A2 → A6 to match its recorded gather_trace sub_area.)
+
+The numbers below reflect the original depth-expansion run; the follow-on deltas are as above.
+
 ## TL;DR
 
 The 4 Phase D dossiers were flagged in the 2026-05-24 handoff as below first-pass density (1, 3, 3, 4 entries). This session depth-expanded all four via parallel discovery agents → `cache_source.py --escalate-on-failure` caching → v2.2 strict-live artifact rebuild → `/agent-index` Attribute-First indexing. Result: **177 total entries** across the four dossiers (up from 11), each now with a validated `agent_index/`. A new `consumer:guides` research_toolkit issue (#18) was filed for the `--escalate-on-failure` wrapper gap.
@@ -43,16 +51,23 @@ Agents occasionally proposed URLs that 404'd or had expired SSL. Substituted can
 - `meyer2014universal`: CAST resource 404 → CAST books-media canonical page
 - (darling2000authentic: DOI cached fine but bare-parens URL failed the validator — URL-encoded the parens to `%28%29`)
 
-### 4. Five candidates dropped for unverifiable provenance (llm_as_coach)
-The fast-moving 2025-2026 LLM literature produced candidates the discovery agents explicitly flagged as not-individually-fetched (uncertain arXiv IDs) or with unknown first authors (placeholder bibkeys). Dropped `zheng2025socraticai`, `anon2026interactivescaffolding`, `deroock2026chatgptmeta35`, `barke2023copilotbrownfield`, `passi2024overreliance` rather than risk citing a hallucinated arXiv ID. The 35 retained candidates all cached cleanly (0 failures).
+### 4. Five candidates initially dropped, then RECOVERED (llm_as_coach)
+During the depth-expansion run, the fast-moving 2025-2026 LLM literature produced candidates the discovery agents flagged as not-individually-fetched (uncertain arXiv IDs) or with unknown first authors (placeholder bibkeys), so they were dropped pending verification rather than risk citing a hallucinated arXiv ID. **Follow-on session (2026-05-24): all 5 verified real** (Explore agent + Crossref) and recovered with corrected bibkeys:
+- `zheng2025socraticai` → `sunil2025socraticai` (arXiv 2512.03501, A4)
+- `anon2026interactivescaffolding` → `chen2026interactivescaffolding` (arXiv 2603.07277, A4)
+- `deroock2026chatgptmeta35` → `wu2026chatgptmeta35` (DOI 10.1057/s41599-026-07019-z, first author Xinning Wu via Crossref, A2)
+- `barke2023copilotbrownfield` → `shihab2025copilotbrownfield` (arXiv 2506.10051, ICER 2025, A6)
+- `passi2024overreliance` → `klingbeil2024overreliance` (DOI 10.1016/j.chb.2024.108352, A5)
+
+Lesson: "flagged unverifiable by the discovery agent" ≠ "fake" — the agents simply ran out of tool-call budget to confirm. A cheap targeted verification pass (Crossref API for DOIs, arXiv abstract fetch for IDs) recovers them. The 35 originally-retained candidates all cached cleanly (0 failures).
 
 ### 5. freshness_tier enum + stale_after_days caps
 `mature`/`current` (agent terms) are not in the schema enum `[active, historical, stable, volatile]`; remapped `mature→stable`, `current→active`. Strict-live caps `stale_after_days` per tier (volatile 30, active 90, stable 365, historical 1825); the merge script's default needed correction for volatile entries. All capped before final validation.
 
 ## Toolkit findings filed upstream
 
-- **research_toolkit #18** (NEW) — expose `--escalate-on-failure` on `/research-gather`. Cross-references closed #9/#10/#11.
-- All 5 prior `consumer:guides` issues (#2, #9, #10, #11, #12) remain closed.
+- **research_toolkit #18** — expose `--escalate-on-failure` on `/research-gather`. Filed this session, then **fixed + closed in the follow-on session** (commit `a45b85a`, v2.4.1: default-on escalation in the cache-driving skills + `PlaywrightUnavailable` graceful-degradation safeguard). Cross-references closed #9/#10/#11.
+- All 5 prior `consumer:guides` issues (#2, #9, #10, #11, #12) remain closed. With #18 closed, there are now **0 open consumer:guides issues**.
 
 ## Open follow-ups
 
@@ -67,7 +82,7 @@ The fast-moving 2025-2026 LLM literature produced candidates the discovery agent
 |---|---|---|---|---|
 | capstone | 48/48 | 48/48 | 0% | 100% |
 | multi_paradigm | 49/49 | 49/49 | 0% | 98% |
-| llm_as_coach | 38/38 | 38/38 | 0% | (partially grounded 38/38) |
+| llm_as_coach | 43/43 (post-recovery) | 43/43 | 0% | (partially grounded 43/43) |
 | transfer | 42/42 | 42/42 | 0% | 100% |
 
 0 stale blockers across all four. Verbatim-anchored 0% is expected for a paraphrase-based depth-expansion round (see follow-up #2).

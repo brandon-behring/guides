@@ -67,7 +67,7 @@ Sub-area `A1` of the Research Plan: LLM-as-coach interfaces for technical learni
 - **The Relative Effectiveness of Human Tutoring, Intelligent Tutoring Systems, and Other Tutoring Systems** — VanLehn (2011); *Educational Psychologist 46(4)*. [theory]
   - **Source:** https://doi.org/10.1080/00461520.2011.611369
   - **Code:** —
-  - **Mechanism:** See source.
-  - **Result:** See Mechanism.
+  - **Mechanism:** VanLehn (2011) meta-analysis - ITS effect size d=0.76, human tutoring d=0.79.
+  - **Result:** ITS nearly matches human tutoring effectiveness. Foundational for LLM-tutor expectations.
   - **Status:** Unverified
   - **Evidence:** ev_llm_as_coach_interfaces_0001

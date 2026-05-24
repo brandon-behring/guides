@@ -1,6 +1,6 @@
 # Risks + failure modes (hallucination, sycophancy, illusion of mastery)
 
-Sub-area `A5` of the Research Plan: LLM-as-coach interfaces for technical learning dossier. 7 entries.
+Sub-area `A5` of the Research Plan: LLM-as-coach interfaces for technical learning dossier. 8 entries.
 
 ## A5.1 Sycophancy in Large Language Models: Causes and Mitigations
 
@@ -52,7 +52,17 @@ Sub-area `A5` of the Research Plan: LLM-as-coach interfaces for technical learni
   - **Status:** Unverified
   - **Evidence:** ev_llm_as_coach_interfaces_0023
 
-## A5.6 Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task
+## A5.6 Trust and reliance on AI - An experimental study on the extent and costs of overreliance on AI
+
+- **Trust and reliance on AI - An experimental study on the extent and costs of overreliance on AI** — Klingbeil et al. (2024); *Computers in Human Behavior, 160, 108352*. [risk]
+  - **Source:** https://doi.org/10.1016/j.chb.2024.108352
+  - **Code:** —
+  - **Mechanism:** Incentivized interactive behavioral experiment finding that the mere knowledge that advice is AI-generated causes people to over-rely on it, even when it contradicts available contextual information and their own assessment.
+  - **Result:** Quantifies automation-bias / overtrust costs in a controlled experiment; recovered with first author Artur Klingbeil confirmed (CHB 2024).
+  - **Status:** Unverified
+  - **Evidence:** ev_llm_as_coach_interfaces_0043
+
+## A5.7 Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task
 
 - **Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task** — Kosmyna et al. (2025); *arXiv (MIT Media Lab, 2025)*. [risk]
   - **Source:** https://arxiv.org/abs/2506.08872
@@ -62,7 +72,7 @@ Sub-area `A5` of the Research Plan: LLM-as-coach interfaces for technical learni
   - **Status:** Unverified
   - **Evidence:** ev_llm_as_coach_interfaces_0021
 
-## A5.7 Towards Understanding Sycophancy in Language Models
+## A5.8 Towards Understanding Sycophancy in Language Models
 
 - **Towards Understanding Sycophancy in Language Models** — Sharma et al. (2023); *arXiv (Anthropic, 2023); ICLR 2024*. [risk]
   - **Source:** https://arxiv.org/abs/2310.13548

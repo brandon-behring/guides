@@ -688,3 +688,93 @@ entries:
   - ev_llm_as_coach_interfaces_0038
   cache_ids:
   - cache_98e87f0e44239aef
+- bibkey: sunil2025socraticai
+  primary_url: https://arxiv.org/abs/2512.03501
+  title: 'SocraticAI: Transforming LLMs into Guided CS Tutors Through Scaffolded Interaction'
+  status: unverified
+  claim_family: interface
+  authors: Sunil & Thakkar (2025)
+  venue: arXiv preprint
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0039
+  cache_ids:
+  - cache_fd4b8a1f94c49ad7
+- bibkey: chen2026interactivescaffolding
+  primary_url: https://arxiv.org/abs/2603.07277
+  title: 'From Passive Consumption to Active Interaction: Exploring Interactive LLM Scaffolding to Support Learning Engagement'
+  status: unverified
+  claim_family: interface
+  authors: Chen et al. (2026)
+  venue: arXiv preprint
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: volatile
+  stale_after_days: 30
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0040
+  cache_ids:
+  - cache_21d23b7c18cb29d9
+- bibkey: wu2026chatgptmeta35
+  primary_url: https://doi.org/10.1057/s41599-026-07019-z
+  title: 'ChatGPT''s impact on student learning outcomes: a meta-analysis of 35 experimental studies'
+  status: unverified
+  claim_family: evidence
+  authors: Wu et al. (2026)
+  venue: Humanities and Social Sciences Communications (2026)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: volatile
+  stale_after_days: 30
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0041
+  cache_ids:
+  - cache_e45505c3a6995f63
+- bibkey: shihab2025copilotbrownfield
+  primary_url: https://arxiv.org/abs/2506.10051
+  title: The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Coding Tasks
+  status: unverified
+  claim_family: evidence
+  authors: Shihab et al. (2025)
+  venue: ICER 2025 (ACM)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0042
+  cache_ids:
+  - cache_dfa46733fddaac3e
+- bibkey: klingbeil2024overreliance
+  primary_url: https://doi.org/10.1016/j.chb.2024.108352
+  title: Trust and reliance on AI - An experimental study on the extent and costs of overreliance on AI
+  status: unverified
+  claim_family: risk
+  authors: Klingbeil et al. (2024)
+  venue: Computers in Human Behavior, 160, 108352
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0043
+  cache_ids:
+  - cache_c91b77a843dbc1e5
