@@ -1,0 +1,901 @@
+schema_version: 3
+topic: transfer_evaluation_methods
+generated_at: '2026-05-24'
+current_as_of: '2026-05-24'
+freshness_policy: strict_live
+selections:
+- selection_id: sel_schwartz2005efficiency_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_schwartz2005efficiency
+  cache_id: cache_1a5560f2b30263ad
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_schwartz2005efficiency_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_schwartz2005efficiency
+  cache_id: cache_1a5560f2b30263ad
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_kapur2008productive_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_kapur2008productive
+  cache_id: cache_354796c725d948f4
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_kapur2008productive_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_kapur2008productive
+  cache_id: cache_354796c725d948f4
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_barnett2002when_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_barnett2002when
+  cache_id: cache_3676ca35794db6ec
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 3d1b068245b0c9b9389060d89ffa95c71089f521d77cfd8e3ebf1aa6d43174eb
+    excerpt: '<!DOCTYPE html> <html lang="en" > <head itemscope itemtype="http://schema.org/WebPage" prefix="og: http://ogp.me/ns#" > <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- Mobile properties -'
+- selection_id: sel_barnett2002when_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_barnett2002when
+  cache_id: cache_3676ca35794db6ec
+  span:
+    text_path_offset:
+    - 39244
+    - 39484
+    sha256_of_span: 83d62a309ada2068f6eb9f32bac1454473f23733d718e31d1a540015cfb575dd
+    excerpt: class="action-panel-label"> Which day? </label> <select id="saved-search-weekly-on-day" class="no-border-panel-selector saved-search-weekly-on-day"> <option value="Sunday">Sunday</option>
+- selection_id: sel_detterman1993transfer_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_detterman1993transfer
+  cache_id: cache_633583518b9eccf2
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_detterman1993transfer_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_detterman1993transfer
+  cache_id: cache_633583518b9eccf2
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_bransford2000how_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_bransford2000how
+  cache_id: cache_4c21548bbe2c9f8c
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 4e49b856ea337ea067a32f51512cb980dd14c7301ea9ce3a5fe39c637a8f052b
+    excerpt: '<!DOCTYPE html><html lang="en" class="swup-enabled" style="--vh: 7.2px; --scrollbar-width: 0px; --scrollbar-visible-width: 0px;"><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width,
+      initial-scale'
+- selection_id: sel_bransford2000how_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_bransford2000how
+  cache_id: cache_4c21548bbe2c9f8c
+  span:
+    text_path_offset:
+    - 467999
+    - 468239
+    sha256_of_span: a51e7282f94d7a6ffb9e3dd69cd3c75390b7d283829137b6aa5e0052bc941279
+    excerpt: </span> <span class="f-ui-02 text-primary inline-flex relative"> Food Safety </span> </div> </label> <p class="f-ui-03 mt-1
+- selection_id: sel_thorndike1901influence_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_thorndike1901influence
+  cache_id: cache_c52f1447440dc359
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: f06267d02c99784635512b998f35202c152ec8ea72212924d8eaf151b2f6c9bc
+    excerpt: <html style="height:100%"><head><meta name="ROBOTS" content="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta
+      http-equiv="X-UA-Compatible" content="IE=edge,chrom
+- selection_id: sel_thorndike1901influence_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_thorndike1901influence
+  cache_id: cache_c52f1447440dc359
+  span:
+    text_path_offset:
+    - 276
+    - 516
+    sha256_of_span: 235df45ea3dfd4523f5e2bd8ab2083575e9c12fecba80fe12ba5f38417cc5ed2
+    excerpt: src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3"></script><script src="/a-walkd-An-and-like-oppily-Feasand-peach-ter-bee" async=""></script></head><body style="margin:0px;height:100%"><iframe
+      id="main-iframe" src="/_Inca
+- selection_id: sel_salomon1989rocky_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_salomon1989rocky
+  cache_id: cache_8c7c1b1b310afea8
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 6a959b12597169b29eb59680bcb7ee66422a6b6dbdf5e1f17f50afc052b668d4
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f3304aa5ded71-EWR" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_salomon1989rocky_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_salomon1989rocky
+  cache_id: cache_8c7c1b1b310afea8
+  span:
+    text_path_offset:
+    - 103303
+    - 103543
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_gick1983schema_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_gick1983schema
+  cache_id: cache_2911d7f1ea792132
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_gick1983schema_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_gick1983schema
+  cache_id: cache_2911d7f1ea792132
+  span:
+    text_path_offset:
+    - 865
+    - 1105
+    sha256_of_span: e901186c2db4bc344cf237e01f39b741b8a1fa3369f7132b649150e3c768b226
+    excerpt: language=JavaScript type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url
+      = '/retrieve/'+document.getElementById('resu
+- selection_id: sel_bransford1999rethinking_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_bransford1999rethinking
+  cache_id: cache_9c776c4f5bb87dfb
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_bransford1999rethinking_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_bransford1999rethinking
+  cache_id: cache_9c776c4f5bb87dfb
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_anderson1996situated_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_anderson1996situated
+  cache_id: cache_1a64ca436e97d260
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_anderson1996situated_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_anderson1996situated
+  cache_id: cache_1a64ca436e97d260
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_greeno1997claims_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_greeno1997claims
+  cache_id: cache_d77de0a71f5207cb
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_greeno1997claims_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_greeno1997claims
+  cache_id: cache_d77de0a71f5207cb
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_nokesmalach2013sensemaking_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_nokesmalach2013sensemaking
+  cache_id: cache_6907a0ac4a0fd5a3
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 8ce0396311809d570571ec5bb12681bb8c9e42968ce0bb43a51f33653ebaf38c
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f33581f5ac32c-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_nokesmalach2013sensemaking_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_nokesmalach2013sensemaking
+  cache_id: cache_6907a0ac4a0fd5a3
+  span:
+    text_path_offset:
+    - 102955
+    - 103195
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_nrc2001knowing_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_nrc2001knowing
+  cache_id: cache_1c718c3c2afa09c5
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 4e49b856ea337ea067a32f51512cb980dd14c7301ea9ce3a5fe39c637a8f052b
+    excerpt: '<!DOCTYPE html><html lang="en" class="swup-enabled" style="--vh: 7.2px; --scrollbar-width: 0px; --scrollbar-visible-width: 0px;"><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width,
+      initial-scale'
+- selection_id: sel_nrc2001knowing_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_nrc2001knowing
+  cache_id: cache_1c718c3c2afa09c5
+  span:
+    text_path_offset:
+    - 468428
+    - 468668
+    sha256_of_span: e1eddc4b26f9a68fcb4944bb00f2035c873eb013dec8b9d7d1374fbcd35e9041
+    excerpt: peer-focus-visible:outline-2 peer-focus-visible:outline-offset-1 outline-accent [.s-error_&amp;]:inset-shadow-[0_0px_0px_1px_rgba(229,93,107,1)]" aria-hidden="true"> <svg width="16" height="16"
+      fill="none" class="hidden grou
+- selection_id: sel_mislevy2003structure_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_mislevy2003structure
+  cache_id: cache_84d8b631007e1717
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 3c6d1b66361315dd1e3591aa4e9e2e431566f7ccc4b6450f5157a155490a1d4b
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f339b59b74f0b-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_mislevy2003structure_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_mislevy2003structure
+  cache_id: cache_84d8b631007e1717
+  span:
+    text_path_offset:
+    - 103463
+    - 103703
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_schwartz2004inventing_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_schwartz2004inventing
+  cache_id: cache_2bb1a409cbfeba15
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: bf44bf7892314bebf3b64b602d01ab82cf57f0265fa49f0ad31ca3e3d1e51a9f
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f33b46ecbae12-EWR" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_schwartz2004inventing_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_schwartz2004inventing
+  cache_id: cache_2bb1a409cbfeba15
+  span:
+    text_path_offset:
+    - 106316
+    - 106556
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_sternberg2002dynamic_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_sternberg2002dynamic
+  cache_id: cache_a610de2edfbf697f
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: f06267d02c99784635512b998f35202c152ec8ea72212924d8eaf151b2f6c9bc
+    excerpt: <html style="height:100%"><head><meta name="ROBOTS" content="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta
+      http-equiv="X-UA-Compatible" content="IE=edge,chrom
+- selection_id: sel_sternberg2002dynamic_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_sternberg2002dynamic
+  cache_id: cache_a610de2edfbf697f
+  span:
+    text_path_offset:
+    - 276
+    - 516
+    sha256_of_span: 235df45ea3dfd4523f5e2bd8ab2083575e9c12fecba80fe12ba5f38417cc5ed2
+    excerpt: src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3"></script><script src="/a-walkd-An-and-like-oppily-Feasand-peach-ter-bee" async=""></script></head><body style="margin:0px;height:100%"><iframe
+      id="main-iframe" src="/_Inca
+- selection_id: sel_shepard2000role_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_shepard2000role
+  cache_id: cache_7d246b1766ecd3b5
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_shepard2000role_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_shepard2000role
+  cache_id: cache_7d246b1766ecd3b5
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_wiggins1989truetest_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_wiggins1989truetest
+  cache_id: cache_2e0436e8b163630d
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_wiggins1989truetest_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_wiggins1989truetest
+  cache_id: cache_2e0436e8b163630d
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_gick1980analogical_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_gick1980analogical
+  cache_id: cache_ff8ebcdf970414f6
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_gick1980analogical_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_gick1980analogical
+  cache_id: cache_ff8ebcdf970414f6
+  span:
+    text_path_offset:
+    - 865
+    - 1105
+    sha256_of_span: e901186c2db4bc344cf237e01f39b741b8a1fa3369f7132b649150e3c768b226
+    excerpt: language=JavaScript type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url
+      = '/retrieve/'+document.getElementById('resu
+- selection_id: sel_lave1988cognition_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_lave1988cognition
+  cache_id: cache_9d4369277d015a5b
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: b19bd8a9279b4726cef6181d918f17364ee660987ec01efb72d19a982c2c21e2
+    excerpt: <!DOCTYPE html><html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla
+      multiplebgs backgroundsize borderimage borderradi
+- selection_id: sel_lave1988cognition_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_lave1988cognition
+  cache_id: cache_9d4369277d015a5b
+  span:
+    text_path_offset:
+    - 324545
+    - 324785
+    sha256_of_span: 08d9181a689ceac08c4e173e77ab3ac6e41b7875f5f1e73648d0657a29c903a1
+    excerpt: flips","openExternal":false,"url":"/core/services/open-research-initiatives/open-access-journal-flips"},{"id":"menu_item-2_cat-2_subCat-1_link-1","label":"OA Journal Flip FAQs","openExternal":false,"url":"/core/services/open-research-initia
+- selection_id: sel_melbylervag2016working_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_melbylervag2016working
+  cache_id: cache_1de9db92ab73d622
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_melbylervag2016working_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_melbylervag2016working
+  cache_id: cache_1de9db92ab73d622
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_sala2018video_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_sala2018video
+  cache_id: cache_b36c5faadca1cd94
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: f06267d02c99784635512b998f35202c152ec8ea72212924d8eaf151b2f6c9bc
+    excerpt: <html style="height:100%"><head><meta name="ROBOTS" content="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta
+      http-equiv="X-UA-Compatible" content="IE=edge,chrom
+- selection_id: sel_sala2018video_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_sala2018video
+  cache_id: cache_b36c5faadca1cd94
+  span:
+    text_path_offset:
+    - 276
+    - 516
+    sha256_of_span: 235df45ea3dfd4523f5e2bd8ab2083575e9c12fecba80fe12ba5f38417cc5ed2
+    excerpt: src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3"></script><script src="/a-walkd-An-and-like-oppily-Feasand-peach-ter-bee" async=""></script></head><body style="margin:0px;height:100%"><iframe
+      id="main-iframe" src="/_Inca
+- selection_id: sel_gobet2023cognitive_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_gobet2023cognitive
+  cache_id: cache_5917bac8abc741de
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_gobet2023cognitive_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_gobet2023cognitive
+  cache_id: cache_5917bac8abc741de
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_day2012import_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_day2012import
+  cache_id: cache_693a51ab3c36cab2
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 810faee910b305b32ecd3ea8eb4d4df72744c3c4979c68f410f6d484df320816
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f347259d9c13a-EWR" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_day2012import_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_day2012import
+  cache_id: cache_693a51ab3c36cab2
+  span:
+    text_path_offset:
+    - 107866
+    - 108106
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_fong1986statistical_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_fong1986statistical
+  cache_id: cache_9d644785af75b834
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_fong1986statistical_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_fong1986statistical
+  cache_id: cache_9d644785af75b834
+  span:
+    text_path_offset:
+    - 885
+    - 1125
+    sha256_of_span: a078bc322c9f34c14ce0830abe38c04c33eb126f830da1cd0bd8f9f176c9256c
+    excerpt: type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url = '/retrieve/'+document.getElementById('resultName').value+'?Red
+- selection_id: sel_soloway1984empirical_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_soloway1984empirical
+  cache_id: cache_961211488909606b
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: a6f6fd446fd7ca8b2872104556162f9a73d25ff337c78ca6dcb030dd1663e78a
+    excerpt: <!DOCTYPE html> <APM_DO_NOT_TOUCH> <script type="text/javascript"> (function(){ window.Nxn=!!window.Nxn;try{(function(){(function(){})();var ol=42;try{var Ol,sl,_l=L(752)?0:1,Il=L(994)?0:1,lL
+- selection_id: sel_soloway1984empirical_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_soloway1984empirical
+  cache_id: cache_961211488909606b
+  span:
+    text_path_offset:
+    - 14958
+    - 15198
+    sha256_of_span: e5a57cc0d884c3b8a736896908e1ed8e6f912210e110f828ec289a2bb0d3cbaf
+    excerpt: IEEE","rightsLink":"http://s100.copyright.com/AppDispatchServlet?publisherName=ieee&publication=32&title=Empirical+Studies+of+Programming+Knowledge&isbn=&publicationDate=September+1984&author=Elliot+Soloway&ContentID=10.1109/TSE.1984.501028
+- selection_id: sel_shrestha2018python_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_shrestha2018python
+  cache_id: cache_68b332b761569f69
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: af532b90d833a660a50f81a6400618c978b5c9a6887aa475d4fb6bb5e76d0813
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[1808.09008] It&#39;s Like Python But: Towards Supporting Transfer of Programming Language Knowledge</title> <meta name="viewport" content="width=device-width,
+      initial-scale=1"> <link rel'
+- selection_id: sel_shrestha2018python_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_shrestha2018python
+  cache_id: cache_68b332b761569f69
+  span:
+    text_path_offset:
+    - 15833
+    - 16073
+    sha256_of_span: 47929917d5d4dafdbf9d60cf981fab5d8a6efd838df500e0cfe983d0d91247b1
+    excerpt: resources typically target programmers who are learning programming for the first time, or expert programmers for that language. An underrepresented, yet important group of programmers are
+      those that are experienced in one programming langu
+- selection_id: sel_shrestha2020hereweagain_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_shrestha2020hereweagain
+  cache_id: cache_64539e0f86c2c566
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: d7fa5a509c34c1b268813da929453fc6c47bc08a6b2eafb73ca71e6c193f3601
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f349376e0d9fb-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_shrestha2020hereweagain_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_shrestha2020hereweagain
+  cache_id: cache_64539e0f86c2c566
+  span:
+    text_path_offset:
+    - 118842
+    - 119082
+    sha256_of_span: efa0415f34bfe3735baecf329c83cc91bae28ab163a81a28986ed6b839b6bc03
+    excerpt: 'class="CybotCookiebotDialogDetailBodyContentCookieInfoFooter"><span class="CybotCookiebotDialogDetailBodyContentCookieInfoFooterContent"><b>Maximum Storage Duration</b>: Persistent</span><span
+      class="CybotCookiebotDialogDetailBodyContentCoo'
+- selection_id: sel_kao2022onelanguage_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_kao2022onelanguage
+  cache_id: cache_ac542ef43926c599
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 75f515e619a90e49238cf2e8541da3ff914a6096039d52917e6409565584b6e8
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f34b4b131c354-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_kao2022onelanguage_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_kao2022onelanguage
+  cache_id: cache_ac542ef43926c599
+  span:
+    text_path_offset:
+    - 190528
+    - 190768
+    sha256_of_span: 16604ae7b334156b624c556f3be72325025de35fa40d11fe5bd7ef317bdfb88d
+    excerpt: closeBtn.addEventListener('click', closeModal); // Auto-open modal on page load (only if under display limit) window.addEventListener('DOMContentLoaded', function() { if (shouldDisplayModal())
+      {
+- selection_id: sel_li2024transfer_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_li2024transfer
+  cache_id: cache_fc64ccc6ae645a04
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 87a8b96d8790e217e9da4b45d997f83bfaf75cf6ddd22f3f8ea26d573376dda0
+    excerpt: <!DOCTYPE html><html lang="en" class="js"><head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="applicable-device" content="pc,mobile"> <meta name="viewport"
+      content=
+- selection_id: sel_li2024transfer_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_li2024transfer
+  cache_id: cache_fc64ccc6ae645a04
+  span:
+    text_path_offset:
+    - 346961
+    - 347201
+    sha256_of_span: baaef51b846eb2f7391f25275536257224d431530d2b02fa2de278db28e5a67a
+    excerpt: Gouvea, E. J., Gravel, B. E., Beachemin, P. H., &amp; Atherton, T. J. (2023). Physicality, modeling, and agency in a computational physics class. Physical Review Physics Education Research,
+      19(1), 010121. https://doi.org/
+- selection_id: sel_rohrer2007shuffling_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_rohrer2007shuffling
+  cache_id: cache_4ec73f8ca84556fd
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 87a8b96d8790e217e9da4b45d997f83bfaf75cf6ddd22f3f8ea26d573376dda0
+    excerpt: <!DOCTYPE html><html lang="en" class="js"><head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="applicable-device" content="pc,mobile"> <meta name="viewport"
+      content=
+- selection_id: sel_rohrer2007shuffling_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_rohrer2007shuffling
+  cache_id: cache_4ec73f8ca84556fd
+  span:
+    text_path_offset:
+    - 127087
+    - 127327
+    sha256_of_span: 787f1eb3af89a069689a09524aac5448adff080c9607631cc88e1a77a3978679
+    excerpt: id="icon-eds-i-citations-medium" viewBox="0 0 24 24"><path d="M15.59 1a1 1 0 0 1 .706.291l5.41 5.385a1 1 0 0 1 .294.709v13.077c0 .674-.269 1.32-.747 1.796a2.55 2.55 0 0 1-1.798.742h-5.843a1
+      1 0 1 1 0-2h5.843a.55.55 0 0 0 .387-.16.54.54 0 0
+- selection_id: sel_rohrer2012interleaving_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_rohrer2012interleaving
+  cache_id: cache_7ebb695b8ae71dc8
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 87a8b96d8790e217e9da4b45d997f83bfaf75cf6ddd22f3f8ea26d573376dda0
+    excerpt: <!DOCTYPE html><html lang="en" class="js"><head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="applicable-device" content="pc,mobile"> <meta name="viewport"
+      content=
+- selection_id: sel_rohrer2012interleaving_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_rohrer2012interleaving
+  cache_id: cache_7ebb695b8ae71dc8
+  span:
+    text_path_offset:
+    - 127776
+    - 128016
+    sha256_of_span: d2a8d2a723cdb1ce1da64b3e3bd1a70f954179b601febae5fc4121ad9df18948
+    excerpt: 2.5H8a1 1 0 0 1 0-2h11.5a.5.5 0 0 0 .5-.5V8a1 1 0 0 1 1-1m-5.5-5A2.5 2.5 0 0 1 18 4.5v12a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 2 16.5v-12A2.5 2.5 0 0 1 4.5 2zm0 2h-11a.5.5 0 0 0-.5.5v12a.5.5
+      0 0 0 .5.5h11a.5.5 0 0 0 .5-.5v-12a.5.5 0 0 0-.
+- selection_id: sel_roediger2006testenhanced_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_roediger2006testenhanced
+  cache_id: cache_14ec9f46267ee84a
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_roediger2006testenhanced_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_roediger2006testenhanced
+  cache_id: cache_14ec9f46267ee84a
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_gentner2003analogical_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_gentner2003analogical
+  cache_id: cache_f091255b3d82dd41
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: f06267d02c99784635512b998f35202c152ec8ea72212924d8eaf151b2f6c9bc
+    excerpt: <html style="height:100%"><head><meta name="ROBOTS" content="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta
+      http-equiv="X-UA-Compatible" content="IE=edge,chrom
+- selection_id: sel_gentner2003analogical_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_gentner2003analogical
+  cache_id: cache_f091255b3d82dd41
+  span:
+    text_path_offset:
+    - 276
+    - 516
+    sha256_of_span: 235df45ea3dfd4523f5e2bd8ab2083575e9c12fecba80fe12ba5f38417cc5ed2
+    excerpt: src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3"></script><script src="/a-walkd-An-and-like-oppily-Feasand-peach-ter-bee" async=""></script></head><body style="margin:0px;height:100%"><iframe
+      id="main-iframe" src="/_Inca
+- selection_id: sel_chi1989selfexplanations_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_chi1989selfexplanations
+  cache_id: cache_5e2e31e82589cac9
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_chi1989selfexplanations_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_chi1989selfexplanations
+  cache_id: cache_5e2e31e82589cac9
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_renkl2003fading_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_renkl2003fading
+  cache_id: cache_7e3d4f03dd8134d1
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: e1dc61122629790567bb4bfc9cb0505d1783a980700c872784ef6629ec935400
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f359dab3c30f5-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_renkl2003fading_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_renkl2003fading
+  cache_id: cache_7e3d4f03dd8134d1
+  span:
+    text_path_offset:
+    - 103533
+    - 103773
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_schwartz1998timetelling_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_schwartz1998timetelling
+  cache_id: cache_32db89105f5ae714
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 71bcecdc0abde4b74479a9bf73e246febc1c0b4291d5bb7963e8cd677705f086
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f35b4f94541e6-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_schwartz1998timetelling_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_schwartz1998timetelling
+  cache_id: cache_32db89105f5ae714
+  span:
+    text_path_offset:
+    - 102759
+    - 102999
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_bjork2013selfregulated_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_bjork2013selfregulated
+  cache_id: cache_8e50dd2b799f1637
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 8c9e8369468ccad58bc3dbd3089c749f45d73dd5927351270c93e839a64c9dac
+    excerpt: <!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class=" pb-page js no-touch cssanimations csstransitions" id="mainTemplate" style=""><!--<![endif]--><head>
+      <meta charset="utf-8"> <meta http-equiv="X-UA-Comp
+- selection_id: sel_bjork2013selfregulated_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_bjork2013selfregulated
+  cache_id: cache_8e50dd2b799f1637
+  span:
+    text_path_offset:
+    - 67301
+    - 67541
+    sha256_of_span: 775f91882b46482f8dfbdb4ac4363412a443104063b98ebc53c90fa51ecc4262
+    excerpt: class="shr-share-button-verb" style="color:#fff!important"> Share </span> </div> </div> </li> <li data-service="twitter" class="shareaholic-share-button" style=
+- selection_id: sel_messick1995validity_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_messick1995validity
+  cache_id: cache_404e944132b4ae19
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: f06267d02c99784635512b998f35202c152ec8ea72212924d8eaf151b2f6c9bc
+    excerpt: <html style="height:100%"><head><meta name="ROBOTS" content="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta
+      http-equiv="X-UA-Compatible" content="IE=edge,chrom
+- selection_id: sel_messick1995validity_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_messick1995validity
+  cache_id: cache_404e944132b4ae19
+  span:
+    text_path_offset:
+    - 276
+    - 516
+    sha256_of_span: 235df45ea3dfd4523f5e2bd8ab2083575e9c12fecba80fe12ba5f38417cc5ed2
+    excerpt: src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3"></script><script src="/a-walkd-An-and-like-oppily-Feasand-peach-ter-bee" async=""></script></head><body style="margin:0px;height:100%"><iframe
+      id="main-iframe" src="/_Inca
+- selection_id: sel_kane2013validating_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_kane2013validating
+  cache_id: cache_027d47545942d597
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_kane2013validating_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_kane2013validating
+  cache_id: cache_027d47545942d597
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_shavelson1993sampling_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_shavelson1993sampling
+  cache_id: cache_38a776b420c7559f
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_shavelson1993sampling_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_shavelson1993sampling
+  cache_id: cache_38a776b420c7559f
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_frederiksen1989systems_identifies
+  bullet_id: B1
+  atom_id: claim_transfer_evaluation_methods_b1_a1_identifies_frederiksen1989systems
+  cache_id: cache_f45f179858bd9790
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_frederiksen1989systems_mechanism
+  bullet_id: B3
+  atom_id: claim_transfer_evaluation_methods_b3_a1_mechanism_frederiksen1989systems
+  cache_id: cache_f45f179858bd9790
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'

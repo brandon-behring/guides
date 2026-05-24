@@ -1,26 +1,27 @@
 schema_version: 2
 topic: multi_paradigm_presentation
 generated_at: 2026-05-23
-current_as_of: 2026-05-23
+current_as_of: '2026-05-24'
 freshness_policy: strict_live
-
 entries:
 - bibkey: cast2018udl
   primary_url: https://udlguidelines.cast.org/static/udlg2.2-text-a11y.pdf
-  title: 'Universal Design for Learning Guidelines version 2.2'
+  title: Universal Design for Learning Guidelines version 2.2
   status: unverified
   claim_family: principle
   authors: CAST (2018)
   venue: CAST (Center for Applied Special Technology)
   retrieved_at: 2026-05-23
-  verified_at:
+  verified_at: null
   verification_method: webfetch
-  verified_fields: [primary_url]
+  verified_fields:
+  - primary_url
   freshness_tier: historical
   stale_after_days: 1825
-  evidence_ids: [ev_multi_paradigm_presentation_0001]
-  cache_ids: [cache_02f490511fe7c4bb]
-
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0001
+  cache_ids:
+  - cache_02f490511fe7c4bb
 - bibkey: paivio1991dual
   primary_url: https://files.eric.ed.gov/fulltext/ED476972.pdf
   title: 'Dual coding theory: Retrospect and current status'
@@ -29,26 +30,859 @@ entries:
   authors: Paivio (1991)
   venue: Canadian Journal of Psychology 45(3)
   retrieved_at: 2026-05-23
-  verified_at:
+  verified_at: null
   verification_method: webfetch
-  verified_fields: [primary_url]
+  verified_fields:
+  - primary_url
   freshness_tier: historical
   stale_after_days: 1825
-  evidence_ids: [ev_multi_paradigm_presentation_0002]
-  cache_ids: [cache_0be955fe68a5ed41]
-
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0002
+  cache_ids:
+  - cache_0be955fe68a5ed41
 - bibkey: mayer2014cambridge
   primary_url: https://www.cambridge.org/core/books/cambridge-handbook-of-multimedia-learning/09E09224829AB8D3D327EF8A0E9B5288
-  title: 'The Cambridge Handbook of Multimedia Learning'
+  title: The Cambridge Handbook of Multimedia Learning
   status: unverified
   claim_family: principle
   authors: Mayer (ed.) (2014 — 2nd ed.; 3rd ed. 2022)
   venue: Cambridge University Press
   retrieved_at: 2026-05-23
-  verified_at:
+  verified_at: null
   verification_method: webfetch
-  verified_fields: [primary_url]
+  verified_fields:
+  - primary_url
   freshness_tier: historical
   stale_after_days: 1825
-  evidence_ids: [ev_multi_paradigm_presentation_0003]
-  cache_ids: [cache_69bf2f42ed9de220]
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0003
+  cache_ids:
+  - cache_69bf2f42ed9de220
+- bibkey: meyer2014universal
+  primary_url: https://www.cast.org/books-media/universal-design-for-learning-meyer-rose-gordon/
+  title: 'Universal Design for Learning: Theory and Practice'
+  status: unverified
+  claim_family: theory
+  authors: Meyer, Rose & Gordon (2014)
+  venue: CAST Professional Publishing
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0004
+  cache_ids:
+  - cache_e2484ac94a360ab7
+- bibkey: rose2006universal
+  primary_url: https://files.eric.ed.gov/fulltext/EJ844630.pdf
+  title: 'Universal Design for Learning in Postsecondary Education: Reflections on Principles and their Application'
+  status: unverified
+  claim_family: domain_application
+  authors: Rose, Harbour, Johnston, Daley & Abarbanell (2006)
+  venue: Journal of Postsecondary Education and Disability
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0005
+  cache_ids:
+  - cache_f2a87e5b20201294
+- bibkey: capp2017effectiveness
+  primary_url: https://doi.org/10.1080/13603116.2017.1325074
+  title: 'The effectiveness of universal design for learning: a meta-analysis of literature between 2013 and 2016'
+  status: unverified
+  claim_family: evidence
+  authors: Capp (2017)
+  venue: International Journal of Inclusive Education, 21(8)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0006
+  cache_ids:
+  - cache_192bf98906e0a9b0
+- bibkey: alazawei2016universal
+  primary_url: https://eric.ed.gov/?id=EJ1104867
+  title: 'Universal Design for Learning (UDL): A Content Analysis of Peer-Reviewed Journal Papers from 2012 to 2015'
+  status: unverified
+  claim_family: evidence
+  authors: Al-Azawei, Serenelli & Lundqvist (2016)
+  venue: Journal of the Scholarship of Teaching and Learning, 16(3)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0007
+  cache_ids:
+  - cache_2d300efa5a7204d4
+- bibkey: cast2024guidelines3
+  primary_url: https://udlguidelines.cast.org/more/about-guidelines-3-0/
+  title: About the UDL Guidelines 3.0 Update
+  status: unverified
+  claim_family: principle
+  authors: CAST (2024)
+  venue: CAST (July 2024)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0008
+  cache_ids:
+  - cache_34950c562670ec25
+- bibkey: mngo2023effectiveness
+  primary_url: https://www.tandfonline.com/doi/full/10.1080/2331186X.2023.2218191
+  title: 'The effectiveness of universal design for learning: a systematic review of the literature and meta-analysis'
+  status: unverified
+  claim_family: evidence
+  authors: Mngo et al. (2023)
+  venue: Cogent Education, 10(1)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0009
+  cache_ids:
+  - cache_0fb80383177fa5c6
+- bibkey: tlili2025transforming
+  primary_url: https://www.tandfonline.com/doi/full/10.1080/13562517.2025.2465994
+  title: 'Transforming higher education: a systematic review of faculty training in UDL and its benefits'
+  status: unverified
+  claim_family: domain_application
+  authors: Tlili et al. (2025)
+  venue: Teaching in Higher Education (2025)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0010
+  cache_ids:
+  - cache_bfc679e11ec1a60a
+- bibkey: w3c2023wcag22
+  primary_url: https://www.w3.org/TR/WCAG22/
+  title: Web Content Accessibility Guidelines (WCAG) 2.2
+  status: unverified
+  claim_family: accessibility
+  authors: W3C (2023)
+  venue: W3C Recommendation (5 October 2023)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0011
+  cache_ids:
+  - cache_6e3c5fe397257cae
+- bibkey: w3c2024wcag3
+  primary_url: https://www.w3.org/TR/wcag-3.0/
+  title: W3C Accessibility Guidelines (WCAG) 3.0
+  status: unverified
+  claim_family: accessibility
+  authors: W3C (2024)
+  venue: W3C Working Draft (Silver)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0012
+  cache_ids:
+  - cache_c7060db15aa1a575
+- bibkey: wong2011points
+  primary_url: https://doi.org/10.1038/nmeth.1618
+  title: 'Points of view: Color blindness'
+  status: unverified
+  claim_family: accessibility
+  authors: Wong (2011)
+  venue: Nature Methods, 8(6), 441
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0013
+  cache_ids:
+  - cache_a2d38116076fe40e
+- bibkey: harrower2003colorbrewer
+  primary_url: https://doi.org/10.1559/152304003100010929
+  title: 'ColorBrewer.org: An Online Tool for Selecting Colour Schemes for Maps'
+  status: unverified
+  claim_family: accessibility
+  authors: Harrower & Brewer (2003)
+  venue: Cartographic Journal, 40(1)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0014
+  cache_ids:
+  - cache_631ecf8982ee79c6
+- bibkey: rello2013good
+  primary_url: https://doi.org/10.1145/2513383.2513447
+  title: Good fonts for dyslexia
+  status: unverified
+  claim_family: accessibility
+  authors: Rello & Baeza-Yates (2013)
+  venue: ASSETS 2013 (15th ACM SIGACCESS Conf. on Computers and Accessibility)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0015
+  cache_ids:
+  - cache_62846a82bbfc1a43
+- bibkey: zorzi2012extra
+  primary_url: https://doi.org/10.1073/pnas.1205566109
+  title: Extra-large letter spacing improves reading in dyslexia
+  status: unverified
+  claim_family: accessibility
+  authors: Zorzi et al. (2012)
+  venue: Proceedings of the National Academy of Sciences, 109(28)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0016
+  cache_ids:
+  - cache_df6a06fab2254785
+- bibkey: galuschka2020interletter
+  primary_url: https://doi.org/10.1007/s11881-020-00194-x
+  title: 'Inter-letter spacing, inter-word spacing, and font with dyslexia-friendly features: testing text readability in people with and without dyslexia'
+  status: unverified
+  claim_family: evidence
+  authors: Galuschka et al. (2020)
+  venue: Annals of Dyslexia, 70
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0017
+  cache_ids:
+  - cache_725d772a6af7114c
+- bibkey: soiffer2005mathplayer
+  primary_url: https://doi.org/10.1145/1090785.1090831
+  title: 'MathPlayer: web-based math accessibility'
+  status: unverified
+  claim_family: tooling
+  authors: Soiffer (2005)
+  venue: ASSETS 2005 (7th International ACM SIGACCESS Conf.)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0018
+  cache_ids:
+  - cache_cbd8a0ecb5e6b8a0
+- bibkey: mathjax2024accessibility
+  primary_url: https://docs.mathjax.org/en/latest/basic/accessibility.html
+  title: MathJax 4.0 Accessibility Features
+  status: unverified
+  claim_family: tooling
+  authors: MathJax Consortium (2024)
+  venue: MathJax 4.0 Documentation
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0019
+  cache_ids:
+  - cache_7d8b0ac0615762d6
+- bibkey: mayer2003ninewaysreduce
+  primary_url: https://doi.org/10.1207/S15326985EP3801_6
+  title: Nine Ways to Reduce Cognitive Load in Multimedia Learning
+  status: unverified
+  claim_family: principle
+  authors: Mayer & Moreno (2003)
+  venue: Educational Psychologist, 38(1), 43-52
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0020
+  cache_ids:
+  - cache_0664624b8f7bf51d
+- bibkey: moreno1999cognitiveprinciples
+  primary_url: https://doi.org/10.1037/0022-0663.91.2.358
+  title: 'Cognitive Principles of Multimedia Learning: The Role of Modality and Contiguity'
+  status: unverified
+  claim_family: evidence
+  authors: Moreno & Mayer (1999)
+  venue: Journal of Educational Psychology, 91(2), 358-368
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0021
+  cache_ids:
+  - cache_fdd90f405672f42c
+- bibkey: sweller2019cognitivearchitecture
+  primary_url: https://doi.org/10.1007/s10648-019-09465-5
+  title: 'Cognitive Architecture and Instructional Design: 20 Years Later'
+  status: unverified
+  claim_family: theory
+  authors: Sweller, van Merrienboer & Paas (2019)
+  venue: Educational Psychology Review, 31(2), 261-292
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0022
+  cache_ids:
+  - cache_3683b276532dcbdb
+- bibkey: paas2020cognitiveload
+  primary_url: https://doi.org/10.1177/0963721420922183
+  title: 'Cognitive-Load Theory: Methods to Manage Working Memory Load in the Learning of Complex Tasks'
+  status: unverified
+  claim_family: principle
+  authors: Paas & van Merrienboer (2020)
+  venue: Current Directions in Psychological Science, 29(4), 394-398
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0023
+  cache_ids:
+  - cache_a8f6b980108e49f0
+- bibkey: kalyuga2003expertisereversal
+  primary_url: https://doi.org/10.1207/S15326985EP3801_4
+  title: The Expertise Reversal Effect
+  status: unverified
+  claim_family: principle
+  authors: Kalyuga, Ayres, Chandler & Sweller (2003)
+  venue: Educational Psychologist, 38(1), 23-31
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0024
+  cache_ids:
+  - cache_f8075f3ac5d9cd42
+- bibkey: rey2019segmentingmetaanalysis
+  primary_url: https://doi.org/10.1007/s10648-018-9456-4
+  title: A Meta-analysis of the Segmenting Effect
+  status: unverified
+  claim_family: evidence
+  authors: Rey et al. (2019)
+  venue: Educational Psychology Review, 31(2), 389-419
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0025
+  cache_ids:
+  - cache_2bf137261978ed8f
+- bibkey: schneider2018signalingmeta
+  primary_url: https://doi.org/10.1016/j.edurev.2017.11.001
+  title: A meta-analysis of how signaling affects learning with media
+  status: unverified
+  claim_family: evidence
+  authors: Schneider, Beege, Nebel & Rey (2018)
+  venue: Educational Research Review, 23, 1-24
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0026
+  cache_ids:
+  - cache_9ea204110053d472
+- bibkey: ginns2005modalitymetaanalysis
+  primary_url: https://doi.org/10.1016/j.learninstruc.2005.07.001
+  title: Meta-analysis of the modality effect
+  status: unverified
+  claim_family: evidence
+  authors: Ginns (2005)
+  venue: Learning and Instruction, 15(4), 313-331
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0027
+  cache_ids:
+  - cache_11f1af1649b4d181
+- bibkey: schwartz1998timefortelling
+  primary_url: https://doi.org/10.1207/s1532690xci1604_4
+  title: A Time for Telling
+  status: unverified
+  claim_family: theory
+  authors: Schwartz & Bransford (1998)
+  venue: Cognition and Instruction, 16(4), 475-522
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0028
+  cache_ids:
+  - cache_9a8b2e49d38e317d
+- bibkey: schwartz2004inventingfuturelearning
+  primary_url: https://doi.org/10.1207/s1532690xci2202_1
+  title: 'Inventing to Prepare for Future Learning: The Hidden Efficiency of Encouraging Original Student Production in Statistics Instruction'
+  status: unverified
+  claim_family: evidence
+  authors: Schwartz & Martin (2004)
+  venue: Cognition and Instruction, 22(2), 129-184
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0029
+  cache_ids:
+  - cache_5d6d98f858d6e3e5
+- bibkey: kapur2008productivefailure
+  primary_url: https://doi.org/10.1080/07370000802212669
+  title: Productive Failure
+  status: unverified
+  claim_family: theory
+  authors: Kapur (2008)
+  venue: Cognition and Instruction, 26(3), 379-424
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0030
+  cache_ids:
+  - cache_7fb5be7818c4d0f9
+- bibkey: kapur2012designingproductivefailure
+  primary_url: https://doi.org/10.1080/10508406.2011.591717
+  title: Designing for Productive Failure
+  status: unverified
+  claim_family: principle
+  authors: Kapur & Bielaczyc (2012)
+  venue: Journal of the Learning Sciences, 21(1), 45-83
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0031
+  cache_ids:
+  - cache_5b5730c54ea90235
+- bibkey: sinha2021problemsolvingmetaanalysis
+  primary_url: https://doi.org/10.3102/00346543211019105
+  title: 'When Problem Solving Followed by Instruction Works: Evidence for Productive Failure'
+  status: unverified
+  claim_family: evidence
+  authors: Sinha & Kapur (2021)
+  venue: Review of Educational Research, 91(5), 761-798
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0032
+  cache_ids:
+  - cache_f08b76190a6b47f9
+- bibkey: loibl2017towardstheory
+  primary_url: https://doi.org/10.1007/s10648-017-9398-2
+  title: Towards a Theory of When and How Problem Solving Followed by Instruction Supports Learning
+  status: unverified
+  claim_family: theory
+  authors: Loibl, Roll & Rummel (2017)
+  venue: Educational Psychology Review, 29(4), 693-715
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0033
+  cache_ids:
+  - cache_9fb1c3c03b86b7a2
+- bibkey: loibl2014knowingwhatyoudontknow
+  primary_url: https://doi.org/10.1016/j.learninstruc.2014.08.004
+  title: Knowing what you don't know makes failure productive
+  status: unverified
+  claim_family: evidence
+  authors: Loibl & Rummel (2014)
+  venue: Learning and Instruction, 34, 74-85
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0034
+  cache_ids:
+  - cache_effe961e558bbe2f
+- bibkey: ebner2025craetametaanalysis
+  primary_url: https://doi.org/10.1177/09388982241292299
+  title: A Meta-Analytic Review of the Concrete-Representational-Abstract Math Approach
+  status: unverified
+  claim_family: evidence
+  authors: Ebner, MacDonald, Grekov & Aspiranti (2025)
+  venue: Learning Disability Quarterly (online 2025)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0035
+  cache_ids:
+  - cache_67cd436026a46c6b
+- bibkey: clark1991dual
+  primary_url: https://doi.org/10.1007/BF01320076
+  title: Dual Coding Theory and Education
+  status: unverified
+  claim_family: theory
+  authors: Clark & Paivio (1991)
+  venue: Educational Psychology Review, 3(3), 149-210
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0036
+  cache_ids:
+  - cache_16e70b5432fdefeb
+- bibkey: sadoski2013imagery
+  primary_url: https://www.routledge.com/Imagery-and-Text-A-Dual-Coding-Theory-of-Reading-and-Writing/Sadoski-Paivio/p/book/9780415898485
+  title: 'Imagery and Text: A Dual Coding Theory of Reading and Writing (2nd ed.)'
+  status: unverified
+  claim_family: theory
+  authors: Sadoski & Paivio (2013)
+  venue: Routledge (2nd ed., orig. 2001)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0037
+  cache_ids:
+  - cache_bc410eca8b0bef96
+- bibkey: paivio2007mind
+  primary_url: https://www.routledge.com/Mind-and-Its-Evolution-A-Dual-Coding-Theoretical-Approach/Paivio/p/book/9780805852608
+  title: 'Mind and Its Evolution: A Dual Coding Theoretical Approach'
+  status: unverified
+  claim_family: theory
+  authors: Paivio (2007)
+  venue: Lawrence Erlbaum Associates
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0038
+  cache_ids:
+  - cache_e89abc55ad7e1613
+- bibkey: carney2002pictorial
+  primary_url: https://doi.org/10.1023/A:1013176309260
+  title: Pictorial Illustrations Still Improve Students' Learning from Text
+  status: unverified
+  claim_family: evidence
+  authors: Carney & Levin (2002)
+  venue: Educational Psychology Review, 14(1), 5-26
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0039
+  cache_ids:
+  - cache_2d49cb6a7f6267e4
+- bibkey: higdon2025distinctiveness
+  primary_url: https://doi.org/10.1177/17470218241235520
+  title: Distinctiveness, not dual coding, explains the picture-superiority effect
+  status: unverified
+  claim_family: evidence
+  authors: Higdon, Neath, Surprenant & Ensor (2025)
+  venue: Quarterly Journal of Experimental Psychology (2025)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0040
+  cache_ids:
+  - cache_5349d62575f3665e
+- bibkey: ensor2019distinctiveness
+  primary_url: https://doi.org/10.3758/s13421-018-0858-9
+  title: 'Increasing word distinctiveness eliminates the picture superiority effect in recognition: Evidence for the physical-distinctiveness account'
+  status: unverified
+  claim_family: evidence
+  authors: Ensor, Surprenant & Neath (2019)
+  venue: Memory & Cognition, 47, 182-193
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0041
+  cache_ids:
+  - cache_f90dae7cd115bdd1
+- bibkey: sentance2017primm
+  primary_url: https://kclpure.kcl.ac.uk/portal/en/publications/primm-exploring-pedagogical-approaches-for-teaching-text-based-pr
+  title: 'PRIMM: Exploring pedagogical approaches for teaching text-based programming in school'
+  status: unverified
+  claim_family: principle
+  authors: Sentance, Waite & Kallia (2017)
+  venue: WiPSCE 2017 (12th Workshop in Primary and Secondary Computing Education)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0042
+  cache_ids:
+  - cache_9d80edc521d09fdf
+- bibkey: sentance2019teachers
+  primary_url: https://doi.org/10.1145/3287324.3287477
+  title: Teachers' Experiences of using PRIMM to Teach Programming in School
+  status: unverified
+  claim_family: evidence
+  authors: Sentance & Waite (2019)
+  venue: SIGCSE 2019 (50th ACM Technical Symposium on CS Education)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0043
+  cache_ids:
+  - cache_e92bcde60c79c5c3
+- bibkey: lee2011usemodifycreate
+  primary_url: https://par.nsf.gov/servlets/purl/10122993
+  title: Computational thinking for youth in practice
+  status: unverified
+  claim_family: principle
+  authors: Lee, Martin, Denner, Coulter, Allan, Erickson, Malyn-Smith & Werner (2011)
+  venue: ACM Inroads, 2(1), 32-37
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0044
+  cache_ids:
+  - cache_ebf05e7648106476
+- bibkey: margulieux2012subgoal
+  primary_url: https://scholarworks.gsu.edu/ltd_facpub/33/
+  title: Subgoal-Labeled Instructional Material Improves Performance and Transfer in Learning to Develop Mobile Applications
+  status: unverified
+  claim_family: evidence
+  authors: Margulieux, Guzdial & Catrambone (2012)
+  venue: ICER 2012 (9th Annual ACM ICER), 71-78
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0045
+  cache_ids:
+  - cache_e11ae5be7bf2599a
+- bibkey: morrison2016subgoals
+  primary_url: https://dl.acm.org/doi/10.1145/2960310.2960322
+  title: Subgoals, Context, and Worked Examples in Learning Computing Problem Solving
+  status: unverified
+  claim_family: evidence
+  authors: Morrison, Margulieux, Ericson & Guzdial (2016)
+  venue: ICER 2016 (12th ACM ICER), 21-29
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0046
+  cache_ids:
+  - cache_272830c71c924c6a
+- bibkey: raj2018livecoding
+  primary_url: https://doi.org/10.1145/3279720.3279725
+  title: Role of Live-coding in Learning Introductory Programming
+  status: unverified
+  claim_family: evidence
+  authors: Raj, Patel, Halverson & Halverson (2018)
+  venue: Koli Calling 2018 (18th International Conf. on Computing Education Research)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0047
+  cache_ids:
+  - cache_909c5ab54015c7aa
+- bibkey: kluyver2016jupyter
+  primary_url: https://eprints.soton.ac.uk/403913/1/STAL9781614996491-0087.pdf
+  title: Jupyter Notebooks - a publishing format for reproducible computational workflows
+  status: unverified
+  claim_family: tooling
+  authors: Kluyver, Ragan-Kelley, Perez, Granger et al. (2016)
+  venue: Positioning and Power in Academic Publishing (IOS Press), 87-90
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0048
+  cache_ids:
+  - cache_1c5809aa6fd178d6
+- bibkey: victor2011explorable
+  primary_url: http://worrydream.com/ExplorableExplanations/
+  title: Explorable Explanations
+  status: unverified
+  claim_family: tooling
+  authors: Victor (2011)
+  venue: Bret Victor essay (worrydream.com)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_multi_paradigm_presentation_0049
+  cache_ids:
+  - cache_7c434b30d70366ea

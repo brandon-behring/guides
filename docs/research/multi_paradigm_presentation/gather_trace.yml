@@ -1,34 +1,594 @@
 schema_version: 3
 topic: multi_paradigm_presentation
 generated_at: 2026-05-23
-current_as_of: 2026-05-23
+current_as_of: '2026-05-24'
 freshness_policy: strict_live
-
 fetches:
 - fetch_id: fetch_cast2018udl
   sub_area: A1
-  query: 'CAST Universal Design for Learning Guidelines version 2.2 2018'
+  query: CAST Universal Design for Learning Guidelines version 2.2 2018
   source_url: https://udlguidelines.cast.org/static/udlg2.2-text-a11y.pdf
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 5
   decision: accept
-  reason: 'Official CAST UDL framework. Sub-area A1 anchor.'
+  reason: Official CAST UDL framework. Sub-area A1 anchor.
   assigned_bibkey: cast2018udl
 - fetch_id: fetch_paivio1991dual
   sub_area: A3
-  query: 'Paivio dual coding theory 1991 retrospect Canadian Psychology'
+  query: Paivio dual coding theory 1991 retrospect Canadian Psychology
   source_url: https://files.eric.ed.gov/fulltext/ED476972.pdf
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 5
   decision: accept
-  reason: 'Foundational dual-coding theory paper. Sub-area A3 anchor.'
+  reason: Foundational dual-coding theory paper. Sub-area A3 anchor.
   assigned_bibkey: paivio1991dual
 - fetch_id: fetch_mayer2014cambridge
   sub_area: A2
-  query: 'Mayer Cambridge Handbook of Multimedia Learning 2014'
+  query: Mayer Cambridge Handbook of Multimedia Learning 2014
   source_url: https://assets.cambridge.org/97811071/87504/frontmatter/9781107187504_frontmatter.pdf
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: partial, is_useful: 5}
+  reflection:
+    is_relevant: true
+    is_supported: partial
+    is_useful: 5
   decision: accept
-  reason: 'Canonical multimedia learning handbook. Only frontmatter cached (full book paywalled).'
+  reason: Canonical multimedia learning handbook. Only frontmatter cached (full book paywalled).
   assigned_bibkey: mayer2014cambridge
+- fetch_id: fetch_meyer2014universal
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (multi_paradigm_presentation)
+  source_url: https://www.cast.org/books-media/universal-design-for-learning-meyer-rose-gordon/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Canonical book-length theoretical statement of UDL by its originators; the foundational reference cited by virtually every higher-ed UDL paper.
+  assigned_bibkey: meyer2014universal
+- fetch_id: fetch_rose2006universal
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (multi_paradigm_presentation)
+  source_url: https://files.eric.ed.gov/fulltext/EJ844630.pdf
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Seminal article translating UDL from K-12 origins to higher ed practice; widely cited as the foundational postsecondary UDL reference.
+  assigned_bibkey: rose2006universal
+- fetch_id: fetch_capp2017effectiveness
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1080/13603116.2017.1325074
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: First aggregate quantitative evidence base for UDL; the standard citation when discussing UDL effect-size claims and their limits.
+  assigned_bibkey: capp2017effectiveness
+- fetch_id: fetch_alazawei2016universal
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (multi_paradigm_presentation)
+  source_url: https://eric.ed.gov/?id=EJ1104867
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Important early systematic examination of the UDL evidence base; commonly cited counterweight to enthusiastic adoption narratives.
+  assigned_bibkey: alazawei2016universal
+- fetch_id: fetch_cast2024guidelines3
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (multi_paradigm_presentation)
+  source_url: https://udlguidelines.cast.org/more/about-guidelines-3-0/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Current canonical statement of the UDL Guidelines superseding 2.2; essential for any discussion of the framework in 2024+.
+  assigned_bibkey: cast2024guidelines3
+- fetch_id: fetch_mngo2023effectiveness
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (multi_paradigm_presentation)
+  source_url: https://www.tandfonline.com/doi/full/10.1080/2331186X.2023.2218191
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Most recent aggregate effect-size estimate for UDL interventions; updates Capp (2017) with post-2016 evidence.
+  assigned_bibkey: mngo2023effectiveness
+- fetch_id: fetch_tlili2025transforming
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (multi_paradigm_presentation)
+  source_url: https://www.tandfonline.com/doi/full/10.1080/13562517.2025.2465994
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Most recent higher-ed-specific synthesis on UDL implementation via faculty development; directly addresses the postsecondary scope of the dossier.
+  assigned_bibkey: tlili2025transforming
+- fetch_id: fetch_w3c2023wcag22
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (multi_paradigm_presentation)
+  source_url: https://www.w3.org/TR/WCAG22/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Current canonical W3C web accessibility standard, now also ISO/IEC 40500:2025; the load-bearing reference for any accessibility-as-constraint discussion.
+  assigned_bibkey: w3c2023wcag22
+- fetch_id: fetch_w3c2024wcag3
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (multi_paradigm_presentation)
+  source_url: https://www.w3.org/TR/wcag-3.0/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Signals the direction of future standards beyond WCAG 2.x; useful for forward-looking discussions even though not yet a Recommendation.
+  assigned_bibkey: w3c2024wcag3
+- fetch_id: fetch_wong2011points
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1038/nmeth.1618
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Canonical Nature Methods reference for colorblind-safe categorical palettes; the citation paired with the Okabe-Ito set.
+  assigned_bibkey: wong2011points
+- fetch_id: fetch_harrower2003colorbrewer
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1559/152304003100010929
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Foundational reference for principled choice of categorical/sequential/diverging palettes; widely reused outside cartography in scientific visualization.
+  assigned_bibkey: harrower2003colorbrewer
+- fetch_id: fetch_rello2013good
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1145/2513383.2513447
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: The empirical reference debunking the claim that specialized dyslexia fonts outperform standard sans-serif typefaces; widely cited ASSETS paper.
+  assigned_bibkey: rello2013good
+- fetch_id: fetch_zorzi2012extra
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1073/pnas.1205566109
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: The PNAS paper providing the strongest empirical case for letter-spacing as a dyslexia-readability intervention; standard reference (with caveats noted in later mixed replications).
+  assigned_bibkey: zorzi2012extra
+- fetch_id: fetch_galuschka2020interletter
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1007/s11881-020-00194-x
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Key counter-evidence balancing the dyslexia-friendly-typography literature; essential for an honest pedagogy treatment.
+  assigned_bibkey: galuschka2020interletter
+- fetch_id: fetch_soiffer2005mathplayer
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1145/1090785.1090831
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Foundational ASSETS paper on web-based math accessibility; lineage source for MathCAT/MathJax accessibility infrastructure used today.
+  assigned_bibkey: soiffer2005mathplayer
+- fetch_id: fetch_mathjax2024accessibility
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (multi_paradigm_presentation)
+  source_url: https://docs.mathjax.org/en/latest/basic/accessibility.html
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Current canonical reference for math notation accessibility tooling in technical web content; directly relevant to capstone presentation guidance.
+  assigned_bibkey: mathjax2024accessibility
+- fetch_id: fetch_mayer2003ninewaysreduce
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1207/S15326985EP3801_6
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Canonical short list of presentation-design moves tied directly to cognitive-load reduction; the most-cited single article underpinning code-vs-prose layout decisions.
+  assigned_bibkey: mayer2003ninewaysreduce
+- fetch_id: fetch_moreno1999cognitiveprinciples
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1037/0022-0663.91.2.358
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Primary empirical source for modality + contiguity principles — directly relevant to deciding when prose should be audio narration vs. on-screen text alongside diagrams/code.
+  assigned_bibkey: moreno1999cognitiveprinciples
+- fetch_id: fetch_sweller2019cognitivearchitecture
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1007/s10648-019-09465-5
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Authoritative modern restatement of CLT — single citation that covers the theoretical scaffolding behind every Mayer principle without dragging in the full Cambridge Handbook.
+  assigned_bibkey: sweller2019cognitivearchitecture
+- fetch_id: fetch_paas2020cognitiveload
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1177/0963721420922183
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Compact, recent statement of presentation-design implications of CLT from two of its principal architects.
+  assigned_bibkey: paas2020cognitiveload
+- fetch_id: fetch_kalyuga2003expertisereversal
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1207/S15326985EP3801_4
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Critical boundary condition on every multimedia design principle — prevents naive application of redundancy/modality/signaling rules across an audience with mixed expertise.
+  assigned_bibkey: kalyuga2003expertisereversal
+- fetch_id: fetch_rey2019segmentingmetaanalysis
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1007/s10648-018-9456-4
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Best meta-analytic evidence base for the segmenting/chunking principle that underwrites how to slice long code walkthroughs or worked examples into pause-able units.
+  assigned_bibkey: rey2019segmentingmetaanalysis
+- fetch_id: fetch_schneider2018signalingmeta
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1016/j.edurev.2017.11.001
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Quantitative basis for the signaling principle (cueing/highlighting) — critical for presentation choices like syntax highlighting, callouts, and diagram annotations.
+  assigned_bibkey: schneider2018signalingmeta
+- fetch_id: fetch_ginns2005modalitymetaanalysis
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1016/j.learninstruc.2005.07.001
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Definitive quantitative defense (and boundary-mapping) of the modality principle — the empirical anchor when arguing for narrated screencasts over text-heavy slides.
+  assigned_bibkey: ginns2005modalitymetaanalysis
+- fetch_id: fetch_schwartz1998timefortelling
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1207/s1532690xci1604_4
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Foundational primary source for the practice-first / contrasting-cases sequencing argument; the canonical citation for why explanations land better after learner-generated differentiation.
+  assigned_bibkey: schwartz1998timefortelling
+- fetch_id: fetch_schwartz2004inventingfuturelearning
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1207/s1532690xci2202_1
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Empirical workhorse for the PFL framework; demonstrates why hidden-efficiency assessments matter when comparing theory-first vs. practice-first sequences.
+  assigned_bibkey: schwartz2004inventingfuturelearning
+- fetch_id: fetch_kapur2008productivefailure
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1080/07370000802212669
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Original productive-failure paper — defines the construct that anchors the practice-first sequencing literature.
+  assigned_bibkey: kapur2008productivefailure
+- fetch_id: fetch_kapur2012designingproductivefailure
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1080/10508406.2011.591717
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Provides the design-principle layer (not just the phenomenon) for sequencing decisions — what makes a generation activity actually productive.
+  assigned_bibkey: kapur2012designingproductivefailure
+- fetch_id: fetch_sinha2021problemsolvingmetaanalysis
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.3102/00346543211019105
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Strongest single piece of quantitative evidence comparing theory-first vs. practice-first sequencing across domains and grade levels — load-bearing citation for the whole sub-area.
+  assigned_bibkey: sinha2021problemsolvingmetaanalysis
+- fetch_id: fetch_loibl2017towardstheory
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1007/s10648-017-9398-2
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Theoretical scaffolding for the PS-I/PFL literature; gives the cognitive mechanisms that explain why and when practice-first sequencing works.
+  assigned_bibkey: loibl2017towardstheory
+- fetch_id: fetch_loibl2014knowingwhatyoudontknow
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1016/j.learninstruc.2014.08.004
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Important boundary condition on sequencing claims — clarifies that the telling phase must reference learners productive failures for the order to pay off.
+  assigned_bibkey: loibl2014knowingwhatyoudontknow
+- fetch_id: fetch_ebner2025craetametaanalysis
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1177/09388982241292299
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Recent quantitative anchor for the concrete-to-abstract sequencing tradition — complements PF/PFL with a different (CRA / Bruner-lineage) operationalization of practice-first ordering.
+  assigned_bibkey: ebner2025craetametaanalysis
+- fetch_id: fetch_clark1991dual
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1007/BF01320076
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Canonical Paivio-co-authored treatment of dual coding applied to instructional design; load-bearing pre-1991 statement most often cited alongside paivio1991dual in educational contexts.
+  assigned_bibkey: clark1991dual
+- fetch_id: fetch_sadoski2013imagery
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (multi_paradigm_presentation)
+  source_url: https://www.routledge.com/Imagery-and-Text-A-Dual-Coding-Theory-of-Reading-and-Writing/Sadoski-Paivio/p/book/9780415898485
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Bridges dual-coding theory directly to text/picture coordination in reading and writing; high-cited in textbook-design and technical-writing pedagogy literatures.
+  assigned_bibkey: sadoski2013imagery
+- fetch_id: fetch_paivio2007mind
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (multi_paradigm_presentation)
+  source_url: https://www.routledge.com/Mind-and-Its-Evolution-A-Dual-Coding-Theoretical-Approach/Paivio/p/book/9780805852608
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Paivio mature/post-1991 restatement of DCT — useful as the citation that supersedes paivio1991dual for theoretical claims about the architecture itself.
+  assigned_bibkey: paivio2007mind
+- fetch_id: fetch_carney2002pictorial
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1023/A:1013176309260
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Most-cited review of picture-in-text effects with explicit dual-coding framing; load-bearing for any claim that illustrations help comprehension of technical prose.
+  assigned_bibkey: carney2002pictorial
+- fetch_id: fetch_higdon2025distinctiveness
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1177/17470218241235520
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: 'Critical counterweight: shows the contemporary debate over whether dual coding mechanistically explains picture-superiority, important for not over-claiming DCT in the dossier.'
+  assigned_bibkey: higdon2025distinctiveness
+- fetch_id: fetch_ensor2019distinctiveness
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.3758/s13421-018-0858-9
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Memory & Cognition primary study (high-cited) underpinning the distinctiveness critique of DCT picture-superiority explanations.
+  assigned_bibkey: ensor2019distinctiveness
+- fetch_id: fetch_sentance2017primm
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (multi_paradigm_presentation)
+  source_url: https://kclpure.kcl.ac.uk/portal/en/publications/primm-exploring-pedagogical-approaches-for-teaching-text-based-pr
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Originating PRIMM paper; the canonical citation for the framework named in the sub-area scope.
+  assigned_bibkey: sentance2017primm
+- fetch_id: fetch_sentance2019teachers
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1145/3287324.3287477
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: SIGCSE primary-source follow-up; provides classroom-implementation evidence for code-first/reading-first scaffolding.
+  assigned_bibkey: sentance2019teachers
+- fetch_id: fetch_lee2011usemodifycreate
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (multi_paradigm_presentation)
+  source_url: https://par.nsf.gov/servlets/purl/10122993
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Ancestor framework to PRIMM and the canonical citation for code-modification-before-creation pedagogy; published in ACM Inroads (in-scope venue).
+  assigned_bibkey: lee2011usemodifycreate
+- fetch_id: fetch_margulieux2012subgoal
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (multi_paradigm_presentation)
+  source_url: https://scholarworks.gsu.edu/ltd_facpub/33/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Foundational ICER paper on worked-example structure in CS education; cited everywhere worked-examples-for-programming is discussed.
+  assigned_bibkey: margulieux2012subgoal
+- fetch_id: fetch_morrison2016subgoals
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (multi_paradigm_presentation)
+  source_url: https://dl.acm.org/doi/10.1145/2960310.2960322
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Direct ICER evidence for code-first worked-example pedagogy; complements margulieux2012subgoal with replication and refinement.
+  assigned_bibkey: morrison2016subgoals
+- fetch_id: fetch_raj2018livecoding
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (multi_paradigm_presentation)
+  source_url: https://doi.org/10.1145/3279720.3279725
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Primary empirical study on live-coding-as-instructional-pattern; load-bearing for executable-documentation / REPL-driven teaching claims.
+  assigned_bibkey: raj2018livecoding
+- fetch_id: fetch_kluyver2016jupyter
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (multi_paradigm_presentation)
+  source_url: https://eprints.soton.ac.uk/403913/1/STAL9781614996491-0087.pdf
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Originating Jupyter publication; needed as the tooling citation for any executable-documentation claim in code-first exposition.
+  assigned_bibkey: kluyver2016jupyter
+- fetch_id: fetch_victor2011explorable
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (multi_paradigm_presentation)
+  source_url: http://worrydream.com/ExplorableExplanations/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Origin essay for the reactive-document / explorable-explanation pattern; non-peer-reviewed but the canonical citation in the literature and a direct anchor for MDX / Observable choices.
+  assigned_bibkey: victor2011explorable

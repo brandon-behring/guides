@@ -1,64 +1,532 @@
 schema_version: 3
 topic: transfer_evaluation_methods
 generated_at: 2026-05-23
-current_as_of: 2026-05-23
+current_as_of: '2026-05-24'
 freshness_policy: strict_live
-
 fetches:
 - fetch_id: fetch_schwartz2005
   sub_area: A3
-  query: 'Schwartz Bransford Sears Efficiency and innovation in transfer preparation for future learning 2005'
+  query: Schwartz Bransford Sears Efficiency and innovation in transfer preparation for future learning 2005
   source_url: https://aaalab.stanford.edu/assets/papers/2005/Efficiency_and_Innovation_in_Transfer.pdf
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 5
   decision: accept
-  reason: 'PFL framework — core to sub-area A3 conditions-that-promote-transfer.'
+  reason: PFL framework — core to sub-area A3 conditions-that-promote-transfer.
   assigned_bibkey: schwartz2005efficiency
-
 - fetch_id: fetch_kapur2008
   sub_area: A3
-  query: 'Kapur productive failure Cognition and Instruction 2008'
+  query: Kapur productive failure Cognition and Instruction 2008
   source_url: https://arch.kuleuven.be/studeren/tall/artikels/productive-failure-kapur.pdf/@@download/file/Productive%20Failure%20Kapur.pdf
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 5
   decision: accept
-  reason: 'Productive failure foundational paper. Sub-area A3.'
+  reason: Productive failure foundational paper. Sub-area A3.
   assigned_bibkey: kapur2008productive
-
 - fetch_id: fetch_barnett2002
   sub_area: A1
-  query: 'Barnett Ceci taxonomy far transfer Psychological Bulletin 2002'
+  query: Barnett Ceci taxonomy far transfer Psychological Bulletin 2002
   source_url: https://pubmed.ncbi.nlm.nih.gov/12081085/
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: partial, is_useful: 5}
+  reflection:
+    is_relevant: true
+    is_supported: partial
+    is_useful: 5
   decision: accept
-  reason: 'Canonical far-transfer taxonomy. PubMed abstract cached; full text not freely available.'
+  reason: Canonical far-transfer taxonomy. PubMed abstract cached; full text not freely available.
   assigned_bibkey: barnett2002when
-
 - fetch_id: fetch_detterman1993
   sub_area: A2
-  query: 'Detterman transfer as epiphenomenon 1993 Sternberg pessimism'
+  query: Detterman transfer as epiphenomenon 1993 Sternberg pessimism
   source_url: https://gwern.net/doc/iq/1993-detterman.pdf
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 5
   decision: accept
-  reason: 'The pessimistic canon paper. Sub-area A2 (empirical evidence that transfer is hard).'
+  reason: The pessimistic canon paper. Sub-area A2 (empirical evidence that transfer is hard).
   assigned_bibkey: detterman1993transfer
-
 - fetch_id: fetch_bransford2000_reject
   sub_area: A1
-  query: 'Bransford Brown Cocking How People Learn NAP 2000 transfer chapter 3'
+  query: Bransford Brown Cocking How People Learn NAP 2000 transfer chapter 3
   source_url: https://www-personal.umd.umich.edu/~pksmith/HowPeopleLearn.pdf
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 5
   decision: reject
-  reason: 'cache_source.py timed out or failed silently — bransford2000how not cached this round. Dropped from first-pass; should retry in depth-expansion round (book is freely available from NAP).'
-
+  reason: cache_source.py timed out or failed silently — bransford2000how not cached this round. Dropped from first-pass; should retry in depth-expansion round (book is freely available from NAP).
 - fetch_id: fetch_barnett_semantic_reject
   sub_area: A1
-  query: 'Barnett Ceci taxonomy far transfer (semantic scholar)'
+  query: Barnett Ceci taxonomy far transfer (semantic scholar)
   source_url: https://www.semanticscholar.org/paper/When-and-where-do-we-apply-what-we-learn-A-taxonomy-Barnett-Ceci/e43a3199d5f9070f595c7f37dcc71f17589bbab9
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 5
   decision: reject
-  reason: 'SemanticScholar cache returned 0 bytes (JS-rendered shell — same pattern as research_toolkit#10). Used PubMed alternate.'
+  reason: SemanticScholar cache returned 0 bytes (JS-rendered shell — same pattern as research_toolkit#10). Used PubMed alternate.
+- fetch_id: fetch_bransford2000how
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.17226/9853
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Foundational NRC synthesis that frames the modern transfer agenda and is the canonical entry point for the dossier.
+  assigned_bibkey: bransford2000how
+- fetch_id: fetch_thorndike1901influence
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1037/h0074898
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Origin point of transfer research and the identical-elements account that every later taxonomy responds to.
+  assigned_bibkey: thorndike1901influence
+- fetch_id: fetch_salomon1989rocky
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1207/s15326985ep2402_1
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Canonical source for the low-road/high-road dimension named in the sub-area scope.
+  assigned_bibkey: salomon1989rocky
+- fetch_id: fetch_gick1983schema
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1016/0010-0285%2883%2990002-6
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Landmark empirical basis for the surface/structural distinction and schema-mediated far transfer.
+  assigned_bibkey: gick1983schema
+- fetch_id: fetch_bransford1999rethinking
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.3102/0091732X024001061
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Reconceptualizes transfer and seeds the PFL assessment paradigm bridging A1 and A4.
+  assigned_bibkey: bransford1999rethinking
+- fetch_id: fetch_anderson1996situated
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.3102/0013189X025004005
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Cognitivist counterpoint anchoring the situated-vs-cognitive transfer debate from the cognitive side.
+  assigned_bibkey: anderson1996situated
+- fetch_id: fetch_greeno1997claims
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.3102/0013189X026001005
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: The situated-cognition rebuttal completing the Anderson-Greeno transfer debate named in scope.
+  assigned_bibkey: greeno1997claims
+- fetch_id: fetch_nokesmalach2013sensemaking
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1080/00461520.2013.807556
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Modern integrative framework reconciling the cognitive/situative split and updating the dimensions discussion.
+  assigned_bibkey: nokesmalach2013sensemaking
+- fetch_id: fetch_nrc2001knowing
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.17226/10019
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: The NRC report named in scope; foundational for designing transfer-sensitive assessment.
+  assigned_bibkey: nrc2001knowing
+- fetch_id: fetch_mislevy2003structure
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1207/S15366359MEA0101_02
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Canonical Mislevy ECD source for principled construction of transfer-assessment tasks.
+  assigned_bibkey: mislevy2003structure
+- fetch_id: fetch_schwartz2004inventing
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1207/s1532690xci2202_1
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Operationalizes the preparation-for-future-learning assessment design central to A4.
+  assigned_bibkey: schwartz2004inventing
+- fetch_id: fetch_sternberg2002dynamic
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (transfer_evaluation_methods)
+  source_url: https://psycnet.apa.org/record/2002-01422-000
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Authoritative review of dynamic assessment, the instrument family named in A4 scope.
+  assigned_bibkey: sternberg2002dynamic
+- fetch_id: fetch_shepard2000role
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.3102/0013189X029007004
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Connects assessment theory to situated/performance assessment design implications for transfer.
+  assigned_bibkey: shepard2000role
+- fetch_id: fetch_wiggins1989truetest
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1177/003172171109200721
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Foundational case for authentic/performance assessment, the instrument type named in A4 scope.
+  assigned_bibkey: wiggins1989truetest
+- fetch_id: fetch_gick1980analogical
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1016/0010-0285%2880%2990013-4
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Foundational demonstration that spontaneous analogical transfer fails without a retrieval cue, anchoring the transfer-is-hard canon.
+  assigned_bibkey: gick1980analogical
+- fetch_id: fetch_lave1988cognition
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1017/CBO9780511609268
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Situated-cognition critique arguing transfer failures reflect that cognition is constituted by its activity context.
+  assigned_bibkey: lave1988cognition
+- fetch_id: fetch_melbylervag2016working
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1177/1745691616635612
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Canonical meta-analytic verdict that working-memory training does not produce far transfer.
+  assigned_bibkey: melbylervag2016working
+- fetch_id: fetch_sala2018video
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1037/bul0000139
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Extends the far-transfer-fails verdict from working memory to the popular game-training literature.
+  assigned_bibkey: sala2018video
+- fetch_id: fetch_gobet2023cognitive
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1177/17456916221091830
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Synthesizes the entire cognitive-training program into a strong statement of the pessimistic position.
+  assigned_bibkey: gobet2023cognitive
+- fetch_id: fetch_day2012import
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1080/00461520.2012.696438
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: The leading reframing/critique of the transfer-is-rare canon, balancing the pessimism sources.
+  assigned_bibkey: day2012import
+- fetch_id: fetch_fong1986statistical
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1016/0010-0285%2886%2990001-0
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Landmark evidence that statistical-method reasoning CAN transfer far when taught as an abstract pragmatic rule.
+  assigned_bibkey: fong1986statistical
+- fetch_id: fetch_soloway1984empirical
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1109/TSE.1984.5010283
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Foundational account of programming plans as the unit of transferable programming expertise.
+  assigned_bibkey: soloway1984empirical
+- fetch_id: fetch_shrestha2018python
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (transfer_evaluation_methods)
+  source_url: https://arxiv.org/abs/1808.09008
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Concrete tool-based study of near transfer of programming-language knowledge across Python and R.
+  assigned_bibkey: shrestha2018python
+- fetch_id: fetch_shrestha2020hereweagain
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1145/3377811.3380352
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Distinguished-paper evidence of negative/interference transfer between programming languages — the core pitfall for multi-language learners.
+  assigned_bibkey: shrestha2020hereweagain
+- fetch_id: fetch_kao2022onelanguage
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1145/3487051
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Bridges the analogical-transfer literature directly into CS-education practice for learning across languages.
+  assigned_bibkey: kao2022onelanguage
+- fetch_id: fetch_li2024transfer
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1186/s40594-024-00498-z
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Recent quantitative synthesis showing computational-thinking instruction does produce measurable transfer in STEM, a counterpoint to the pessimism literature.
+  assigned_bibkey: li2024transfer
+- fetch_id: fetch_rohrer2007shuffling
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1007/s11251-006-9002-5
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Foundational empirical demonstration of interleaved practice as a transfer-promoting condition.
+  assigned_bibkey: rohrer2007shuffling
+- fetch_id: fetch_rohrer2012interleaving
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1007/s10648-012-9201-3
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Specifies the discrimination mechanism by which interleaving generalizes, distinct from spacing.
+  assigned_bibkey: rohrer2012interleaving
+- fetch_id: fetch_roediger2006testenhanced
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1111/j.1467-9280.2006.01693.x
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Canonical demonstration of retrieval practice as a durable learning condition.
+  assigned_bibkey: roediger2006testenhanced
+- fetch_id: fetch_gentner2003analogical
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1037/0022-0663.95.2.393
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Defines analogical encoding via case comparison as a schema-abstraction route to transfer.
+  assigned_bibkey: gentner2003analogical
+- fetch_id: fetch_chi1989selfexplanations
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1207/s15516709cog1302_1
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Origin of the self-explanation effect as a transfer-promoting study activity.
+  assigned_bibkey: chi1989selfexplanations
+- fetch_id: fetch_renkl2003fading
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1207/S15326985EP3801_3
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Canonical worked-example-fading design for scaffolding transfer.
+  assigned_bibkey: renkl2003fading
+- fetch_id: fetch_schwartz1998timetelling
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1207/s1532690xci1604_4
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Foundational contrasting-cases study (distinct from the present schwartz2005efficiency).
+  assigned_bibkey: schwartz1998timetelling
+- fetch_id: fetch_bjork2013selfregulated
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1146/annurev-psych-113011-143823
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Authoritative synthesis framing the desirable-difficulties account that unifies the A3 conditions.
+  assigned_bibkey: bjork2013selfregulated
+- fetch_id: fetch_messick1995validity
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1037/0003-066X.50.9.741
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Source of consequential validity, the lens for judging whether transfer inferences from authentic tasks are warranted.
+  assigned_bibkey: messick1995validity
+- fetch_id: fetch_kane2013validating
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1111/jedm.12000
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Provides the validity-argument framework for scrutinizing the inferential leap from authentic-task performance to transfer claims.
+  assigned_bibkey: kane2013validating
+- fetch_id: fetch_shavelson1993sampling
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.1111/j.1745-3984.1993.tb00424.x
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Brings generalizability theory to bear on whether authentic-task scores generalize, a core measurement constraint on transfer inference.
+  assigned_bibkey: shavelson1993sampling
+- fetch_id: fetch_frederiksen1989systems
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (transfer_evaluation_methods)
+  source_url: https://doi.org/10.3102/0013189X018009027
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Introduces systemic validity, directly relevant to whether authentic transfer assessments drive the learning they claim to certify.
+  assigned_bibkey: frederiksen1989systems

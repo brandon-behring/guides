@@ -1,0 +1,1038 @@
+schema_version: 3
+topic: multi_paradigm_presentation
+generated_at: '2026-05-24'
+current_as_of: '2026-05-24'
+freshness_policy: strict_live
+selections:
+- selection_id: sel_cast2018udl_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_cast2018udl
+  cache_id: cache_02f490511fe7c4bb
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_cast2018udl_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_cast2018udl
+  cache_id: cache_02f490511fe7c4bb
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_paivio1991dual_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_paivio1991dual
+  cache_id: cache_0be955fe68a5ed41
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_paivio1991dual_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_paivio1991dual
+  cache_id: cache_0be955fe68a5ed41
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_mayer2014cambridge_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_mayer2014cambridge
+  cache_id: cache_69bf2f42ed9de220
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_mayer2014cambridge_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_mayer2014cambridge
+  cache_id: cache_69bf2f42ed9de220
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_meyer2014universal_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_meyer2014universal
+  cache_id: cache_e2484ac94a360ab7
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 2110dcaee6a1bb3febaffa649e9354d297518795ce6e78ab156b235bc4b268fc
+    excerpt: '<!DOCTYPE html><html lang="en-US" class="no-js" style="scroll-padding-top: 137px;"><!--<![endif]--><head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="cleartype" content="o'
+- selection_id: sel_meyer2014universal_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_meyer2014universal
+  cache_id: cache_e2484ac94a360ab7
+  span:
+    text_path_offset:
+    - 37116
+    - 37356
+    sha256_of_span: aeaf679079d69fdd1af717c4583f58e2d566f9edd27069551bb908f1a67bf549
+    excerpt: 'cky-overlay"></div><div class="cky-btn-revisit-wrapper cky-revisit-hide cky-revisit-bottom-left" data-cky-tag="revisit-consent" data-tooltip="Consent Preferences" style="background-color:
+      #301c5c;"><button aria-label="Consent Preferences" c'
+- selection_id: sel_rose2006universal_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_rose2006universal
+  cache_id: cache_f2a87e5b20201294
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_rose2006universal_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_rose2006universal
+  cache_id: cache_f2a87e5b20201294
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_capp2017effectiveness_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_capp2017effectiveness
+  cache_id: cache_192bf98906e0a9b0
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 15f794ae6027581ac2ebe7b03117148108208fc030776b5d20d76583caea3d18
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1b02cb5aaa9f-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_capp2017effectiveness_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_capp2017effectiveness
+  cache_id: cache_192bf98906e0a9b0
+  span:
+    text_path_offset:
+    - 105825
+    - 106065
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_alazawei2016universal_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_alazawei2016universal
+  cache_id: cache_2d300efa5a7204d4
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 015f5dcf44a1d37dabcc06f83206904114ffd57042157f7a63b638e01ca93ad4
+    excerpt: <!DOCTYPE html> <html> <head> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q61Y5YWXL4"></script><script>window.dataLayer=window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js',new
+      Date());gtag('
+- selection_id: sel_alazawei2016universal_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_alazawei2016universal
+  cache_id: cache_2d300efa5a7204d4
+  span:
+    text_path_offset:
+    - 5051
+    - 5291
+    sha256_of_span: bd4185495976eba258bcf5f44389f602af23a094beb5516112023dd12a191dbe
+    excerpt: Evaluation Criteria; Meta Analysis; Literature Reviews" /> <meta name="page-type" content="" /> <meta name="rating" content="All" /><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"
+      /><link rel="stylesheet" href="css/eric.css
+- selection_id: sel_cast2024guidelines3_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_cast2024guidelines3
+  cache_id: cache_34950c562670ec25
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 07744f5177dbfc94a2293ccf2a5dc5cfb9c4e6fb63d98ccb1400514606a278ea
+    excerpt: <!DOCTYPE html><html lang="en-us" dir="ltr"><head><meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="description" content="About the Guidelines
+      3.0 Update"> <meta name="author" content="C
+- selection_id: sel_cast2024guidelines3_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_cast2024guidelines3
+  cache_id: cache_34950c562670ec25
+  span:
+    text_path_offset:
+    - 20079
+    - 20319
+    sha256_of_span: c38b353f4c63dd24333a88e3757d62b4c33e00b62c217f5eac9e6c04af32fbe1
+    excerpt: <div class="nav-nestednav collapse section_10" id="cfw-collapse-54872"> <ul><li class="nav-item"> <a href="/action-expression/interaction/response-navigation-mov
+- selection_id: sel_mngo2023effectiveness_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_mngo2023effectiveness
+  cache_id: cache_0fb80383177fa5c6
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 263e17c1936afc2c0659e40573b59a487d272a9e082d980c097fb256a6bc7e3a
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1b308b3742d4-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_mngo2023effectiveness_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_mngo2023effectiveness
+  cache_id: cache_0fb80383177fa5c6
+  span:
+    text_path_offset:
+    - 192432
+    - 192672
+    sha256_of_span: 09923be46fd7e821acb6cd5e43a11cfb87291fe2c4eb0cb9417c60b897d3613d
+    excerpt: height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M5.29414 0.293848C5.68477 -0.0967774 6.31914 -0.0967774 6.70977 0.293848L11.7098 5.29385C12.1004 5.68447
+      12.1004 6.31885 11.7098
+- selection_id: sel_tlili2025transforming_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_tlili2025transforming
+  cache_id: cache_bfc679e11ec1a60a
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: ca92f3c363fe1f411eb3ad64f3fb640bdb3cabd439b64e699dcf9d1c860b89f8
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1b4b6a93f5f4-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_tlili2025transforming_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_tlili2025transforming
+  cache_id: cache_bfc679e11ec1a60a
+  span:
+    text_path_offset:
+    - 170020
+    - 170260
+    sha256_of_span: 95a00e5cfc68d7ce583b91bba27f194075fc5c48a5361e386a38d25c64586dd8
+    excerpt: </li> <li><a href="/subjects/sports-and-leisure" class="social-sciences topnav-subject-link">Sports and Leisure</a>
+- selection_id: sel_w3c2023wcag22_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_w3c2023wcag22
+  cache_id: cache_6e3c5fe397257cae
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 45e3867f8124e8984379aae423bd1f6ce474f2bc9566428eeae1eb3b2c09fcd6
+    excerpt: <!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head> <meta charset="UTF-8"> <meta name="generator" content="ReSpec 35.2.0"> <meta name="viewport" content="width=device-width,
+      initial-scale=1, shrink-to-fi
+- selection_id: sel_w3c2023wcag22_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_w3c2023wcag22
+  cache_id: cache_6e3c5fe397257cae
+  span:
+    text_path_offset:
+    - 170575
+    - 170815
+    sha256_of_span: 3d9ff78d6d8e5b0eb296a406b8021f2e0dd40e2bb5a7d6022a29edfaca785f26
+    excerpt: <a href="#dfn-presentation" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-presentation-3" title="rendering of the content in a form to be perceived by users">presentation</a>. The
+      visual presentation includes the component's visi
+- selection_id: sel_w3c2024wcag3_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_w3c2024wcag3
+  cache_id: cache_c7060db15aa1a575
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 291d1f1fb18377bb33a1991ef54f0897cd67a2919ab8261661e7bf53a24cbdfb
+    excerpt: <!DOCTYPE html><html lang="en-US"><head> <meta charset="UTF-8"> <meta name="generator" content="ReSpec 35.8.0"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <style> span.example-title{text-transform
+- selection_id: sel_w3c2024wcag3_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_w3c2024wcag3
+  cache_id: cache_c7060db15aa1a575
+  span:
+    text_path_offset:
+    - 246698
+    - 246938
+    sha256_of_span: 9353e0fde196bfcc80232a1a2f04fac7e97f4e49404427bfe4d23d3b631497f6
+    excerpt: keyboard focus is returned to the element that caused the dialog or popup to open.</p></aside> <aside class="example" id="example-18"><div class="marker">Example 2</div><p>When there are tags,
+      with a delete button on each tag, the keyboard
+- selection_id: sel_wong2011points_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_wong2011points
+  cache_id: cache_a2d38116076fe40e
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: fd574824189d527fa996358c057bc23fc73053e3622181c4ab3c825d5a45443f
+    excerpt: '<!DOCTYPE html><html lang="en" class="js"><head><link rel="preload" href="/static/fonts/HardingText-Regular-Web-cecd90984f.woff2" as="font" type="font/woff2" crossorigin=""> <title>Points
+      of view: Color blindness | Nature Methods</title'
+- selection_id: sel_wong2011points_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_wong2011points
+  cache_id: cache_a2d38116076fe40e
+  span:
+    text_path_offset:
+    - 85552
+    - 85792
+    sha256_of_span: ee34f0a4daaa6452dcf31c0bd216dfed2fa519a9d9f749cd383f28a2047dd604
+    excerpt: data-track-label="button" role="button" aria-haspopup="true" aria-expanded="false"> <span class="c-header__show-text-sm">Content</span> <span class="c-header__s
+- selection_id: sel_harrower2003colorbrewer_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_harrower2003colorbrewer
+  cache_id: cache_631ecf8982ee79c6
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: d911846a43e713dd30af27a05dbfe17bcfedb24d4a31d6fb7524413b0f1e5241
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1b8faff8005e-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_harrower2003colorbrewer_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_harrower2003colorbrewer
+  cache_id: cache_631ecf8982ee79c6
+  span:
+    text_path_offset:
+    - 103746
+    - 103986
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_rello2013good_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_rello2013good
+  cache_id: cache_62846a82bbfc1a43
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 31853e01fd8949e288a7b0ae3fc967df07291044be5d65211823951ffd9da1af
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1ba8755843d6-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_rello2013good_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_rello2013good
+  cache_id: cache_62846a82bbfc1a43
+  span:
+    text_path_offset:
+    - 109866
+    - 110106
+    sha256_of_span: 4ddb67ed74431d255f1a7c5b756490a9c89252a6fd9cd3410366253110a9d765
+    excerpt: class="CybotCookiebotDialogDetailBodyContentCookieInfoWrapper CybotCookiebotDialogHide"><div class="CybotCookiebotDialogDetailBodyContentCookieInfo"><strong class="CybotCookiebotDialogDetailBodyContentCookieInfoTitle"
+      role="heading" aria-le
+- selection_id: sel_zorzi2012extra_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_zorzi2012extra
+  cache_id: cache_df6a06fab2254785
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 4c53147fb64aea4fc7c18fec43770b1fbdb8110d090771e2134ed3ec47792b36
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page js" data-request-id="a00f1bcd2fa0a4c6-EWR"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_zorzi2012extra_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_zorzi2012extra
+  cache_id: cache_df6a06fab2254785
+  span:
+    text_path_offset:
+    - 88764
+    - 89004
+    sha256_of_span: 0a5a84af4189dce9b1fdb570286eb2f59c3a0d48b5ad38048e9c8dc7e35b856a
+    excerpt: property="familyName">Facoetti</span></a></span><span data-displayed-on="all">, <span data-action="reveal">+6</span> </span><span data-hidden-on="all">, <span property="author" typeof="Person"
+      role="listitem"><a href="#con4"><span property=
+- selection_id: sel_galuschka2020interletter_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_galuschka2020interletter
+  cache_id: cache_725d772a6af7114c
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 935e25833dbe67a420924085933f7d1eae8d7dd1b468af40f7754e172d859ea4
+    excerpt: <!DOCTYPE html> <html lang="en" class="no-js"> <head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="applicable-device" content="pc,mobile"> <meta
+      name="viewport"
+- selection_id: sel_galuschka2020interletter_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_galuschka2020interletter
+  cache_id: cache_725d772a6af7114c
+  span:
+    text_path_offset:
+    - 117278
+    - 117518
+    sha256_of_span: c688f32ea5e0aaaceb9179ac46bfa3f64f792853740bac56449191d557c6d477
+    excerpt: viewBox="0 0 24 24"><path d="M11.382 1h1.24a2.51 2.51 0 0 1 2.334 1.63l.523 1.378 1.59.933 1.444-.224c.954-.132 1.89.3 2.422 1.101l.095.155.598 1.066a2.56 2.56 0 0 1-.195 2.848l-.894 1.161v1.896l.92
+      1.163c.6.768.707 1.812.295 2.674l-.09.17-
+- selection_id: sel_soiffer2005mathplayer_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_soiffer2005mathplayer
+  cache_id: cache_cbd8a0ecb5e6b8a0
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: d1670df4ad5e13b74b884ef8a271cdf1e1a76d14ce82fc66766fb89f69948c17
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1bf2e0604411-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_soiffer2005mathplayer_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_soiffer2005mathplayer
+  cache_id: cache_cbd8a0ecb5e6b8a0
+  span:
+    text_path_offset:
+    - 102712
+    - 102952
+    sha256_of_span: 746af2fd695eda44ba0d1b58574aa169582c0f9a151d4cd83338b253819913ce
+    excerpt: src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe59
+- selection_id: sel_mathjax2024accessibility_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_mathjax2024accessibility
+  cache_id: cache_7d8b0ac0615762d6
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 3a8d820adb6f67ae48b65db0cf8782b018da5e7128b7deb9049a7fc990930295
+    excerpt: <!DOCTYPE html> <html class="writer-html5" lang="en" data-content_root="../"> <head> <meta charset="utf-8" /> <meta name="readthedocs-addons-api-version" content="1"><meta name="viewport" content="width=device-width,
+      initial-scale=1"
+- selection_id: sel_mathjax2024accessibility_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_mathjax2024accessibility
+  cache_id: cache_7d8b0ac0615762d6
+  span:
+    text_path_offset:
+    - 7930
+    - 8170
+    sha256_of_span: ece01a76a97dc0b0eca5085421dc416496a4d28996287f092332a9ac50a6464d
+    excerpt: Breaking</a></li> <li class="toctree-l1"><a class="reference internal" href="../output/fonts.html">Font Support</a></li> <li class="toctree-l1"><a class="reference internal" href="../output/dark-mode.html">Dark
+      Mode</a></li> <li class="toct
+- selection_id: sel_mayer2003ninewaysreduce_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_mayer2003ninewaysreduce
+  cache_id: cache_0664624b8f7bf51d
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: c0b43e256d2837ebaaf410e462fa5e527388b51fef644e28c3670f2a978231ef
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1c139eb20f65-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_mayer2003ninewaysreduce_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_mayer2003ninewaysreduce
+  cache_id: cache_0664624b8f7bf51d
+  span:
+    text_path_offset:
+    - 102900
+    - 103140
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_moreno1999cognitiveprinciples_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_moreno1999cognitiveprinciples
+  cache_id: cache_fdd90f405672f42c
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: f06267d02c99784635512b998f35202c152ec8ea72212924d8eaf151b2f6c9bc
+    excerpt: <html style="height:100%"><head><meta name="ROBOTS" content="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta
+      http-equiv="X-UA-Compatible" content="IE=edge,chrom
+- selection_id: sel_moreno1999cognitiveprinciples_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_moreno1999cognitiveprinciples
+  cache_id: cache_fdd90f405672f42c
+  span:
+    text_path_offset:
+    - 276
+    - 516
+    sha256_of_span: 235df45ea3dfd4523f5e2bd8ab2083575e9c12fecba80fe12ba5f38417cc5ed2
+    excerpt: src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3"></script><script src="/a-walkd-An-and-like-oppily-Feasand-peach-ter-bee" async=""></script></head><body style="margin:0px;height:100%"><iframe
+      id="main-iframe" src="/_Inca
+- selection_id: sel_sweller2019cognitivearchitecture_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_sweller2019cognitivearchitecture
+  cache_id: cache_3683b276532dcbdb
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 87a8b96d8790e217e9da4b45d997f83bfaf75cf6ddd22f3f8ea26d573376dda0
+    excerpt: <!DOCTYPE html><html lang="en" class="js"><head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="applicable-device" content="pc,mobile"> <meta name="viewport"
+      content=
+- selection_id: sel_sweller2019cognitivearchitecture_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_sweller2019cognitivearchitecture
+  cache_id: cache_3683b276532dcbdb
+  span:
+    text_path_offset:
+    - 237264
+    - 237504
+    sha256_of_span: f93c8c7767b75a6fca028535e74eebf213cb8320579fc4d7e8b844dc464c63d8
+    excerpt: 2.4146743.96295325.98624457z" fill-rule="evenodd" transform="matrix(0 -1 1 0 0 10)"></path> </svg> </li> <li class="c-breadcrumbs__item" id="breadcrumb1" i
+- selection_id: sel_paas2020cognitiveload_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_paas2020cognitiveload
+  cache_id: cache_a8f6b980108e49f0
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_paas2020cognitiveload_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_paas2020cognitiveload
+  cache_id: cache_a8f6b980108e49f0
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_kalyuga2003expertisereversal_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_kalyuga2003expertisereversal
+  cache_id: cache_f8075f3ac5d9cd42
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: cfde11f5973f76113c2c0f58d7b84cf30c6eee2df922cec6b0062f6245cdfd8f
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1c77a897377a-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_kalyuga2003expertisereversal_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_kalyuga2003expertisereversal
+  cache_id: cache_f8075f3ac5d9cd42
+  span:
+    text_path_offset:
+    - 63979
+    - 64219
+    sha256_of_span: c53fa30a7de7dc34ea732f8be1035913d806b41433583411aab18de3c75ce4b6
+    excerpt: </li> <li> <a class="topnav-subject-link" href="/subjects/humanities"><span>Humanities</span></a>
+- selection_id: sel_rey2019segmentingmetaanalysis_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_rey2019segmentingmetaanalysis
+  cache_id: cache_2bf137261978ed8f
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 87a8b96d8790e217e9da4b45d997f83bfaf75cf6ddd22f3f8ea26d573376dda0
+    excerpt: <!DOCTYPE html><html lang="en" class="js"><head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="applicable-device" content="pc,mobile"> <meta name="viewport"
+      content=
+- selection_id: sel_rey2019segmentingmetaanalysis_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_rey2019segmentingmetaanalysis
+  cache_id: cache_2bf137261978ed8f
+  span:
+    text_path_offset:
+    - 147669
+    - 147909
+    sha256_of_span: a30a3ea3e1537c79fcf6d010b4ad7eb3bbb798e3154041dc2c2bad6ec9e94050
+    excerpt: 20h10.912a.385.385 0 0 0 .385-.385v-3.713zM9.5 6a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7m0 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"></path></symbol><symbol id="icon-eds-i-impact-factor-medium" viewBox="0
+      0 24 24"><path d="M16.49 2.672c.74.694.986
+- selection_id: sel_schneider2018signalingmeta_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_schneider2018signalingmeta
+  cache_id: cache_9ea204110053d472
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_schneider2018signalingmeta_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_schneider2018signalingmeta
+  cache_id: cache_9ea204110053d472
+  span:
+    text_path_offset:
+    - 886
+    - 1126
+    sha256_of_span: a078bc322c9f34c14ce0830abe38c04c33eb126f830da1cd0bd8f9f176c9256c
+    excerpt: type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url = '/retrieve/'+document.getElementById('resultName').value+'?Red
+- selection_id: sel_ginns2005modalitymetaanalysis_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_ginns2005modalitymetaanalysis
+  cache_id: cache_11f1af1649b4d181
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_ginns2005modalitymetaanalysis_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_ginns2005modalitymetaanalysis
+  cache_id: cache_11f1af1649b4d181
+  span:
+    text_path_offset:
+    - 866
+    - 1106
+    sha256_of_span: e901186c2db4bc344cf237e01f39b741b8a1fa3369f7132b649150e3c768b226
+    excerpt: language=JavaScript type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url
+      = '/retrieve/'+document.getElementById('resu
+- selection_id: sel_schwartz1998timefortelling_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_schwartz1998timefortelling
+  cache_id: cache_9a8b2e49d38e317d
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 6e6b210eaf6a6a1c04185cb7e21b01604154903a92b955487854457b1b53abbc
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1cb4bd4ff793-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_schwartz1998timefortelling_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_schwartz1998timefortelling
+  cache_id: cache_9a8b2e49d38e317d
+  span:
+    text_path_offset:
+    - 100895
+    - 101135
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_schwartz2004inventingfuturelearning_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_schwartz2004inventingfuturelearning
+  cache_id: cache_5d6d98f858d6e3e5
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 4f6f40ee4f4d26e733e49a53b710649697bf4ebb8820f6a3d1a8d3a65fe6a594
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1ccd882509ae-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_schwartz2004inventingfuturelearning_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_schwartz2004inventingfuturelearning
+  cache_id: cache_5d6d98f858d6e3e5
+  span:
+    text_path_offset:
+    - 104108
+    - 104348
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_kapur2008productivefailure_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_kapur2008productivefailure
+  cache_id: cache_7fb5be7818c4d0f9
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 4f6f14bd0f5521fbbc210705f573bfe0da4334d5fb96f26257946029839abdeb
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1ce59f890f7d-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_kapur2008productivefailure_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_kapur2008productivefailure
+  cache_id: cache_7fb5be7818c4d0f9
+  span:
+    text_path_offset:
+    - 103326
+    - 103566
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_kapur2012designingproductivefailure_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_kapur2012designingproductivefailure
+  cache_id: cache_5b5730c54ea90235
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 4a7700656b9201c288b8dd3b3134ec407b14c2c70bfaaecd114aac639f1b527b
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1cff9b53eef5-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_kapur2012designingproductivefailure_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_kapur2012designingproductivefailure
+  cache_id: cache_5b5730c54ea90235
+  span:
+    text_path_offset:
+    - 104029
+    - 104269
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_sinha2021problemsolvingmetaanalysis_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_sinha2021problemsolvingmetaanalysis
+  cache_id: cache_f08b76190a6b47f9
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_sinha2021problemsolvingmetaanalysis_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_sinha2021problemsolvingmetaanalysis
+  cache_id: cache_f08b76190a6b47f9
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_loibl2017towardstheory_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_loibl2017towardstheory
+  cache_id: cache_9fb1c3c03b86b7a2
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 935e25833dbe67a420924085933f7d1eae8d7dd1b468af40f7754e172d859ea4
+    excerpt: <!DOCTYPE html> <html lang="en" class="no-js"> <head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="applicable-device" content="pc,mobile"> <meta
+      name="viewport"
+- selection_id: sel_loibl2017towardstheory_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_loibl2017towardstheory
+  cache_id: cache_9fb1c3c03b86b7a2
+  span:
+    text_path_offset:
+    - 127054
+    - 127294
+    sha256_of_span: 906e5580d21e4b4629b7701b63f9a977014d3c5aa6fffd032bf449b86be34337
+    excerpt: id="icon-eds-i-file-upload-medium" viewBox="0 0 24 24"><path d="M14.5 1a1 1 0 0 1 .707.293l5.5 5.5A1 1 0 0 1 21 7.5v12.962A2.54 2.54 0 0 1 18.455 23H5.545A2.54 2.54 0 0 1 3 20.462V3.538A2.54
+      2.54 0 0 1 5.545 1zm-.415 2h-8.54A.54.54 0 0 0 5
+- selection_id: sel_loibl2014knowingwhatyoudontknow_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_loibl2014knowingwhatyoudontknow
+  cache_id: cache_effe961e558bbe2f
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_loibl2014knowingwhatyoudontknow_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_loibl2014knowingwhatyoudontknow
+  cache_id: cache_effe961e558bbe2f
+  span:
+    text_path_offset:
+    - 886
+    - 1126
+    sha256_of_span: a078bc322c9f34c14ce0830abe38c04c33eb126f830da1cd0bd8f9f176c9256c
+    excerpt: type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url = '/retrieve/'+document.getElementById('resultName').value+'?Red
+- selection_id: sel_ebner2025craetametaanalysis_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_ebner2025craetametaanalysis
+  cache_id: cache_67cd436026a46c6b
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_ebner2025craetametaanalysis_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_ebner2025craetametaanalysis
+  cache_id: cache_67cd436026a46c6b
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_clark1991dual_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_clark1991dual
+  cache_id: cache_16e70b5432fdefeb
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 87a8b96d8790e217e9da4b45d997f83bfaf75cf6ddd22f3f8ea26d573376dda0
+    excerpt: <!DOCTYPE html><html lang="en" class="js"><head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="applicable-device" content="pc,mobile"> <meta name="viewport"
+      content=
+- selection_id: sel_clark1991dual_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_clark1991dual
+  cache_id: cache_16e70b5432fdefeb
+  span:
+    text_path_offset:
+    - 287805
+    - 288045
+    sha256_of_span: 47bc7d0effe00d461b89a430a754ee1847f7454153d78046b1fd4f495ffd091d
+    excerpt: href="/article/10.1007/BF01320076/save-research?_csrf=sWFkXFs5eZXqqgbP8VfsAg5fIjS2k3U5" data-track="form_saved_research" data-track-context="saved on article page" data-track-value="save" id="save_article">
+- selection_id: sel_sadoski2013imagery_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_sadoski2013imagery
+  cache_id: cache_bc410eca8b0bef96
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: b42b68f70dfe0f6c0705ca7f5c6301a2ed5935a4e516f1b7e1e50a3c07c46ea5
+    excerpt: <!DOCTYPE html><html lang="en" class="js no-applicationcache audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a canvas canvastext contenteditable cors geolocation hashchange history inputtypes-search
+      inputtypes-tel inputtypes-url inpu
+- selection_id: sel_sadoski2013imagery_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_sadoski2013imagery
+  cache_id: cache_bc410eca8b0bef96
+  span:
+    text_path_offset:
+    - 60740
+    - 60980
+    sha256_of_span: 49cde4487aa1e0586ad7d0f3fcbab906bc77b07a3ab8d376f3b17d8961e158a7
+    excerpt: t=this.agentRef.loader_config;if(!this.shouldGenerateTrace(e)||!t)return null;var r=(t.accountID||"").toString()||null,n=(t.agentID||"").toString()||null,i=(t.trustKey||"").toString()||null;if(!r||!n)return
+      null;var s=(0,Y.ZF)(),o=(0,Y.el)(
+- selection_id: sel_paivio2007mind_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_paivio2007mind
+  cache_id: cache_e89abc55ad7e1613
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: b42b68f70dfe0f6c0705ca7f5c6301a2ed5935a4e516f1b7e1e50a3c07c46ea5
+    excerpt: <!DOCTYPE html><html lang="en" class="js no-applicationcache audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a canvas canvastext contenteditable cors geolocation hashchange history inputtypes-search
+      inputtypes-tel inputtypes-url inpu
+- selection_id: sel_paivio2007mind_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_paivio2007mind
+  cache_id: cache_e89abc55ad7e1613
+  span:
+    text_path_offset:
+    - 71173
+    - 71413
+    sha256_of_span: de188c3c55c077ee66059d1b057b4b16abf87a677382c83779f8e628f2f65af7
+    excerpt: this.recorder?Promise.resolve(this.recorder):(this.#n??=Promise.all([i.e(891),i.e(222)]).then(i.bind(i,4866)).then(({Recorder:e})=>(this.recorder=new e(this),this.recorder)).catch(e=>{throw
+      this.ee.emit("internal-error",[e]),this.blocked=!0
+- selection_id: sel_carney2002pictorial_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_carney2002pictorial
+  cache_id: cache_2d49cb6a7f6267e4
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 87a8b96d8790e217e9da4b45d997f83bfaf75cf6ddd22f3f8ea26d573376dda0
+    excerpt: <!DOCTYPE html><html lang="en" class="js"><head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="applicable-device" content="pc,mobile"> <meta name="viewport"
+      content=
+- selection_id: sel_carney2002pictorial_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_carney2002pictorial
+  cache_id: cache_2d49cb6a7f6267e4
+  span:
+    text_path_offset:
+    - 142353
+    - 142593
+    sha256_of_span: adfadf7fcf5793aa82a80fcc2dc211f451d68294adb0373ff860638af1f22061
+    excerpt: 8.307a1 1 0 0 1-1.414-1.414L11.584 3H9a1 1 0 0 1-.993-.883L8 2a1 1 0 0 1 1-1"></path></symbol><symbol id="icon-eds-i-file-download-medium" viewBox="0 0 24 24"><path d="M14.5 1a1 1 0 0 1 .707.293l5.5
+      5.5A1 1 0 0 1 21 7.5v12.962A2.54 2.54 0 0
+- selection_id: sel_higdon2025distinctiveness_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_higdon2025distinctiveness
+  cache_id: cache_5349d62575f3665e
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_higdon2025distinctiveness_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_higdon2025distinctiveness
+  cache_id: cache_5349d62575f3665e
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_ensor2019distinctiveness_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_ensor2019distinctiveness
+  cache_id: cache_f90dae7cd115bdd1
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 935e25833dbe67a420924085933f7d1eae8d7dd1b468af40f7754e172d859ea4
+    excerpt: <!DOCTYPE html> <html lang="en" class="no-js"> <head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="applicable-device" content="pc,mobile"> <meta
+      name="viewport"
+- selection_id: sel_ensor2019distinctiveness_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_ensor2019distinctiveness
+  cache_id: cache_f90dae7cd115bdd1
+  span:
+    text_path_offset:
+    - 144756
+    - 144996
+    sha256_of_span: 10768144f6484ac9ea83af2b2944681bfcaa3a89808a6f267775551794f95046
+    excerpt: 1.841 1.263 1.07 1.874 2.793 1.344 3.487 1.018.099-.795.416-1.344.752-1.65-2.654-.285-5.447-1.344-5.447-6.07 0-1.345.475-2.445 1.228-3.3-.119-.306-.535-1.57.12-3.26 0 0 1.01-.326 3.287 1.263.975-.27
+      1.981-.407 2.991-.408 1.01 0 2.04.143 2.9
+- selection_id: sel_sentance2017primm_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_sentance2017primm
+  cache_id: cache_9d80edc521d09fdf
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: c37687ee6bcf44bdc5aaae10ad1ff4fbf3698a76a9d7df2ff4a964982bd2a993
+    excerpt: <!DOCTYPE html> <html lang="en" class="nexus-font-support"> <head> <meta charset="utf-8"/> <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <meta name="viewport" content="width=device-width,
+      initial-scale=1"/> <m
+- selection_id: sel_sentance2017primm_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_sentance2017primm
+  cache_id: cache_9d80edc521d09fdf
+  span:
+    text_path_offset:
+    - 12775
+    - 13015
+    sha256_of_span: 483f7c1fa84ec1bab9baf891a0381be12de8541afd66c6259300a073e9a97bd7
+    excerpt: <span class="label">Citations (Scopus)</span> </div> <div class="metric metrics-downloads">
+- selection_id: sel_sentance2019teachers_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_sentance2019teachers
+  cache_id: cache_e92bcde60c79c5c3
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 48e67ea3e1f82b8fa7b448d0a59ecfbd42b0f2f3a8de37fd5c28ca0fc19731cd
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1e0b429a428f-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_sentance2019teachers_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_sentance2019teachers
+  cache_id: cache_e92bcde60c79c5c3
+  span:
+    text_path_offset:
+    - 109420
+    - 109660
+    sha256_of_span: 2933d2a9a8f67648fcae893c530cff66ebc4d610380cddde86b51a32e564d46a
+    excerpt: 'class="CybotCookiebotDialogDetailBodyContentCookieInfoFooter"><span class="CybotCookiebotDialogDetailBodyContentCookieInfoFooterContent"><b>Maximum Storage Duration</b>: Session</span><span
+      class="CybotCookiebotDialogDetailBodyContentCookie'
+- selection_id: sel_lee2011usemodifycreate_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_lee2011usemodifycreate
+  cache_id: cache_ebf05e7648106476
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_lee2011usemodifycreate_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_lee2011usemodifycreate
+  cache_id: cache_ebf05e7648106476
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_margulieux2012subgoal_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_margulieux2012subgoal
+  cache_id: cache_e11ae5be7bf2599a
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 9170822d205c4fe081d636987ed21f372f293743573c424184abc341c3176dfa
+    excerpt: <!DOCTYPE html><html lang="en"><head> <meta charset="UTF-8"> <base href="/"> <title>DSpace</title> <meta name="viewport" content="width=device-width,minimum-scale=1"> <meta http-equiv="cache-control"
+      content="no-store"> <style>@ch
+- selection_id: sel_margulieux2012subgoal_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_margulieux2012subgoal
+  cache_id: cache_e11ae5be7bf2599a
+  span:
+    text_path_offset:
+    - 24535
+    - 24775
+    sha256_of_span: 0c4ca72ada7ee815c50648b130905719f1e34a20e5158b6779d7a74670810698
+    excerpt: .breadcrumb-item[_ngcontent-dspace-angular-c436]:before{content:"\2022"!important}.breadcrumb-item[_ngcontent-dspace-angular-c436] + .breadcrumb-item[_ngcontent-dspace-angular-c436]:before{display:block}</style><style>@charset
+      "UTF-8";a[_ng
+- selection_id: sel_morrison2016subgoals_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_morrison2016subgoals
+  cache_id: cache_272830c71c924c6a
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 169ff780f1bcc5bd3ad8a844a7016c041d2ed893b77336146a6a76e979ae51d6
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1e4b21709187-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_morrison2016subgoals_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_morrison2016subgoals
+  cache_id: cache_272830c71c924c6a
+  span:
+    text_path_offset:
+    - 108269
+    - 108509
+    sha256_of_span: 77e91917c488a8e2d9a80659966452602a627c408176c531fbc88cf327eda753
+    excerpt: class="CybotCookiebotDialogDetailBodyContentCookieGroup"><a class="CybotCookiebotDialogDetailBodyContentCookieProvider CybotCookiebotDialogCollapsed" role="button" aria-expanded="false" tabindex="0">Vimeo<div
+      class="CybotCookiebotDialogDeta
+- selection_id: sel_raj2018livecoding_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_raj2018livecoding
+  cache_id: cache_909c5ab54015c7aa
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: c1ba89dfb7d20d49fa5df159db2f2eb9cdb09300b19013d296d7a9f6a8d2f50e
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f1e9ed2d5c44f-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_raj2018livecoding_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_raj2018livecoding
+  cache_id: cache_909c5ab54015c7aa
+  span:
+    text_path_offset:
+    - 107041
+    - 107281
+    sha256_of_span: 746af2fd695eda44ba0d1b58574aa169582c0f9a151d4cd83338b253819913ce
+    excerpt: src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe59
+- selection_id: sel_kluyver2016jupyter_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_kluyver2016jupyter
+  cache_id: cache_1c5809aa6fd178d6
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_kluyver2016jupyter_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_kluyver2016jupyter
+  cache_id: cache_1c5809aa6fd178d6
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_victor2011explorable_identifies
+  bullet_id: B1
+  atom_id: claim_multi_paradigm_presentation_b1_a1_identifies_victor2011explorable
+  cache_id: cache_7c434b30d70366ea
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 6f3bca95e8fd4099fb6a8965c36db423a3453a80046226d0bb0d639934a63096
+    excerpt: <!DOCTYPE html> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <base target="_top"> <title>Explorable Explanations</title> <link rel="stylesheet" href="style.css"
+      type="text/css"> <scrip
+- selection_id: sel_victor2011explorable_mechanism
+  bullet_id: B3
+  atom_id: claim_multi_paradigm_presentation_b3_a1_mechanism_victor2011explorable
+  cache_id: cache_7c434b30d70366ea
+  span:
+    text_path_offset:
+    - 8877
+    - 9117
+    sha256_of_span: 29b9948d19b418c49f5878e287f4ebc7c77629464f81d4af132519357a1bf1cc
+    excerpt: results of the model, and present them to the reader via language and graphics.</p> <p>The reactive document integrates spreadsheet-like models into authored text. It can be read at multiple
+      levels, depending on the reader's level of inte

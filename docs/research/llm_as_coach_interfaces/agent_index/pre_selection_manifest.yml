@@ -1,0 +1,823 @@
+schema_version: 3
+topic: llm_as_coach_interfaces
+generated_at: '2026-05-24'
+current_as_of: '2026-05-24'
+freshness_policy: strict_live
+selections:
+- selection_id: sel_vanlehn2011relative_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_vanlehn2011relative
+  cache_id: cache_a765ac3588af337d
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: c37687ee6bcf44bdc5aaae10ad1ff4fbf3698a76a9d7df2ff4a964982bd2a993
+    excerpt: <!DOCTYPE html> <html lang="en" class="nexus-font-support"> <head> <meta charset="utf-8"/> <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <meta name="viewport" content="width=device-width,
+      initial-scale=1"/> <m
+- selection_id: sel_vanlehn2011relative_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_vanlehn2011relative
+  cache_id: cache_a765ac3588af337d
+  span:
+    text_path_offset:
+    - 17988
+    - 18228
+    sha256_of_span: 8429dce125f9064554c118139b05449e036087e0700da2e641b7a4da2bd48345
+    excerpt: digital_object_identifiers"><li><a onclick="window.open(this.href, '_blank','noopener,noreferrer'); return false;" href="https://doi.org/10.1080/00461520.2011.611369" class="link"><span>https://doi.org/10.1080/00461520.2011.611369</span></a
+- selection_id: sel_khan2024efficacy_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_khan2024efficacy
+  cache_id: cache_43e97abed5de87ba
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: a1a49a3b6e6dfe2dc48099c9ea639e9f06c5afaebc9ca15b123127436bc0798d
+    excerpt: <!DOCTYPE html> <html lang="en-US"> <head> <meta charset="UTF-8"> <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' /> <!-- Google Tag
+      Manager for WordPress by gtm4wp.com --> <scri
+- selection_id: sel_khan2024efficacy_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_khan2024efficacy
+  cache_id: cache_43e97abed5de87ba
+  span:
+    text_path_offset:
+    - 34650
+    - 34890
+    sha256_of_span: 42428e4c9650db7428d973ef983c8e7caf5c0f476115ee843b3171a6be274587
+    excerpt: '.menu-toggle:focus,.has-inline-mobile-toggle #site-navigation.toggled{background-color:rgba(0, 0, 0, 0.02);}.main-navigation,.main-navigation ul ul{background-color:var(--base-3);}.main-navigation
+      .main-nav ul li a, .main-navigation .menu-t'
+- selection_id: sel_shabsigh2024khanmigo_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_shabsigh2024khanmigo
+  cache_id: cache_14036d46f1a13346
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 40e0c94469c2c6eeae9c37b4fac59097c40d1d1c4b233b20b8d57e2a8e1086bb
+    excerpt: <!DOCTYPE html> <html lang="en-US" xml:lang="en-US"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title> Leveraging “Khanmigo” Generative
+      AI-Powered Tool for Personalized Tutorin
+- selection_id: sel_shabsigh2024khanmigo_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_shabsigh2024khanmigo
+  cache_id: cache_14036d46f1a13346
+  span:
+    text_path_offset:
+    - 17422
+    - 17662
+    sha256_of_span: 5cf1787cefbf5340d437f2292be529958bdd53921651fe49fba79f294d93d3ce
+    excerpt: href="https://jtl.uwindsor.ca/plugins/generic/orcidProfile/css/orcidProfile.css?v=3.3.0.21" type="text/css" /><link rel="stylesheet" href="https://jtl.uwindsor.ca/public/journals/8/styleSheet.css?d=2021-06-14+11%3A11%3A16"
+      type="text/css" /
+- selection_id: sel_koedinger1997intelligent_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_koedinger1997intelligent
+  cache_id: cache_296bee496e601959
+  span:
+    text_path_offset:
+    - 0
+    - 111
+    sha256_of_span: 296bee496e601959ecdf00dc497394844632d769dc9437ac9021be2ad882ab73
+    excerpt: <html><head><title>403 Forbidden</title></head> <body> <center><h1>403 Forbidden</h1></center> </body></html>
+- selection_id: sel_koedinger1997intelligent_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_koedinger1997intelligent
+  cache_id: cache_296bee496e601959
+  span:
+    text_path_offset:
+    - 0
+    - 111
+    sha256_of_span: 296bee496e601959ecdf00dc497394844632d769dc9437ac9021be2ad882ab73
+    excerpt: <html><head><title>403 Forbidden</title></head> <body> <center><h1>403 Forbidden</h1></center> </body></html>
+- selection_id: sel_bloom1984twosigma_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_bloom1984twosigma
+  cache_id: cache_1bae20d6b577f182
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_bloom1984twosigma_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_bloom1984twosigma
+  cache_id: cache_1bae20d6b577f182
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_anderson1995cognitive_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_anderson1995cognitive
+  cache_id: cache_5929bf0032e4259e
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 7170151be6157336af7863c6698066e24f97280adafed466f57fdff475ab01ea
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f28d529eff795-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_anderson1995cognitive_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_anderson1995cognitive
+  cache_id: cache_5929bf0032e4259e
+  span:
+    text_path_offset:
+    - 104590
+    - 104830
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_corbett1995knowledge_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_corbett1995knowledge
+  cache_id: cache_14f1d585d272e532
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 935e25833dbe67a420924085933f7d1eae8d7dd1b468af40f7754e172d859ea4
+    excerpt: <!DOCTYPE html> <html lang="en" class="no-js"> <head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="applicable-device" content="pc,mobile"> <meta
+      name="viewport"
+- selection_id: sel_corbett1995knowledge_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_corbett1995knowledge
+  cache_id: cache_14f1d585d272e532
+  span:
+    text_path_offset:
+    - 92338
+    - 92578
+    sha256_of_span: ff407b0aa28e0a3363fb95753178aef89c5f25cc16018171a63add6504437382
+    excerpt: 1 0 4 2 2 0 0 1 0-4"/></symbol><symbol id="icon-eds-i-check-circle-medium" viewBox="0 0 24 24"><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1m0 2a9 9 0 1 0
+      0 18 9 9 0 0 0 0-18m5.125 4.72a1 1 0 0 1 .156 1.40
+- selection_id: sel_vanlehn2006behavior_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_vanlehn2006behavior
+  cache_id: cache_6dd3fc8a10ce528d
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 54f5a76f656ee2d3e44ed9ba49875a47048e7032497e884cc3ce2248ab9dc89f
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f28fc56931325-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_vanlehn2006behavior_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_vanlehn2006behavior
+  cache_id: cache_6dd3fc8a10ce528d
+  span:
+    text_path_offset:
+    - 112083
+    - 112323
+    sha256_of_span: 5afe1504b856e1f28b59e82e046e91cefe1b905c6487a07abbcf57f4d6d410f2
+    excerpt: owner to make parts of the website inaccessible, based on the user's log-in status. </span><div class="CybotCookiebotDialogDetailBodyContentCookieInfoFooter"><span class="CybotCookiebotDialogDetailBodyContentCookieInfoFooterContent"><b>Max
+- selection_id: sel_kulik2016effectiveness_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_kulik2016effectiveness
+  cache_id: cache_b97780e2e9023e33
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_kulik2016effectiveness_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_kulik2016effectiveness
+  cache_id: cache_b97780e2e9023e33
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_kazemitabaar2024codeaid_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_kazemitabaar2024codeaid
+  cache_id: cache_cc8bf9f4f5930d55
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 4d10b1c459a59d5cdde2aa0a5d2ce4ad7fe3e227de8376da0b18ce75460ecc44
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f2931257d8c6d-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_kazemitabaar2024codeaid_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_kazemitabaar2024codeaid
+  cache_id: cache_cc8bf9f4f5930d55
+  span:
+    text_path_offset:
+    - 165429
+    - 165669
+    sha256_of_span: f9cf8b2f2148f5d806ece2c8a6b485e2ec28504c527ad35f53698c3b8dfdaec2
+    excerpt: 'class="CybotCookiebotDialogDetailBodyContentCookieInfoFooterContent"><b>Maximum Storage Duration</b>: Persistent</span><span class="CybotCookiebotDialogDetailBodyContentCookieInfoFooterContent"><b>Type</b>:
+      IndexedDB</span></div></div><div'
+- selection_id: sel_liffiton2023codehelp_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_liffiton2023codehelp
+  cache_id: cache_2bfe98d6e24c5cca
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 54bbb6c064b8eccdebe4211d71fd04530344087446fcd9de97c25f1ccf0b402f
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f295217474411-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_liffiton2023codehelp_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_liffiton2023codehelp
+  cache_id: cache_2bfe98d6e24c5cca
+  span:
+    text_path_offset:
+    - 115353
+    - 115593
+    sha256_of_span: 746af2fd695eda44ba0d1b58574aa169582c0f9a151d4cd83338b253819913ce
+    excerpt: src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF2hk3SVvBaEuoDYu4IgRRMv/iEkD/Hn+QnOuatS6gEAqDoJIQC/vfe59
+- selection_id: sel_kazemitabaar2023studying_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_kazemitabaar2023studying
+  cache_id: cache_b6bd9a44aebaa26f
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 765d156b49663b202cf38a7dea8700eac5004cbaedc8735548f3437db240368d
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f2971717ec354-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_kazemitabaar2023studying_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_kazemitabaar2023studying
+  cache_id: cache_b6bd9a44aebaa26f
+  span:
+    text_path_offset:
+    - 171172
+    - 171412
+    sha256_of_span: 509e983d06c2dd0db2ebbe179ab8b78bab5366296f74d73fba556a47a6ebb9ab
+    excerpt: class="CybotCookiebotDialogDetailBodyContentCookieInfoDescription">Pending</span><div class="CybotCookiebotDialogDetailBodyContentCookieInfoFooter"><span class="CybotCookiebotDialogDetailBodyContentCookieInfoFooterContent"><b>Maximum
+      Storag
+- selection_id: sel_schmucker2024ruffle_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_schmucker2024ruffle
+  cache_id: cache_c54d744efff36a13
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: ad2a0daf9e6bff6e371a20a755be40cb373486d5cc1198fdf78c40de11e38fbc
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2404.17460] Ruffle&amp;Riley: Insights from Designing and Evaluating a Large Language Model-Based Conversational Tutoring System</title> <meta
+      name="viewport" content="width=device-width,'
+- selection_id: sel_schmucker2024ruffle_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_schmucker2024ruffle
+  cache_id: cache_c54d744efff36a13
+  span:
+    text_path_offset:
+    - 16086
+    - 16326
+    sha256_of_span: 76b58c8e6bc4e4995f72722c44049e9da50e48939e2dcdd33878b4a05d360f17
+    excerpt: 'Mitchell</a></div> <div id="download-button-info" hidden>View a PDF of the paper titled Ruffle&amp;Riley: Insights from Designing and Evaluating a Large Language Model-Based Conversational
+      Tutoring System, by Robin Schmucker and'
+- selection_id: sel_kestin2025aitutoring_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_kestin2025aitutoring
+  cache_id: cache_b826a350213da400
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 37dbd11aef4ba574649f0b39396f6f97d5db6497d9bb49ba55b08449e4ecd8e0
+    excerpt: '<!DOCTYPE html><html lang="en" class="js"><head> <title>AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting
+      | Scientific Reports</title> <l'
+- selection_id: sel_kestin2025aitutoring_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_kestin2025aitutoring
+  cache_id: cache_b826a350213da400
+  span:
+    text_path_offset:
+    - 138248
+    - 138488
+    sha256_of_span: 3eedcefce769b4c959c2aafae39fadfa65673224f137aa9f683ca700f4f07a27
+    excerpt: data-track-context="inline recommendations" data-track-action="click recommendations inline - 1" data-track-label="10.1038/s41539-025-00320-7">A systematic review of AI-driven intelligent tutoring
+      systems (ITS) in K-12 education
+- selection_id: sel_jurenka2025aitutoringrct_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_jurenka2025aitutoringrct
+  cache_id: cache_e31b83cec273a639
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 37327344bf161fe2a3647403e19f1baec63ef16afbf541bf2db69288cb520585
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2512.23633] AI tutoring can safely and effectively support students: An exploratory RCT in UK classrooms</title> <meta name="viewport" content="width=device-width,
+      initial-scale=1"> <lin'
+- selection_id: sel_jurenka2025aitutoringrct_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_jurenka2025aitutoringrct
+  cache_id: cache_e31b83cec273a639
+  span:
+    text_path_offset:
+    - 17690
+    - 17930
+    sha256_of_span: b1485d98230fb2f1e3132acc4c59f594473206285682fb867d9e919116d1635c
+    excerpt: href="https://arxiv.org/search/cs?searchtype=author&amp;query=Nambiar,+A" rel="nofollow">Anjali Nambiar</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kenolty,+A" rel="nofollow">Anna
+      Kenolty</a>, <a href="https://arxi
+- selection_id: sel_liu2025chatgptachievementmeta_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_liu2025chatgptachievementmeta
+  cache_id: cache_d5606196af177240
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_liu2025chatgptachievementmeta_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_liu2025chatgptachievementmeta
+  cache_id: cache_d5606196af177240
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_deng2024chatgptmetaanalysis_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_deng2024chatgptmetaanalysis
+  cache_id: cache_793ae7e20a2ccb78
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_deng2024chatgptmetaanalysis_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_deng2024chatgptmetaanalysis
+  cache_id: cache_793ae7e20a2ccb78
+  span:
+    text_path_offset:
+    - 886
+    - 1126
+    sha256_of_span: a078bc322c9f34c14ce0830abe38c04c33eb126f830da1cd0bd8f9f176c9256c
+    excerpt: type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url = '/retrieve/'+document.getElementById('resultName').value+'?Red
+- selection_id: sel_ouyang2021threeparadigms_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_ouyang2021threeparadigms
+  cache_id: cache_af5ddb8da2c12360
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_ouyang2021threeparadigms_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_ouyang2021threeparadigms
+  cache_id: cache_af5ddb8da2c12360
+  span:
+    text_path_offset:
+    - 886
+    - 1126
+    sha256_of_span: a078bc322c9f34c14ce0830abe38c04c33eb126f830da1cd0bd8f9f176c9256c
+    excerpt: type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url = '/retrieve/'+document.getElementById('resultName').value+'?Red
+- selection_id: sel_sharma2023sycophancy_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_sharma2023sycophancy
+  cache_id: cache_1628234734948e94
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 1b6e03ebd84d2655112ac32be136fad886be56375a65e74369307682ab56edb6
+    excerpt: <!DOCTYPE html> <html lang="en"> <head> <title>[2310.13548] Towards Understanding Sycophancy in Language Models</title> <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="apple-touch-icon" sizes="180x180"
+- selection_id: sel_sharma2023sycophancy_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_sharma2023sycophancy
+  cache_id: cache_1628234734948e94
+  span:
+    text_path_offset:
+    - 16538
+    - 16778
+    sha256_of_span: f1ebe140da75670ab490b5b1199ccfd31c9aaf55fb3738150e53a91edae7a91c
+    excerpt: href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ndousse,+K" rel="nofollow">Kamal Ndousse</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Rausch,+O" rel="nofollow">Oliver
+      Rausch</a>, <a href="https://arxiv
+- selection_id: sel_denison2024sycophancysubterfuge_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_denison2024sycophancysubterfuge
+  cache_id: cache_90b0932d9b3116b8
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 6413c226d7214afe1cecc6596a4e910dccc6af5254d8598f631bad609315aa79
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2406.10162] Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models</title> <meta name="viewport" content="width=device-width,
+      initial-scale=1"> <link rel="appl'
+- selection_id: sel_denison2024sycophancysubterfuge_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_denison2024sycophancysubterfuge
+  cache_id: cache_90b0932d9b3116b8
+  span:
+    text_path_offset:
+    - 16356
+    - 16596
+    sha256_of_span: cebc5c2b2a82b7d5acdc478cf829d3267b63952dfc4ca481b256f7ab093b5e38
+    excerpt: href="https://arxiv.org/search/cs?searchtype=author&amp;query=Soklaski,+R" rel="nofollow">Ryan Soklaski</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Tamkin,+A" rel="nofollow">Alex
+      Tamkin</a>, <a href="https://arxiv.
+- selection_id: sel_kosmyna2025brainonchatgpt_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_kosmyna2025brainonchatgpt
+  cache_id: cache_6dc1b7ce5ad2128e
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: e195564637d1285a461c24aed3ec043d98bacbd2771b21a4dbd0fbef46939a2d
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2506.08872] Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task</title> <meta name="viewport"
+      content="width=device-width, initial-scale'
+- selection_id: sel_kosmyna2025brainonchatgpt_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_kosmyna2025brainonchatgpt
+  cache_id: cache_6dc1b7ce5ad2128e
+  span:
+    text_path_offset:
+    - 16241
+    - 16481
+    sha256_of_span: 97f027ade6eaadd54a67307b223930176bb50f1ab2dbc8e15971f18a9501e998
+    excerpt: href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hauptmann,+E" rel="nofollow">Eugene Hauptmann</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yuan,+Y+T"
+      rel="nofollow">Ye Tong Yuan</a>, <a href="https://a
+- selection_id: sel_gerlich2025cognitiveoffloading_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_gerlich2025cognitiveoffloading
+  cache_id: cache_f85b375da7d08a59
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 3c011135d0b531cad17479437c6819be35bca18ae0a5ec15702dd178d266a777
+    excerpt: '<html><head> <title>Access Denied</title> </head><body> <h1>Access Denied</h1> You don''t have permission to access "http://www.mdpi.com/2075-4698/15/1/6" on this server.<p> Reference #18.1759c817.1779655732.42ec3c9e
+      </p><p>https://errors.'
+- selection_id: sel_gerlich2025cognitiveoffloading_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_gerlich2025cognitiveoffloading
+  cache_id: cache_f85b375da7d08a59
+  span:
+    text_path_offset:
+    - 67
+    - 306
+    sha256_of_span: e3fc825c2b8087fb1a8ec248b31de66cf7ba91c31847422903593f34a32e7cbd
+    excerpt: 'Denied</h1> You don''t have permission to access "http://www.mdpi.com/2075-4698/15/1/6" on this server.<p> Reference #18.1759c817.1779655732.42ec3c9e </p><p>https://errors.edgesuite.net/18.1759c817.1779655732.42ec3c9e</p>
+      </body></html>'
+- selection_id: sel_klehm2025overconfidence_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_klehm2025overconfidence
+  cache_id: cache_b15f5355b65e7174
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 1f02ac87e0fb3aa87edbd5a5a1bff9ed4f8b4d0cda97f53bd8a94d2a2bbe4022
+    excerpt: <!DOCTYPE html><html lang="en" data-beasties-container=""><head><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/destination?id=AW-963536011&amp;cx=c&amp;gtm=4e65k1"></script><script
+      async="" src="https://s
+- selection_id: sel_klehm2025overconfidence_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_klehm2025overconfidence
+  cache_id: cache_b15f5355b65e7174
+  span:
+    text_path_offset:
+    - 56270
+    - 56510
+    sha256_of_span: 14384ba6662c6b5be98a70f306f8d3cdfb3f90d2e2b27702a574a4150c27a830
+    excerpt: 96%);--p-message-error-simple-color:var(--p-red-600);--p-message-error-outlined-color:var(--p-red-600);--p-message-error-outlined-border-color:var(--p-red-600);--p-message-error-close-button-hover-background:var(--p-red-100);--p-message-err
+- selection_id: sel_benedek2025overreliance_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_benedek2025overreliance
+  cache_id: cache_837deb83438f35ca
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: b7f295aecd9c596422fafceb579ad3ae765617a7ed6c98398ba2c831679b7153
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2510.16019] Impact of AI Tools on Learning Outcomes: Decreasing Knowledge and Over-Reliance</title> <meta name="viewport" content="width=device-width,
+      initial-scale=1"> <link rel="apple-'
+- selection_id: sel_benedek2025overreliance_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_benedek2025overreliance
+  cache_id: cache_837deb83438f35ca
+  span:
+    text_path_offset:
+    - 16020
+    - 16260
+    sha256_of_span: 45950f23c198fd0241f356a6acdab54256c8561e6a263116491fb2f735b8cfd4
+    excerpt: 'Tools on Learning Outcomes: Decreasing Knowledge and Over-Reliance, by M\&#39;arton Benedek and Bal\&#39;azs R. Sziklai</div> <a class="mobile-submission-download" href="/pdf/2510.16019">View
+      PDF</a> <a class="mobile-submission-down'
+- selection_id: sel_ai2024sycophancysurvey_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_ai2024sycophancysurvey
+  cache_id: cache_c42f17c5256538a3
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 8038aa8a055fd601ad9d9fbecc2f5aa055c48da03ccd34b176d76922cde4c39f
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2411.15287] Sycophancy in Large Language Models: Causes and Mitigations</title> <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="apple-touch-icon" sizes="1'
+- selection_id: sel_ai2024sycophancysurvey_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_ai2024sycophancysurvey
+  cache_id: cache_c42f17c5256538a3
+  span:
+    text_path_offset:
+    - 15036
+    - 15276
+    sha256_of_span: a7af58b4df34f674d5e5f3e56e6a0592aa2a7334223a8d0b8e705983aad55a47
+    excerpt: evaluate promising techniques for reducing sycophancy while maintaining model performance. Key approaches explored include improved training data, novel fine-tuning methods, post-deployment
+      control mechanisms, and decoding strategies. We al
+- selection_id: sel_puech2024pedagogical_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_puech2024pedagogical
+  cache_id: cache_70f828a125b83c5f
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 0b2ffc515ad45eb420dd556994969a8fb7e411a6e20ddafc51a59b2effd951e6
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2410.03781] Towards the Pedagogical Steering of Large Language Models for Tutoring: A Case Study with Modeling Productive Failure</title> <meta
+      name="viewport" content="width=device-width,'
+- selection_id: sel_puech2024pedagogical_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_puech2024pedagogical
+  cache_id: cache_70f828a125b83c5f
+  span:
+    text_path_offset:
+    - 15935
+    - 16175
+    sha256_of_span: cf166a43ca9dcf750ad592643999e1399eaf4cb973397ca9f6b9f16bdfcd86e4
+    excerpt: teaching. With the growing popularity of Large Language Models (LLMs), there have been efforts to create LLM based conversational tutors which can expand the benefits of one to one tutoring
+      to everyone. However, current LLMs are trained pri
+- selection_id: sel_macina2025mathtutorbench_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_macina2025mathtutorbench
+  cache_id: cache_dbca6f592433aba8
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: ad43a94cf65ea30440a465d26ba9e2b06602c28d63d239ea4e094546a6a891a6
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2502.18940] MathTutorBench: A Benchmark for Measuring Open-ended Pedagogical Capabilities of LLM Tutors</title> <meta name="viewport" content="width=device-width,
+      initial-scale=1"> <link'
+- selection_id: sel_macina2025mathtutorbench_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_macina2025mathtutorbench
+  cache_id: cache_dbca6f592433aba8
+  span:
+    text_path_offset:
+    - 15812
+    - 16052
+    sha256_of_span: 9a2073a2ad63b38249dfcfadc4fe2e94200c1c0e707eeefb9a5e9a5cb0be730e
+    excerpt: <blockquote class="abstract mathjax"> <span class="descriptor">Abstract:</span>Evaluating the pedagogical capabilities of AI-based tutoring models is critical for making guided progress in
+      the field. Yet, we lack a reliable, ea
+- selection_id: sel_liu2024socraticlm_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_liu2024socraticlm
+  cache_id: cache_039cc9b34a6685cc
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 7f6785ef14f8ddda47d8ea83c55d10d3e408d0b41ec0968fb07722f3e9e06af2
+    excerpt: '<!doctype html> <html lang="en"> <head> <!-- Required meta tags --> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <title>SocraticLM:
+      Exploring Socratic Per'
+- selection_id: sel_liu2024socraticlm_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_liu2024socraticlm
+  cache_id: cache_039cc9b34a6685cc
+  span:
+    text_path_offset:
+    - 3506
+    - 3746
+    sha256_of_span: 17eb70ead64dfc729eb1f94b434467db182a71d1bc36231f95ec2196d87ddc71
+    excerpt: href="/">NeurIPS Proceedings</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigat
+- selection_id: sel_shi2024socraticmath_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_shi2024socraticmath
+  cache_id: cache_d27ab83a0e3a1447
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 88a7b4e30e6ff61faea7e0f3ad9ed1bc4fee33bbf144748dc148aa733e1690ab
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f2a1c27df8c6d-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_shi2024socraticmath_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_shi2024socraticmath
+  cache_id: cache_d27ab83a0e3a1447
+  span:
+    text_path_offset:
+    - 116795
+    - 117035
+    sha256_of_span: dac844888a13581512a1eccd82c005bf7c92463d2d328af46273a4e79ad2954f
+    excerpt: a new window">Learn more about this provider<img class="CybotExternalLinkArrow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgE
+- selection_id: sel_anthropic2025learningmode_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_anthropic2025learningmode
+  cache_id: cache_acf074850c523ac8
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: cc8ab79ed2cab2cbf7e57bb863aa4b6e77bd05dd4b18f513ab6d7416355acd22
+    excerpt: <!DOCTYPE html><html lang="en" class="anthropicsans_dce02d96-module__tEBbKW__variable anthropicserif_e7e46c4-module__uImRTq__variable anthropicmono_fae19af3-module__c5XAsG__variable copernicus_4da799c5-module__dijTSq__variable
+      styrenea_f849
+- selection_id: sel_anthropic2025learningmode_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_anthropic2025learningmode
+  cache_id: cache_acf074850c523ac8
+  span:
+    text_path_offset:
+    - 40573
+    - 40813
+    sha256_of_span: 47f31df6680fdb0145dd97af64b52e2ae8dc9df498c32db88032fa95c50930ab
+    excerpt: href="https://claude.com/plugins" class="SiteFooter-module-scss-module__JdOqwq__listItem body-4" target="_blank" rel="noopener noreferrer">Plugins</a></li><li><a href="https://claude.com/partners/powered-by-claude"
+      class="SiteFooter-module-
+- selection_id: sel_openai2025studymode_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_openai2025studymode
+  cache_id: cache_1af880532fcbe092
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 1e4301b29885c1d175347f9171dc54c20b5e315e81e299e486be6c4bd8b26d76
+    excerpt: <!DOCTYPE html><html data-dpl-id="dpl_4pprbRpM6o759okqyPapaAMa6Kqp" lang="en-US" dir="ltr" style="--document-width:100dvw;--nav-width:200px;--content-width:calc(var(--document-width) - var(--nav-width));--gutter-size:max(20px,
+      calc((var(--d
+- selection_id: sel_openai2025studymode_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_openai2025studymode
+  cache_id: cache_1af880532fcbe092
+  span:
+    text_path_offset:
+    - 135221
+    - 135461
+    sha256_of_span: 3d77f984a80ccab3313cd4ad800144fd19e91c243832698e5edd2751e40506de
+    excerpt: found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\"
+- selection_id: sel_wang2024tutorcopilot_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_wang2024tutorcopilot
+  cache_id: cache_313d4b0346de0c43
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: b8aa8aa3f5f63e44b4fa05ce365ef76a2f70aefe324bd95860a759befcdf697a
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2410.03017] Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise</title> <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="apple-touch-icon" s'
+- selection_id: sel_wang2024tutorcopilot_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_wang2024tutorcopilot
+  cache_id: cache_313d4b0346de0c43
+  span:
+    text_path_offset:
+    - 16338
+    - 16578
+    sha256_of_span: f6624f7c1b5453a58dc32a34cefbd1d23605350e1181751f21f041a95971b0eb
+    excerpt: 'href="https://arxiv.org/search/cs?searchtype=author&amp;query=Demszky,+D" rel="nofollow">Dora Demszky</a></div> <div id="download-button-info" hidden>View a PDF of the paper titled Tutor CoPilot:
+      A Human-AI Approach for Scaling R'
+- selection_id: sel_wang2024bridge_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_wang2024bridge
+  cache_id: cache_fb1d545c6a99421b
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: d67ef89e00129116cedde0783a382ca4dd5588fcb31361322760a98ffc983fd0
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2310.10648] Bridging the Novice-Expert Gap via Models of Decision-Making: A Case Study on Remediating Math Mistakes</title> <meta name="viewport"
+      content="width=device-width, initial-scale'
+- selection_id: sel_wang2024bridge_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_wang2024bridge
+  cache_id: cache_fb1d545c6a99421b
+  span:
+    text_path_offset:
+    - 16006
+    - 16246
+    sha256_of_span: 7b2802f2ea996cb9e82611150a09962a31e4f7ad622ab5aa1e2b7fcd723024b7
+    excerpt: class="mobile-submission-download" href="/pdf/2310.10648">View PDF</a> <a class="mobile-submission-download" href="https://arxiv.org/html/2310.10648v3">HTML (experimental)</a> <blockquote class="abstract
+      mathjax"> <sp
+- selection_id: sel_vanderberghe2024gpt4homework_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_vanderberghe2024gpt4homework
+  cache_id: cache_6018cdb2d12f62d5
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 935283018ade36af62d32e6010abf511f88eecae88ba1e9c0b4c2317cafd92a5
+    excerpt: <!DOCTYPE html> <html lang="en"> <head> <title>[2409.15981] GPT-4 as a Homework Tutor can Improve Student Engagement and Learning Outcomes</title> <meta name="viewport" content="width=device-width,
+      initial-scale=1"> <link rel="apple-t
+- selection_id: sel_vanderberghe2024gpt4homework_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_vanderberghe2024gpt4homework
+  cache_id: cache_6018cdb2d12f62d5
+  span:
+    text_path_offset:
+    - 15241
+    - 15481
+    sha256_of_span: 32cb2b91894f59afe95907df2caf55369d32f979194c2353e0e8f89134f49391
+    excerpt: in order to maximize benefit, it needs to be accompanied with feedback and followup questions. We developed a prompting strategy that enables GPT-4 to conduct interactive homework sessions
+      for high-school students learning English as a seco
+- selection_id: sel_bastani2025guardrails_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_bastani2025guardrails
+  cache_id: cache_a8020ad235d5212a
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 490233310b285dd95b25d709f7cc5e77e1d01074590275ac75e38a6371749ce4
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page js" data-request-id="a00f2a657d56847d-EWR"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_bastani2025guardrails_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_bastani2025guardrails
+  cache_id: cache_a8020ad235d5212a
+  span:
+    text_path_offset:
+    - 96315
+    - 96555
+    sha256_of_span: e8797d201e704af2391f7117d9ce4d40cbc016d948a394a4b4ba84f876fbb6e3
+    excerpt: href="#core-collateral-info" aria-controls="core-collateral-info" aria-disabled="true" disabled="true" data-toggle="tooltip" data-placement="left" data-original-title="Information &amp; Authors"
+      title="Information &amp; Authors" aria-expand
+- selection_id: sel_prather2024wideninggap_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_prather2024wideninggap
+  cache_id: cache_faaa6d6bb872ad26
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 3360c37b7eb78062f57e8540c2b5490a76bfeff4c59382ad1846352f5cac77e6
+    excerpt: '<!DOCTYPE html> <html lang="en"> <head> <title>[2405.17739] The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers</title> <meta name="viewport" content="width=device-width,
+      initial-scale=1"> <link rel="apple'
+- selection_id: sel_prather2024wideninggap_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_prather2024wideninggap
+  cache_id: cache_faaa6d6bb872ad26
+  span:
+    text_path_offset:
+    - 16335
+    - 16575
+    sha256_of_span: 0b7ebc6c3c986cab321bee4439ea9dbd6ad1265809ccf788389c8853003d61f5
+    excerpt: MacNeil</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Randrianasolo,+A+S" rel="nofollow">Arisoa S. Randrianasolo</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Becker,+B"
+      rel="nofollow">Brett B
+- selection_id: sel_duolingo2023max_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_duolingo2023max
+  cache_id: cache_222975f08f4a3fe7
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 7cdb5dcedf9c7313ed4f8a70a3b0d0afd12397b05bf288e8dedb87f5b081c160
+    excerpt: '<!DOCTYPE html><html lang="en" style="user-select: auto;"><head style="user-select: auto;"> <meta charset="utf-8" style="user-select: auto;"> <meta http-equiv="X-UA-Compatible" content="IE=edge"
+      style="user-select: auto;"> <meta'
+- selection_id: sel_duolingo2023max_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_duolingo2023max
+  cache_id: cache_222975f08f4a3fe7
+  span:
+    text_path_offset:
+    - 63535
+    - 63775
+    sha256_of_span: e3eabef33325f8eeb8f0e1448fbb3425c1702226af919f830c1e3c77e1f34b21
+    excerpt: 'class="submenu active" style="user-select: auto;"> <div class="submenu-label" style="user-select: auto;"> <span class="desktop-label" style="user-select: auto;"> SUBJECTS </spa'
+- selection_id: sel_khanacademy2024learnings_identifies
+  bullet_id: B1
+  atom_id: claim_llm_as_coach_interfaces_b1_a1_identifies_khanacademy2024learnings
+  cache_id: cache_98e87f0e44239aef
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: d8e5a78909906688a5990c5965e39084009282e564ceb58e5283e3dc3397eb3a
+    excerpt: <!DOCTYPE html><html lang="en-US"><head> <meta charset="UTF-8"> <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"> <!-- Google Tag Manager
+      for WordPress by gtm4wp.com --> <script a
+- selection_id: sel_khanacademy2024learnings_mechanism
+  bullet_id: B3
+  atom_id: claim_llm_as_coach_interfaces_b3_a1_mechanism_khanacademy2024learnings
+  cache_id: cache_98e87f0e44239aef
+  span:
+    text_path_offset:
+    - 36829
+    - 37069
+    sha256_of_span: b7907ea7a787e8fa8c02456e89ebd7b805053a5df205a732d610f2a4bbde3a6b
+    excerpt: serif;font-size:26px;}h4{font-family:Source Serif Pro, serif;font-size:30px;line-height:1.2em;}h2{font-family:Lato, sans-serif;font-weight:700;font-size:16px;line-height:1em;margin-bottom:10px;}button:not(.menu-toggle),html
+      input[type="butt

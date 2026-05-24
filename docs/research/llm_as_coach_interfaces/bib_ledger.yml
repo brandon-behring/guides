@@ -1,54 +1,690 @@
 schema_version: 2
 topic: llm_as_coach_interfaces
 generated_at: 2026-05-23
-current_as_of: 2026-05-23
+current_as_of: '2026-05-24'
 freshness_policy: strict_live
-
 entries:
 - bibkey: vanlehn2011relative
   primary_url: https://doi.org/10.1080/00461520.2011.611369
-  title: 'The Relative Effectiveness of Human Tutoring, Intelligent Tutoring Systems, and Other Tutoring Systems'
+  title: The Relative Effectiveness of Human Tutoring, Intelligent Tutoring Systems, and Other Tutoring Systems
   status: unverified
   claim_family: theory
   authors: VanLehn (2011)
   venue: Educational Psychologist 46(4)
   retrieved_at: 2026-05-23
-  verified_at:
+  verified_at: null
   verification_method: webfetch
-  verified_fields: [primary_url]
+  verified_fields:
+  - primary_url
   freshness_tier: historical
   stale_after_days: 1825
-  evidence_ids: [ev_llm_as_coach_interfaces_0001]
-  cache_ids: [cache_a765ac3588af337d]
-
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0001
+  cache_ids:
+  - cache_a765ac3588af337d
 - bibkey: khan2024efficacy
   primary_url: https://blog.khanacademy.org/khan-academy-efficacy-results-november-2024/
-  title: 'Khan Academy Efficacy Results, November 2024'
+  title: Khan Academy Efficacy Results, November 2024
   status: unverified
   claim_family: evidence
   authors: Khan Academy (2024)
   venue: Khan Academy blog
   retrieved_at: 2026-05-23
-  verified_at:
+  verified_at: null
   verification_method: webfetch
-  verified_fields: [primary_url]
+  verified_fields:
+  - primary_url
   freshness_tier: volatile
   stale_after_days: 30
-  evidence_ids: [ev_llm_as_coach_interfaces_0002]
-  cache_ids: [cache_43e97abed5de87ba]
-
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0002
+  cache_ids:
+  - cache_43e97abed5de87ba
 - bibkey: shabsigh2024khanmigo
   primary_url: https://jtl.uwindsor.ca/index.php/jtl/article/view/10052
-  title: 'Leveraging Khanmigo Generative AI-Powered Tool for Personalized Tutoring to Learn Scientific Concepts'
+  title: Leveraging Khanmigo Generative AI-Powered Tool for Personalized Tutoring to Learn Scientific Concepts
   status: unverified
   claim_family: deployment
   authors: Various (2024)
   venue: Journal of Teaching and Learning (Windsor)
   retrieved_at: 2026-05-23
-  verified_at:
+  verified_at: null
   verification_method: webfetch
-  verified_fields: [primary_url]
+  verified_fields:
+  - primary_url
   freshness_tier: active
   stale_after_days: 90
-  evidence_ids: [ev_llm_as_coach_interfaces_0003]
-  cache_ids: [cache_14036d46f1a13346]
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0003
+  cache_ids:
+  - cache_14036d46f1a13346
+- bibkey: koedinger1997intelligent
+  primary_url: https://doi.org/10.1184/R1/6470153.v1
+  title: Intelligent Tutoring Goes To School in the Big City
+  status: unverified
+  claim_family: evidence
+  authors: Koedinger, Anderson, Hadley & Mark (1997)
+  venue: International Journal of AI in Education, 8, 30-43
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0004
+  cache_ids:
+  - cache_296bee496e601959
+- bibkey: bloom1984twosigma
+  primary_url: https://doi.org/10.3102/0013189X013006004
+  title: 'The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring'
+  status: unverified
+  claim_family: theory
+  authors: Bloom (1984)
+  venue: Educational Researcher, 13(6), 4-16
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0005
+  cache_ids:
+  - cache_1bae20d6b577f182
+- bibkey: anderson1995cognitive
+  primary_url: https://doi.org/10.1207/s15327809jls0402_2
+  title: 'Cognitive Tutors: Lessons Learned'
+  status: unverified
+  claim_family: theory
+  authors: Anderson, Corbett, Koedinger & Pelletier (1995)
+  venue: The Journal of the Learning Sciences, 4(2), 167-207
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0006
+  cache_ids:
+  - cache_5929bf0032e4259e
+- bibkey: corbett1995knowledge
+  primary_url: https://doi.org/10.1007/BF01099821
+  title: 'Knowledge Tracing: Modeling the Acquisition of Procedural Knowledge'
+  status: unverified
+  claim_family: methodology
+  authors: Corbett & Anderson (1995)
+  venue: User Modeling and User-Adapted Interaction, 4(4), 253-278
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0007
+  cache_ids:
+  - cache_14f1d585d272e532
+- bibkey: vanlehn2006behavior
+  primary_url: https://dl.acm.org/doi/10.5555/1435351.1435353
+  title: The Behavior of Tutoring Systems
+  status: unverified
+  claim_family: theory
+  authors: VanLehn (2006)
+  venue: International Journal of AI in Education, 16(3), 227-265
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0008
+  cache_ids:
+  - cache_6dd3fc8a10ce528d
+- bibkey: kulik2016effectiveness
+  primary_url: https://doi.org/10.3102/0034654315581420
+  title: 'Effectiveness of Intelligent Tutoring Systems: A Meta-Analytic Review'
+  status: unverified
+  claim_family: evidence
+  authors: Kulik & Fletcher (2016)
+  venue: Review of Educational Research, 86(1), 42-78
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0009
+  cache_ids:
+  - cache_b97780e2e9023e33
+- bibkey: kazemitabaar2024codeaid
+  primary_url: https://doi.org/10.1145/3613904.3642773
+  title: 'CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator Needs'
+  status: unverified
+  claim_family: interface
+  authors: Kazemitabaar et al. (2024)
+  venue: CHI 2024
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0010
+  cache_ids:
+  - cache_cc8bf9f4f5930d55
+- bibkey: liffiton2023codehelp
+  primary_url: https://doi.org/10.1145/3631802.3631830
+  title: 'CodeHelp: Using Large Language Models with Guardrails for Scalable Support in Programming Classes'
+  status: unverified
+  claim_family: interface
+  authors: Liffiton et al. (2023)
+  venue: Koli Calling 2023
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0011
+  cache_ids:
+  - cache_2bfe98d6e24c5cca
+- bibkey: kazemitabaar2023studying
+  primary_url: https://doi.org/10.1145/3544548.3580919
+  title: Studying the Effect of AI Code Generators on Supporting Novice Learners in Introductory Programming
+  status: unverified
+  claim_family: evidence
+  authors: Kazemitabaar et al. (2023)
+  venue: CHI 2023
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0012
+  cache_ids:
+  - cache_b6bd9a44aebaa26f
+- bibkey: schmucker2024ruffle
+  primary_url: https://arxiv.org/abs/2404.17460
+  title: 'Ruffle&Riley: Insights from Designing and Evaluating a Large Language Model-Based Conversational Tutoring System'
+  status: unverified
+  claim_family: interface
+  authors: Schmucker et al. (2024)
+  venue: AIED 2024
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0013
+  cache_ids:
+  - cache_c54d744efff36a13
+- bibkey: kestin2025aitutoring
+  primary_url: https://doi.org/10.1038/s41598-025-97652-6
+  title: 'AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting'
+  status: unverified
+  claim_family: evidence
+  authors: Kestin, Miller et al. (2025)
+  venue: Scientific Reports 15:17458 (2025)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0014
+  cache_ids:
+  - cache_b826a350213da400
+- bibkey: jurenka2025aitutoringrct
+  primary_url: https://arxiv.org/abs/2512.23633
+  title: 'AI tutoring can safely and effectively support students: An exploratory RCT in UK classrooms'
+  status: unverified
+  claim_family: evidence
+  authors: Jurenka et al. (2025)
+  venue: arXiv (Google DeepMind + Eedi, 2025)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: volatile
+  stale_after_days: 30
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0015
+  cache_ids:
+  - cache_e31b83cec273a639
+- bibkey: liu2025chatgptachievementmeta
+  primary_url: https://doi.org/10.1111/jcal.70096
+  title: 'The Impact of ChatGPT on Students'' Academic Achievement: A Meta-Analysis'
+  status: unverified
+  claim_family: evidence
+  authors: Liu et al. (2025)
+  venue: Journal of Computer Assisted Learning (2025)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0016
+  cache_ids:
+  - cache_d5606196af177240
+- bibkey: deng2024chatgptmetaanalysis
+  primary_url: https://doi.org/10.1016/j.compedu.2024.105224
+  title: Does ChatGPT enhance student learning? A systematic review and meta-analysis of experimental studies
+  status: unverified
+  claim_family: evidence
+  authors: Deng et al. (2024)
+  venue: Computers & Education (2024)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0017
+  cache_ids:
+  - cache_793ae7e20a2ccb78
+- bibkey: ouyang2021threeparadigms
+  primary_url: https://doi.org/10.1016/j.caeai.2021.100020
+  title: 'Artificial intelligence in education: The three paradigms'
+  status: unverified
+  claim_family: theory
+  authors: Ouyang & Jiao (2021)
+  venue: 'Computers and Education: Artificial Intelligence, 2:100020 (2021)'
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0018
+  cache_ids:
+  - cache_af5ddb8da2c12360
+- bibkey: sharma2023sycophancy
+  primary_url: https://arxiv.org/abs/2310.13548
+  title: Towards Understanding Sycophancy in Language Models
+  status: unverified
+  claim_family: risk
+  authors: Sharma et al. (2023)
+  venue: arXiv (Anthropic, 2023); ICLR 2024
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0019
+  cache_ids:
+  - cache_1628234734948e94
+- bibkey: denison2024sycophancysubterfuge
+  primary_url: https://arxiv.org/abs/2406.10162
+  title: 'Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models'
+  status: unverified
+  claim_family: risk
+  authors: Denison et al. (2024)
+  venue: arXiv (Anthropic, 2024)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0020
+  cache_ids:
+  - cache_90b0932d9b3116b8
+- bibkey: kosmyna2025brainonchatgpt
+  primary_url: https://arxiv.org/abs/2506.08872
+  title: 'Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task'
+  status: unverified
+  claim_family: risk
+  authors: Kosmyna et al. (2025)
+  venue: arXiv (MIT Media Lab, 2025)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0021
+  cache_ids:
+  - cache_6dc1b7ce5ad2128e
+- bibkey: gerlich2025cognitiveoffloading
+  primary_url: https://doi.org/10.3390/soc15010006
+  title: 'AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking'
+  status: unverified
+  claim_family: risk
+  authors: Gerlich (2025)
+  venue: Societies, 15(1):6 (2025)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0022
+  cache_ids:
+  - cache_f85b375da7d08a59
+- bibkey: klehm2025overconfidence
+  primary_url: https://doi.org/10.31234/osf.io/8psgf_v1
+  title: 'Overconfidence without Understanding: AI Explanations Increase the Illusion of Explanatory Depth'
+  status: unverified
+  claim_family: risk
+  authors: Klehm et al. (2025)
+  venue: OSF Preprints / PsyArXiv (2025)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0023
+  cache_ids:
+  - cache_b15f5355b65e7174
+- bibkey: benedek2025overreliance
+  primary_url: https://arxiv.org/abs/2510.16019
+  title: 'Impact of AI Tools on Learning Outcomes: Decreasing Knowledge and Over-Reliance'
+  status: unverified
+  claim_family: risk
+  authors: Benedek & Sziklai (2025)
+  venue: arXiv (2025)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0024
+  cache_ids:
+  - cache_837deb83438f35ca
+- bibkey: ai2024sycophancysurvey
+  primary_url: https://arxiv.org/abs/2411.15287
+  title: 'Sycophancy in Large Language Models: Causes and Mitigations'
+  status: unverified
+  claim_family: risk
+  authors: Ai et al. (2024)
+  venue: arXiv (2024)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0025
+  cache_ids:
+  - cache_c42f17c5256538a3
+- bibkey: puech2024pedagogical
+  primary_url: https://arxiv.org/abs/2410.03781
+  title: 'Towards the Pedagogical Steering of Large Language Models for Tutoring: A Case Study with Modeling Productive Failure'
+  status: unverified
+  claim_family: methodology
+  authors: Puech et al. (2024)
+  venue: Findings of ACL 2025 (arXiv Oct 2024)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0026
+  cache_ids:
+  - cache_70f828a125b83c5f
+- bibkey: macina2025mathtutorbench
+  primary_url: https://arxiv.org/abs/2502.18940
+  title: 'MathTutorBench: A Benchmark for Measuring Open-ended Pedagogical Capabilities of LLM Tutors'
+  status: unverified
+  claim_family: methodology
+  authors: Macina et al. (2025)
+  venue: EMNLP 2025
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0027
+  cache_ids:
+  - cache_dbca6f592433aba8
+- bibkey: liu2024socraticlm
+  primary_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/9bae399d1f34b8650351c1bd3692aeae-Abstract-Conference.html
+  title: 'SocraticLM: Exploring Socratic Personalized Teaching with Large Language Models'
+  status: unverified
+  claim_family: methodology
+  authors: Liu et al. (2024)
+  venue: NeurIPS 2024 (Spotlight)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0028
+  cache_ids:
+  - cache_039cc9b34a6685cc
+- bibkey: shi2024socraticmath
+  primary_url: https://dl.acm.org/doi/10.1145/3627673.3679881
+  title: Boosting Large Language Models with Socratic Method for Conversational Mathematics Teaching
+  status: unverified
+  claim_family: methodology
+  authors: Shi et al. (2024)
+  venue: CIKM 2024
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0029
+  cache_ids:
+  - cache_d27ab83a0e3a1447
+- bibkey: anthropic2025learningmode
+  primary_url: https://www.anthropic.com/news/anthropic-teach-for-all
+  title: Anthropic and Teach For All launch global AI training initiative for educators
+  status: unverified
+  claim_family: interface
+  authors: Anthropic (2025)
+  venue: Anthropic (vendor, 2025)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: volatile
+  stale_after_days: 30
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0030
+  cache_ids:
+  - cache_acf074850c523ac8
+- bibkey: openai2025studymode
+  primary_url: https://openai.com/index/chatgpt-study-mode/
+  title: Introducing study mode
+  status: unverified
+  claim_family: interface
+  authors: OpenAI (2025)
+  venue: OpenAI (vendor, 2025)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: volatile
+  stale_after_days: 30
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0031
+  cache_ids:
+  - cache_1af880532fcbe092
+- bibkey: wang2024tutorcopilot
+  primary_url: https://arxiv.org/abs/2410.03017
+  title: 'Tutor CoPilot: A Human-AI Approach for Scaling Real-Time Expertise'
+  status: unverified
+  claim_family: deployment
+  authors: Wang et al. (2024)
+  venue: arXiv (Stanford, Oct 2024)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0032
+  cache_ids:
+  - cache_313d4b0346de0c43
+- bibkey: wang2024bridge
+  primary_url: https://arxiv.org/abs/2310.10648
+  title: 'Bridging the Novice-Expert Gap via Models of Decision-Making: A Case Study on Remediating Math Mistakes'
+  status: unverified
+  claim_family: methodology
+  authors: Wang et al. (2024)
+  venue: NAACL 2024
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0033
+  cache_ids:
+  - cache_fb1d545c6a99421b
+- bibkey: vanderberghe2024gpt4homework
+  primary_url: https://arxiv.org/abs/2409.15981
+  title: GPT-4 as a Homework Tutor can Improve Student Engagement and Learning Outcomes
+  status: unverified
+  claim_family: evidence
+  authors: Vanderberghe et al. (2024)
+  venue: arXiv (Sep 2024)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0034
+  cache_ids:
+  - cache_6018cdb2d12f62d5
+- bibkey: bastani2025guardrails
+  primary_url: https://www.pnas.org/doi/10.1073/pnas.2422633122
+  title: 'Generative AI without guardrails can harm learning: Evidence from high school mathematics'
+  status: unverified
+  claim_family: risk
+  authors: Bastani et al. (2025)
+  venue: PNAS 2025
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0035
+  cache_ids:
+  - cache_a8020ad235d5212a
+- bibkey: prather2024wideninggap
+  primary_url: https://arxiv.org/abs/2405.17739
+  title: 'The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers'
+  status: unverified
+  claim_family: risk
+  authors: Prather et al. (2024)
+  venue: ICER 2024
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0036
+  cache_ids:
+  - cache_faaa6d6bb872ad26
+- bibkey: duolingo2023max
+  primary_url: https://blog.duolingo.com/duolingo-max/
+  title: Introducing Duolingo Max, a learning experience powered by GPT-4
+  status: unverified
+  claim_family: deployment
+  authors: Duolingo (2023)
+  venue: Duolingo Blog (vendor, 2023)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0037
+  cache_ids:
+  - cache_222975f08f4a3fe7
+- bibkey: khanacademy2024learnings
+  primary_url: https://blog.khanacademy.org/how-khan-academy-is-building-a-better-ai-tutor-our-most-recent-learnings/
+  title: 'How Khan Academy Is Building a Better AI Tutor: Our Most Recent Learnings'
+  status: unverified
+  claim_family: deployment
+  authors: Khan Academy (2024)
+  venue: Khan Academy Blog (vendor, 2024)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: volatile
+  stale_after_days: 30
+  evidence_ids:
+  - ev_llm_as_coach_interfaces_0038
+  cache_ids:
+  - cache_98e87f0e44239aef

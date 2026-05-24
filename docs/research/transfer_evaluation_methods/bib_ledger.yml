@@ -1,58 +1,63 @@
 schema_version: 2
 topic: transfer_evaluation_methods
 generated_at: 2026-05-23
-current_as_of: 2026-05-23
+current_as_of: '2026-05-24'
 freshness_policy: strict_live
-
 entries:
 - bibkey: schwartz2005efficiency
   primary_url: https://aaalab.stanford.edu/assets/papers/2005/Efficiency_and_Innovation_in_Transfer.pdf
-  title: 'Efficiency and Innovation in Transfer'
+  title: Efficiency and Innovation in Transfer
   status: unverified
   claim_family: methodology
   authors: Schwartz, Bransford & Sears (2005)
   venue: in Mestre (ed.) Transfer of Learning from a Modern Multidisciplinary Perspective (Information Age)
   retrieved_at: 2026-05-23
-  verified_at:
+  verified_at: null
   verification_method: webfetch
-  verified_fields: [primary_url]
+  verified_fields:
+  - primary_url
   freshness_tier: historical
   stale_after_days: 1825
-  evidence_ids: [ev_transfer_evaluation_methods_0001]
-  cache_ids: [cache_1a5560f2b30263ad]
-
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0001
+  cache_ids:
+  - cache_1a5560f2b30263ad
 - bibkey: kapur2008productive
   primary_url: https://doi.org/10.1080/07370000802212669
-  title: 'Productive Failure'
+  title: Productive Failure
   status: unverified
   claim_family: methodology
   authors: Kapur (2008)
   venue: Cognition and Instruction 26(3)
   retrieved_at: 2026-05-23
-  verified_at:
+  verified_at: null
   verification_method: webfetch
-  verified_fields: [primary_url]
+  verified_fields:
+  - primary_url
   freshness_tier: historical
   stale_after_days: 1825
-  evidence_ids: [ev_transfer_evaluation_methods_0002]
-  cache_ids: [cache_354796c725d948f4]
-
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0002
+  cache_ids:
+  - cache_354796c725d948f4
 - bibkey: barnett2002when
   primary_url: https://doi.org/10.1037/0033-2909.128.4.612
-  title: 'When and where do we apply what we learn? A taxonomy for far transfer'
+  title: When and where do we apply what we learn? A taxonomy for far transfer
   status: unverified
   claim_family: theory
   authors: Barnett & Ceci (2002)
   venue: Psychological Bulletin 128(4)
   retrieved_at: 2026-05-23
-  verified_at:
+  verified_at: null
   verification_method: webfetch
-  verified_fields: [primary_url]
+  verified_fields:
+  - primary_url
   freshness_tier: historical
   stale_after_days: 1825
-  evidence_ids: [ev_transfer_evaluation_methods_0003]
-  cache_ids: [cache_3676ca35794db6ec]
-
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0003
+  cache_ids:
+  - cache_3676ca35794db6ec
 - bibkey: detterman1993transfer
   primary_url: https://gwern.net/doc/iq/1993-detterman.pdf
   title: 'The Case for the Prosecution: Transfer as an Epiphenomenon'
@@ -61,10 +66,697 @@ entries:
   authors: Detterman (1993)
   venue: in Detterman & Sternberg Transfer on Trial (Ablex)
   retrieved_at: 2026-05-23
-  verified_at:
+  verified_at: null
   verification_method: webfetch
-  verified_fields: [primary_url]
+  verified_fields:
+  - primary_url
   freshness_tier: historical
   stale_after_days: 1825
-  evidence_ids: [ev_transfer_evaluation_methods_0004]
-  cache_ids: [cache_633583518b9eccf2]
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0004
+  cache_ids:
+  - cache_633583518b9eccf2
+- bibkey: bransford2000how
+  primary_url: https://doi.org/10.17226/9853
+  title: 'How People Learn: Brain, Mind, Experience, and School (Expanded Edition)'
+  status: unverified
+  claim_family: theory
+  authors: Bransford, Brown & Cocking (eds.) (2000)
+  venue: National Academies Press (NRC)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0005
+  cache_ids:
+  - cache_4c21548bbe2c9f8c
+- bibkey: thorndike1901influence
+  primary_url: https://doi.org/10.1037/h0074898
+  title: The Influence of Improvement in One Mental Function upon the Efficiency of Other Functions (I)
+  status: unverified
+  claim_family: theory
+  authors: Thorndike & Woodworth (1901)
+  venue: Psychological Review, 8(3), 247-261
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0006
+  cache_ids:
+  - cache_c52f1447440dc359
+- bibkey: salomon1989rocky
+  primary_url: https://doi.org/10.1207/s15326985ep2402_1
+  title: 'Rocky Roads to Transfer: Rethinking Mechanisms of a Neglected Phenomenon'
+  status: unverified
+  claim_family: theory
+  authors: Salomon & Perkins (1989)
+  venue: Educational Psychologist, 24(2), 113-142
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0007
+  cache_ids:
+  - cache_8c7c1b1b310afea8
+- bibkey: gick1983schema
+  primary_url: https://doi.org/10.1016/0010-0285%2883%2990002-6
+  title: Schema Induction and Analogical Transfer
+  status: unverified
+  claim_family: evidence
+  authors: Gick & Holyoak (1983)
+  venue: Cognitive Psychology, 15(1), 1-38
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0008
+  cache_ids:
+  - cache_2911d7f1ea792132
+- bibkey: bransford1999rethinking
+  primary_url: https://doi.org/10.3102/0091732X024001061
+  title: 'Rethinking Transfer: A Simple Proposal with Multiple Implications'
+  status: unverified
+  claim_family: theory
+  authors: Bransford & Schwartz (1999)
+  venue: Review of Research in Education, 24, 61-100
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0009
+  cache_ids:
+  - cache_9c776c4f5bb87dfb
+- bibkey: anderson1996situated
+  primary_url: https://doi.org/10.3102/0013189X025004005
+  title: Situated Learning and Education
+  status: unverified
+  claim_family: pitfall
+  authors: Anderson, Reder & Simon (1996)
+  venue: Educational Researcher, 25(4), 5-11
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0010
+  cache_ids:
+  - cache_1a64ca436e97d260
+- bibkey: greeno1997claims
+  primary_url: https://doi.org/10.3102/0013189X026001005
+  title: On Claims That Answer the Wrong Questions
+  status: unverified
+  claim_family: theory
+  authors: Greeno (1997)
+  venue: Educational Researcher, 26(1), 5-17
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0011
+  cache_ids:
+  - cache_d77de0a71f5207cb
+- bibkey: nokesmalach2013sensemaking
+  primary_url: https://doi.org/10.1080/00461520.2013.807556
+  title: Toward a Model of Transfer as Sense-Making
+  status: unverified
+  claim_family: theory
+  authors: Nokes-Malach & Mestre (2013)
+  venue: Educational Psychologist, 48(3), 184-207
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0012
+  cache_ids:
+  - cache_6907a0ac4a0fd5a3
+- bibkey: nrc2001knowing
+  primary_url: https://doi.org/10.17226/10019
+  title: 'Knowing What Students Know: The Science and Design of Educational Assessment'
+  status: unverified
+  claim_family: assessment
+  authors: Pellegrino, Chudowsky & Glaser (eds.) (2001)
+  venue: National Academies Press (NRC)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0013
+  cache_ids:
+  - cache_1c718c3c2afa09c5
+- bibkey: mislevy2003structure
+  primary_url: https://doi.org/10.1207/S15366359MEA0101_02
+  title: On the Structure of Educational Assessments
+  status: unverified
+  claim_family: assessment
+  authors: Mislevy, Steinberg & Almond (2003)
+  venue: 'Measurement: Interdisciplinary Research and Perspectives, 1(1), 3-62'
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0014
+  cache_ids:
+  - cache_84d8b631007e1717
+- bibkey: schwartz2004inventing
+  primary_url: https://doi.org/10.1207/s1532690xci2202_1
+  title: 'Inventing to Prepare for Future Learning: The Hidden Efficiency of Encouraging Original Student Production in Statistics Instruction'
+  status: unverified
+  claim_family: methodology
+  authors: Schwartz & Martin (2004)
+  venue: Cognition and Instruction, 22(2), 129-184
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0015
+  cache_ids:
+  - cache_2bb1a409cbfeba15
+- bibkey: sternberg2002dynamic
+  primary_url: https://psycnet.apa.org/record/2002-01422-000
+  title: 'Dynamic Testing: The Nature and Measurement of Learning Potential'
+  status: unverified
+  claim_family: assessment
+  authors: Sternberg & Grigorenko (2002)
+  venue: Cambridge University Press
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0016
+  cache_ids:
+  - cache_a610de2edfbf697f
+- bibkey: shepard2000role
+  primary_url: https://doi.org/10.3102/0013189X029007004
+  title: The Role of Assessment in a Learning Culture
+  status: unverified
+  claim_family: assessment
+  authors: Shepard (2000)
+  venue: Educational Researcher, 29(7), 4-14
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0017
+  cache_ids:
+  - cache_7d246b1766ecd3b5
+- bibkey: wiggins1989truetest
+  primary_url: https://doi.org/10.1177/003172171109200721
+  title: 'A True Test: Toward More Authentic and Equitable Assessment'
+  status: unverified
+  claim_family: assessment
+  authors: Wiggins (1989)
+  venue: Phi Delta Kappan, 70(9), 703-713 (reprinted 2011)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0018
+  cache_ids:
+  - cache_2e0436e8b163630d
+- bibkey: gick1980analogical
+  primary_url: https://doi.org/10.1016/0010-0285%2880%2990013-4
+  title: Analogical Problem Solving
+  status: unverified
+  claim_family: evidence
+  authors: Gick & Holyoak (1980)
+  venue: Cognitive Psychology, 12(3)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0019
+  cache_ids:
+  - cache_ff8ebcdf970414f6
+- bibkey: lave1988cognition
+  primary_url: https://doi.org/10.1017/CBO9780511609268
+  title: 'Cognition in Practice: Mind, Mathematics and Culture in Everyday Life'
+  status: unverified
+  claim_family: theory
+  authors: Lave (1988)
+  venue: Cambridge University Press
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0020
+  cache_ids:
+  - cache_9d4369277d015a5b
+- bibkey: melbylervag2016working
+  primary_url: https://doi.org/10.1177/1745691616635612
+  title: 'Working Memory Training Does Not Improve Performance on Measures of Intelligence or Other Measures of Far Transfer: Evidence From a Meta-Analytic Review'
+  status: unverified
+  claim_family: evidence
+  authors: Melby-Lervag, Redick & Hulme (2016)
+  venue: Perspectives on Psychological Science, 11(4)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0021
+  cache_ids:
+  - cache_1de9db92ab73d622
+- bibkey: sala2018video
+  primary_url: https://doi.org/10.1037/bul0000139
+  title: 'Video Game Training Does Not Enhance Cognitive Ability: A Comprehensive Meta-Analytic Investigation'
+  status: unverified
+  claim_family: evidence
+  authors: Sala, Tatlidil & Gobet (2018)
+  venue: Psychological Bulletin, 144(2)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0022
+  cache_ids:
+  - cache_b36c5faadca1cd94
+- bibkey: gobet2023cognitive
+  primary_url: https://doi.org/10.1177/17456916221091830
+  title: 'Cognitive Training: A Field in Search of a Phenomenon'
+  status: unverified
+  claim_family: evidence
+  authors: Gobet & Sala (2023)
+  venue: Perspectives on Psychological Science, 18(1)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0023
+  cache_ids:
+  - cache_5917bac8abc741de
+- bibkey: day2012import
+  primary_url: https://doi.org/10.1080/00461520.2012.696438
+  title: 'The Import of Knowledge Export: Connecting Findings and Theories of Transfer of Learning'
+  status: unverified
+  claim_family: theory
+  authors: Day & Goldstone (2012)
+  venue: Educational Psychologist, 47(3)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0024
+  cache_ids:
+  - cache_693a51ab3c36cab2
+- bibkey: fong1986statistical
+  primary_url: https://doi.org/10.1016/0010-0285%2886%2990001-0
+  title: The Effects of Statistical Training on Thinking about Everyday Problems
+  status: unverified
+  claim_family: evidence
+  authors: Fong, Krantz & Nisbett (1986)
+  venue: Cognitive Psychology, 18(3)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0025
+  cache_ids:
+  - cache_9d644785af75b834
+- bibkey: soloway1984empirical
+  primary_url: https://doi.org/10.1109/TSE.1984.5010283
+  title: Empirical Studies of Programming Knowledge
+  status: unverified
+  claim_family: theory
+  authors: Soloway & Ehrlich (1984)
+  venue: IEEE Transactions on Software Engineering, SE-10(5)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0026
+  cache_ids:
+  - cache_961211488909606b
+- bibkey: shrestha2018python
+  primary_url: https://arxiv.org/abs/1808.09008
+  title: 'It''s Like Python But: Towards Supporting Transfer of Programming Language Knowledge'
+  status: unverified
+  claim_family: domain_application
+  authors: Shrestha, Barik & Parnin (2018)
+  venue: IEEE VL/HCC 2018
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0027
+  cache_ids:
+  - cache_68b332b761569f69
+- bibkey: shrestha2020hereweagain
+  primary_url: https://doi.org/10.1145/3377811.3380352
+  title: 'Here We Go Again: Why Is It Difficult for Developers to Learn Another Programming Language?'
+  status: unverified
+  claim_family: pitfall
+  authors: Shrestha et al. (2020)
+  venue: ICSE 2020
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0028
+  cache_ids:
+  - cache_64539e0f86c2c566
+- bibkey: kao2022onelanguage
+  primary_url: https://doi.org/10.1145/3487051
+  title: 'From One Language to the Next: Applications of Analogical Transfer for Programming Education'
+  status: unverified
+  claim_family: methodology
+  authors: Kao, Matlen & Weintrop (2022)
+  venue: ACM Transactions on Computing Education, 22(4)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0029
+  cache_ids:
+  - cache_ac542ef43926c599
+- bibkey: li2024transfer
+  primary_url: https://doi.org/10.1186/s40594-024-00498-z
+  title: 'The Transfer Effect of Computational Thinking (CT)-STEM: A Systematic Literature Review and Meta-Analysis'
+  status: unverified
+  claim_family: evidence
+  authors: Li & Oon (2024)
+  venue: International Journal of STEM Education, 11
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0030
+  cache_ids:
+  - cache_fc64ccc6ae645a04
+- bibkey: rohrer2007shuffling
+  primary_url: https://doi.org/10.1007/s11251-006-9002-5
+  title: The shuffling of mathematics problems improves learning
+  status: unverified
+  claim_family: methodology
+  authors: Rohrer & Taylor (2007)
+  venue: Instructional Science, 35(6)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0031
+  cache_ids:
+  - cache_4ec73f8ca84556fd
+- bibkey: rohrer2012interleaving
+  primary_url: https://doi.org/10.1007/s10648-012-9201-3
+  title: Interleaving Helps Students Distinguish among Similar Concepts
+  status: unverified
+  claim_family: methodology
+  authors: Rohrer (2012)
+  venue: Educational Psychology Review, 24(3)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0032
+  cache_ids:
+  - cache_7ebb695b8ae71dc8
+- bibkey: roediger2006testenhanced
+  primary_url: https://doi.org/10.1111/j.1467-9280.2006.01693.x
+  title: 'Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention'
+  status: unverified
+  claim_family: methodology
+  authors: Roediger & Karpicke (2006)
+  venue: Psychological Science, 17(3)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0033
+  cache_ids:
+  - cache_14ec9f46267ee84a
+- bibkey: gentner2003analogical
+  primary_url: https://doi.org/10.1037/0022-0663.95.2.393
+  title: 'Learning and Transfer: A General Role for Analogical Encoding'
+  status: unverified
+  claim_family: methodology
+  authors: Gentner, Loewenstein & Thompson (2003)
+  venue: Journal of Educational Psychology, 95(2)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0034
+  cache_ids:
+  - cache_f091255b3d82dd41
+- bibkey: chi1989selfexplanations
+  primary_url: https://doi.org/10.1207/s15516709cog1302_1
+  title: 'Self-Explanations: How Students Study and Use Examples in Learning to Solve Problems'
+  status: unverified
+  claim_family: methodology
+  authors: Chi, Bassok, Lewis, Reimann & Glaser (1989)
+  venue: Cognitive Science, 13(2)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0035
+  cache_ids:
+  - cache_5e2e31e82589cac9
+- bibkey: renkl2003fading
+  primary_url: https://doi.org/10.1207/S15326985EP3801_3
+  title: 'Structuring the Transition from Example Study to Problem Solving in Cognitive Skill Acquisition: A Cognitive Load Perspective'
+  status: unverified
+  claim_family: methodology
+  authors: Renkl & Atkinson (2003)
+  venue: Educational Psychologist, 38(1)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0036
+  cache_ids:
+  - cache_7e3d4f03dd8134d1
+- bibkey: schwartz1998timetelling
+  primary_url: https://doi.org/10.1207/s1532690xci1604_4
+  title: A Time for Telling
+  status: unverified
+  claim_family: methodology
+  authors: Schwartz & Bransford (1998)
+  venue: Cognition and Instruction, 16(4)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0037
+  cache_ids:
+  - cache_32db89105f5ae714
+- bibkey: bjork2013selfregulated
+  primary_url: https://doi.org/10.1146/annurev-psych-113011-143823
+  title: 'Self-Regulated Learning: Beliefs, Techniques, and Illusions'
+  status: unverified
+  claim_family: theory
+  authors: Bjork, Dunlosky & Kornell (2013)
+  venue: Annual Review of Psychology, 64
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0038
+  cache_ids:
+  - cache_8e50dd2b799f1637
+- bibkey: messick1995validity
+  primary_url: https://doi.org/10.1037/0003-066X.50.9.741
+  title: 'Validity of Psychological Assessment: Validation of Inferences from Persons'' Responses and Performances as Scientific Inquiry into Score Meaning'
+  status: unverified
+  claim_family: assessment
+  authors: Messick (1995)
+  venue: American Psychologist, 50(9)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0039
+  cache_ids:
+  - cache_404e944132b4ae19
+- bibkey: kane2013validating
+  primary_url: https://doi.org/10.1111/jedm.12000
+  title: Validating the Interpretations and Uses of Test Scores
+  status: unverified
+  claim_family: assessment
+  authors: Kane (2013)
+  venue: Journal of Educational Measurement, 50(1)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0040
+  cache_ids:
+  - cache_027d47545942d597
+- bibkey: shavelson1993sampling
+  primary_url: https://doi.org/10.1111/j.1745-3984.1993.tb00424.x
+  title: Sampling Variability of Performance Assessments
+  status: unverified
+  claim_family: assessment
+  authors: Shavelson, Baxter & Gao (1993)
+  venue: Journal of Educational Measurement, 30(3)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0041
+  cache_ids:
+  - cache_38a776b420c7559f
+- bibkey: frederiksen1989systems
+  primary_url: https://doi.org/10.3102/0013189X018009027
+  title: A Systems Approach to Educational Testing
+  status: unverified
+  claim_family: assessment
+  authors: Frederiksen & Collins (1989)
+  venue: Educational Researcher, 18(9)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_transfer_evaluation_methods_0042
+  cache_ids:
+  - cache_f45f179858bd9790

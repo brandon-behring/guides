@@ -1,13 +1,13 @@
 # LLM As Coach Interfaces — Trust Dashboard
 
-Generated: 2026-05-23
-Current as of: 2026-05-23
+Generated: 2026-05-24
+Current as of: 2026-05-24
 
 ## Trust State
 
 - stale blockers: 0
-- evidence coverage: 3/3 claims
-- cache completeness: 3/3 sources
+- evidence coverage: 38/38 claims
+- cache completeness: 38/38 sources
 - conflicts: 0
 - weak claims: 0
 
@@ -15,21 +15,22 @@ Current as of: 2026-05-23
 
 - Refresh volatile entries by 2026-06-22.
 - Refresh active entries by 2026-08-21.
+- Refresh stable entries by 2027-05-24.
 - Refresh historical entries by 2031-05-22.
 
 ## Claim Health (FACT framework)
 
-- total support links: 3
-- verbatim-anchored: 0/3 (0%)
-- strongly grounded: 0/3 (0%)
-- partially grounded: 3/3
-- weakly grounded (inferred/propagated): 0/3
-- corroborated (≥2 independent sources): 0/3 (0%)
-- atoms fully supported: 1/3 (33%)
+- total support links: 38
+- verbatim-anchored: 0/38 (0%)
+- strongly grounded: 0/38 (0%)
+- partially grounded: 38/38
+- weakly grounded (inferred/propagated): 0/38
+- corroborated (≥2 independent sources): 0/38 (0%)
+- atoms fully supported: 36/38 (95%)
 
 ## Discovery Rigor
 
-- fetches reviewed: 3
-- accept rate: 3/3 (100%)
+- fetches reviewed: 38
+- accept rate: 38/38 (100%)
 - rejected: 0
 - escalations needing manual review: 0

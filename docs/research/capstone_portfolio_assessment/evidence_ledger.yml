@@ -1,9 +1,8 @@
 schema_version: 3
 topic: capstone_portfolio_assessment
 generated_at: 2026-05-23
-current_as_of: 2026-05-23
+current_as_of: '2026-05-24'
 freshness_policy: strict_live
-
 entries:
 - evidence_id: ev_capstone_portfolio_assessment_0001
   source_url: https://assess.ucr.edu/sites/default/files/2019-02/kuh_2008.pdf
@@ -11,14 +10,1051 @@ entries:
   source_quality: primary
   retrieved_at: 2026-05-23
   verification_method: webfetch
-  cache_ids: [cache_7355bf1d68d6f302]
+  cache_ids:
+  - cache_7355bf1d68d6f302
   supports:
   - claim_id: claim_capstone_portfolio_assessment_0001
     field_path: bib_ledger.entries[0].title
     evidence_role: identifies
     evidence_role_strength: full
     extraction_method: paraphrase
-    link_confidence: 0.80
-  excerpt: 'Kuh (2008 AAC&U) — identifies 10 high-impact educational practices including capstone courses/projects. Recommends every undergraduate participate in ≥2 high-impact activities across their program.'
+    link_confidence: 0.8
+  excerpt: Kuh (2008 AAC&U) — identifies 10 high-impact educational practices including capstone courses/projects. Recommends every undergraduate participate in ≥2 high-impact activities across their program.
   rights_status: private_use
-  confidence: {score: 0.85, factors: [primary excerpt cached]}
+  confidence:
+    score: 0.85
+    factors:
+    - primary excerpt cached
+- evidence_id: ev_capstone_portfolio_assessment_0002
+  source_url: https://archive.org/details/educativeassessm00wigg
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_3a3249be77c0e4c7
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0002
+    field_path: bib_ledger.entries[1].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: 'Wiggins argues school-based assessment should be designed primarily to improve, not audit, student performance: authentic tasks replicate the standards and contexts of adult work, while contrived
+    tasks exist only for efficient grading.'
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0003
+  source_url: https://doi.org/10.1016/S0742-051X%2800%2900015-9
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_6c84e289391c2500
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0003
+    field_path: bib_ledger.entries[2].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reviews how teacher-education programs use authentic assessments (cases, exhibitions, portfolios, action research) to support teacher learning, arguing context-embedded performance evidence is
+    more valid for judging teaching than decontextualized tests.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0004
+  source_url: https://doi.org/10.3102/0013189X023002013
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_4444fcf3b04ca72f
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0004
+    field_path: bib_ledger.entries[3].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Treats authenticity and directness of performance assessment as promissory validity claims that offset the two major threats to construct validity (construct underrepresentation and construct-irrelevant
+    variance), arguing authentic assessment is fundamentally a quest for complete construct representation.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0005
+  source_url: https://doi.org/10.1086/444136
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_7c3137415d516108
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0005
+    field_path: bib_ledger.entries[4].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Empirical study across restructured elementary, middle, and high schools showing authentic pedagogy is strongly associated with authentic academic performance and that the achievement effects
+    are reasonably equitable across student social backgrounds.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0006
+  source_url: https://consortium.uchicago.edu/sites/default/files/2023-06/Authentic%20Intellectual%20Work-Jan2001-Consortium.pdf
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_6a02f1718c095124
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0006
+    field_path: bib_ledger.entries[5].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Chicago classroom study showing assignments demanding more authentic intellectual work actually improve student scores on conventional standardized tests, refuting the assumption that authentic
+    and standardized assessment are in conflict.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0007
+  source_url: https://doi.org/10.1007/BF02504676
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_bf5c12c1c2f5a64d
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0007
+    field_path: bib_ledger.entries[6].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Proposes a five-dimensional framework (task, physical context, social context, assessment result/form, criteria) that operationalizes authenticity for assessment design, grounded in qualitative
+    validation with vocational-nursing students and teachers.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0008
+  source_url: https://doi.org/10.3102/0013189X018009027
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_7ce15d416a1bd288
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0008
+    field_path: bib_ledger.entries[7].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Introduces systemic validity — tests are systemically valid when they induce curricular and instructional changes that foster the cognitive traits the test claims to measure; argues direct (not
+    indirect) assessment is essential.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0009
+  source_url: https://doi.org/10.1177/003172170208301010
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_1ac5d2c11c34d68c
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0009
+    field_path: bib_ledger.entries[8].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Argues U.S. education suffers a crisis of over-reliance on summative standardized tests of learning while neglecting classroom assessment for learning, which alone delivers timely feedback that
+    improves student achievement.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0010
+  source_url: https://doi.org/10.1016/j.edurev.2007.05.002
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_086065e9d73c9e06
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0010
+    field_path: bib_ledger.entries[9].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Review of 75 studies finds rubric scoring of performance assessments is most reliable when rubrics are analytic, topic-specific, and complemented with exemplars and/or rater training; rubrics
+    do not automatically yield validity but can support it under a richer validity framework.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0011
+  source_url: https://archive.org/details/howtocreateuseru0000broo
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_eb6ba3e0a6c903fc
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0011
+    field_path: bib_ledger.entries[10].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Identifies two essential rubric components — criteria that target learning (not tasks) and clear descriptions of performance across a quality continuum — and argues analytic rubrics are better
+    suited to formative use because students can see which dimensions need work.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0012
+  source_url: https://doi.org/10.1080/02602930902862859
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_a008d850b8708c42
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0012
+    field_path: bib_ledger.entries[11].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reviews empirical higher-education rubric research, finding generally positive student perceptions, instructor resistance in some contexts, validity hinging on language clarity, and rubrics enabling
+    reasonably common interpretation of performance across raters.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0013
+  source_url: https://doi.org/10.1177/001316446002000104
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_afc2a8d5b13efc6c
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0013
+    field_path: bib_ledger.entries[12].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Introduces kappa as a chance-corrected agreement coefficient for nominal scales, critiquing raw percent agreement for failing to account for the probability that raters coincide by guessing.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0014
+  source_url: https://doi.org/10.1111/j.1468-2958.2004.tb00738.x
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_28219eae1ea49245
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0014
+    field_path: bib_ledger.entries[13].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Clarifies misconceptions about reliability coefficients in coding tasks and recommends alpha as a generalized chance-corrected agreement statistic that handles any number of raters, any measurement
+    level (nominal/ordinal/interval/ratio), and missing data.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0015
+  source_url: https://doi.org/10.7275/96jp-xz07
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_d9cffd84b7029695
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0015
+    field_path: bib_ledger.entries[14].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Argues interrater reliability is not one concept but three families — consensus (percent agreement, kappa), consistency (correlations), and measurement (G-theory) estimates — each with different
+    assumptions, interpretations, and appropriate uses.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0016
+  source_url: https://doi.org/10.1016/j.edurev.2013.01.002
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_a1312c5f3ce8ad68
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0016
+    field_path: bib_ledger.entries[15].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Analyzes 21 studies on formative rubric use and identifies several mediating mechanisms — transparency of expectations, supported self-assessment, feedback scaffolding — through which rubrics
+    improve student performance and self-regulation.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0017
+  source_url: https://doi.org/10.1177/0741088399016003001
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_613ca461b3f5bc8b
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0017
+    field_path: bib_ledger.entries[16].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Demonstrates that correlation-based and percent-agreement reliability indices can diverge sharply, and that many portfolio-assessment studies report reliability statistics inappropriate to the
+    scoring design they used.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0018
+  source_url: https://doi.org/10.1002/j.2168-9830.2005.tb00832.x
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_b534d4f68b0c68e7
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0018
+    field_path: bib_ledger.entries[17].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Dym, Agogino, Eris, Frey & Leifer survey engineering-design pedagogy and argue project-based capstone design is the canonical venue for synthesizing prior coursework, while detailing why design
+    thinking is hard to learn and harder to teach.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0019
+  source_url: https://advances.asee.org/publication/where-are-we-now-statistics-on-capstone-courses-nationwide/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_e59be6f4d2311986
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0019
+    field_path: bib_ledger.entries[18].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reports the 2005 national survey of 444 engineering capstone programs at 232 institutions covering project logistics, faculty involvement, funding, industry sponsorship, and measures of success;
+    compares to the Todd/Magleby 1994 baseline to surface decadal trends.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0020
+  source_url: https://doi.org/10.1002/jee.20259
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_3452f0a5c92bf8d6
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0020
+    field_path: bib_ledger.entries[19].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Qualitative analysis of interviews with 42 capstone faculty (stratified sample from a national survey) produces a functional taxonomy of pedagogical practices, providing a framework for subsequent
+    studies of teaching-practice/learning-outcome relationships.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0021
+  source_url: https://doi.org/10.1016/j.infsof.2023.107191
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_a387d21e9b4198e4
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0021
+    field_path: bib_ledger.entries[20].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Systematic review of 127 SE capstone-course articles (2007-2022) synthesizes a taxonomy across duration, team size, client/project sources, project implementation, and student assessment; finds
+    the modal course is one semester with 4-5 person teams building proof-of-concept software for an external client.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0022
+  source_url: https://doi.org/10.1109/TE.2012.2187208
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_5bb4ab2c759c84c5
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0022
+    field_path: bib_ledger.entries[21].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Describes a multi-year SE capstone redesigned as a simulated software-development company spanning multiple student cohorts, with intended learning outcomes, teaching/learning activities, and
+    assessment tasks aligned to organizational, process, and communication competencies rather than only technical deliverables.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0023
+  source_url: https://doi.org/10.1145/3689187.3709608
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_dea8823084ff1126
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0023
+    field_path: bib_ledger.entries[22].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Working-group study collecting instructor perspectives across computing-field capstone courses; documents how faculty conceive of capstone goals, assessment criteria, and team-dynamics challenges,
+    complementing the SE-only systematic review with broader computing coverage.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0024
+  source_url: https://doi.org/10.1155/2020/9563782
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_5f2cc44fae05dfbf
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0024
+    field_path: bib_ledger.entries[23].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Case study of a cross-disciplinary (computer/electrical/mechanical) FSAE electric-vehicle capstone, with explicit mapping of project artifacts to each of the seven ABET student outcomes and the
+    assessment instruments used.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0025
+  source_url: https://www.apa.org/science/programs/testing/standards
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_688d83f5ff713a16
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0025
+    field_path: bib_ledger.entries[24].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Jointly issued by AERA/APA/NCME, the Standards define operational best practice for validity, fairness, reliability, design, delivery, scoring, and use of tests; the canonical reference for the
+    validity argument underlying credentialing-exam claims.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0026
+  source_url: https://www.cbenetwork.org/wp-content/uploads/2018/09/Quality-Framework-for-Competency-Based-Education-Programs-Updated.pdf
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_b54bcc00d9fb6969
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0026
+    field_path: bib_ledger.entries[25].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: C-BEN consortium framework defining quality elements for CBE programs spanning learner experience, learning outcomes, instructional/learning processes, assessment, and credentialing; explicit
+    articulation of faculty roles in validating mastery via assessment portfolios.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0027
+  source_url: https://doi.org/10.1145/3293881.3295782
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_3b0122fbc136d18a
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0027
+    field_path: bib_ledger.entries[26].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Defines computing-discipline competency as the integration of contextualized knowledge, skills, and dispositions, drawing on IT2017, SWECOM, and SFIA; established the framework that fed the ACM/IEEE
+    Computing Curricula 2020 (CC2020) competency model.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0028
+  source_url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6283777/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_c4e554b281e7f24c
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0028
+    field_path: bib_ledger.entries[27].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Synthesizes validity evidence for programmatic assessment — using many low-stakes assessments aggregated into high-stakes competency decisions — and argues that competency judgments require a
+    triangulated body of evidence rather than any single test.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0029
+  source_url: https://aws.amazon.com/certification/certified-machine-learning-specialty/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_e2e2e4850eb3c06d
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0029
+    field_path: bib_ledger.entries[28].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Specialty-tier credential validating expertise in building and deploying ML solutions on AWS; recommends 2+ years of hands-on ML/DL workloads on AWS; multiple-choice exam with scaled score 100-1000
+    and passing cutoff 750. Scheduled retirement March 2026 (superseded by the MLA-C01 Associate-tier ML Engineer cert).
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0030
+  source_url: https://d1.awsstatic.com/training-and-certification/docs-machine-learning-engineer-associate/AWS-Certified-Machine-Learning-Engineer-Associate_Exam-Guide.pdf
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_29584b9d17ab3870
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0030
+    field_path: bib_ledger.entries[29].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Successor cert that replaces the retiring ML Specialty; exam guide enumerates task statements across data preparation, model development, deployment/orchestration, and ML solutions monitoring
+    — concretizing the operational ML competency domain a vendor regards as bookable.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0031
+  source_url: https://cloud.google.com/learn/certification/guides/machine-learning-engineer
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_1b43c293a89c94ed
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0031
+    field_path: bib_ledger.entries[30].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Defines six task domains (architect low-code AI solutions; collaborate to manage data and models; scale prototypes to ML models; serve and scale models; automate/orchestrate ML pipelines; monitor
+    AI solutions) with domain weightings; 50-60 questions, 2 hours, $200.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0032
+  source_url: https://www.comptia.org/en-us/certifications/data/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_653bef7ec6718078
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0032
+    field_path: bib_ledger.entries[31].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Vendor-neutral data-analyst credential structured across five domains (Data Concepts & Environments; Data Acquisition & Preparation; Data Analysis; Visualization & Reporting; Data Governance);
+    ~90 questions, passing score 675 on a scaled scale.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0033
+  source_url: https://www.routledge.com/Electronic-Portfolios-20-Emergent-Research-on-Implementation-and-Impact/Cambridge-Yancey-Cambridge/p/book/9781579223212
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_2c03954de19f8ffc
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0033
+    field_path: bib_ledger.entries[32].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reports five iterations of research from the Inter/National Coalition for Electronic Portfolio Research across 20 institutions, examining effects on reflection, integrative learning, identity,
+    organizational learning, and technology-supported learning design.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0034
+  source_url: https://styluspub.presswarehouse.com/browse/book/9781620365052/High-Impact-ePortfolio-Practice
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_851b06396ed67a93
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0034
+    field_path: bib_ledger.entries[33].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Synthesizes data from the Connect to Learning network across 24 campuses and proposes the Catalyst Framework (Inquiry, Reflection, Integration; Pedagogy, Professional Development, Outcomes Assessment,
+    Technology, Scaling Up) as the design backbone for high-impact ePortfolio implementations.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0035
+  source_url: https://styluspub.presswarehouse.com/browse/book/9781620368671/Catalyst-in-Action
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_77bae061b5b69691
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0035
+    field_path: bib_ledger.entries[34].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Twenty case studies from institutions ranging from Bronx Community College to Yale, Arizona State, and Dublin City University, illustrating how the Catalyst Framework plays out across two-year
+    colleges, R1s, and discipline-specific programs.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0036
+  source_url: https://www.wiley.com/en-us/Documenting+Learning+with+ePortfolios:+A+Guide+for+College+Instructors-p-9780470636206
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_2db4a4776b0727cf
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0036
+    field_path: bib_ledger.entries[35].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Lays out a six-task iterative framework for designing course- and program-level ePortfolio implementations, with explicit guidance on showcase vs developmental vs assessment portfolio choices
+    and on integrating ePortfolios into institutional assessment efforts.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0037
+  source_url: https://aaeebl.org/2021/11/06/field-guide-to-eportfolio/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_16a50706c55deaba
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0037
+    field_path: bib_ledger.entries[36].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Edited reference with contributions from 50+ ePortfolio practitioners; provides an authoritative account of ePortfolio dimensions (pedagogy, reflection, integrative learning, technology, assessment)
+    along with international case studies.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0038
+  source_url: https://eric.ed.gov/?id=EJ1107810
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_4c4211baa8471ee6
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0038
+    field_path: bib_ledger.entries[37].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Systematic review of ePortfolio research since 1996 finding that the majority is theory-based argumentation or descriptive practitioner accounts; a minority present original empirical data on
+    user perceptions or student outcomes, with even fewer measuring against learning theory.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0039
+  source_url: https://compact.org/resources/using-the-value-rubrics-for-improvement-of-learning-and-authentic-assessment
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_d372a294d04f118b
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0039
+    field_path: bib_ledger.entries[38].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Documents AAC&U 16 cross-cutting VALUE rubrics, their faculty-driven development process, validity/reliability evidence from the multi-state VALUE pilot, and explicit pairing with ePortfolio
+    collections for direct assessment across curriculum, co-curriculum, and beyond.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0040
+  source_url: https://www.aacu.org/initiatives/value-initiative/value-rubrics
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_344cc2231dea43cb
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0040
+    field_path: bib_ledger.entries[39].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Sixteen open-license rubrics covering essential learning outcomes (Critical Thinking, Written Communication, Integrative Learning, etc.); the Integrative Learning rubric was explicitly designed
+    for ePortfolio-style work collections.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0041
+  source_url: https://www.taylorfrancis.com/books/mono/10.4324/9781315237473/reflective-practitioner-donald-sch%C3%B6n
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_f2a0faf3b29f8e2c
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0041
+    field_path: bib_ledger.entries[40].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Distinguishes reflection-in-action (real-time reframing while working) from reflection-on-action (retrospective analysis), arguing that professional schools over-rely on technical rationality
+    and underweight the tacit-knowledge work practitioners actually do.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0042
+  source_url: https://www.wiley.com/en-us/Educating+the+Reflective+Practitioner%3A+Toward+a+New+Design+for+Teaching+and+Learning+in+the+Professions-p-9781555422202
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_c349499ce9b6c6ea
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0042
+    field_path: bib_ledger.entries[41].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Operationalises the reflective-practitioner concept into curriculum design via the practicum — coached studio-style learning in which students confront ill-structured problems, get expert feedback,
+    and develop reflection-in-action habits.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0043
+  source_url: https://www.routledge.com/Reflection-Turning-Experience-into-Learning/Boud-Keogh-Walker/p/book/9780850388640
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_beb3ac43f2b36701
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0043
+    field_path: bib_ledger.entries[42].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Articulates the Boud-Keogh-Walker three-stage reflection model (returning to experience, attending to feelings, re-evaluating experience), explicitly framing reflection as the mechanism that
+    converts raw experience into actionable learning.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0044
+  source_url: https://www.routledge.com/Rethinking-Assessment-in-Higher-Education-Learning-for-the-Longer-Term/Boud-Falchikov/p/book/9780415397797
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_f61c608107d633ec
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0044
+    field_path: bib_ledger.entries[43].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reframes self-assessment as a tool for developing students informed evaluative judgment for future learning, rather than as a self-grading exercise; argues sustainable assessment must build judgment
+    that outlasts the course.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0045
+  source_url: https://www.routledge.com/Reflection-in-Learning-and-Professional-Development-Theory-and-Practice/Moon/p/book/9780749434526
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_1dc9bbeb4c9730c9
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0045
+    field_path: bib_ledger.entries[44].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Maps reflective-writing techniques (learning journals, double-entry logs, reflective essays) onto Dewey/Schon/Boud theoretical lineages, with concrete prompt families and quality criteria for
+    academic reflection.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0046
+  source_url: https://doi.org/10.1080/00405840802577544
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_bdad305e7aa85c0e
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0046
+    field_path: bib_ledger.entries[45].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Defines criteria-referenced self-assessment as a three-step formative process (collect performance evidence, compare to stated criteria, revise) and argues it must remain non-graded to preserve
+    its learning function.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0047
+  source_url: https://doi.org/10.3389/feduc.2019.00087
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_8b368ccc8c9f8cce
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0047
+    field_path: bib_ledger.entries[46].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reviews 76 empirical studies (2013-2018) on student self-assessment, finding consistent positive associations with achievement and self-regulated learning but documenting accuracy limitations
+    (especially for novice and low-achieving students) and student-perception caveats.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_capstone_portfolio_assessment_0048
+  source_url: https://doi.org/10.1207/s15430421tip4102_2
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_080380e81def5b33
+  supports:
+  - claim_id: claim_capstone_portfolio_assessment_0048
+    field_path: bib_ledger.entries[47].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Articulates the three-phase cyclical model of self-regulated learning (forethought, performance, self-reflection) and positions metacognitive self-monitoring as the engine that links reflection
+    to subsequent strategy choice.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source

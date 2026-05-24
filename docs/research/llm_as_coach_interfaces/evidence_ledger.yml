@@ -1,9 +1,8 @@
 schema_version: 3
 topic: llm_as_coach_interfaces
 generated_at: 2026-05-23
-current_as_of: 2026-05-23
+current_as_of: '2026-05-24'
 freshness_policy: strict_live
-
 entries:
 - evidence_id: ev_llm_as_coach_interfaces_0001
   source_url: https://doi.org/10.1080/00461520.2011.611369
@@ -11,43 +10,51 @@ entries:
   source_quality: primary
   retrieved_at: 2026-05-23
   verification_method: webfetch
-  cache_ids: [cache_a765ac3588af337d]
+  cache_ids:
+  - cache_a765ac3588af337d
   supports:
   - claim_id: claim_llm_as_coach_interfaces_0001
     field_path: bib_ledger.entries[0].title
     evidence_role: identifies
     evidence_role_strength: full
     extraction_method: paraphrase
-    link_confidence: 0.80
-  excerpt: 'VanLehn (2011) meta-analysis — ITS effect size d=0.76, human tutoring d=0.79. ITS nearly matches human tutoring effectiveness. Foundational for LLM-tutor expectations.'
+    link_confidence: 0.8
+  excerpt: VanLehn (2011) meta-analysis — ITS effect size d=0.76, human tutoring d=0.79. ITS nearly matches human tutoring effectiveness. Foundational for LLM-tutor expectations.
   rights_status: private_use
-  confidence: {score: 0.85, factors: [ASU Elsevier publication page cached]}
-
+  confidence:
+    score: 0.85
+    factors:
+    - ASU Elsevier publication page cached
 - evidence_id: ev_llm_as_coach_interfaces_0002
   source_url: https://blog.khanacademy.org/khan-academy-efficacy-results-november-2024/
   source_type: blog
   source_quality: official
   retrieved_at: 2026-05-23
   verification_method: webfetch
-  cache_ids: [cache_43e97abed5de87ba]
+  cache_ids:
+  - cache_43e97abed5de87ba
   supports:
   - claim_id: claim_llm_as_coach_interfaces_0002
     field_path: bib_ledger.entries[1].title
     evidence_role: identifies
     evidence_role_strength: partial
     extraction_method: paraphrase
-    link_confidence: 0.70
-  excerpt: 'Khan Academy (2024) — Khanmigo efficacy results November 2024. Growth from 68K to 700K+ users (2023-24 to 2024-25); efficacy studies underway; significant learning gains across conditions but no statistically significant differences between groups in one study.'
+    link_confidence: 0.7
+  excerpt: Khan Academy (2024) — Khanmigo efficacy results November 2024. Growth from 68K to 700K+ users (2023-24 to 2024-25); efficacy studies underway; significant learning gains across conditions but
+    no statistically significant differences between groups in one study.
   rights_status: private_use
-  confidence: {score: 0.70, factors: [official Khan Academy blog; living doc]}
-
+  confidence:
+    score: 0.7
+    factors:
+    - official Khan Academy blog; living doc
 - evidence_id: ev_llm_as_coach_interfaces_0003
   source_url: https://jtl.uwindsor.ca/index.php/jtl/article/view/10052
   source_type: paper
   source_quality: primary
   retrieved_at: 2026-05-23
   verification_method: webfetch
-  cache_ids: [cache_14036d46f1a13346]
+  cache_ids:
+  - cache_14036d46f1a13346
   supports:
   - claim_id: claim_llm_as_coach_interfaces_0003
     field_path: bib_ledger.entries[2].title
@@ -55,6 +62,773 @@ entries:
     evidence_role_strength: partial
     extraction_method: paraphrase
     link_confidence: 0.75
-  excerpt: 'JTL (Windsor) study — Khanmigo personalized tutoring for scientific concepts. Recent LLM-tutor deployment case study.'
+  excerpt: JTL (Windsor) study — Khanmigo personalized tutoring for scientific concepts. Recent LLM-tutor deployment case study.
   rights_status: private_use
-  confidence: {score: 0.75, factors: [peer-reviewed journal article]}
+  confidence:
+    score: 0.75
+    factors:
+    - peer-reviewed journal article
+- evidence_id: ev_llm_as_coach_interfaces_0004
+  source_url: https://doi.org/10.1184/R1/6470153.v1
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_296bee496e601959
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0004
+    field_path: bib_ledger.entries[3].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: A new algebra curriculum with an embedded Algebra Cognitive Tutor dramatically enhanced learning; experimental students outperformed comparison classes by 15% on standardized tests and 100% on
+    targeted-objective tests.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0005
+  source_url: https://doi.org/10.3102/0013189X013006004
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_1bae20d6b577f182
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0005
+    field_path: bib_ledger.entries[4].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: The average student tutored one-to-one with mastery learning performed two standard deviations above the control class (above 98% of students); finding group-instruction methods as effective
+    as tutoring is the 2 sigma problem.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0006
+  source_url: https://doi.org/10.1207/s15327809jls0402_2
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_5929bf0032e4259e
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0006
+    field_path: bib_ledger.entries[5].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reviews a decade of ACT-based tutor development; best-case evaluations show students reaching the same proficiency as conventional instruction in one-third of the time, with immediate directed
+    feedback the most effective tutorial style.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0007
+  source_url: https://doi.org/10.1007/BF01099821
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_14f1d585d272e532
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0007
+    field_path: bib_ledger.entries[6].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Introduces knowledge tracing, maintaining a probability estimate that the student has learned each production rule in an ideal student model, demonstrated in the ACT Programming Tutor for short-program
+    writing.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0008
+  source_url: https://dl.acm.org/doi/10.5555/1435351.1435353
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_6dd3fc8a10ce528d
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0008
+    field_path: bib_ledger.entries[7].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: 'Frames tutoring systems as two loops: an outer loop selecting tasks and an inner loop giving step-level feedback, hints, and updating a student model used to choose the next task.'
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0009
+  source_url: https://doi.org/10.3102/0034654315581420
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_b97780e2e9023e33
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0009
+    field_path: bib_ledger.entries[8].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Meta-analysis of 50 controlled evaluations; median effect of intelligent tutoring raised test scores 0.66 SD, with effect size strongly moderated by whether tests were locally developed or standardized.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0010
+  source_url: https://doi.org/10.1145/3613904.3642773
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_cc8bf9f4f5930d55
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0010
+    field_path: bib_ledger.entries[9].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: CodeAid answers conceptual questions, generates pseudo-code with line-by-line explanations, and annotates incorrect code with fixes without revealing solutions; deployed to 700 students for 12
+    weeks with thematic analysis of 8,000 usages plus surveys and 22 interviews.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0011
+  source_url: https://doi.org/10.1145/3631802.3631830
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_2bfe98d6e24c5cca
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0011
+    field_path: bib_ledger.entries[10].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: An LLM-powered automated TA with guardrails that gives guidance and explanations without revealing solution code; every query is a one-shot request with no follow-up dialogue, well-received by
+    students and cheap to deploy.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0012
+  source_url: https://doi.org/10.1145/3544548.3580919
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_b6bd9a44aebaa26f
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0012
+    field_path: bib_ledger.entries[11].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: In a 69-learner study using the Coding Steps environment, access to a Codex-based generator raised code-authoring completion and scores without harming manual code-modification performance, and
+    reduced frustration.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0013
+  source_url: https://arxiv.org/abs/2404.17460
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_c54d744efff36a13
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0013
+    field_path: bib_ledger.entries[12].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: A conversational tutoring system using two LLM agents in a learning-by-teaching format following the ITS inner/outer-loop structure; two studies (N=200) found high engagement and understanding
+    but no significant short-term learning gains over reading.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0014
+  source_url: https://doi.org/10.1038/s41598-025-97652-6
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_b826a350213da400
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0014
+    field_path: bib_ledger.entries[13].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: A randomized controlled trial in an authentic physics course found students learn more in less time when content is delivered through a pedagogically-designed GPT-4 AI tutor compared with in-class
+    active learning; students were also more engaged and motivated.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0015
+  source_url: https://arxiv.org/abs/2512.23633
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_e31b83cec273a639
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0015
+    field_path: bib_ledger.entries[14].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Exploratory RCT with 165 students across five UK secondary schools integrating LearnLM into supervised chat tutoring on the Eedi maths platform; students supported by LearnLM performed at least
+    as well as those with human tutors alone, with supervising tutors approving most LearnLM-drafted messages with zero or minimal edits.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0016
+  source_url: https://doi.org/10.1111/jcal.70096
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_d5606196af177240
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0016
+    field_path: bib_ledger.entries[15].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Meta-analysis of experimental studies aggregating ChatGPT effects on student academic achievement across subjects and education levels.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0017
+  source_url: https://doi.org/10.1016/j.compedu.2024.105224
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_793ae7e20a2ccb78
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0017
+    field_path: bib_ledger.entries[16].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Systematic review and meta-analysis of experimental ChatGPT-in-learning studies, examining moderators including subject, education level, and instructional mode.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0018
+  source_url: https://doi.org/10.1016/j.caeai.2021.100020
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_af5ddb8da2c12360
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0018
+    field_path: bib_ledger.entries[17].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Proposes three AIEd paradigms — AI-directed (knowledge models direct cognition), AI-supported (learner as collaborator), and AI-empowered (learner takes agency) — as a framing lens for AI-in-education
+    research.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0019
+  source_url: https://arxiv.org/abs/2310.13548
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_1628234734948e94
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0019
+    field_path: bib_ledger.entries[18].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Demonstrates that production LLMs commonly exhibit sycophancy and that human-feedback training can encourage responses matching user beliefs over truthful ones; both humans and preference models
+    prefer convincingly-written sycophantic responses over correct ones a non-negligible fraction of the time.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0020
+  source_url: https://arxiv.org/abs/2406.10162
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_90b0932d9b3116b8
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0020
+    field_path: bib_ledger.entries[19].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Shows that specification gaming learned in low-stakes settings (e.g., conversational sycophancy) can generalize to more serious behaviors such as direct reward-tampering.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0021
+  source_url: https://arxiv.org/abs/2506.08872
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_6dc1b7ce5ad2128e
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0021
+    field_path: bib_ledger.entries[20].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: EEG study of essay writing across LLM / search-engine / brain-only conditions found LLM users displayed the weakest brain connectivity and, when later writing without AI, showed weaker neural
+    connectivity than never-AI users; a majority could not quote from their own essays (cognitive debt).
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0022
+  source_url: https://doi.org/10.3390/soc15010006
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_f85b375da7d08a59
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0022
+    field_path: bib_ledger.entries[21].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Mixed-method study (n=666) found a significant negative correlation between frequent AI-tool use and critical-thinking ability, mediated by increased cognitive offloading, with younger participants
+    showing higher dependence.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0023
+  source_url: https://doi.org/10.31234/osf.io/8psgf_v1
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_b15f5355b65e7174
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0023
+    field_path: bib_ledger.entries[22].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Experiment (N=102) where a GPT group received chatbot explanations showed the largest gap between predicted and self-evaluated understanding, indicating AI explanations magnify the illusion of
+    explanatory depth.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0024
+  source_url: https://arxiv.org/abs/2510.16019
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_837deb83438f35ca
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0024
+    field_path: bib_ledger.entries[23].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Classroom experiment (operations research) randomly permitting/forbidding AI-tool use during classes and exams, examining how reliance on generative AI affects genuine understanding rather than
+    just scores.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0025
+  source_url: https://arxiv.org/abs/2411.15287
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_c42f17c5256538a3
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0025
+    field_path: bib_ledger.entries[24].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Survey characterizing sycophancy as models generating responses that cater to user beliefs even when they deviate from truth, reviewing causes (preference-data bias, RLHF reward hacking) and
+    mitigation strategies.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0026
+  source_url: https://arxiv.org/abs/2410.03781
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_70f828a125b83c5f
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0026
+    field_path: bib_ledger.entries[25].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Introduces StratL, an algorithm to optimize LLM prompts and steer the model to follow a predefined multi-turn tutoring plan represented as a transition graph; validated in a field study with
+    17 high-school students following a Productive Failure design.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0027
+  source_url: https://arxiv.org/abs/2502.18940
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_dbca6f592433aba8
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0027
+    field_path: bib_ledger.entries[26].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: A benchmark evaluating LLM tutors across teacher skills including scaffolding generation and pedagogical instruction-following; its reward model contrasts effective vs. less-effective utterances
+    by whether they offer structured questions/hints instead of giving away the answer.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0028
+  source_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/9bae399d1f34b8650351c1bd3692aeae-Abstract-Conference.html
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_039cc9b34a6685cc
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0028
+    field_path: bib_ledger.entries[27].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Proposes a Socratic Thought-Provoking teaching paradigm to replace the passive Question-Answering paradigm, built via a Dean-Teacher-Student multi-agent pipeline producing the 35K-dialogue SocraTeach
+    dataset grounded in math problems.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0029
+  source_url: https://dl.acm.org/doi/10.1145/3627673.3679881
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_d27ab83a0e3a1447
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0029
+    field_path: bib_ledger.entries[28].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Builds a knowledge-enhanced Socratic teaching LLM that tutors step-by-step via a review-heuristic-rectify-summarize structure, paired with the human-annotated SocraticMATH dialogue dataset over
+    513 primary-school math knowledge points.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0030
+  source_url: https://www.anthropic.com/news/anthropic-teach-for-all
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_acf074850c523ac8
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0030
+    field_path: bib_ledger.entries[29].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Describes Claude Learning Mode, which employs the Socratic method, prompting users with exploratory questions (How would you approach this problem?) rather than delivering direct answers, alongside
+    an educator AI-fluency training series.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0031
+  source_url: https://openai.com/index/chatgpt-study-mode/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_1af880532fcbe092
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0031
+    field_path: bib_ledger.entries[30].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Study mode guides students with questions, scaffolding, and feedback instead of giving answers outright, designed with educators and cognitive scientists across 40+ institutions to support active
+    questioning and scaffolded support.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0032
+  source_url: https://arxiv.org/abs/2410.03017
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_313d4b0346de0c43
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0032
+    field_path: bib_ledger.entries[31].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: First RCT of a Human-AI system in live tutoring (900 tutors, ~1,800 K-12 students); students of CoPilot-equipped tutors were 4pp more likely to master topics (9pp for lower-rated tutors), with
+    tutors more likely to ask guiding questions and less likely to give away answers.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0033
+  source_url: https://arxiv.org/abs/2310.10648
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_fb1d545c6a99421b
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0033
+    field_path: bib_ledger.entries[32].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Introduces Bridge, using cognitive task analysis to translate an expert latent reasoning (error -> remediation strategy -> intention) into a decision-making model, built on a dataset of 700 real
+    expert-annotated tutoring conversations.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0034
+  source_url: https://arxiv.org/abs/2409.15981
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_6018cdb2d12f62d5
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0034
+    field_path: bib_ledger.entries[33].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: An RCT in four high-school classes replaced traditional homework with GPT-4 homework sessions for the treatment group; a prompting strategy enabled interactive ESL homework with measured gains
+    in grammar and engagement.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0035
+  source_url: https://www.pnas.org/doi/10.1073/pnas.2422633122
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_a8020ad235d5212a
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0035
+    field_path: bib_ledger.entries[34].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: A field experiment with ~1,000 high-school students deployed GPT Base vs. GPT Tutor (hint-giving safeguards); access boosted practice performance but unsafeguarded GPT Base students performed
+    worse once AI was removed, with harms largely mitigated by the tutoring safeguards.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0036
+  source_url: https://arxiv.org/abs/2405.17739
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_faaa6d6bb872ad26
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0036
+    field_path: bib_ledger.entries[35].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Across 21 lab sessions (observation, interview, eye tracking), students with strong metacognition accelerated while struggling students saw difficulties compounded, surfacing new metacognitive
+    failure modes (Interruption, Mislead, Progression) and an illusion of competence.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0037
+  source_url: https://blog.duolingo.com/duolingo-max/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_222975f08f4a3fe7
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0037
+    field_path: bib_ledger.entries[36].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Announces Duolingo Max, a subscription tier adding GPT-4-powered Explain My Answer and Roleplay features that let learners practice real-world conversations with AI characters and receive contextual
+    feedback.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_llm_as_coach_interfaces_0038
+  source_url: https://blog.khanacademy.org/how-khan-academy-is-building-a-better-ai-tutor-our-most-recent-learnings/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_98e87f0e44239aef
+  supports:
+  - claim_id: claim_llm_as_coach_interfaces_0038
+    field_path: bib_ledger.entries[37].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Khan Academy engineering account of iterating on Khanmigo, describing scaling across hundreds of district partners and A/B testing changes against learning-metric improvement thresholds.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source

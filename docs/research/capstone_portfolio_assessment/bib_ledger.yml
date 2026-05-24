@@ -1,9 +1,8 @@
 schema_version: 2
 topic: capstone_portfolio_assessment
 generated_at: 2026-05-23
-current_as_of: 2026-05-23
+current_as_of: '2026-05-24'
 freshness_policy: strict_live
-
 entries:
 - bibkey: kuh2008high
   primary_url: https://assess.ucr.edu/sites/default/files/2019-02/kuh_2008.pdf
@@ -13,10 +12,859 @@ entries:
   authors: Kuh (2008)
   venue: AAC&U (Association of American Colleges and Universities)
   retrieved_at: 2026-05-23
-  verified_at:
+  verified_at: null
   verification_method: webfetch
-  verified_fields: [primary_url]
+  verified_fields:
+  - primary_url
   freshness_tier: historical
   stale_after_days: 1825
-  evidence_ids: [ev_capstone_portfolio_assessment_0001]
-  cache_ids: [cache_7355bf1d68d6f302]
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0001
+  cache_ids:
+  - cache_7355bf1d68d6f302
+- bibkey: wiggins1998educative
+  primary_url: https://archive.org/details/educativeassessm00wigg
+  title: 'Educative Assessment: Designing Assessments to Inform and Improve Student Performance'
+  status: unverified
+  claim_family: theory
+  authors: Wiggins (1998)
+  venue: Jossey-Bass
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0002
+  cache_ids:
+  - cache_3a3249be77c0e4c7
+- bibkey: darling2000authentic
+  primary_url: https://doi.org/10.1016/S0742-051X%2800%2900015-9
+  title: Authentic assessment of teaching in context
+  status: unverified
+  claim_family: methodology
+  authors: Darling-Hammond & Snyder (2000)
+  venue: Teaching and Teacher Education, 16(5-6), 523-545
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0003
+  cache_ids:
+  - cache_6c84e289391c2500
+- bibkey: messick1994interplay
+  primary_url: https://doi.org/10.3102/0013189X023002013
+  title: The Interplay of Evidence and Consequences in the Validation of Performance Assessments
+  status: unverified
+  claim_family: theory
+  authors: Messick (1994)
+  venue: Educational Researcher, 23(2), 13-23
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0004
+  cache_ids:
+  - cache_4444fcf3b04ca72f
+- bibkey: newmann1996authentic
+  primary_url: https://doi.org/10.1086/444136
+  title: Authentic Pedagogy and Student Performance
+  status: unverified
+  claim_family: evidence
+  authors: Newmann, Marks & Gamoran (1996)
+  venue: American Journal of Education, 104(4), 280-312
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0005
+  cache_ids:
+  - cache_7c3137415d516108
+- bibkey: newmann2001authentic
+  primary_url: https://consortium.uchicago.edu/sites/default/files/2023-06/Authentic%20Intellectual%20Work-Jan2001-Consortium.pdf
+  title: 'Authentic Intellectual Work and Standardized Tests: Conflict or Coexistence?'
+  status: unverified
+  claim_family: evidence
+  authors: Newmann, Bryk & Nagaoka (2001)
+  venue: Consortium on Chicago School Research
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0006
+  cache_ids:
+  - cache_6a02f1718c095124
+- bibkey: gulikers2004fivedimensional
+  primary_url: https://doi.org/10.1007/BF02504676
+  title: A Five-Dimensional Framework for Authentic Assessment
+  status: unverified
+  claim_family: methodology
+  authors: Gulikers, Bastiaens & Kirschner (2004)
+  venue: Educational Technology Research and Development, 52(3), 67-86
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0007
+  cache_ids:
+  - cache_bf5c12c1c2f5a64d
+- bibkey: frederiksen1989systems
+  primary_url: https://doi.org/10.3102/0013189X018009027
+  title: A Systems Approach to Educational Testing
+  status: unverified
+  claim_family: theory
+  authors: Frederiksen & Collins (1989)
+  venue: Educational Researcher, 18(9), 27-32
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0008
+  cache_ids:
+  - cache_7ce15d416a1bd288
+- bibkey: stiggins2002assessment
+  primary_url: https://doi.org/10.1177/003172170208301010
+  title: 'Assessment Crisis: The Absence of Assessment FOR Learning'
+  status: unverified
+  claim_family: pitfall
+  authors: Stiggins (2002)
+  venue: Phi Delta Kappan, 83(10), 758-765
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0009
+  cache_ids:
+  - cache_1ac5d2c11c34d68c
+- bibkey: jonsson2007rubrics
+  primary_url: https://doi.org/10.1016/j.edurev.2007.05.002
+  title: 'The use of scoring rubrics: Reliability, validity and educational consequences'
+  status: unverified
+  claim_family: evidence
+  authors: Jonsson & Svingby (2007)
+  venue: Educational Research Review, 2(2), 130-144
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0010
+  cache_ids:
+  - cache_086065e9d73c9e06
+- bibkey: brookhart2013rubrics
+  primary_url: https://archive.org/details/howtocreateuseru0000broo
+  title: How to Create and Use Rubrics for Formative Assessment and Grading
+  status: unverified
+  claim_family: methodology
+  authors: Brookhart (2013)
+  venue: ASCD
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0011
+  cache_ids:
+  - cache_eb6ba3e0a6c903fc
+- bibkey: reddy2010rubric
+  primary_url: https://doi.org/10.1080/02602930902862859
+  title: A review of rubric use in higher education
+  status: unverified
+  claim_family: evidence
+  authors: Reddy & Andrade (2010)
+  venue: Assessment & Evaluation in Higher Education, 35(4), 435-448
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0012
+  cache_ids:
+  - cache_a008d850b8708c42
+- bibkey: cohen1960coefficient
+  primary_url: https://doi.org/10.1177/001316446002000104
+  title: A Coefficient of Agreement for Nominal Scales
+  status: unverified
+  claim_family: methodology
+  authors: Cohen (1960)
+  venue: Educational and Psychological Measurement, 20(1), 37-46
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0013
+  cache_ids:
+  - cache_afc2a8d5b13efc6c
+- bibkey: krippendorff2004reliability
+  primary_url: https://doi.org/10.1111/j.1468-2958.2004.tb00738.x
+  title: 'Reliability in Content Analysis: Some Common Misconceptions and Recommendations'
+  status: unverified
+  claim_family: methodology
+  authors: Krippendorff (2004)
+  venue: Human Communication Research, 30(3), 411-433
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0014
+  cache_ids:
+  - cache_28219eae1ea49245
+- bibkey: stemler2004comparison
+  primary_url: https://doi.org/10.7275/96jp-xz07
+  title: A Comparison of Consensus, Consistency, and Measurement Approaches to Estimating Interrater Reliability
+  status: unverified
+  claim_family: methodology
+  authors: Stemler (2004)
+  venue: Practical Assessment, Research, and Evaluation, 9(4)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0015
+  cache_ids:
+  - cache_d9cffd84b7029695
+- bibkey: panadero2013formative
+  primary_url: https://doi.org/10.1016/j.edurev.2013.01.002
+  title: 'The use of scoring rubrics for formative assessment purposes revisited: A review'
+  status: unverified
+  claim_family: evidence
+  authors: Panadero & Jonsson (2013)
+  venue: Educational Research Review, 9, 129-144
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0016
+  cache_ids:
+  - cache_a1312c5f3ce8ad68
+- bibkey: hayes1999issues
+  primary_url: https://doi.org/10.1177/0741088399016003001
+  title: 'Issues in measuring reliability: Correlation versus percentage of agreement'
+  status: unverified
+  claim_family: pitfall
+  authors: Hayes & Hatch (1999)
+  venue: Written Communication, 16(3), 354-367
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0017
+  cache_ids:
+  - cache_613ca461b3f5bc8b
+- bibkey: dym2005engineering
+  primary_url: https://doi.org/10.1002/j.2168-9830.2005.tb00832.x
+  title: Engineering Design Thinking, Teaching, and Learning
+  status: unverified
+  claim_family: theory
+  authors: Dym et al. (2005)
+  venue: Journal of Engineering Education, 94(1), 103-120
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0018
+  cache_ids:
+  - cache_b534d4f68b0c68e7
+- bibkey: howe2010where
+  primary_url: https://advances.asee.org/publication/where-are-we-now-statistics-on-capstone-courses-nationwide/
+  title: Where Are We Now? Statistics on Capstone Courses Nationwide
+  status: unverified
+  claim_family: evidence
+  authors: Howe & Wilbarger (2010)
+  venue: Advances in Engineering Education, 2(1)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0019
+  cache_ids:
+  - cache_e59be6f4d2311986
+- bibkey: pembridge2019characterizing
+  primary_url: https://doi.org/10.1002/jee.20259
+  title: 'Characterizing Capstone Design Teaching: A Functional Taxonomy'
+  status: unverified
+  claim_family: methodology
+  authors: Pembridge & Paretti (2019)
+  venue: Journal of Engineering Education, 108(2), 197-219
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0020
+  cache_ids:
+  - cache_3452f0a5c92bf8d6
+- bibkey: tenhunen2023systematic
+  primary_url: https://doi.org/10.1016/j.infsof.2023.107191
+  title: A systematic literature review of capstone courses in software engineering
+  status: unverified
+  claim_family: evidence
+  authors: Tenhunen et al. (2023)
+  venue: Information and Software Technology, 159, 107191
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0021
+  cache_ids:
+  - cache_a387d21e9b4198e4
+- bibkey: vanhanen2012company
+  primary_url: https://doi.org/10.1109/TE.2012.2187208
+  title: The Company Approach to Software Engineering Project Courses
+  status: unverified
+  claim_family: methodology
+  authors: Vanhanen, Lehtinen & Lassenius (2012)
+  venue: IEEE Transactions on Education, 55(4), 540-546
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0022
+  cache_ids:
+  - cache_5bb4ab2c759c84c5
+- bibkey: paretti2024instructors
+  primary_url: https://doi.org/10.1145/3689187.3709608
+  title: 'Instructors'' Perspectives on Capstone Courses in Computing Fields: A Mixed-Methods Study'
+  status: unverified
+  claim_family: evidence
+  authors: ITiCSE Working Group (2024)
+  venue: ITiCSE 2024 Working Group Reports (ACM)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0023
+  cache_ids:
+  - cache_dea8823084ff1126
+- bibkey: meah2020multidisciplinary
+  primary_url: https://doi.org/10.1155/2020/9563782
+  title: A Multidisciplinary Capstone Design Project to Satisfy ABET Student Outcomes
+  status: unverified
+  claim_family: domain_application
+  authors: Meah, Hake & Wilkinson (2020)
+  venue: Education Research International, 2020, 9563782
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0024
+  cache_ids:
+  - cache_5f2cc44fae05dfbf
+- bibkey: aera2014standards
+  primary_url: https://www.apa.org/science/programs/testing/standards
+  title: Standards for Educational and Psychological Testing
+  status: unverified
+  claim_family: theory
+  authors: AERA, APA & NCME (2014)
+  venue: American Educational Research Association (7th edition)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0025
+  cache_ids:
+  - cache_688d83f5ff713a16
+- bibkey: cbenetwork2017quality
+  primary_url: https://www.cbenetwork.org/wp-content/uploads/2018/09/Quality-Framework-for-Competency-Based-Education-Programs-Updated.pdf
+  title: Quality Framework for Competency-Based Education Programs
+  status: unverified
+  claim_family: methodology
+  authors: Competency-Based Education Network (2017)
+  venue: C-BEN (Competency-Based Education Network)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0026
+  cache_ids:
+  - cache_b54bcc00d9fb6969
+- bibkey: frezza2018modelling
+  primary_url: https://doi.org/10.1145/3293881.3295782
+  title: 'Modelling competencies for computing education beyond 2020: a research based approach to defining competencies in the computing disciplines'
+  status: unverified
+  claim_family: theory
+  authors: Frezza et al. (2018)
+  venue: ITiCSE 2018 Companion (ACM)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0027
+  cache_ids:
+  - cache_3b0122fbc136d18a
+- bibkey: vandervleuten2018validity
+  primary_url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6283777/
+  title: Validity evidence for programmatic assessment in competency-based education
+  status: unverified
+  claim_family: methodology
+  authors: van der Vleuten et al. (2018)
+  venue: Perspectives on Medical Education, 7(6), 367-375
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0028
+  cache_ids:
+  - cache_c4e554b281e7f24c
+- bibkey: aws2024mlspecialty
+  primary_url: https://aws.amazon.com/certification/certified-machine-learning-specialty/
+  title: AWS Certified Machine Learning - Specialty (MLS-C01)
+  status: unverified
+  claim_family: certification
+  authors: Amazon Web Services
+  venue: AWS Certification documentation
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0029
+  cache_ids:
+  - cache_e2e2e4850eb3c06d
+- bibkey: aws2024mlengineer
+  primary_url: https://d1.awsstatic.com/training-and-certification/docs-machine-learning-engineer-associate/AWS-Certified-Machine-Learning-Engineer-Associate_Exam-Guide.pdf
+  title: AWS Certified Machine Learning Engineer - Associate (MLA-C01) Exam Guide
+  status: unverified
+  claim_family: certification
+  authors: Amazon Web Services
+  venue: AWS Certification documentation
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0030
+  cache_ids:
+  - cache_29584b9d17ab3870
+- bibkey: google2024pmle
+  primary_url: https://cloud.google.com/learn/certification/guides/machine-learning-engineer
+  title: Professional Machine Learning Engineer Certification Exam Guide
+  status: unverified
+  claim_family: certification
+  authors: Google Cloud
+  venue: Google Cloud Certification documentation
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0031
+  cache_ids:
+  - cache_1b43c293a89c94ed
+- bibkey: comptia2024dataplus
+  primary_url: https://www.comptia.org/en-us/certifications/data/
+  title: CompTIA Data+ Certification (DA0-002) Exam Objectives
+  status: unverified
+  claim_family: certification
+  authors: CompTIA
+  venue: CompTIA Certification documentation
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0032
+  cache_ids:
+  - cache_653bef7ec6718078
+- bibkey: cambridge2009electronicportfolios2
+  primary_url: https://www.routledge.com/Electronic-Portfolios-20-Emergent-Research-on-Implementation-and-Impact/Cambridge-Yancey-Cambridge/p/book/9781579223212
+  title: 'Electronic Portfolios 2.0: Emergent Research on Implementation and Impact'
+  status: unverified
+  claim_family: theory
+  authors: Cambridge, Cambridge & Yancey (eds.) (2009)
+  venue: Stylus Publishing (ISBN 9781579223212)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0033
+  cache_ids:
+  - cache_2c03954de19f8ffc
+- bibkey: eynon2017highimpacteportfolio
+  primary_url: https://styluspub.presswarehouse.com/browse/book/9781620365052/High-Impact-ePortfolio-Practice
+  title: 'High-Impact ePortfolio Practice: A Catalyst for Student, Faculty, and Institutional Learning'
+  status: unverified
+  claim_family: methodology
+  authors: Eynon & Gambino (2017)
+  venue: Stylus Publishing (ISBN 9781620365052)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0034
+  cache_ids:
+  - cache_851b06396ed67a93
+- bibkey: eynon2018catalystinaction
+  primary_url: https://styluspub.presswarehouse.com/browse/book/9781620368671/Catalyst-in-Action
+  title: 'Catalyst in Action: Case Studies of High-Impact ePortfolio Practice'
+  status: unverified
+  claim_family: domain_application
+  authors: Eynon & Gambino (eds.) (2018)
+  venue: Stylus Publishing (ISBN 9781620368671)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0035
+  cache_ids:
+  - cache_77bae061b5b69691
+- bibkey: pennylight2012documenting
+  primary_url: https://www.wiley.com/en-us/Documenting+Learning+with+ePortfolios:+A+Guide+for+College+Instructors-p-9780470636206
+  title: 'Documenting Learning with ePortfolios: A Guide for College Instructors'
+  status: unverified
+  claim_family: methodology
+  authors: Penny Light, Chen & Ittelson (2012)
+  venue: Jossey-Bass / Wiley (ISBN 9780470636206)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0036
+  cache_ids:
+  - cache_2db4a4776b0727cf
+- bibkey: batson2017fieldguide
+  primary_url: https://aaeebl.org/2021/11/06/field-guide-to-eportfolio/
+  title: Field Guide to ePortfolio
+  status: unverified
+  claim_family: theory
+  authors: Batson, Coleman, Chen, Watson, Rhodes & Harver (eds.) (2017)
+  venue: Association of American Colleges & Universities (2017)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0037
+  cache_ids:
+  - cache_16a50706c55deaba
+- bibkey: bryant2013eportfolioeffectiveness
+  primary_url: https://eric.ed.gov/?id=EJ1107810
+  title: 'ePortfolio Effectiveness: A(n Ill-Fated) Search for Empirical Support'
+  status: unverified
+  claim_family: evidence
+  authors: Bryant & Chittum (2013)
+  venue: International Journal of ePortfolio, 3(2), 189-198
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0038
+  cache_ids:
+  - cache_4c4211baa8471ee6
+- bibkey: rhodes2014valuerubrics
+  primary_url: https://compact.org/resources/using-the-value-rubrics-for-improvement-of-learning-and-authentic-assessment
+  title: Using the VALUE Rubrics for Improvement of Learning and Authentic Assessment
+  status: unverified
+  claim_family: certification
+  authors: Rhodes & Finley (2014)
+  venue: AAC&U publication (2014)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0039
+  cache_ids:
+  - cache_d372a294d04f118b
+- bibkey: aacu2024valuerubrics
+  primary_url: https://www.aacu.org/initiatives/value-initiative/value-rubrics
+  title: VALUE Rubrics (Valid Assessment of Learning in Undergraduate Education)
+  status: unverified
+  claim_family: certification
+  authors: AAC&U (2009-2024)
+  venue: Association of American Colleges & Universities (canonical landing page)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0040
+  cache_ids:
+  - cache_344cc2231dea43cb
+- bibkey: schon1983reflectivepractitioner
+  primary_url: https://www.taylorfrancis.com/books/mono/10.4324/9781315237473/reflective-practitioner-donald-sch%C3%B6n
+  title: 'The Reflective Practitioner: How Professionals Think in Action'
+  status: unverified
+  claim_family: theory
+  authors: Schon (1983)
+  venue: Basic Books (1983); reissued by Routledge
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0041
+  cache_ids:
+  - cache_f2a0faf3b29f8e2c
+- bibkey: schon1987educatingreflective
+  primary_url: https://www.wiley.com/en-us/Educating+the+Reflective+Practitioner%3A+Toward+a+New+Design+for+Teaching+and+Learning+in+the+Professions-p-9781555422202
+  title: 'Educating the Reflective Practitioner: Toward a New Design for Teaching and Learning in the Professions'
+  status: unverified
+  claim_family: methodology
+  authors: Schon (1987)
+  venue: Jossey-Bass Higher and Adult Education Series (1987)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0042
+  cache_ids:
+  - cache_c349499ce9b6c6ea
+- bibkey: boud1985reflection
+  primary_url: https://www.routledge.com/Reflection-Turning-Experience-into-Learning/Boud-Keogh-Walker/p/book/9780850388640
+  title: 'Reflection: Turning Experience into Learning'
+  status: unverified
+  claim_family: theory
+  authors: Boud, Keogh & Walker (eds.) (1985)
+  venue: Kogan Page / Routledge (1985)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0043
+  cache_ids:
+  - cache_beb3ac43f2b36701
+- bibkey: boud2007rethinkingassessment
+  primary_url: https://www.routledge.com/Rethinking-Assessment-in-Higher-Education-Learning-for-the-Longer-Term/Boud-Falchikov/p/book/9780415397797
+  title: 'Rethinking Assessment in Higher Education: Learning for the Longer Term'
+  status: unverified
+  claim_family: methodology
+  authors: Boud & Falchikov (eds.) (2007)
+  venue: Routledge (ISBN 9780415397797)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0044
+  cache_ids:
+  - cache_f61c608107d633ec
+- bibkey: moon1999reflection
+  primary_url: https://www.routledge.com/Reflection-in-Learning-and-Professional-Development-Theory-and-Practice/Moon/p/book/9780749434526
+  title: 'Reflection in Learning and Professional Development: Theory and Practice'
+  status: unverified
+  claim_family: methodology
+  authors: Moon (1999)
+  venue: Routledge (ISBN 9780749434526)
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0045
+  cache_ids:
+  - cache_1dc9bbeb4c9730c9
+- bibkey: andrade2009promotinglearning
+  primary_url: https://doi.org/10.1080/00405840802577544
+  title: Promoting Learning and Achievement Through Self-Assessment
+  status: unverified
+  claim_family: methodology
+  authors: Andrade & Valtcheva (2009)
+  venue: Theory Into Practice, 48(1), 12-19
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: stable
+  stale_after_days: 365
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0046
+  cache_ids:
+  - cache_bdad305e7aa85c0e
+- bibkey: andrade2019criticalreview
+  primary_url: https://doi.org/10.3389/feduc.2019.00087
+  title: A Critical Review of Research on Student Self-Assessment
+  status: unverified
+  claim_family: evidence
+  authors: Andrade (2019)
+  venue: Frontiers in Education, 4, 87
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: active
+  stale_after_days: 90
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0047
+  cache_ids:
+  - cache_8b368ccc8c9f8cce
+- bibkey: zimmerman2002selfregulated
+  primary_url: https://doi.org/10.1207/s15430421tip4102_2
+  title: 'Becoming a Self-Regulated Learner: An Overview'
+  status: unverified
+  claim_family: theory
+  authors: Zimmerman (2002)
+  venue: Theory Into Practice, 41(2), 64-70
+  retrieved_at: '2026-05-24'
+  verified_at: null
+  verification_method: webfetch
+  verified_fields:
+  - primary_url
+  freshness_tier: historical
+  stale_after_days: 1825
+  evidence_ids:
+  - ev_capstone_portfolio_assessment_0048
+  cache_ids:
+  - cache_080380e81def5b33

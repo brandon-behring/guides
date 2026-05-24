@@ -1,9 +1,8 @@
 schema_version: 3
 topic: transfer_evaluation_methods
 generated_at: 2026-05-23
-current_as_of: 2026-05-23
+current_as_of: '2026-05-24'
 freshness_policy: strict_live
-
 entries:
 - evidence_id: ev_transfer_evaluation_methods_0001
   source_url: https://aaalab.stanford.edu/assets/papers/2005/Efficiency_and_Innovation_in_Transfer.pdf
@@ -11,43 +10,52 @@ entries:
   source_quality: primary
   retrieved_at: 2026-05-23
   verification_method: webfetch
-  cache_ids: [cache_1a5560f2b30263ad]
+  cache_ids:
+  - cache_1a5560f2b30263ad
   supports:
   - claim_id: claim_transfer_evaluation_methods_0001
     field_path: bib_ledger.entries[0].title
     evidence_role: identifies
     evidence_role_strength: full
     extraction_method: paraphrase
-    link_confidence: 0.80
-  excerpt: 'Schwartz, Bransford & Sears (2005) introduce the two-dimensional efficiency-vs-innovation framework + Preparation for Future Learning (PFL) as a transfer assessment paradigm distinct from sequestered problem-solving tests.'
+    link_confidence: 0.8
+  excerpt: Schwartz, Bransford & Sears (2005) introduce the two-dimensional efficiency-vs-innovation framework + Preparation for Future Learning (PFL) as a transfer assessment paradigm distinct from sequestered
+    problem-solving tests.
   rights_status: private_use
-  confidence: {score: 0.85, factors: [primary chapter cached]}
-
+  confidence:
+    score: 0.85
+    factors:
+    - primary chapter cached
 - evidence_id: ev_transfer_evaluation_methods_0002
   source_url: https://doi.org/10.1080/07370000802212669
   source_type: paper
   source_quality: primary
   retrieved_at: 2026-05-23
   verification_method: webfetch
-  cache_ids: [cache_354796c725d948f4]
+  cache_ids:
+  - cache_354796c725d948f4
   supports:
   - claim_id: claim_transfer_evaluation_methods_0002
     field_path: bib_ledger.entries[1].title
     evidence_role: identifies
     evidence_role_strength: full
     extraction_method: paraphrase
-    link_confidence: 0.80
-  excerpt: 'Kapur (2008) — engaging students in solving complex, ill-structured problems without scaffolding before instruction produces stronger transfer than well-structured-first sequence. Empirical study with 11th-grade Newtonian kinematics.'
+    link_confidence: 0.8
+  excerpt: Kapur (2008) — engaging students in solving complex, ill-structured problems without scaffolding before instruction produces stronger transfer than well-structured-first sequence. Empirical study
+    with 11th-grade Newtonian kinematics.
   rights_status: private_use
-  confidence: {score: 0.85, factors: [primary KU Leuven PDF]}
-
+  confidence:
+    score: 0.85
+    factors:
+    - primary KU Leuven PDF
 - evidence_id: ev_transfer_evaluation_methods_0003
   source_url: https://doi.org/10.1037/0033-2909.128.4.612
   source_type: paper
   source_quality: primary
   retrieved_at: 2026-05-23
   verification_method: webfetch
-  cache_ids: [cache_3676ca35794db6ec]
+  cache_ids:
+  - cache_3676ca35794db6ec
   supports:
   - claim_id: claim_transfer_evaluation_methods_0003
     field_path: bib_ledger.entries[2].title
@@ -55,24 +63,843 @@ entries:
     evidence_role_strength: full
     extraction_method: paraphrase
     link_confidence: 0.75
-  excerpt: 'Barnett & Ceci (2002) — 9-dimensional taxonomy of far transfer (content × context dimensions). Diagnoses why a century of transfer research has failed to resolve "does far transfer exist" — comparisons across studies measured different dimensions without acknowledging it.'
+  excerpt: Barnett & Ceci (2002) — 9-dimensional taxonomy of far transfer (content × context dimensions). Diagnoses why a century of transfer research has failed to resolve "does far transfer exist" — comparisons
+    across studies measured different dimensions without acknowledging it.
   rights_status: private_use
-  confidence: {score: 0.75, factors: [PubMed abstract page only; full text not cached]}
-
+  confidence:
+    score: 0.75
+    factors:
+    - PubMed abstract page only; full text not cached
 - evidence_id: ev_transfer_evaluation_methods_0004
   source_url: https://gwern.net/doc/iq/1993-detterman.pdf
   source_type: paper
   source_quality: primary
   retrieved_at: 2026-05-23
   verification_method: webfetch
-  cache_ids: [cache_633583518b9eccf2]
+  cache_ids:
+  - cache_633583518b9eccf2
   supports:
   - claim_id: claim_transfer_evaluation_methods_0004
     field_path: bib_ledger.entries[3].title
     evidence_role: identifies
     evidence_role_strength: full
     extraction_method: paraphrase
-    link_confidence: 0.80
-  excerpt: 'Detterman (1993) — the canonical pessimistic argument that little evidence supports transfer of complex school-taught skills. "Transfer as epiphenomenon" reframing.'
+    link_confidence: 0.8
+  excerpt: Detterman (1993) — the canonical pessimistic argument that little evidence supports transfer of complex school-taught skills. "Transfer as epiphenomenon" reframing.
   rights_status: private_use
-  confidence: {score: 0.85, factors: [primary chapter cached]}
+  confidence:
+    score: 0.85
+    factors:
+    - primary chapter cached
+- evidence_id: ev_transfer_evaluation_methods_0005
+  source_url: https://doi.org/10.17226/9853
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_4c21548bbe2c9f8c
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0005
+    field_path: bib_ledger.entries[4].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Synthesizes cognitive-science research on learning and transfer, arguing that transfer depends on degree of mastery, understanding versus memorization, time-on-task, and the representation of
+    the original learning context.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0006
+  source_url: https://doi.org/10.1037/h0074898
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_c52f1447440dc359
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0006
+    field_path: bib_ledger.entries[5].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Improvement in one mental function transfers to another only insofar as the two functions share identical elements, undercutting the doctrine of formal discipline and general mental faculties.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0007
+  source_url: https://doi.org/10.1207/s15326985ep2402_1
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_8c7c1b1b310afea8
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0007
+    field_path: bib_ledger.entries[6].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Distinguishes low-road transfer (automatic triggering of well-practiced behavior in similar contexts) from high-road transfer (deliberate, mindful abstraction), with forward- and backward-reaching
+    variants.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0008
+  source_url: https://doi.org/10.1016/0010-0285%2883%2990002-6
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_2911d7f1ea792132
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0008
+    field_path: bib_ledger.entries[7].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Experiments show analogical transfer is cued by surface-semantic features but facilitated by inducing a general schema from multiple analogs, separating surface from structural similarity.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0009
+  source_url: https://doi.org/10.3102/0091732X024001061
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_9c776c4f5bb87dfb
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0009
+    field_path: bib_ledger.entries[8].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Argues the dominant direct-application view of transfer is too narrow and proposes a preparation-for-future-learning (PFL) lens that credits learners for being prepared to learn in a new setting.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0010
+  source_url: https://doi.org/10.3102/0013189X025004005
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_1a64ca436e97d260
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0010
+    field_path: bib_ledger.entries[9].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reviews and contests four situated-learning claims (including knowledge does not transfer between tasks), citing evidence that abstract training does transfer and that strong situativity claims
+    are overstated.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0011
+  source_url: https://doi.org/10.3102/0013189X026001005
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_d77de0a71f5207cb
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0011
+    field_path: bib_ledger.entries[10].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Replies to Anderson et al. by arguing that what transfers is patterns of participation across situations, reframing transfer from a situative rather than purely cognitive standpoint.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0012
+  source_url: https://doi.org/10.1080/00461520.2013.807556
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_6907a0ac4a0fd5a3
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0012
+    field_path: bib_ledger.entries[11].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Proposes a process model in which transfer is a cycle of constructing a context representation, generating a solution, and evaluating whether it makes sense, integrating cognitive and situative
+    accounts.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0013
+  source_url: https://doi.org/10.17226/10019
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_1c718c3c2afa09c5
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0013
+    field_path: bib_ledger.entries[12].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Frames assessment as an evidentiary assessment triangle (cognition, observation, interpretation), arguing instruments should target models of how knowledge develops and can be applied.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0014
+  source_url: https://doi.org/10.1207/S15366359MEA0101_02
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_84d8b631007e1717
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0014
+    field_path: bib_ledger.entries[13].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Lays out evidence-centered design (ECD), making explicit the student, evidence, and task models that connect what we want to infer (e.g., transfer) to observable task performance.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0015
+  source_url: https://doi.org/10.1207/s1532690xci2202_1
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_2bb1a409cbfeba15
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0015
+    field_path: bib_ledger.entries[14].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Introduces the double-transfer assessment that embeds a learning resource into the transfer test, revealing PFL gains from invention activities that a standard sequestered transfer test misses.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0016
+  source_url: https://psycnet.apa.org/record/2002-01422-000
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_a610de2edfbf697f
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0016
+    field_path: bib_ledger.entries[15].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Surveys dynamic-testing approaches that measure learning potential during guided instruction rather than static prior achievement, a near-relative of PFL transfer assessment.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0017
+  source_url: https://doi.org/10.3102/0013189X029007004
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_7d246b1766ecd3b5
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0017
+    field_path: bib_ledger.entries[16].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Contrasts behaviorist/measurement assessment with a social-constructivist framework, arguing classroom assessment should be dynamic and embedded to support transferable understanding.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0018
+  source_url: https://doi.org/10.1177/003172171109200721
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_2e0436e8b163630d
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0018
+    field_path: bib_ledger.entries[17].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Argues for authentic performance assessment that requires students to apply knowledge to realistic, contextualized tasks rather than recognize answers, foregrounding transfer of competence.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0019
+  source_url: https://doi.org/10.1016/0010-0285%2880%2990013-4
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_ff8ebcdf970414f6
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0019
+    field_path: bib_ledger.entries[18].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Across five experiments using Duncker radiation problem, subjects who first read a structurally analogous military story rarely produced the convergence solution spontaneously, but did so far
+    more often once given an explicit hint to use the story.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0020
+  source_url: https://doi.org/10.1017/CBO9780511609268
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_9d4369277d015a5b
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0020
+    field_path: bib_ledger.entries[19].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Adults who solve arithmetic problems fluently while grocery shopping or dieting fail equivalent school-format problems, showing that competence is bound to setting rather than transferring as
+    decontextualized skill.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0021
+  source_url: https://doi.org/10.1177/1745691616635612
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_1de9db92ab73d622
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0021
+    field_path: bib_ledger.entries[20].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Meta-analysis of working-memory training studies found reliable near-transfer gains but no convincing evidence of far transfer to nonverbal ability, reading, or arithmetic when compared to treated
+    controls.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0022
+  source_url: https://doi.org/10.1037/bul0000139
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_b36c5faadca1cd94
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0022
+    field_path: bib_ledger.entries[21].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: A comprehensive meta-analysis found the far-transfer effect of video-game training on cognitive ability to be essentially null once methodological quality and active controls were accounted for.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0023
+  source_url: https://doi.org/10.1177/17456916221091830
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_5917bac8abc741de
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0023
+    field_path: bib_ledger.entries[22].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reviewing multiple domains (working memory, music, chess, exergames), the authors argue the overall far-transfer effect is null with little true between-domain variability, questioning whether
+    the phenomenon exists at all.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0024
+  source_url: https://doi.org/10.1080/00461520.2012.696438
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_693a51ab3c36cab2
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0024
+    field_path: bib_ledger.entries[23].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reviews why transfer appears so rare in the lab yet pervasive in everyday expertise, arguing that methodological framing and overly literal similarity criteria drive much of the documented pessimism.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0025
+  source_url: https://doi.org/10.1016/0010-0285%2886%2990001-0
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_9d644785af75b834
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0025
+    field_path: bib_ledger.entries[24].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Brief training in the law of large numbers increased both the frequency and quality of statistical reasoning on everyday problems in domains where the rule was never explicitly taught, showing
+    domain-independent transfer of an abstract rule.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0026
+  source_url: https://doi.org/10.1109/TSE.1984.5010283
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_961211488909606b
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0026
+    field_path: bib_ledger.entries[25].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Expert programmers rely on reusable programming plans and rules of programming discourse; violating these conventions degraded expert comprehension toward novice levels, evidencing plan-based
+    transferable knowledge.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0027
+  source_url: https://arxiv.org/abs/1808.09008
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_68b332b761569f69
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0027
+    field_path: bib_ledger.entries[26].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: A Transfer Tutor that explained R syntax and semantics in terms of programmers existing Python knowledge was used to study how prior-language knowledge scaffolds — and sometimes misleads — learning
+    of a new language.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0028
+  source_url: https://doi.org/10.1145/3377811.3380352
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_64539e0f86c2c566
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0028
+    field_path: bib_ledger.entries[27].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Analysis of Stack Overflow questions across 18 languages plus interviews found hundreds of cases of negative transfer, where faulty assumptions carried over from a known language interfered with
+    learning a new one.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0029
+  source_url: https://doi.org/10.1145/3487051
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_ac542ef43926c599
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0029
+    field_path: bib_ledger.entries[28].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Maps cognitive-psychology theories of analogical transfer onto programming-language learning, proposing how comparison and alignment techniques could support teaching multiple languages.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0030
+  source_url: https://doi.org/10.1186/s40594-024-00498-z
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_fc64ccc6ae645a04
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0030
+    field_path: bib_ledger.entries[29].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Across 37 studies and 7,832 students the authors report a moderate overall transfer effect, with moderate effects for both near and far transfer of computational thinking, moderated by educational
+    level and instructional factors.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0031
+  source_url: https://doi.org/10.1007/s11251-006-9002-5
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_4ec73f8ca84556fd
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0031
+    field_path: bib_ledger.entries[30].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Interleaving (shuffling) practice problems of different types rather than blocking them by topic markedly improved performance on a delayed test, despite feeling harder during practice.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0032
+  source_url: https://doi.org/10.1007/s10648-012-9201-3
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_7ebb695b8ae71dc8
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0032
+    field_path: bib_ledger.entries[31].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Argues interleaving improves learning chiefly by requiring discrimination among similar concepts, building the category knowledge that supports later transfer to novel items.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0033
+  source_url: https://doi.org/10.1111/j.1467-9280.2006.01693.x
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_14ec9f46267ee84a
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0033
+    field_path: bib_ledger.entries[32].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Free-recall testing without feedback produced substantially better one-week retention than equivalent restudy, establishing the testing/retrieval-practice effect with prose materials.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0034
+  source_url: https://doi.org/10.1037/0022-0663.95.2.393
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_f091255b3d82dd41
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0034
+    field_path: bib_ledger.entries[33].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Comparing two analogous cases (vs. studying them separately) helped novices abstract problem schemas and transfer negotiation strategies to a new face-to-face exercise.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0035
+  source_url: https://doi.org/10.1207/s15516709cog1302_1
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_5e2e31e82589cac9
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0035
+    field_path: bib_ledger.entries[34].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Good learners generated many self-explanations while studying worked examples, refining the conditions for actions; poor learners did not, predicting later problem-solving success.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0036
+  source_url: https://doi.org/10.1207/S15326985EP3801_3
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_7e3d4f03dd8134d1
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0036
+    field_path: bib_ledger.entries[35].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Gradually fading worked-out solution steps into problems-to-solve eases the example-to-problem transition and improves skill acquisition under a cognitive-load account.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0037
+  source_url: https://doi.org/10.1207/s1532690xci1604_4
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_32db89105f5ae714
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0037
+    field_path: bib_ledger.entries[36].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Analyzing contrasting cases before instruction generated differentiated knowledge structures that prepared learners to understand a subsequent telling deeply, improving transfer.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0038
+  source_url: https://doi.org/10.1146/annurev-psych-113011-143823
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_8e50dd2b799f1637
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0038
+    field_path: bib_ledger.entries[37].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reviews desirable difficulties (spacing, interleaving, testing, varied practice) that slow apparent acquisition but enhance durable, transferable learning, and the metacognitive illusions that
+    lead learners to avoid them.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0039
+  source_url: https://doi.org/10.1037/0003-066X.50.9.741
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_404e944132b4ae19
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0039
+    field_path: bib_ledger.entries[38].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reconceptualizes validity as a unified construct-based judgment that must include the value implications of score meaning and the social consequences of score use (consequential validity).
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0040
+  source_url: https://doi.org/10.1111/jedm.12000
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_027d47545942d597
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0040
+    field_path: bib_ledger.entries[39].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: An argument-based approach lays out the chain of inferences and assumptions from test responses to score interpretations and uses, then evaluates the plausibility of each link.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0041
+  source_url: https://doi.org/10.1111/j.1745-3984.1993.tb00424.x
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_38a776b420c7559f
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0041
+    field_path: bib_ledger.entries[40].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Generalizability-theory analysis shows large task-sampling variability in performance assessments, so many tasks are needed to generalize dependably from observed performance to the broader domain.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_transfer_evaluation_methods_0042
+  source_url: https://doi.org/10.3102/0013189X018009027
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_f45f179858bd9790
+  supports:
+  - claim_id: claim_transfer_evaluation_methods_0042
+    field_path: bib_ledger.entries[41].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: 'Defines systemic validity: a test is systemically valid if it induces instructional and learning-strategy changes that foster the very cognitive traits it purports to measure.'
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source

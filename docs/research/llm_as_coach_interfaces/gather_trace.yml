@@ -1,34 +1,462 @@
 schema_version: 3
 topic: llm_as_coach_interfaces
 generated_at: 2026-05-23
-current_as_of: 2026-05-23
+current_as_of: '2026-05-24'
 freshness_policy: strict_live
-
 fetches:
 - fetch_id: fetch_vanlehn2011
   sub_area: A1
-  query: 'VanLehn relative effectiveness human tutoring intelligent tutoring systems Educational Psychologist 2011'
+  query: VanLehn relative effectiveness human tutoring intelligent tutoring systems Educational Psychologist 2011
   source_url: https://asu.elsevierpure.com/en/publications/the-relative-effectiveness-of-human-tutoring-intelligent-tutoring/
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 5
   decision: accept
-  reason: 'Foundational ITS meta-analysis. Sub-area A1 anchor.'
+  reason: Foundational ITS meta-analysis. Sub-area A1 anchor.
   assigned_bibkey: vanlehn2011relative
 - fetch_id: fetch_khan2024
   sub_area: A6
-  query: 'Khan Academy Khanmigo evaluation learning outcomes 2024'
+  query: Khan Academy Khanmigo evaluation learning outcomes 2024
   source_url: https://blog.khanacademy.org/khan-academy-efficacy-results-november-2024/
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: partial, is_useful: 4}
+  reflection:
+    is_relevant: true
+    is_supported: partial
+    is_useful: 4
   decision: accept
-  reason: 'Official Khan Academy efficacy report. Sub-area A6 deployment.'
+  reason: Official Khan Academy efficacy report. Sub-area A6 deployment.
   assigned_bibkey: khan2024efficacy
 - fetch_id: fetch_shabsigh2024
   sub_area: A6
-  query: 'Khan Academy Khanmigo evaluation learning outcomes 2024'
+  query: Khan Academy Khanmigo evaluation learning outcomes 2024
   source_url: https://jtl.uwindsor.ca/index.php/jtl/article/view/10052
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: partial, is_useful: 4}
+  reflection:
+    is_relevant: true
+    is_supported: partial
+    is_useful: 4
   decision: accept
-  reason: 'Peer-reviewed Khanmigo case study. Sub-area A6 deployment.'
+  reason: Peer-reviewed Khanmigo case study. Sub-area A6 deployment.
   assigned_bibkey: shabsigh2024khanmigo
+- fetch_id: fetch_koedinger1997intelligent
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.1184/R1/6470153.v1
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Landmark field deployment establishing real-classroom efficacy of model-tracing cognitive tutors.
+  assigned_bibkey: koedinger1997intelligent
+- fetch_id: fetch_bloom1984twosigma
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.3102/0013189X013006004
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Foundational benchmark motivating the entire personalized-tutoring and LLM-coach research program.
+  assigned_bibkey: bloom1984twosigma
+- fetch_id: fetch_anderson1995cognitive
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.1207/s15327809jls0402_2
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Defining methodological synthesis of the cognitive-tutor / model-tracing paradigm and its design principles.
+  assigned_bibkey: anderson1995cognitive
+- fetch_id: fetch_corbett1995knowledge
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.1007/BF01099821
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Origin of Bayesian knowledge tracing, the canonical student-modeling method underpinning adaptive tutoring.
+  assigned_bibkey: corbett1995knowledge
+- fetch_id: fetch_vanlehn2006behavior
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (llm_as_coach_interfaces)
+  source_url: https://dl.acm.org/doi/10.5555/1435351.1435353
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Provides the inner-loop/outer-loop vocabulary now used to compare LLM-coach interaction designs.
+  assigned_bibkey: vanlehn2006behavior
+- fetch_id: fetch_kulik2016effectiveness
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.3102/0034654315581420
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Most-cited ITS effectiveness meta-analysis; complements vanlehn2011relative with a different sample and test-alignment caveat.
+  assigned_bibkey: kulik2016effectiveness
+- fetch_id: fetch_kazemitabaar2024codeaid
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.1145/3613904.3642773
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Premier CHI study of LLM-tutor interface design balancing scaffolding against academic-integrity guardrails at scale.
+  assigned_bibkey: kazemitabaar2024codeaid
+- fetch_id: fetch_liffiton2023codehelp
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.1145/3631802.3631830
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Contrasts a one-shot guardrailed-query interface against free-form chat, illuminating a key UX design tradeoff.
+  assigned_bibkey: liffiton2023codehelp
+- fetch_id: fetch_kazemitabaar2023studying
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.1145/3544548.3580919
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Controlled interface study of AI-assisted authoring for novices, directly relevant to scaffolded coding-coach design.
+  assigned_bibkey: kazemitabaar2023studying
+- fetch_id: fetch_schmucker2024ruffle
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2404.17460
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Bridges classic ITS loop structure to LLM conversational-tutor interface design with a null-result cautionary finding.
+  assigned_bibkey: schmucker2024ruffle
+- fetch_id: fetch_kestin2025aitutoring
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.1038/s41598-025-97652-6
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Canonical AI-tutoring-outperforms-active-learning RCT in a real Harvard physics course — the load-bearing positive-evidence anchor.
+  assigned_bibkey: kestin2025aitutoring
+- fetch_id: fetch_jurenka2025aitutoringrct
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2512.23633
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Human-in-the-loop LearnLM RCT in real classrooms — a rigorous deployment-grade tutoring evaluation; pairs against Kestin.
+  assigned_bibkey: jurenka2025aitutoringrct
+- fetch_id: fetch_liu2025chatgptachievementmeta
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.1111/jcal.70096
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Recent peer-reviewed achievement-focused meta-analysis — quantitative effect-size anchor distinct from broader reviews.
+  assigned_bibkey: liu2025chatgptachievementmeta
+- fetch_id: fetch_deng2024chatgptmetaanalysis
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.1016/j.compedu.2024.105224
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: High-visibility Computers & Education meta-analysis of experimental designs — methodologically tight.
+  assigned_bibkey: deng2024chatgptmetaanalysis
+- fetch_id: fetch_ouyang2021threeparadigms
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.1016/j.caeai.2021.100020
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Most-cited Ouyang framing review; supplies the AI-directed/supported/empowered taxonomy for tutoring modalities.
+  assigned_bibkey: ouyang2021threeparadigms
+- fetch_id: fetch_sharma2023sycophancy
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2310.13548
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Canonical Anthropic sycophancy paper — the load-bearing mechanism behind false-positive competence signals in a coach interface.
+  assigned_bibkey: sharma2023sycophancy
+- fetch_id: fetch_denison2024sycophancysubterfuge
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2406.10162
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Connects sycophancy to broader reward-hacking generalization — strengthens the argument that approval-seeking is structural, not incidental.
+  assigned_bibkey: denison2024sycophancysubterfuge
+- fetch_id: fetch_kosmyna2025brainonchatgpt
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2506.08872
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Most-cited cognitive-offloading caution; direct empirical anchor for over-reliance/offloading risk (preprint, methodological caveats).
+  assigned_bibkey: kosmyna2025brainonchatgpt
+- fetch_id: fetch_gerlich2025cognitiveoffloading
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.3390/soc15010006
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Peer-reviewed survey-scale evidence linking AI reliance to reduced critical thinking via offloading.
+  assigned_bibkey: gerlich2025cognitiveoffloading
+- fetch_id: fetch_klehm2025overconfidence
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (llm_as_coach_interfaces)
+  source_url: https://doi.org/10.31234/osf.io/8psgf_v1
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Direct experimental evidence that fluent AI answers inflate the illusion of mastery — core metacognitive failure mode for a coach interface (preprint).
+  assigned_bibkey: klehm2025overconfidence
+- fetch_id: fetch_benedek2025overreliance
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2510.16019
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Randomized classroom design isolating the knowledge-vs-score gap from over-reliance.
+  assigned_bibkey: benedek2025overreliance
+- fetch_id: fetch_ai2024sycophancysurvey
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2411.15287
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Recent survey consolidating sycophancy causes and mitigations — the overview risk reference beyond the primary Anthropic paper.
+  assigned_bibkey: ai2024sycophancysurvey
+- fetch_id: fetch_puech2024pedagogical
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2410.03781
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Canonical worked example of prompting an LLM tutor to enact productive-failure scaffolding rather than answer-giving.
+  assigned_bibkey: puech2024pedagogical
+- fetch_id: fetch_macina2025mathtutorbench
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2502.18940
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Operationalizes don't-give-away-the-answer scaffolding into a measurable benchmark and finds a subject-expertise vs. pedagogy trade-off.
+  assigned_bibkey: macina2025mathtutorbench
+- fetch_id: fetch_liu2024socraticlm
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (llm_as_coach_interfaces)
+  source_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/9bae399d1f34b8650351c1bd3692aeae-Abstract-Conference.html
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Primary source for training/prompting LLMs toward Socratic questioning instead of direct answers.
+  assigned_bibkey: liu2024socraticlm
+- fetch_id: fetch_shi2024socraticmath
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (llm_as_coach_interfaces)
+  source_url: https://dl.acm.org/doi/10.1145/3627673.3679881
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Provides an explicit Socratic hint-laddering structure (review/heuristic/rectify/summarize) for math tutoring prompts.
+  assigned_bibkey: shi2024socraticmath
+- fetch_id: fetch_anthropic2025learningmode
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (llm_as_coach_interfaces)
+  source_url: https://www.anthropic.com/news/anthropic-teach-for-all
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Vendor educator-prompting guidance for a Socratic, answer-withholding tutoring style.
+  assigned_bibkey: anthropic2025learningmode
+- fetch_id: fetch_openai2025studymode
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (llm_as_coach_interfaces)
+  source_url: https://openai.com/index/chatgpt-study-mode/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Vendor educator-facing pedagogical-prompting reference for scaffolded, hint-first tutoring.
+  assigned_bibkey: openai2025studymode
+- fetch_id: fetch_wang2024tutorcopilot
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2410.03017
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Landmark 900-tutor RCT deployment with measured mastery gains and message-level pedagogical analysis.
+  assigned_bibkey: wang2024tutorcopilot
+- fetch_id: fetch_wang2024bridge
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2310.10648
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Precursor deployment work to Tutor CoPilot; grounds error-remediation prompting in expert decision models.
+  assigned_bibkey: wang2024bridge
+- fetch_id: fetch_vanderberghe2024gpt4homework
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2409.15981
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: School-deployed RCT with externally measured learning gains from a structured tutoring prompt.
+  assigned_bibkey: vanderberghe2024gpt4homework
+- fetch_id: fetch_bastani2025guardrails
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (llm_as_coach_interfaces)
+  source_url: https://www.pnas.org/doi/10.1073/pnas.2422633122
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Largest deployment showing crutch harms and that answer-withholding safeguards reverse them.
+  assigned_bibkey: bastani2025guardrails
+- fetch_id: fetch_prather2024wideninggap
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (llm_as_coach_interfaces)
+  source_url: https://arxiv.org/abs/2405.17739
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Primary CS-education deployment evidence on uneven coding-tutor outcomes for novices.
+  assigned_bibkey: prather2024wideninggap
+- fetch_id: fetch_duolingo2023max
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (llm_as_coach_interfaces)
+  source_url: https://blog.duolingo.com/duolingo-max/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Primary vendor source for the Duolingo Max / GPT-4 language-tutor deployment.
+  assigned_bibkey: duolingo2023max
+- fetch_id: fetch_khanacademy2024learnings
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (llm_as_coach_interfaces)
+  source_url: https://blog.khanacademy.org/how-khan-academy-is-building-a-better-ai-tutor-our-most-recent-learnings/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Khanmigo deployment learnings distinct from the existing efficacy/launch bibkeys (engineering + scale-up focus).
+  assigned_bibkey: khanacademy2024learnings

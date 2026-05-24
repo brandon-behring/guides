@@ -1,0 +1,1022 @@
+schema_version: 3
+topic: capstone_portfolio_assessment
+generated_at: '2026-05-24'
+current_as_of: '2026-05-24'
+freshness_policy: strict_live
+selections:
+- selection_id: sel_kuh2008high_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_kuh2008high
+  cache_id: cache_7355bf1d68d6f302
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_kuh2008high_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_kuh2008high
+  cache_id: cache_7355bf1d68d6f302
+  span:
+    text_path_offset:
+    - 0
+    - 80
+    sha256_of_span: b2009749b4ff7b242b1a3c8f8f4323331febc58ee39b36335a8e568bfc07042f
+    excerpt: '[raw binary cached; no dependency-free extractor available for application/pdf]'
+- selection_id: sel_wiggins1998educative_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_wiggins1998educative
+  cache_id: cache_3a3249be77c0e4c7
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 355747f91d0e4912d63b482787862d2361756289dc1018d63e7363c258e72451
+    excerpt: '<!DOCTYPE html><html lang="en"><!-- __ _ _ _ __| |_ (_)__ _____ / _` | ''_/ _| '' \| |\ V / -_) \__,_|_| \__|_||_|_| \_/\___| --><head data-release="2ecb03d4" data-node="www28.us.archive.org"><style>body
+      {transition: opacity ease-in 0'
+- selection_id: sel_wiggins1998educative_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_wiggins1998educative
+  cache_id: cache_3a3249be77c0e4c7
+  span:
+    text_path_offset:
+    - 71814
+    - 72054
+    sha256_of_span: eadc00514265a5f3699ecb1da8848cf6ecb60a90d35498443fd024e2bc185b6c
+    excerpt: 4.6549492 4.2745742.8253588-.6646243 2.355647-2.0647292 4.5908647-4.2003145s3.9747867-3.9171994 5.218707-5.3448422c1.502735-1.7723316 2.2355273-3.6186135 2.1983769-5.5388457-.0256957-1.7608832-.6875926-3.2039968-1.9866194-4.3302689z">
+- selection_id: sel_darling2000authentic_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_darling2000authentic
+  cache_id: cache_6c84e289391c2500
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_darling2000authentic_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_darling2000authentic
+  cache_id: cache_6c84e289391c2500
+  span:
+    text_path_offset:
+    - 886
+    - 1126
+    sha256_of_span: a078bc322c9f34c14ce0830abe38c04c33eb126f830da1cd0bd8f9f176c9256c
+    excerpt: type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url = '/retrieve/'+document.getElementById('resultName').value+'?Red
+- selection_id: sel_messick1994interplay_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_messick1994interplay
+  cache_id: cache_4444fcf3b04ca72f
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_messick1994interplay_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_messick1994interplay
+  cache_id: cache_4444fcf3b04ca72f
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_newmann1996authentic_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_newmann1996authentic
+  cache_id: cache_7c3137415d516108
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_newmann1996authentic_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_newmann1996authentic
+  cache_id: cache_7c3137415d516108
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_newmann2001authentic_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_newmann2001authentic
+  cache_id: cache_6a02f1718c095124
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_newmann2001authentic_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_newmann2001authentic
+  cache_id: cache_6a02f1718c095124
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_gulikers2004fivedimensional_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_gulikers2004fivedimensional
+  cache_id: cache_bf5c12c1c2f5a64d
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 87a8b96d8790e217e9da4b45d997f83bfaf75cf6ddd22f3f8ea26d573376dda0
+    excerpt: <!DOCTYPE html><html lang="en" class="js"><head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="applicable-device" content="pc,mobile"> <meta name="viewport"
+      content=
+- selection_id: sel_gulikers2004fivedimensional_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_gulikers2004fivedimensional
+  cache_id: cache_bf5c12c1c2f5a64d
+  span:
+    text_path_offset:
+    - 126877
+    - 127117
+    sha256_of_span: 8c81b4dc6c4e49160a6600b8b8439506ecefe848855866246e8177fe766ab2dc
+    excerpt: 1.414-1.414"></path></symbol><symbol id="icon-eds-i-cloud-upload-medium" viewBox="0 0 24 24"><path d="m12.852 10.011.028-.004L13 10l.075.003.126.017.086.022.136.052.098.052.104.074.082.073
+      3 3a1 1 0 0 1 0 1.414l-.094.083a1 1 0 0 1-1.32-.083
+- selection_id: sel_frederiksen1989systems_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_frederiksen1989systems
+  cache_id: cache_7ce15d416a1bd288
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_frederiksen1989systems_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_frederiksen1989systems
+  cache_id: cache_7ce15d416a1bd288
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_stiggins2002assessment_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_stiggins2002assessment
+  cache_id: cache_1ac5d2c11c34d68c
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_stiggins2002assessment_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_stiggins2002assessment
+  cache_id: cache_1ac5d2c11c34d68c
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_jonsson2007rubrics_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_jonsson2007rubrics
+  cache_id: cache_086065e9d73c9e06
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_jonsson2007rubrics_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_jonsson2007rubrics
+  cache_id: cache_086065e9d73c9e06
+  span:
+    text_path_offset:
+    - 886
+    - 1126
+    sha256_of_span: a078bc322c9f34c14ce0830abe38c04c33eb126f830da1cd0bd8f9f176c9256c
+    excerpt: type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url = '/retrieve/'+document.getElementById('resultName').value+'?Red
+- selection_id: sel_brookhart2013rubrics_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_brookhart2013rubrics
+  cache_id: cache_eb6ba3e0a6c903fc
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 355747f91d0e4912d63b482787862d2361756289dc1018d63e7363c258e72451
+    excerpt: '<!DOCTYPE html><html lang="en"><!-- __ _ _ _ __| |_ (_)__ _____ / _` | ''_/ _| '' \| |\ V / -_) \__,_|_| \__|_||_|_| \_/\___| --><head data-release="2ecb03d4" data-node="www28.us.archive.org"><style>body
+      {transition: opacity ease-in 0'
+- selection_id: sel_brookhart2013rubrics_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_brookhart2013rubrics
+  cache_id: cache_eb6ba3e0a6c903fc
+  span:
+    text_path_offset:
+    - 71490
+    - 71730
+    sha256_of_span: 43e6716f6fe5deedf8c315e31a84e23e30fe385d9f8c9186a7e4c96774b71242
+    excerpt: 3.1207641-.03715043 1.9202322.70183359 3.7665141 2.21695202 5.5388457 1.2067699 1.4035084 2.912594 3.1606786 5.1174721 5.2715107 2.2048782 2.1108321 3.7565279 3.5356901 4.6549492 4.2745742.8253588-.6646243
+      2.355647-2.0647292 4.5908647-4.200
+- selection_id: sel_reddy2010rubric_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_reddy2010rubric
+  cache_id: cache_a008d850b8708c42
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 166380966a549255dc65d85032050cbfd91fbb307899c9d4a30f4257cc01c130
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f04e82a37ae70-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_reddy2010rubric_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_reddy2010rubric
+  cache_id: cache_a008d850b8708c42
+  span:
+    text_path_offset:
+    - 106940
+    - 107180
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU
+- selection_id: sel_cohen1960coefficient_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_cohen1960coefficient
+  cache_id: cache_afc2a8d5b13efc6c
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_cohen1960coefficient_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_cohen1960coefficient
+  cache_id: cache_afc2a8d5b13efc6c
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_krippendorff2004reliability_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_krippendorff2004reliability
+  cache_id: cache_28219eae1ea49245
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 45ef90d2379a1591a0f34826042982d1e8a63625b7fda666db7680eb3fc94e32
+    excerpt: <!DOCTYPE html><html lang="en" class="no-js"><head><meta class="foundation-mq-small"><meta class="foundation-mq-small-only"><meta class="foundation-mq-medium"><meta class="foundation-mq-medium-only"><meta
+      class="foundation-mq-large"><meta c
+- selection_id: sel_krippendorff2004reliability_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_krippendorff2004reliability
+  cache_id: cache_28219eae1ea49245
+  span:
+    text_path_offset:
+    - 60282
+    - 60522
+    sha256_of_span: 68434a096593ffc180eb6c008929caada54a36a78c2158d6b3d7fa08b3ff47d1
+    excerpt: at-site-menu-item"> <a href="javascript:;" class="nav-link js-nav-dropdown at-nav-dropdown" role="button" aria-expanded="false" aria-controls="submenu-1776497" data-google-interstitial="false">
+      Submit
+- selection_id: sel_stemler2004comparison_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_stemler2004comparison
+  cache_id: cache_d9cffd84b7029695
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: eda0a6d4857a6c382259e10ab11eb0b485f45cfa3cdae84297eb5b6e7ef4cd13
+    excerpt: <!doctype html> <html class="no-js" lang="en"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Stemler
+- selection_id: sel_stemler2004comparison_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_stemler2004comparison
+  cache_id: cache_d9cffd84b7029695
+  span:
+    text_path_offset:
+    - 17601
+    - 17841
+    sha256_of_span: 3c1f3a3c6633eac7deedbd955e063fc82085067e124754698e8e0d73f383b8b6
+    excerpt: </strong> <ul> <li>Steven E. Stemler (Wesleyan University) <a itemp
+- selection_id: sel_panadero2013formative_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_panadero2013formative
+  cache_id: cache_a1312c5f3ce8ad68
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_panadero2013formative_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_panadero2013formative
+  cache_id: cache_a1312c5f3ce8ad68
+  span:
+    text_path_offset:
+    - 886
+    - 1126
+    sha256_of_span: a078bc322c9f34c14ce0830abe38c04c33eb126f830da1cd0bd8f9f176c9256c
+    excerpt: type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url = '/retrieve/'+document.getElementById('resultName').value+'?Red
+- selection_id: sel_hayes1999issues_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_hayes1999issues
+  cache_id: cache_613ca461b3f5bc8b
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_hayes1999issues_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_hayes1999issues
+  cache_id: cache_613ca461b3f5bc8b
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_dym2005engineering_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_dym2005engineering
+  cache_id: cache_b534d4f68b0c68e7
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_dym2005engineering_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_dym2005engineering
+  cache_id: cache_b534d4f68b0c68e7
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_howe2010where_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_howe2010where
+  cache_id: cache_e59be6f4d2311986
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: cfb4d9832e448ea3f4233e906f4030f9451e1f0278c1a6e8937ce6f13eecb23b
+    excerpt: '<!DOCTYPE html><html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#"><head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Where
+      Are We Now? Statistics on Capstone Courses Nationwid'
+- selection_id: sel_howe2010where_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_howe2010where
+  cache_id: cache_e59be6f4d2311986
+  span:
+    text_path_offset:
+    - 23040
+    - 23280
+    sha256_of_span: 145e8219d975e40e6e6bf263aee855194fb2c9855f9377b8a2a5ca7f3295e231
+    excerpt: '0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap:
+      wrap;align-items: center;}.is-layout-flex > :is'
+- selection_id: sel_pembridge2019characterizing_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_pembridge2019characterizing
+  cache_id: cache_3452f0a5c92bf8d6
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_pembridge2019characterizing_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_pembridge2019characterizing
+  cache_id: cache_3452f0a5c92bf8d6
+  span:
+    text_path_offset:
+    - 10552
+    - 10792
+    sha256_of_span: 2dfb1010dc57fd290c30e0d5f943819c13db869830317b1e1f0fa372c85a7102
+    excerpt: '#challenge-error-text{line-height:10px;font-size:9px}.lang-el-gr .error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact
+      #challenge-overlay,'
+- selection_id: sel_tenhunen2023systematic_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_tenhunen2023systematic
+  cache_id: cache_a387d21e9b4198e4
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 222b2b1b0844db4f393e070f668793e09b633ea546d5ea2091f294ec4af27826
+    excerpt: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> <html> <head> <meta charset="utf-8"> <META http-equiv=Content-Type content="text/html">
+      <meta HTTP-EQUIV="REFRESH" content="2;
+- selection_id: sel_tenhunen2023systematic_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_tenhunen2023systematic
+  cache_id: cache_a387d21e9b4198e4
+  span:
+    text_path_offset:
+    - 886
+    - 1126
+    sha256_of_span: a078bc322c9f34c14ce0830abe38c04c33eb126f830da1cd0bd8f9f176c9256c
+    excerpt: type="text/javascript"> var timerStart = Date.now(); var pageName = ""; if (pageName == "") { pageName = "Auto Article Locator"; } function autoRedirectToURL() { var url = '/retrieve/'+document.getElementById('resultName').value+'?Red
+- selection_id: sel_vanhanen2012company_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_vanhanen2012company
+  cache_id: cache_5bb4ab2c759c84c5
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: a6f6fd446fd7ca8b2872104556162f9a73d25ff337c78ca6dcb030dd1663e78a
+    excerpt: <!DOCTYPE html> <APM_DO_NOT_TOUCH> <script type="text/javascript"> (function(){ window.Nxn=!!window.Nxn;try{(function(){(function(){})();var ol=42;try{var Ol,sl,_l=L(752)?0:1,Il=L(994)?0:1,lL
+- selection_id: sel_vanhanen2012company_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_vanhanen2012company
+  cache_id: cache_5bb4ab2c759c84c5
+  span:
+    text_path_offset:
+    - 16257
+    - 16497
+    sha256_of_span: fc7eda7993c41226529fbff48cee30a05637ac4d6900d290ec01efd4128e90ab
+    excerpt: approach, is described by intended learning outcomes, teaching/learning activities, and assessment tasks. The approach is implemented and evaluated in a larger Master's student course.","doiLink":"https://doi.org/10.1109/TE.2012.2187208","i
+- selection_id: sel_paretti2024instructors_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_paretti2024instructors
+  cache_id: cache_dea8823084ff1126
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 4ae27f19e2f9e663d1684d316b8fcd9d1bd7204e2b00b30bb7340b9d16bb0d27
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f05a206619175-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_paretti2024instructors_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_paretti2024instructors
+  cache_id: cache_dea8823084ff1126
+  span:
+    text_path_offset:
+    - 118429
+    - 118669
+    sha256_of_span: 1393696040c3444b5234b4eab21e4fffa086b8e5a8267c3fc10809214732b0e8
+    excerpt: class="CybotCookiebotDialogDetailBodyContentCookieInfo"><strong class="CybotCookiebotDialogDetailBodyContentCookieInfoTitle" role="heading" aria-level="4">aet-dismiss</strong><span class="CybotCookiebotDialogDetailBodyContentCookieInfoDescr
+- selection_id: sel_meah2020multidisciplinary_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_meah2020multidisciplinary
+  cache_id: cache_5f2cc44fae05dfbf
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 140cab6608abccee7e0a3c43947fb0d3de3a47888d43dd4fe654ea1f1e170091
+    excerpt: <!DOCTYPE html><html lang="en-US" dir="ltr"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta
+      name="robots" content="noindex,no
+- selection_id: sel_meah2020multidisciplinary_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_meah2020multidisciplinary
+  cache_id: cache_5f2cc44fae05dfbf
+  span:
+    text_path_offset:
+    - 10617
+    - 10857
+    sha256_of_span: 513c5e954fb1675a0afd444000b488078d920a399f2a6c5d7b0d19eb2ad973f8
+    excerpt: '.error-message-sm{flex-direction:column}.lang-vi-vn.size-compact #challenge-overlay,.lang-vi-vn.size-compact #challenge-error-text,.lang-de-de.size-compact #challenge-overlay,.lang-de-de.size-compact
+      #challenge-error-text{line-height:10px;f'
+- selection_id: sel_aera2014standards_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_aera2014standards
+  cache_id: cache_688d83f5ff713a16
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: f06267d02c99784635512b998f35202c152ec8ea72212924d8eaf151b2f6c9bc
+    excerpt: <html style="height:100%"><head><meta name="ROBOTS" content="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta
+      http-equiv="X-UA-Compatible" content="IE=edge,chrom
+- selection_id: sel_aera2014standards_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_aera2014standards
+  cache_id: cache_688d83f5ff713a16
+  span:
+    text_path_offset:
+    - 362
+    - 602
+    sha256_of_span: 1267f4f6038c2cbba1f45a579ed653576b7a6d6a19edb66446c374d92f97c91f
+    excerpt: 'src="/ter-treafter-not-it-the-Flourthe-Cere-and-that-S" async=""></script></head><body style="margin:0px;height:100%"><iframe style="display: none;"></iframe><iframe id="main-iframe" src="/_Incapsula_Resource?SWUDNSAI=31&amp;xinfo=17-845360'
+- selection_id: sel_cbenetwork2017quality_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_cbenetwork2017quality
+  cache_id: cache_b54bcc00d9fb6969
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_cbenetwork2017quality_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_cbenetwork2017quality
+  cache_id: cache_b54bcc00d9fb6969
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_frezza2018modelling_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_frezza2018modelling
+  cache_id: cache_3b0122fbc136d18a
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 653005141da3dd0d224e2af3785030a85d6f10f884fd00a60ef970d6a878cdc5
+    excerpt: <!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f05f75616c354-SJC"><head data-pb-dropzone="head"> <meta charset="UTF-8">
+- selection_id: sel_frezza2018modelling_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_frezza2018modelling
+  cache_id: cache_3b0122fbc136d18a
+  span:
+    text_path_offset:
+    - 130591
+    - 130831
+    sha256_of_span: fcdd51a3c70c412ca964d88b2b4b7ab661387ea61243c410041143d63a6c120c
+    excerpt: class="CybotCookiebotDialogDetailBodyContentCookieInfo"><strong class="CybotCookiebotDialogDetailBodyContentCookieInfoTitle" role="heading" aria-level="4">_hjCookieTest</strong><span class="CybotCookiebotDialogDetailBodyContentCookieInfoDes
+- selection_id: sel_vandervleuten2018validity_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_vandervleuten2018validity
+  cache_id: cache_c4e554b281e7f24c
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 95d33319cf44a169c091bf8320b02cce9fcedc637c252dbbefddd45b4b9e92d4
+    excerpt: <!doctype html><html lang="en-US" dir="ltr"><head><base href="https://www.google.com/recaptcha/challengepage/"><link rel="preconnect" href="//www.gstatic.com"><meta name="referrer" content="origin"><script
+      nonce="PjArUkfhKFqEz6tx86AFxQ">win
+- selection_id: sel_vandervleuten2018validity_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_vandervleuten2018validity
+  cache_id: cache_c4e554b281e7f24c
+  span:
+    text_path_offset:
+    - 6907
+    - 7147
+    sha256_of_span: 4df97ac5b372ada96caa012a9ed65a7af642e702b86895990f8887165f7dacb7
+    excerpt: c}a.cc_aid=e;a.iml_start=a.cc_latency_start_time;a.css_size=0;a.cc_latency=[];a.ccTick=g;a.onJsLoad=function(){g("jsl")};a.onCssLoad=function(){g("cssl")};a._isVisible=function(b,c){if(!c||c.style.display=="none")return!1;var
+      f=b.defaultVie
+- selection_id: sel_aws2024mlspecialty_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_aws2024mlspecialty
+  cache_id: cache_e2e2e4850eb3c06d
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: fa06f6d1d1e6833702c06715eb684d447f26f30145ec1e112561d88869605e7d
+    excerpt: '<!doctype html> <html lang="en-US" data-static-assets="https://a0.awsstatic.com" class="aws-lng-en_US"> <head> <meta http-equiv="Content-Security-Policy" content="default-src ''self'' data:
+      https://a0.awsstatic.com https://prod.us-east-1.u'
+- selection_id: sel_aws2024mlspecialty_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_aws2024mlspecialty
+  cache_id: cache_e2e2e4850eb3c06d
+  span:
+    text_path_offset:
+    - 88190
+    - 88430
+    sha256_of_span: 7611785a53236605304715da7ad42516a041d58709b37a77cd3f7e921a11ffde
+    excerpt: pricing\",\"hyperLink\":\"https://aws.amazon.com/pricing/?nc2\\u003dh_pr_pr\"}}]},{\"name\":\"Resources\",\"columnsLayout\":\"1-1\",\"linkURL\":\"\",\"columns\":[{\"heading\":\"Learn\",\"headingVariant\":\"functional\",\"type\":\"ListColumn
+- selection_id: sel_aws2024mlengineer_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_aws2024mlengineer
+  cache_id: cache_29584b9d17ab3870
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_aws2024mlengineer_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_aws2024mlengineer
+  cache_id: cache_29584b9d17ab3870
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_google2024pmle_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_google2024pmle
+  cache_id: cache_1b43c293a89c94ed
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_google2024pmle_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_google2024pmle
+  cache_id: cache_1b43c293a89c94ed
+  span:
+    text_path_offset:
+    - 0
+    - 63
+    sha256_of_span: 8e44ec992d178ffbef39966abe4e4c0e70bedba38f50be0dd31be970d665057b
+    excerpt: '[PDF cached; pdfplumber unavailable, install pdfplumber>=0.11]'
+- selection_id: sel_comptia2024dataplus_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_comptia2024dataplus
+  cache_id: cache_653bef7ec6718078
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 77ce620473f5fc8a8a7584ad76f373cb7cb41c28d0d3d1e019cc8c68f6d236c3
+    excerpt: <!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="/_next/static/css/1b80cdeab6f10928.css"
+      data-precedence="next"><
+- selection_id: sel_comptia2024dataplus_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_comptia2024dataplus
+  cache_id: cache_653bef7ec6718078
+  span:
+    text_path_offset:
+    - 233476
+    - 233716
+    sha256_of_span: 9cff38b045f325f1a602a7f3d1c625576b3a51df46242a689fa69c580e81b68a
+    excerpt: focus:outline-content-secondary focus:z-10" tabindex="-1"><div class="flex items-center flex-1"><span aria-hidden="true" class="basis-[30px] w-[30px] h-[23px] mr-2 bg-cover border-[0.5px] border-palette-secondary-grey-50
+      rounded-corner-2 fi
+- selection_id: sel_cambridge2009electronicportfolios2_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_cambridge2009electronicportfolios2
+  cache_id: cache_2c03954de19f8ffc
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: b42b68f70dfe0f6c0705ca7f5c6301a2ed5935a4e516f1b7e1e50a3c07c46ea5
+    excerpt: <!DOCTYPE html><html lang="en" class="js no-applicationcache audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a canvas canvastext contenteditable cors geolocation hashchange history inputtypes-search
+      inputtypes-tel inputtypes-url inpu
+- selection_id: sel_cambridge2009electronicportfolios2_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_cambridge2009electronicportfolios2
+  cache_id: cache_2c03954de19f8ffc
+  span:
+    text_path_offset:
+    - 70550
+    - 70790
+    sha256_of_span: 4b4b8b920455d5ea76c0d1cba8a3ffc3e34a448ed0865f1c19255ababee5d00e
+    excerpt: 0,t.K7.sessionReplay,e.ee)},e)}(e);try{n=JSON.parse(localStorage.getItem("".concat(R.H3,"_").concat(R.uh)))}catch(e){}(0,p.SR)(e.init)&&this.ee.on(a.CH,()=>this.#i()),this.#s(n)&&this.importRecorder().then(e=>{e.startRecording(ze.Qb.PRELOAD
+- selection_id: sel_eynon2017highimpacteportfolio_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_eynon2017highimpacteportfolio
+  cache_id: cache_851b06396ed67a93
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: b42b68f70dfe0f6c0705ca7f5c6301a2ed5935a4e516f1b7e1e50a3c07c46ea5
+    excerpt: <!DOCTYPE html><html lang="en" class="js no-applicationcache audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a canvas canvastext contenteditable cors geolocation hashchange history inputtypes-search
+      inputtypes-tel inputtypes-url inpu
+- selection_id: sel_eynon2017highimpacteportfolio_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_eynon2017highimpacteportfolio
+  cache_id: cache_851b06396ed67a93
+  span:
+    text_path_offset:
+    - 61616
+    - 61856
+    sha256_of_span: 1921950bdf59f67c1e56e47ce57c494f7dde5c09921f38ca9aacc774905ce252
+    excerpt: this.agentRef.init?.distributed_tracing?.enabled&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1;const r=this.agentRef.init?.distributed_tracing;if(e.sameOrigin)t=!0;else if(r?.allowed_origins
+      instanceof Array)for(var n=0;n<r.allowed_o
+- selection_id: sel_eynon2018catalystinaction_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_eynon2018catalystinaction
+  cache_id: cache_77bae061b5b69691
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: b42b68f70dfe0f6c0705ca7f5c6301a2ed5935a4e516f1b7e1e50a3c07c46ea5
+    excerpt: <!DOCTYPE html><html lang="en" class="js no-applicationcache audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a canvas canvastext contenteditable cors geolocation hashchange history inputtypes-search
+      inputtypes-tel inputtypes-url inpu
+- selection_id: sel_eynon2018catalystinaction_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_eynon2018catalystinaction
+  cache_id: cache_77bae061b5b69691
+  span:
+    text_path_offset:
+    - 65818
+    - 66058
+    sha256_of_span: 3c060b1a04d671ffe74ca1efbc8f15963b62611b6e68f1c8d9acbd6f9fb9f262
+    excerpt: t&&0!==t.length){t&&(this.parsedOrigin=(0,be.D)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=i.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if(e[0]&&e[0].headers)a(e[0].headers,n)&&(
+- selection_id: sel_pennylight2012documenting_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_pennylight2012documenting
+  cache_id: cache_2db4a4776b0727cf
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 8d1942765a589b0ac07e6e3eb20ca64161a03d64259e69c817e3f1286c68584e
+    excerpt: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" imageSrcSet="https://www.wiley.com/storefront-pdp-assets/_next/image?url=https%3
+- selection_id: sel_pennylight2012documenting_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_pennylight2012documenting
+  cache_id: cache_2db4a4776b0727cf
+  span:
+    text_path_offset:
+    - 78984
+    - 79224
+    sha256_of_span: 3bc83717ec4c3dfc7e477f072efd1fc3b5620b43b65fa06d23f337bb688ab274
+    excerpt: 3Zm2-3.05 5-2.15 5 2.15V5H7v12.95Z\" fill=\"currentColor\"\u003e\u003c/path\u003e\u003c/symbol\u003e\u003csymbol fill=\"none\" id=\"w-ic-calendar\" viewBox=\"0 0 24 24\"\u003e\u003ctitle\u003ecalendar\u003c/title\u003e\u003cpath
+      fill-rule=\
+- selection_id: sel_batson2017fieldguide_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_batson2017fieldguide
+  cache_id: cache_16a50706c55deaba
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 09ecf48a2682f3f94eb9a07ed9955bbcd13881ba7c78aadc2b0ff70d17b2f8e6
+    excerpt: <!DOCTYPE html><html lang="en-US" class="has-wpcom-gifting-banner wf-abrilfatface-n4-active wf-alegreya-n7-active wf-alegreya-i4-active wf-alegreya-n4-active wf-alegreya-i7-active wf-active"><head>
+      <meta charset="UTF-8"> <meta name="viewpor
+- selection_id: sel_batson2017fieldguide_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_batson2017fieldguide
+  cache_id: cache_16a50706c55deaba
+  span:
+    text_path_offset:
+    - 36910
+    - 37150
+    sha256_of_span: 3f3644bce725ea9c3187faf20a5d7c66ffe3e1255cb263f213653010748cd3bd
+    excerpt: .sd-link-color{font-size:12px}div.jetpack-comment-likes-widget-wrapper{min-height:31px;position:relative;width:100%}div.jetpack-comment-likes-widget-wrapper iframe{margin-bottom:0}#likes-other-gravatars{background-color:#fff;border:1px
+      soli
+- selection_id: sel_bryant2013eportfolioeffectiveness_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_bryant2013eportfolioeffectiveness
+  cache_id: cache_4c4211baa8471ee6
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 015f5dcf44a1d37dabcc06f83206904114ffd57042157f7a63b638e01ca93ad4
+    excerpt: <!DOCTYPE html> <html> <head> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q61Y5YWXL4"></script><script>window.dataLayer=window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js',new
+      Date());gtag('
+- selection_id: sel_bryant2013eportfolioeffectiveness_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_bryant2013eportfolioeffectiveness
+  cache_id: cache_4c4211baa8471ee6
+  span:
+    text_path_offset:
+    - 4739
+    - 4979
+    sha256_of_span: 531dfcf8aa87040304eb65f9c4f983405bbca642db565e9bc0efce4e59a5edff
+    excerpt: Research Problems; Access to Information; Likert Scales" /> <meta name="page-type" content="" /> <meta name="rating" content="All" /><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"
+      /><link rel="stylesheet" href="css/eric.cs
+- selection_id: sel_rhodes2014valuerubrics_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_rhodes2014valuerubrics
+  cache_id: cache_d372a294d04f118b
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 3c2474980984a04acb98b207840d011545b990f02e861893b791f712807a475c
+    excerpt: '<!DOCTYPE html> <html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#"> <head> <meta charset="utf-8" /> <link rel="canonical" href="https://compact.org/resources/using-the-value-rubrics-for-improvement-of-learning-and-authentic-ass'
+- selection_id: sel_rhodes2014valuerubrics_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_rhodes2014valuerubrics
+  cache_id: cache_d372a294d04f118b
+  span:
+    text_path_offset:
+    - 87740
+    - 87980
+    sha256_of_span: a6addc7948e8bf364bc41c0efadc4e8062e6fc3b69d030fdd3ae4b87387ec946
+    excerpt: </a> </li> <li class="menu-item"> <a href="/current-programs/engaged-scholars-initiative/2022-2023-esi-cohort" class="menu-item__link" data-drupal-link-system-path="node/
+- selection_id: sel_aacu2024valuerubrics_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_aacu2024valuerubrics
+  cache_id: cache_344cc2231dea43cb
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 57809c0162c5053f5e723a12e788e7ab379a3fd0cfad647b702218b634ea239c
+    excerpt: <!DOCTYPE html><html lang="en-US"><head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" href=" /favicon.
+- selection_id: sel_aacu2024valuerubrics_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_aacu2024valuerubrics
+  cache_id: cache_344cc2231dea43cb
+  span:
+    text_path_offset:
+    - 46703
+    - 46943
+    sha256_of_span: 46407e74577e1e506a1639a88dae00f58ce61c52958c51071d84b58f04d92367
+    excerpt: 'lg:border-opacity-30"><ul class="text-gray-400 space-y-5 type-theta"><li><a class="flex items-center group hover:text-red-100 type-theta" href="https://www.aacu.org/about" x-bind:tabindex="selectedSubMenu
+      == 5 ? ''0'' : ''-1''" tabindex="-1"><s'
+- selection_id: sel_schon1983reflectivepractitioner_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_schon1983reflectivepractitioner
+  cache_id: cache_f2a0faf3b29f8e2c
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 079857ab34866b887a0b415f6c8324ae60fa43eae4be602ba11eb046cf52ac36
+    excerpt: '<!DOCTYPE html><html lang="en" prefix="og: http://ogp.me/ns# books: http://ogp.me/ns/books#"><head><style class="vjs-styles-defaults"> .video-js { width: 300px; height: 150px; } .vjs-fluid
+      { paddin'
+- selection_id: sel_schon1983reflectivepractitioner_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_schon1983reflectivepractitioner
+  cache_id: cache_f2a0faf3b29f8e2c
+  span:
+    text_path_offset:
+    - 151139
+    - 151379
+    sha256_of_span: 0e1badee4bfa6802a907711d319434719895a0e8cec25b1b2c2193a9131603d5
+    excerpt: '.dropdown-list[_ngcontent-product-detail-page-c92]{list-style-type:none;padding-left:0;border-radius:0 0 2px 2px;background:#FFF;box-shadow:0 0 4px #00000040;font-size:14px;font-style:normal;font-weight:600;line-height:normal;letter-spacing'
+- selection_id: sel_schon1987educatingreflective_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_schon1987educatingreflective
+  cache_id: cache_c349499ce9b6c6ea
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 8d1942765a589b0ac07e6e3eb20ca64161a03d64259e69c817e3f1286c68584e
+    excerpt: <!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" imageSrcSet="https://www.wiley.com/storefront-pdp-assets/_next/image?url=https%3
+- selection_id: sel_schon1987educatingreflective_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_schon1987educatingreflective
+  cache_id: cache_c349499ce9b6c6ea
+  span:
+    text_path_offset:
+    - 71705
+    - 71945
+    sha256_of_span: 25e5040a73ba892ef133bc7b2b29fc4f4f5d0e4583e7dd4a0c378b73e606d00a
+    excerpt: fill=\"currentColor\"\u003e\u003c/path\u003e\u003c/symbol\u003e\u003csymbol fill=\"none\" id=\"w-ic-arrow-up\" viewBox=\"0 0 24 24\"\u003e\u003ctitle\u003earrow-up\u003c/title\u003e\u003cpath
+      fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"
+- selection_id: sel_boud1985reflection_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_boud1985reflection
+  cache_id: cache_beb3ac43f2b36701
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: b42b68f70dfe0f6c0705ca7f5c6301a2ed5935a4e516f1b7e1e50a3c07c46ea5
+    excerpt: <!DOCTYPE html><html lang="en" class="js no-applicationcache audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a canvas canvastext contenteditable cors geolocation hashchange history inputtypes-search
+      inputtypes-tel inputtypes-url inpu
+- selection_id: sel_boud1985reflection_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_boud1985reflection
+  cache_id: cache_beb3ac43f2b36701
+  span:
+    text_path_offset:
+    - 71915
+    - 72155
+    sha256_of_span: 4c4b68ffb0798006f98abcd8b24a91b430822cfa1658f78768075c200051d93d
+    excerpt: DataView?{type:"DataView",size:e.byteLength}:ArrayBuffer.isView(e)?{type:"TypedArray",size:e.byteLength}:{type:"unknown",size:0}}class Qe{constructor(e,t){this.timestamp=(0,o.t)(),this.currentUrl=(0,qe.L)(window.location.href),this.socketId
+- selection_id: sel_boud2007rethinkingassessment_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_boud2007rethinkingassessment
+  cache_id: cache_f61c608107d633ec
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: b42b68f70dfe0f6c0705ca7f5c6301a2ed5935a4e516f1b7e1e50a3c07c46ea5
+    excerpt: <!DOCTYPE html><html lang="en" class="js no-applicationcache audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a canvas canvastext contenteditable cors geolocation hashchange history inputtypes-search
+      inputtypes-tel inputtypes-url inpu
+- selection_id: sel_boud2007rethinkingassessment_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_boud2007rethinkingassessment
+  cache_id: cache_f61c608107d633ec
+  span:
+    text_path_offset:
+    - 58315
+    - 58555
+    sha256_of_span: c6270ec41bdb13e85d9939454f3051908f0573e025586cf5b6f3c0e2ad80711d
+    excerpt: 0===f.gm.XMLHttpRequest)return n;if(ce[n.debugId]++)return n;ce[n.debugId]=1,(0,se.u)(r);var i=(0,ae.YM)(n),s=f.gm.XMLHttpRequest,o=f.gm.MutationObserver,a=f.gm.Promise,c=f.gm.setInterval,d="readystatechange",u=["onload","onerror","onabort"
+- selection_id: sel_moon1999reflection_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_moon1999reflection
+  cache_id: cache_1dc9bbeb4c9730c9
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: b42b68f70dfe0f6c0705ca7f5c6301a2ed5935a4e516f1b7e1e50a3c07c46ea5
+    excerpt: <!DOCTYPE html><html lang="en" class="js no-applicationcache audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a canvas canvastext contenteditable cors geolocation hashchange history inputtypes-search
+      inputtypes-tel inputtypes-url inpu
+- selection_id: sel_moon1999reflection_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_moon1999reflection
+  cache_id: cache_1dc9bbeb4c9730c9
+  span:
+    text_path_offset:
+    - 69391
+    - 69631
+    sha256_of_span: 216609f6f2c73fa188bf5c6eaf8b4db58512f54aeec23c0cd4f3a0d63b42495b
+    excerpt: n={n:e.name,s:e.start-f.WN,e:(e.end||e.start)-f.WN,o:e.origin||"",t:"api"};n.s<0||n.e<0||n.e<n.s?(0,h.R)(61,{start:n.s,end:n.e}):(0,s.p)("bstApi",[n],void 0,t.K7.sessionTrace,r.ee)},r),Ce(e);if(!(0,g.V)(e.init))return
+      void this.deregisterDr
+- selection_id: sel_andrade2009promotinglearning_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_andrade2009promotinglearning
+  cache_id: cache_bdad305e7aa85c0e
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: 8a9ddf9b72eff810bb413234cabde885fc6d34de9aad3a0db04faf72c0eb90bb
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f07608dae14ed-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_andrade2009promotinglearning_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_andrade2009promotinglearning
+  cache_id: cache_bdad305e7aa85c0e
+  span:
+    text_path_offset:
+    - 97010
+    - 97250
+    sha256_of_span: de7841920cfc4bc704ca8e460dc2740ae3abb76b3704871d40762c4dff783c5a
+    excerpt: ''
+- selection_id: sel_andrade2019criticalreview_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_andrade2019criticalreview
+  cache_id: cache_8b368ccc8c9f8cce
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: eef2381a3b01c8b691c67b86d3cd860591e55a7f03573f89e4efcb7ae54073de
+    excerpt: <!DOCTYPE html><html lang="en" data-capo=""><head><meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Frontiers | A Critical Review of Research
+      on Student Self-Assessment</title> <link rel="sty
+- selection_id: sel_andrade2019criticalreview_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_andrade2019criticalreview
+  cache_id: cache_8b368ccc8c9f8cce
+  span:
+    text_path_offset:
+    - 402616
+    - 402856
+    sha256_of_span: 5a5d98ae9f84663281606602db05532e1cd04127549d1452ba46d07fca3c68b8
+    excerpt: Teach.</i><!--]--><!--[--><!--[--><!--[-->34<!--]--><!--]--><!--]-->, <!--[--><!--[--><!--[-->279<!--]--><!--]--><!--]-->–<!--[--><!--[--><!--[-->284<!--]--><!--]--><!--]-->. <!--[--><!--[--><!--[-->10.3109/0142159X.2012.658897<!--]--><!--]
+- selection_id: sel_zimmerman2002selfregulated_identifies
+  bullet_id: B1
+  atom_id: claim_capstone_portfolio_assessment_b1_a1_identifies_zimmerman2002selfregulated
+  cache_id: cache_080380e81def5b33
+  span:
+    text_path_offset:
+    - 0
+    - 240
+    sha256_of_span: c3e3ac4599f22a6d7caedbee141eb63cf44599761c62f15425568da9ee01f37d
+    excerpt: '<!DOCTYPE html><html lang="en" class="pb-page" data-request-id="a00f079f7de1f834-SJC" style="scroll-padding-top: 40px;"><head data-pb-dropzone="head">'
+- selection_id: sel_zimmerman2002selfregulated_mechanism
+  bullet_id: B3
+  atom_id: claim_capstone_portfolio_assessment_b3_a1_mechanism_zimmerman2002selfregulated
+  cache_id: cache_080380e81def5b33
+  span:
+    text_path_offset:
+    - 103107
+    - 103347
+    sha256_of_span: c1cdeba398efaebf5d8e44c124482a58fdff0a4e8a3ed387f07017ffada5a453
+    excerpt: sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvY29tbW9uLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUcscUhBQ0csUUFBQSxDQUdILDZHQUNHLGVBQUEsQ0FJSCx5SEFDRyxlQUFBLENBSUgseUdBQ0csWU

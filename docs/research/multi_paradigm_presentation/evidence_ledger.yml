@@ -1,9 +1,8 @@
 schema_version: 3
 topic: multi_paradigm_presentation
 generated_at: 2026-05-23
-current_as_of: 2026-05-23
+current_as_of: '2026-05-24'
 freshness_policy: strict_live
-
 entries:
 - evidence_id: ev_multi_paradigm_presentation_0001
   source_url: https://udlguidelines.cast.org/static/udlg2.2-text-a11y.pdf
@@ -11,7 +10,8 @@ entries:
   source_quality: official
   retrieved_at: 2026-05-23
   verification_method: webfetch
-  cache_ids: [cache_02f490511fe7c4bb]
+  cache_ids:
+  - cache_02f490511fe7c4bb
   supports:
   - claim_id: claim_multi_paradigm_presentation_0001
     field_path: bib_ledger.entries[0].title
@@ -19,35 +19,42 @@ entries:
     evidence_role_strength: full
     extraction_method: paraphrase
     link_confidence: 0.85
-  excerpt: 'CAST UDL Guidelines v2.2 (2018) — 3 principles (engagement / representation / action+expression), 9 guidelines, 31 checkpoints. Each principle maps to a neuroscience network (recognition / strategic / affective).'
+  excerpt: CAST UDL Guidelines v2.2 (2018) — 3 principles (engagement / representation / action+expression), 9 guidelines, 31 checkpoints. Each principle maps to a neuroscience network (recognition / strategic
+    / affective).
   rights_status: private_use
-  confidence: {score: 0.90, factors: [official CAST publication]}
-
+  confidence:
+    score: 0.9
+    factors:
+    - official CAST publication
 - evidence_id: ev_multi_paradigm_presentation_0002
   source_url: https://doi.org/10.1037/h0084295
   source_type: paper
   source_quality: primary
   retrieved_at: 2026-05-23
   verification_method: webfetch
-  cache_ids: [cache_0be955fe68a5ed41]
+  cache_ids:
+  - cache_0be955fe68a5ed41
   supports:
   - claim_id: claim_multi_paradigm_presentation_0002
     field_path: bib_ledger.entries[1].title
     evidence_role: identifies
     evidence_role_strength: full
     extraction_method: paraphrase
-    link_confidence: 0.80
+    link_confidence: 0.8
   excerpt: 'Paivio (1991) — dual-coding theory: separate but interconnected verbal + nonverbal (imagery) representations in memory. Foundational for visual-symbolic-verbal coordination in multimedia learning.'
   rights_status: private_use
-  confidence: {score: 0.85, factors: [primary ERIC PDF cached]}
-
+  confidence:
+    score: 0.85
+    factors:
+    - primary ERIC PDF cached
 - evidence_id: ev_multi_paradigm_presentation_0003
   source_url: https://www.cambridge.org/core/books/cambridge-handbook-of-multimedia-learning/09E09224829AB8D3D327EF8A0E9B5288
   source_type: paper
   source_quality: primary
   retrieved_at: 2026-05-23
   verification_method: webfetch
-  cache_ids: [cache_69bf2f42ed9de220]
+  cache_ids:
+  - cache_69bf2f42ed9de220
   supports:
   - claim_id: claim_multi_paradigm_presentation_0003
     field_path: bib_ledger.entries[2].title
@@ -55,6 +62,1017 @@ entries:
     evidence_role_strength: partial
     extraction_method: paraphrase
     link_confidence: 0.75
-  excerpt: 'Mayer (ed.) Cambridge Handbook of Multimedia Learning (2nd ed. 2014; 3rd ed. 2022). Canonical reference for the 12 multimedia-learning principles: coherence + redundancy + spatial/temporal contiguity + modality + multimedia + signaling + segmenting + pre-training + personalization + voice + image principles.'
+  excerpt: 'Mayer (ed.) Cambridge Handbook of Multimedia Learning (2nd ed. 2014; 3rd ed. 2022). Canonical reference for the 12 multimedia-learning principles: coherence + redundancy + spatial/temporal contiguity
+    + modality + multimedia + signaling + segmenting + pre-training + personalization + voice + image principles.'
   rights_status: private_use
-  confidence: {score: 0.75, factors: [frontmatter cached; full handbook paywalled]}
+  confidence:
+    score: 0.75
+    factors:
+    - frontmatter cached; full handbook paywalled
+- evidence_id: ev_multi_paradigm_presentation_0004
+  source_url: https://www.cast.org/books-media/universal-design-for-learning-meyer-rose-gordon/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_e2484ac94a360ab7
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0004
+    field_path: bib_ledger.entries[3].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: First comprehensive book-length presentation of UDL principles and practice since 2002, integrating a decade of CAST research on learner variability and the three networks (recognition, strategic,
+    affective) underlying the three UDL principles.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0005
+  source_url: https://files.eric.ed.gov/fulltext/EJ844630.pdf
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_f2a87e5b20201294
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0005
+    field_path: bib_ledger.entries[4].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reflects on how the three UDL principles (multiple means of representation, expression, engagement) play out in an actual Harvard graduate-level course, with examples of course goals, materials,
+    methods, and assessment redesigned via UDL.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0006
+  source_url: https://doi.org/10.1080/13603116.2017.1325074
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_192bf98906e0a9b0
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0006
+    field_path: bib_ledger.entries[5].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Meta-analysis of 18 pre/post-test empirical studies (2013-2016) on UDL implementations; concludes UDL is effective for improving the learning process for all students but evidence on educational
+    outcomes is not yet demonstrated.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0007
+  source_url: https://eric.ed.gov/?id=EJ1104867
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_2d300efa5a7204d4
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0007
+    field_path: bib_ledger.entries[6].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Content analysis of 12 peer-reviewed empirical UDL papers (2012-2015); finds UDL research is in nascent stages with inconsistent operationalization of the framework and limited rigorous outcome
+    evidence.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0008
+  source_url: https://udlguidelines.cast.org/more/about-guidelines-3-0/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_34950c562670ec25
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0008
+    field_path: bib_ledger.entries[7].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: 'Documents the July 2024 Guidelines 3.0 release: shifts from educator- to learner-centered language, integrates asset-based pedagogies, centers learner identity and systemic barriers, and reframes
+    the UDL goal as learner agency.'
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0009
+  source_url: https://www.tandfonline.com/doi/full/10.1080/2331186X.2023.2218191
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_0fb80383177fa5c6
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0009
+    field_path: bib_ledger.entries[8].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Systematic review and meta-analysis of 13 peer-reviewed UDL studies (2015-2021) across six countries; reports statistically significant effects for student participants and specific-domain applications.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0010
+  source_url: https://www.tandfonline.com/doi/full/10.1080/13562517.2025.2465994
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_bfc679e11ec1a60a
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0010
+    field_path: bib_ledger.entries[9].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Systematic review of 20 studies (363 faculty, 5,293 students) on UDL faculty-training programs in higher ed; finds targeted UDL training increases teaching competence and supports inclusive pedagogical
+    practice.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0011
+  source_url: https://www.w3.org/TR/WCAG22/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_6e3c5fe397257cae
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0011
+    field_path: bib_ledger.entries[10].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Defines 13 guidelines under POUR principles (Perceivable, Operable, Understandable, Robust) with 86 testable success criteria across A/AA/AAA conformance levels; adds 9 new criteria over 2.1
+    addressing focus appearance, target size, dragging movements, and cognitive accessibility.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0012
+  source_url: https://www.w3.org/TR/wcag-3.0/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_c7060db15aa1a575
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0012
+    field_path: bib_ledger.entries[11].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Working draft of the next-generation accessibility standard with bronze/silver/gold conformance (replacing A/AA/AAA), broader scope to apps and emerging tech, and incorporation of usability testing
+    and cognitive walkthroughs in higher conformance levels.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0013
+  source_url: https://doi.org/10.1038/nmeth.1618
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_a2d38116076fe40e
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0013
+    field_path: bib_ledger.entries[12].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Introduces an eight-color qualitative palette (black, orange, sky blue, bluish green, yellow, blue, vermillion, reddish purple) selected to remain distinguishable under all three major forms
+    of color vision deficiency; explicitly recommended by Nature journals.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0014
+  source_url: https://doi.org/10.1559/152304003100010929
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_631ecf8982ee79c6
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0014
+    field_path: bib_ledger.entries[13].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Describes ColorBrewer, an evidence-based tool for selecting sequential, diverging, and qualitative map color schemes (3-12 classes) tuned for perceptual effectiveness, colorblind safety, photocopy
+    reproduction, and display environment.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0015
+  source_url: https://doi.org/10.1145/2513383.2513447
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_62846a82bbfc1a43
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0015
+    field_path: bib_ledger.entries[14].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: First eye-tracking study of font type on dyslexic reading (48 participants, 12 fonts); sans-serif, monospaced, and roman styles significantly outperform serif, proportional, and italic; specialized
+    dyslexia fonts like OpenDyslexic are not faster than Arial or Helvetica.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0016
+  source_url: https://doi.org/10.1073/pnas.1205566109
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_df6a06fab2254785
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0016
+    field_path: bib_ledger.entries[15].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Demonstrates in 54 Italian and 40 French dyslexic children that simply increasing inter-letter spacing (+18% body size) improves reading speed and accuracy on-the-fly without training, with no
+    parallel benefit for typical readers.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0017
+  source_url: https://doi.org/10.1007/s11881-020-00194-x
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_725d772a6af7114c
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0017
+    field_path: bib_ledger.entries[16].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Tests reading speed and accuracy with increased letter spacing, word spacing, and a dyslexia-targeted font in dyslexic and typical readers; finds no general advantage for any condition, partially
+    contradicting Zorzi et al. (2012).
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0018
+  source_url: https://doi.org/10.1145/1090785.1090831
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_cbd8a0ecb5e6b8a0
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0018
+    field_path: bib_ledger.entries[17].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Describes MathPlayer, a browser plug-in that renders MathML visually and converts it to speech for screen readers (JAWS, Window-Eyes); supports synchronized highlighting, expression magnification,
+    and Braille math output.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0019
+  source_url: https://docs.mathjax.org/en/latest/basic/accessibility.html
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_7d8b0ac0615762d6
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0019
+    field_path: bib_ledger.entries[18].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: 'Documents MathJax 4 built-in accessibility: automatic speech-string generation injected via aria-label and aria-braillelabel, semantic enrichment for screen-reader accuracy, and an interactive
+    expression explorer navigable via arrow keys after tab focus.'
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0020
+  source_url: https://doi.org/10.1207/S15326985EP3801_6
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_0664624b8f7bf51d
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0020
+    field_path: bib_ledger.entries[19].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Examines five overload scenarios in multimedia learning and proposes one or two theory-based load-reduction techniques per scenario (off-loading, segmenting, pretraining, weeding, signaling,
+    aligning, eliminating redundancy, synchronizing, individualizing), with empirical results testing each.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0021
+  source_url: https://doi.org/10.1037/0022-0663.91.2.358
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_fdd90f405672f42c
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0021
+    field_path: bib_ledger.entries[20].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Two experiments show learners produce better retention and transfer when narration accompanies animation (modality effect) and when corresponding visual and verbal material is presented simultaneously
+    (temporal-contiguity effect).
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0022
+  source_url: https://doi.org/10.1007/s10648-019-09465-5
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_3683b276532dcbdb
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0022
+    field_path: bib_ledger.entries[21].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: 'Summarizes 20 years of cognitive load theory evolution: distinguishes biologically primary vs. secondary knowledge, refines intrinsic/extraneous/germane load definitions, and sketches future
+    directions for instructional-design research.'
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0023
+  source_url: https://doi.org/10.1177/0963721420922183
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_a8f6b980108e49f0
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0023
+    field_path: bib_ledger.entries[22].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Concise review of CLT-derived methods to manage working-memory load during complex-task learning, covering worked examples, variability, segmenting, and modality with practical instructional
+    implications.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0024
+  source_url: https://doi.org/10.1207/S15326985EP3801_4
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_f8075f3ac5d9cd42
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0024
+    field_path: bib_ledger.entries[23].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Review of empirical work showing instructional techniques that benefit novices (e.g., worked examples, full explanations) can hinder more knowledgeable learners — what helps depends on prior
+    expertise, so designs must fade scaffolds.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0025
+  source_url: https://doi.org/10.1007/s10648-018-9456-4
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_2bf137261978ed8f
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0025
+    field_path: bib_ledger.entries[24].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Meta-analysis of segmenting (chunking + user-paced) multimedia material; reports a positive overall effect on retention and transfer with moderators including learner control, pacing, and complexity.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0026
+  source_url: https://doi.org/10.1016/j.edurev.2017.11.001
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_9ea204110053d472
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0026
+    field_path: bib_ledger.entries[25].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Meta-analysis of 44 effect sizes from 29 experiments (N=2726) finds signaling cues produce a moderate positive effect on learning outcomes (d=0.38), moderated by study quality, prior-knowledge
+    controls, and outcome reliability.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0027
+  source_url: https://doi.org/10.1016/j.learninstruc.2005.07.001
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_11f1af1649b4d181
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0027
+    field_path: bib_ledger.entries[26].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Meta-analytic synthesis of modality-effect experiments confirms learners perform better with spoken narration + graphics than printed text + graphics, with moderators around pacing, complexity,
+    and system pacing.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0028
+  source_url: https://doi.org/10.1207/s1532690xci1604_4
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_9a8b2e49d38e317d
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0028
+    field_path: bib_ledger.entries[27].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Three studies show that analyzing contrasting cases first generates differentiated knowledge structures that prepare learners to benefit from a subsequent lecture or text — establishing the time-for-telling
+    framework for sequencing.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0029
+  source_url: https://doi.org/10.1207/s1532690xci2202_1
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_5d6d98f858d6e3e5
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0029
+    field_path: bib_ledger.entries[28].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Four 9th-grade statistics experiments show that invention activities (which appear inefficient on immediate tests) couple with subsequent lectures to produce strong transfer, procedural skill,
+    and ability to evaluate data — operationalizing preparation for future learning.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0030
+  source_url: https://doi.org/10.1080/07370000802212669
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_7fb5be7818c4d0f9
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0030
+    field_path: bib_ledger.entries[29].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: 'Classroom study with 7th-grade math: students who first attempted ill-structured complex problems without scaffolds underperformed initially but outperformed direct-instruction peers on well-structured
+    and transfer problems after subsequent instruction.'
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0031
+  source_url: https://doi.org/10.1080/10508406.2011.591717
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_5b5730c54ea90235
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0031
+    field_path: bib_ledger.entries[30].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Articulates a two-phase generation-then-consolidation design (problem-solving before instruction) and reports three studies showing PF students outperformed direct-instruction peers on conceptual
+    understanding and transfer at no cost to procedural fluency.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0032
+  source_url: https://doi.org/10.3102/00346543211019105
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_f08b76190a6b47f9
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0032
+    field_path: bib_ledger.entries[31].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Meta-analysis of 53 studies / 166 comparisons (N>12,000) finds problem-solving-before-instruction yields significantly better conceptual understanding and transfer than instruction-first (d=0.36;
+    up to 0.58 at high design fidelity), without compromising procedural knowledge.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0033
+  source_url: https://doi.org/10.1007/s10648-017-9398-2
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_9fb1c3c03b86b7a2
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0033
+    field_path: bib_ledger.entries[32].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: 'Reviews PS-I research and proposes mechanisms by which initial problem-solving supports later instruction: activating prior knowledge, becoming aware of knowledge gaps, and noticing deep features
+    — explaining when sequencing helps and when it does not.'
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0034
+  source_url: https://doi.org/10.1016/j.learninstruc.2014.08.004
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_effe961e558bbe2f
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0034
+    field_path: bib_ledger.entries[33].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Experiment shows that simply having students attempt problems before instruction is insufficient; benefits emerge only when the subsequent instruction explicitly builds on students typical erroneous
+    solutions, making knowledge gaps salient.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0035
+  source_url: https://doi.org/10.1177/09388982241292299
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_67cd436026a46c6b
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0035
+    field_path: bib_ledger.entries[34].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: 30 single-case-design studies synthesized via Tau-BC meta-analysis show a large overall effect for CRA sequencing in math learning; moderator analysis weakly favors non-integrated (strictly sequential)
+    over integrated CRA variants.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0036
+  source_url: https://doi.org/10.1007/BF01320076
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_16e70b5432fdefeb
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0036
+    field_path: bib_ledger.entries[35].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Dual coding theory (DCT) explains human behavior in terms of dynamic associative processes that operate on a rich network of modality-specific verbal and nonverbal (or imagery) representations;
+    shows how DCT mechanisms can be used to model diverse educational phenomena.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0037
+  source_url: https://www.routledge.com/Imagery-and-Text-A-Dual-Coding-Theory-of-Reading-and-Writing/Sadoski-Paivio/p/book/9780415898485
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_bc410eca8b0bef96
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0037
+    field_path: bib_ledger.entries[36].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: First book to take a systematic dual-coding theoretical approach to all central issues of literacy — decoding, comprehension, memory in reading; planning, drafting, reviewing in writing — extending
+    DCT to text-based learning.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0038
+  source_url: https://www.routledge.com/Mind-and-Its-Evolution-A-Dual-Coding-Theoretical-Approach/Paivio/p/book/9780805852608
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_e89abc55ad7e1613
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0038
+    field_path: bib_ledger.entries[37].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Updates the Dual Coding Theory of mind, a theory of modern human cognition consisting of separate but interconnected nonverbal and verbal systems, and carefully compares DCT with contrasting
+    single-code cognitive theories.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0039
+  source_url: https://doi.org/10.1023/A:1013176309260
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_2d49cb6a7f6267e4
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0039
+    field_path: bib_ledger.entries[38].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Reviews 1970s-90s research supporting that carefully constructed text illustrations enhance learners performance on text-dependent cognitive outcomes, and begins to systematically explore the
+    whys, whens, and for-whoms of picture facilitation.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0040
+  source_url: https://doi.org/10.1177/17470218241235520
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_5349d62575f3665e
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0040
+    field_path: bib_ledger.entries[39].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Experimental results are consistent with the physical-distinctiveness account and inconsistent with dual-coding theory as the explanation for the picture-superiority effect — i.e., picture advantage
+    may be a distinctiveness phenomenon, not a dual-encoding one.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0041
+  source_url: https://doi.org/10.3758/s13421-018-0858-9
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_f90dae7cd115bdd1
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0041
+    field_path: bib_ledger.entries[40].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Manipulating physical distinctiveness of words eliminates the picture-superiority effect, supporting a distinctiveness-based rather than dual-coding-based mechanism for the picture advantage
+    in recognition memory.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0042
+  source_url: https://kclpure.kcl.ac.uk/portal/en/publications/primm-exploring-pedagogical-approaches-for-teaching-text-based-pr
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_9d80edc521d09fdf
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0042
+    field_path: bib_ledger.entries[41].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Introduces PRIMM (Predict-Run-Investigate-Modify-Make), building on Use-Modify-Create, levels of abstraction, and tracing/code-comprehension research — beginners focus on reading working code
+    before writing their own.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0043
+  source_url: https://doi.org/10.1145/3287324.3287477
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_e92bcde60c79c5c3
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0043
+    field_path: bib_ledger.entries[42].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Empirical study of teachers using PRIMM in school programming classrooms, reporting how the read-before-write structure affects lesson design and student talk about code.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0044
+  source_url: https://par.nsf.gov/servlets/purl/10122993
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_ebf05e7648106476
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0044
+    field_path: bib_ledger.entries[43].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Introduces the Use-Modify-Create progression — students first use existing computational artifacts, then modify them, then create their own — as a scaffold for developing computational thinking.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0045
+  source_url: https://scholarworks.gsu.edu/ltd_facpub/33/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_e11ae5be7bf2599a
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0045
+    field_path: bib_ledger.entries[44].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Subgoal-labeled worked examples for App Inventor programming significantly improved novice performance and transfer to novel tasks vs. unlabeled examples; supports structuring code-first exposition
+    with explicit subgoals.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0046
+  source_url: https://dl.acm.org/doi/10.1145/2960310.2960322
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_272830c71c924c6a
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0046
+    field_path: bib_ledger.entries[45].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Studies the combined effect of subgoal labels, contextualization, and worked examples on novice computing problem-solving, finding worked-example + subgoal-label conditions outperform problem-solving
+    practice.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0047
+  source_url: https://doi.org/10.1145/3279720.3279725
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_909c5ab54015c7aa
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0047
+    field_path: bib_ledger.entries[46].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Live coding — synchronously writing and executing code in front of students — is examined as a pedagogical technique that imparts skills like incremental development and debugging, with measured
+    effects on novice programming learning.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0048
+  source_url: https://eprints.soton.ac.uk/403913/1/STAL9781614996491-0087.pdf
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_1c5809aa6fd178d6
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0048
+    field_path: bib_ledger.entries[47].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Jupyter notebooks combine live re-executable code, narrative text, equations, and rich media into a single executable document — the canonical reference for notebook-as-medium.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source
+- evidence_id: ev_multi_paradigm_presentation_0049
+  source_url: http://worrydream.com/ExplorableExplanations/
+  source_type: paper
+  source_quality: primary
+  retrieved_at: '2026-05-24'
+  verification_method: webfetch
+  cache_ids:
+  - cache_7c434b30d70366ea
+  supports:
+  - claim_id: claim_multi_paradigm_presentation_0049
+    field_path: bib_ledger.entries[48].title
+    evidence_role: identifies
+    evidence_role_strength: full
+    extraction_method: paraphrase
+    link_confidence: 0.75
+  excerpt: Introduces reactive documents that embed live calculations alongside prose so readers can manipulate variables and see consequences — the design pattern underlying Observable, Tangle, and explorable-explanation
+    pedagogy.
+  rights_status: private_use
+  confidence:
+    score: 0.75
+    factors:
+    - paraphrased from primary source

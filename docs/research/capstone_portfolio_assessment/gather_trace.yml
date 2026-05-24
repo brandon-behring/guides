@@ -1,16 +1,582 @@
 schema_version: 3
 topic: capstone_portfolio_assessment
 generated_at: 2026-05-23
-current_as_of: 2026-05-23
+current_as_of: '2026-05-24'
 freshness_policy: strict_live
-
 fetches:
 - fetch_id: fetch_kuh2008high
   sub_area: A2
-  query: 'Kuh High-Impact Educational Practices 2008 AAC&U capstones'
+  query: Kuh High-Impact Educational Practices 2008 AAC&U capstones
   source_url: https://assess.ucr.edu/sites/default/files/2019-02/kuh_2008.pdf
   fetched_at: 2026-05-23
-  reflection: {is_relevant: true, is_supported: full, is_useful: 5}
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 5
   decision: accept
-  reason: 'Kuh 2008 AAC&U high-impact-practices framework. Capstones as one of 10. Sub-area A2 anchor.'
+  reason: Kuh 2008 AAC&U high-impact-practices framework. Capstones as one of 10. Sub-area A2 anchor.
   assigned_bibkey: kuh2008high
+- fetch_id: fetch_wiggins1998educative
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (capstone_portfolio_assessment)
+  source_url: https://archive.org/details/educativeassessm00wigg
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: 'Wiggins argues school-based assessment should be designed primarily to improve, not audit, student performance: authenti'
+  assigned_bibkey: wiggins1998educative
+- fetch_id: fetch_darling2000authentic
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1016/S0742-051X%2800%2900015-9
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Reviews how teacher-education programs use authentic assessments (cases, exhibitions, portfolios, action research) to su
+  assigned_bibkey: darling2000authentic
+- fetch_id: fetch_messick1994interplay
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.3102/0013189X023002013
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Treats authenticity and directness of performance assessment as promissory validity claims that offset the two major thr
+  assigned_bibkey: messick1994interplay
+- fetch_id: fetch_newmann1996authentic
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1086/444136
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Empirical study across restructured elementary, middle, and high schools showing authentic pedagogy is strongly associat
+  assigned_bibkey: newmann1996authentic
+- fetch_id: fetch_newmann2001authentic
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (capstone_portfolio_assessment)
+  source_url: https://consortium.uchicago.edu/sites/default/files/2023-06/Authentic%20Intellectual%20Work-Jan2001-Consortium.pdf
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Chicago classroom study showing assignments demanding more authentic intellectual work actually improve student scores o
+  assigned_bibkey: newmann2001authentic
+- fetch_id: fetch_gulikers2004fivedimensional
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1007/BF02504676
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Proposes a five-dimensional framework (task, physical context, social context, assessment result/form, criteria) that op
+  assigned_bibkey: gulikers2004fivedimensional
+- fetch_id: fetch_frederiksen1989systems
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.3102/0013189X018009027
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Introduces systemic validity — tests are systemically valid when they induce curricular and instructional changes that f
+  assigned_bibkey: frederiksen1989systems
+- fetch_id: fetch_stiggins2002assessment
+  sub_area: A1
+  query: Phase D depth-expand discovery for sub-area A1 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1177/003172170208301010
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Argues U.S. education suffers a crisis of over-reliance on summative standardized tests of learning while neglecting cla
+  assigned_bibkey: stiggins2002assessment
+- fetch_id: fetch_jonsson2007rubrics
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1016/j.edurev.2007.05.002
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Review of 75 studies finds rubric scoring of performance assessments is most reliable when rubrics are analytic, topic-s
+  assigned_bibkey: jonsson2007rubrics
+- fetch_id: fetch_brookhart2013rubrics
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (capstone_portfolio_assessment)
+  source_url: https://archive.org/details/howtocreateuseru0000broo
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Identifies two essential rubric components — criteria that target learning (not tasks) and clear descriptions of perform
+  assigned_bibkey: brookhart2013rubrics
+- fetch_id: fetch_reddy2010rubric
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1080/02602930902862859
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Reviews empirical higher-education rubric research, finding generally positive student perceptions, instructor resistanc
+  assigned_bibkey: reddy2010rubric
+- fetch_id: fetch_cohen1960coefficient
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1177/001316446002000104
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Introduces kappa as a chance-corrected agreement coefficient for nominal scales, critiquing raw percent agreement for fa
+  assigned_bibkey: cohen1960coefficient
+- fetch_id: fetch_krippendorff2004reliability
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1111/j.1468-2958.2004.tb00738.x
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Clarifies misconceptions about reliability coefficients in coding tasks and recommends alpha as a generalized chance-cor
+  assigned_bibkey: krippendorff2004reliability
+- fetch_id: fetch_stemler2004comparison
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.7275/96jp-xz07
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: 'Argues interrater reliability is not one concept but three families — consensus (percent agreement, kappa), consistency '
+  assigned_bibkey: stemler2004comparison
+- fetch_id: fetch_panadero2013formative
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1016/j.edurev.2013.01.002
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: 'Analyzes 21 studies on formative rubric use and identifies several mediating mechanisms — transparency of expectations, '
+  assigned_bibkey: panadero2013formative
+- fetch_id: fetch_hayes1999issues
+  sub_area: A5
+  query: Phase D depth-expand discovery for sub-area A5 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1177/0741088399016003001
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Demonstrates that correlation-based and percent-agreement reliability indices can diverge sharply, and that many portfol
+  assigned_bibkey: hayes1999issues
+- fetch_id: fetch_dym2005engineering
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1002/j.2168-9830.2005.tb00832.x
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Dym, Agogino, Eris, Frey & Leifer survey engineering-design pedagogy and argue project-based capstone design is the cano
+  assigned_bibkey: dym2005engineering
+- fetch_id: fetch_howe2010where
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (capstone_portfolio_assessment)
+  source_url: https://advances.asee.org/publication/where-are-we-now-statistics-on-capstone-courses-nationwide/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Reports the 2005 national survey of 444 engineering capstone programs at 232 institutions covering project logistics, fa
+  assigned_bibkey: howe2010where
+- fetch_id: fetch_pembridge2019characterizing
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1002/jee.20259
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Qualitative analysis of interviews with 42 capstone faculty (stratified sample from a national survey) produces a functi
+  assigned_bibkey: pembridge2019characterizing
+- fetch_id: fetch_tenhunen2023systematic
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1016/j.infsof.2023.107191
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Systematic review of 127 SE capstone-course articles (2007-2022) synthesizes a taxonomy across duration, team size, clie
+  assigned_bibkey: tenhunen2023systematic
+- fetch_id: fetch_vanhanen2012company
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1109/TE.2012.2187208
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Describes a multi-year SE capstone redesigned as a simulated software-development company spanning multiple student coho
+  assigned_bibkey: vanhanen2012company
+- fetch_id: fetch_paretti2024instructors
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1145/3689187.3709608
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Working-group study collecting instructor perspectives across computing-field capstone courses; documents how faculty co
+  assigned_bibkey: paretti2024instructors
+- fetch_id: fetch_meah2020multidisciplinary
+  sub_area: A2
+  query: Phase D depth-expand discovery for sub-area A2 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1155/2020/9563782
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Case study of a cross-disciplinary (computer/electrical/mechanical) FSAE electric-vehicle capstone, with explicit mappin
+  assigned_bibkey: meah2020multidisciplinary
+- fetch_id: fetch_aera2014standards
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (capstone_portfolio_assessment)
+  source_url: https://www.apa.org/science/programs/testing/standards
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Jointly issued by AERA/APA/NCME, the Standards define operational best practice for validity, fairness, reliability, des
+  assigned_bibkey: aera2014standards
+- fetch_id: fetch_cbenetwork2017quality
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (capstone_portfolio_assessment)
+  source_url: https://www.cbenetwork.org/wp-content/uploads/2018/09/Quality-Framework-for-Competency-Based-Education-Programs-Updated.pdf
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: C-BEN consortium framework defining quality elements for CBE programs spanning learner experience, learning outcomes, in
+  assigned_bibkey: cbenetwork2017quality
+- fetch_id: fetch_frezza2018modelling
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1145/3293881.3295782
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Defines computing-discipline competency as the integration of contextualized knowledge, skills, and dispositions, drawin
+  assigned_bibkey: frezza2018modelling
+- fetch_id: fetch_vandervleuten2018validity
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (capstone_portfolio_assessment)
+  source_url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6283777/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Synthesizes validity evidence for programmatic assessment — using many low-stakes assessments aggregated into high-stake
+  assigned_bibkey: vandervleuten2018validity
+- fetch_id: fetch_aws2024mlspecialty
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (capstone_portfolio_assessment)
+  source_url: https://aws.amazon.com/certification/certified-machine-learning-specialty/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Specialty-tier credential validating expertise in building and deploying ML solutions on AWS; recommends 2+ years of han
+  assigned_bibkey: aws2024mlspecialty
+- fetch_id: fetch_aws2024mlengineer
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (capstone_portfolio_assessment)
+  source_url: https://d1.awsstatic.com/training-and-certification/docs-machine-learning-engineer-associate/AWS-Certified-Machine-Learning-Engineer-Associate_Exam-Guide.pdf
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Successor cert that replaces the retiring ML Specialty; exam guide enumerates task statements across data preparation, m
+  assigned_bibkey: aws2024mlengineer
+- fetch_id: fetch_google2024pmle
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (capstone_portfolio_assessment)
+  source_url: https://cloud.google.com/learn/certification/guides/machine-learning-engineer
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Defines six task domains (architect low-code AI solutions; collaborate to manage data and models; scale prototypes to ML
+  assigned_bibkey: google2024pmle
+- fetch_id: fetch_comptia2024dataplus
+  sub_area: A4
+  query: Phase D depth-expand discovery for sub-area A4 (capstone_portfolio_assessment)
+  source_url: https://www.comptia.org/en-us/certifications/data/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: 'Vendor-neutral data-analyst credential structured across five domains (Data Concepts & Environments; Data Acquisition & '
+  assigned_bibkey: comptia2024dataplus
+- fetch_id: fetch_cambridge2009electronicportfolios2
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (capstone_portfolio_assessment)
+  source_url: https://www.routledge.com/Electronic-Portfolios-20-Emergent-Research-on-Implementation-and-Impact/Cambridge-Yancey-Cambridge/p/book/9781579223212
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Reports five iterations of research from the Inter/National Coalition for Electronic Portfolio Research across 20 instit
+  assigned_bibkey: cambridge2009electronicportfolios2
+- fetch_id: fetch_eynon2017highimpacteportfolio
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (capstone_portfolio_assessment)
+  source_url: https://styluspub.presswarehouse.com/browse/book/9781620365052/High-Impact-ePortfolio-Practice
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Synthesizes data from the Connect to Learning network across 24 campuses and proposes the Catalyst Framework (Inquiry, R
+  assigned_bibkey: eynon2017highimpacteportfolio
+- fetch_id: fetch_eynon2018catalystinaction
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (capstone_portfolio_assessment)
+  source_url: https://styluspub.presswarehouse.com/browse/book/9781620368671/Catalyst-in-Action
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Twenty case studies from institutions ranging from Bronx Community College to Yale, Arizona State, and Dublin City Unive
+  assigned_bibkey: eynon2018catalystinaction
+- fetch_id: fetch_pennylight2012documenting
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (capstone_portfolio_assessment)
+  source_url: https://www.wiley.com/en-us/Documenting+Learning+with+ePortfolios:+A+Guide+for+College+Instructors-p-9780470636206
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Lays out a six-task iterative framework for designing course- and program-level ePortfolio implementations, with explici
+  assigned_bibkey: pennylight2012documenting
+- fetch_id: fetch_batson2017fieldguide
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (capstone_portfolio_assessment)
+  source_url: https://aaeebl.org/2021/11/06/field-guide-to-eportfolio/
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Edited reference with contributions from 50+ ePortfolio practitioners; provides an authoritative account of ePortfolio d
+  assigned_bibkey: batson2017fieldguide
+- fetch_id: fetch_bryant2013eportfolioeffectiveness
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (capstone_portfolio_assessment)
+  source_url: https://eric.ed.gov/?id=EJ1107810
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Systematic review of ePortfolio research since 1996 finding that the majority is theory-based argumentation or descripti
+  assigned_bibkey: bryant2013eportfolioeffectiveness
+- fetch_id: fetch_rhodes2014valuerubrics
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (capstone_portfolio_assessment)
+  source_url: https://compact.org/resources/using-the-value-rubrics-for-improvement-of-learning-and-authentic-assessment
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: 'Documents AAC&U 16 cross-cutting VALUE rubrics, their faculty-driven development process, validity/reliability evidence '
+  assigned_bibkey: rhodes2014valuerubrics
+- fetch_id: fetch_aacu2024valuerubrics
+  sub_area: A3
+  query: Phase D depth-expand discovery for sub-area A3 (capstone_portfolio_assessment)
+  source_url: https://www.aacu.org/initiatives/value-initiative/value-rubrics
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Sixteen open-license rubrics covering essential learning outcomes (Critical Thinking, Written Communication, Integrative
+  assigned_bibkey: aacu2024valuerubrics
+- fetch_id: fetch_schon1983reflectivepractitioner
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (capstone_portfolio_assessment)
+  source_url: https://www.taylorfrancis.com/books/mono/10.4324/9781315237473/reflective-practitioner-donald-sch%C3%B6n
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Distinguishes reflection-in-action (real-time reframing while working) from reflection-on-action (retrospective analysis
+  assigned_bibkey: schon1983reflectivepractitioner
+- fetch_id: fetch_schon1987educatingreflective
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (capstone_portfolio_assessment)
+  source_url: https://www.wiley.com/en-us/Educating+the+Reflective+Practitioner%3A+Toward+a+New+Design+for+Teaching+and+Learning+in+the+Professions-p-9781555422202
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Operationalises the reflective-practitioner concept into curriculum design via the practicum — coached studio-style lear
+  assigned_bibkey: schon1987educatingreflective
+- fetch_id: fetch_boud1985reflection
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (capstone_portfolio_assessment)
+  source_url: https://www.routledge.com/Reflection-Turning-Experience-into-Learning/Boud-Keogh-Walker/p/book/9780850388640
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Articulates the Boud-Keogh-Walker three-stage reflection model (returning to experience, attending to feelings, re-evalu
+  assigned_bibkey: boud1985reflection
+- fetch_id: fetch_boud2007rethinkingassessment
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (capstone_portfolio_assessment)
+  source_url: https://www.routledge.com/Rethinking-Assessment-in-Higher-Education-Learning-for-the-Longer-Term/Boud-Falchikov/p/book/9780415397797
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Reframes self-assessment as a tool for developing students informed evaluative judgment for future learning, rather than
+  assigned_bibkey: boud2007rethinkingassessment
+- fetch_id: fetch_moon1999reflection
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (capstone_portfolio_assessment)
+  source_url: https://www.routledge.com/Reflection-in-Learning-and-Professional-Development-Theory-and-Practice/Moon/p/book/9780749434526
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Maps reflective-writing techniques (learning journals, double-entry logs, reflective essays) onto Dewey/Schon/Boud theor
+  assigned_bibkey: moon1999reflection
+- fetch_id: fetch_andrade2009promotinglearning
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1080/00405840802577544
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: 'Defines criteria-referenced self-assessment as a three-step formative process (collect performance evidence, compare to '
+  assigned_bibkey: andrade2009promotinglearning
+- fetch_id: fetch_andrade2019criticalreview
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.3389/feduc.2019.00087
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Reviews 76 empirical studies (2013-2018) on student self-assessment, finding consistent positive associations with achie
+  assigned_bibkey: andrade2019criticalreview
+- fetch_id: fetch_zimmerman2002selfregulated
+  sub_area: A6
+  query: Phase D depth-expand discovery for sub-area A6 (capstone_portfolio_assessment)
+  source_url: https://doi.org/10.1207/s15430421tip4102_2
+  fetched_at: '2026-05-24'
+  reflection:
+    is_relevant: true
+    is_supported: full
+    is_useful: 4
+  decision: accept
+  reason: Articulates the three-phase cyclical model of self-regulated learning (forethought, performance, self-reflection) and po
+  assigned_bibkey: zimmerman2002selfregulated
