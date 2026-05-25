@@ -37,6 +37,9 @@ A 1.5-day session (2026-05-23 → 2026-05-24) closed **Research Workstream v2** 
 |---|---|
 | Active workstream plan | `docs/plans/active/2026-05-22_research_workstream_v2.md` |
 | Active design doc | `docs/design/2026-05-23_design_v0.3.md` |
+| claude-books cross-pollination memo (feeds v0.4) | `docs/design/2026-05-24_claude_books_learnings.md` |
+| Pedagogy playbook + consolidated decision log | `docs/design/PEDAGOGY.md` |
+| Research-lint dossier gate (script + CI) | `scripts/research_lint.py` + `.github/workflows/research-lint.yml` |
 | User-facing methodology page (v0.2) | `src/content/frontmatter/methodology.mdx` |
 | Shared style across the guides family | `shared/styles/guides-family.ts` |
 | 9 pedagogy dossiers (5 migrated v1-era + 4 new v2.2) | `docs/research/<topic>/` |
@@ -110,6 +113,8 @@ All in `docs/plans/done/`:
 ## v0.4 design-doc concerns (deferred from this session)
 
 These are gaps surfaced during the session that the design v0.3 doc doesn't fully resolve. Park them for an eventual v0.4 design pass.
+
+> **Input for the v0.4 pass**: `docs/design/2026-05-24_claude_books_learnings.md` ranks four adoptions from the sibling `claude-books` repo. Its **P3** (a one-concept multi-paradigm PoC round) is the recommended way to generate evidence for the `paradigms[]` decision immediately below; its **P2** — now built at `docs/design/PEDAGOGY.md` §3 — collects these v0.4 concerns into one OPEN-status table (kept in lockstep with this doc).
 
 ### `paradigms[]` schema/design mismatch
 

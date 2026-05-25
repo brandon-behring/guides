@@ -11,9 +11,9 @@ entries:
   content_type: application/pdf
   bytes: 79295
   sha256: 7355bf1d68d6f302dfef3116c1545c145a405349face8fb56ae1d03f569506c0
-  raw_path: ~/Claude/research_cache/blobs/sha256/7355bf1d68d6f302dfef3116c1545c145a405349face8fb56ae1d03f569506c0
-  text_path: ~/Claude/research_cache/text/sha256/7355bf1d68d6f302dfef3116c1545c145a405349face8fb56ae1d03f569506c0.txt
-  metadata_path: ~/Claude/research_cache/metadata/sha256/7355bf1d68d6f302dfef3116c1545c145a405349face8fb56ae1d03f569506c0.json
+  raw_path: blobs/sha256/7355bf1d68d6f302dfef3116c1545c145a405349face8fb56ae1d03f569506c0
+  text_path: text/sha256/7355bf1d68d6f302dfef3116c1545c145a405349face8fb56ae1d03f569506c0.txt
+  metadata_path: metadata/sha256/7355bf1d68d6f302dfef3116c1545c145a405349face8fb56ae1d03f569506c0.json
   restricted: false
   rights_status: private_use
   extraction_status: raw_only

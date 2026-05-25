@@ -6,13 +6,15 @@ Hub repo for `guides.brandon-behring.dev`. Built with `@brandon_m_behring/book-s
 
 - **Active session handoff** (read first if resuming): `docs/plans/active/2026-05-24_session_handoff.md`
 - **Active design doc (v0.3, canonical)**: `docs/design/2026-05-23_design_v0.3.md` — first design doc native to this repo; supersedes v0.2
+- **claude-books cross-pollination memo (feeds v0.4)**: `docs/design/2026-05-24_claude_books_learnings.md` — ranked P1–P4 adoptions from the sibling `claude-books` repo (research-lint CI, pedagogy playbook, multi-paradigm PoC, competency coverage)
+- **Pedagogy playbook (author-facing digest)**: `docs/design/PEDAGOGY.md` — visual principles + four-layer authoring model + consolidated DECIDED/DEFERRED/OPEN decision log (P2 of the memo above; points to design v0.3, not a new source of truth)
 - **Active workstream plan**: `docs/plans/active/2026-05-22_research_workstream_v2.md` — Research Workstream v2 (all 11 phases complete)
 - **Per-phase wrap-up docs** (friction logs): `docs/plans/done/*.md` (10 docs as of 2026-05-24)
 - **Methodology page (v0.2, user-facing)**: `src/content/frontmatter/methodology.mdx`
 - **Frontmatter pages** (this repo's primary content): `src/content/frontmatter/*.mdx` — methodology, about
 - **Research dossiers (9 pedagogy)**: `docs/research/<topic>/` — 5 migrated v1-era (each has MIGRATION.md noting v2.2 upgrade deferred) + 4 new v2.2 strict-live
 - **Shared scaffold style**: `shared/styles/guides-family.ts` — canonical `guidesFamilyStyle` (composes on top of researchPortfolioStyle)
-- **Scripts**: `scripts/backfill_pdf_cache_text.py` — consumer-side workaround for research_toolkit#11 (deletable once #11 ships)
+- **Scripts**: `scripts/backfill_pdf_cache_text.py` — consumer-side workaround for research_toolkit#11 (deletable once #11 ships); `scripts/research_lint.py` — dossier integrity gate wrapping research_toolkit validators (CI: `.github/workflows/research-lint.yml`, pinned to toolkit v2.4.0; local full check via `--with-cache`)
 - **Components, layouts, default routes**: `@brandon_m_behring/book-scaffold-astro/{components,layouts}/...`
 - **Style customizations**: `src/styles/` (overrides package styles)
 - **Style guide v0.0**: `docs/style-guide-v0.0.md`
