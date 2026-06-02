@@ -8,6 +8,9 @@ dist-pdf/
 # Generated data (rebuilt by build-bib / build-labels)
 src/data/*.json
 !src/data/.gitkeep
+# ...except the sampling trace: an offline `build:traces` dump (needs torch, which
+# the Cloudflare build lacks), so it is committed and shipped as-is.
+!src/data/sampling_traces.json
 
 # Pagefind index
 public/pagefind/

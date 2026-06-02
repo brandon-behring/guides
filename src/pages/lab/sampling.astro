@@ -1,0 +1,125 @@
+---
+/**
+ * /lab/sampling — interactive next-token sampling demo.
+ *
+ * Tier-1 "pre-computed trace" pattern: a committed JSON logit dump
+ * (src/data/sampling_traces.json, produced offline by scripts/build_traces.py)
+ * is reshaped entirely in the browser by the SamplingDemo Preact island. The
+ * page is a static asset — no model, no inference backend.
+ */
+import Base from '@brandon_m_behring/book-scaffold-astro/layouts/Base.astro';
+import SamplingDemo from '../../components/SamplingDemo';
+import type { SamplingData } from '../../components/sampling-core';
+import '../../styles/sampling-demo.css';
+
+// Resolve the committed trace from the project root. Missing file → friendly
+// notice instead of a build crash.
+const mods = import.meta.glob<{ default: SamplingData }>('/src/data/sampling_traces.json', {
+  eager: true,
+});
+const data = mods['/src/data/sampling_traces.json']?.default;
+---
+
+<Base
+  title="Sampling — how decoding reshapes the next-token distribution"
+  description="Interactive demo: drag temperature / top-k / top-p / min-p and watch a language model's next-token distribution get reshaped, then sample from it. Runs entirely in the browser over a pre-computed gpt2 logit dump."
+  showSidebar={false}
+>
+  <main class="lab-main">
+    <p class="lab-back"><a href="/">← guides.brandon-behring.dev</a></p>
+
+    <header class="lab-header">
+      <h1 id="sd-title">Sampling the next token</h1>
+      <p class="lab-lede">
+        A language model doesn't emit words — it emits a <em>probability distribution</em> over the
+        next token. Everything we call "sampling" — temperature, top-k, top-p, min-p — is just
+        <em>reshaping that distribution</em> before drawing from it. Drag the controls and watch the
+        shape change; then press <strong>Sample</strong> and watch draws pile up where the
+        probability is.
+      </p>
+    </header>
+
+    {
+      data ? (
+        <SamplingDemo client:visible data={data} />
+      ) : (
+        <p class="lab-missing">
+          Trace data not found. Run <code>npm run build:traces</code> to generate
+          <code>src/data/sampling_traces.json</code>.
+        </p>
+      )
+    }
+
+    <section class="lab-note">
+      <h2>How this demo is built</h2>
+      <p>
+        No model runs here. A one-time offline script (<code>scripts/build_traces.py</code>) ran
+        <strong>{data?.model ?? 'a small model'}</strong> once, dumped the top-50
+        <code>(token, logit)</code> pairs for each prompt to
+        <code>src/data/sampling_traces.json</code>, and committed that tiny file. Everything you see
+        is pure TypeScript (<code>src/components/sampling-core.ts</code>) reshaping that vector in
+        your browser — so the page stays a static asset with zero inference cost. It's the reusable
+        recipe for any interactive demo on this site: <strong>dump → JSON → typed island</strong>.
+      </p>
+    </section>
+  </main>
+</Base>
+
+<style>
+  .lab-main {
+    max-width: 64rem;
+    margin: 0 auto;
+    padding: var(--space-8) var(--space-4) var(--space-16);
+  }
+  .lab-back {
+    font-size: var(--text-sm);
+    margin: 0 0 var(--space-6);
+  }
+  .lab-back a {
+    color: var(--color-text-muted);
+    text-decoration: none;
+  }
+  .lab-back a:hover {
+    color: var(--color-link);
+  }
+  .lab-header h1 {
+    color: var(--color-heading);
+    font-size: var(--text-3xl);
+    margin: 0 0 var(--space-3);
+  }
+  .lab-lede {
+    font-size: var(--text-lg);
+    line-height: var(--leading-body);
+    color: var(--color-text);
+    max-width: 62ch;
+    margin: 0;
+  }
+  .lab-missing {
+    padding: var(--space-4);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--warm-rose-tint);
+  }
+  .lab-note {
+    margin-top: var(--space-12);
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--color-border);
+  }
+  .lab-note h2 {
+    font-size: var(--text-xl);
+    color: var(--color-heading);
+    margin: 0 0 var(--space-3);
+  }
+  .lab-note p {
+    line-height: var(--leading-body);
+    color: var(--color-text-muted);
+    max-width: 65ch;
+    margin: 0;
+  }
+  .lab-note code,
+  .lab-missing code {
+    font-family: var(--font-code);
+    font-size: 0.9em;
+    padding: 0 0.25em;
+  }
+</style>
