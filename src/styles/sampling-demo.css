@@ -1,0 +1,297 @@
+/* sampling-demo.css — global styles for the SamplingDemo Preact island.
+ *
+ * Must be global (not Astro-scoped) because the island renders its own DOM at
+ * hydration, which never carries an .astro scope attribute. Uses the scaffold
+ * design tokens (tokens.css, loaded by Base.astro) so it inherits light/dark
+ * theme automatically.
+ */
+
+.sd {
+  --sd-accent: var(--warm-blue);
+  --sd-empirical: var(--warm-gold);
+  --sd-keep: var(--warm-blue);
+  font-family: var(--font-body);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  margin: var(--space-6) 0;
+  background: var(--color-bg);
+}
+
+/* ---- controls ---------------------------------------------------------- */
+
+.sd-controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.sd-field-prompt {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.sd-field-prompt label {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+.sd-field-prompt select {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg);
+  color: var(--color-text);
+  accent-color: var(--sd-accent);
+}
+
+.sd-sliders {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: var(--space-3) var(--space-5);
+}
+
+.sd-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.sd-field-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+.sd-field-head label,
+.sd-toggle {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  cursor: pointer;
+}
+.sd-val {
+  font-family: var(--font-code);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+.sd input[type='range'] {
+  width: 100%;
+  accent-color: var(--sd-accent);
+  cursor: pointer;
+}
+.sd input[type='checkbox'] {
+  accent-color: var(--sd-accent);
+  cursor: pointer;
+}
+.sd-field-off {
+  opacity: 0.5;
+}
+.sd-field-off .sd-toggle {
+  opacity: 1; /* keep the enable toggle readable */
+}
+
+/* ---- prompt echo ------------------------------------------------------- */
+
+.sd-echo {
+  font-family: var(--font-code);
+  font-size: var(--text-sm);
+  padding: var(--space-3);
+  background: var(--color-bg-subtle);
+  border-radius: var(--radius-sm);
+  margin: 0 0 var(--space-4);
+  line-height: var(--leading-normal);
+}
+.sd-echo-blank {
+  color: var(--sd-accent);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-left: 0.35em;
+}
+
+/* ---- draw controls ----------------------------------------------------- */
+
+.sd-draw {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+.sd-btn {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--sd-accent);
+  border-radius: var(--radius-sm);
+  background: var(--sd-accent);
+  color: #fff;
+  cursor: pointer;
+  transition: filter 120ms ease;
+}
+.sd-btn:hover {
+  filter: brightness(1.08);
+}
+.sd-btn-ghost {
+  background: transparent;
+  color: var(--color-text);
+  border-color: var(--color-border);
+}
+.sd-btn-ghost:hover {
+  border-color: var(--sd-accent);
+  filter: none;
+}
+.sd-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  filter: none;
+}
+.sd-btn:focus-visible,
+.sd select:focus-visible,
+.sd input:focus-visible {
+  outline: 2px solid var(--sd-accent);
+  outline-offset: 2px;
+}
+.sd-draw-status {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+.sd-tok {
+  font-family: var(--font-code);
+  font-size: 0.9em;
+  padding: 0 0.3em;
+  background: var(--color-bg-subtle);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+}
+
+/* ---- chart ------------------------------------------------------------- */
+
+.sd-chart {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.sd-row {
+  display: grid;
+  grid-template-columns: minmax(3.5rem, 7rem) 1fr 3rem;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  transition: background 300ms ease;
+}
+.sd-row-hit {
+  background: var(--warm-gold-tint);
+}
+.sd-row-token {
+  font-size: var(--text-sm);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+.sd-row-token code {
+  font-family: var(--font-code);
+}
+.sd-row-dropped .sd-row-token code {
+  color: var(--color-text-muted);
+  text-decoration: line-through;
+}
+.sd-argmax {
+  color: var(--warm-green);
+  font-size: 0.6em;
+  vertical-align: middle;
+  margin-left: 0.4em;
+}
+
+.sd-track {
+  position: relative;
+  height: 1.1rem;
+  background: var(--color-bg-subtle);
+  border-radius: var(--radius-sm);
+}
+.sd-ghost {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: var(--color-border);
+  opacity: 0.55;
+  border-radius: var(--radius-sm);
+}
+.sd-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: var(--sd-keep);
+  border-radius: var(--radius-sm);
+  transition: width 160ms ease;
+}
+.sd-emp {
+  position: absolute;
+  top: -3px;
+  height: calc(100% + 6px);
+  width: 2px;
+  background: var(--sd-empirical);
+  transform: translateX(-1px);
+  transition: left 200ms ease;
+}
+.sd-row-pct {
+  font-family: var(--font-code);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  text-align: right;
+}
+
+/* ---- legend + caption -------------------------------------------------- */
+
+.sd-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  margin: var(--space-4) 0 0;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+.sd-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+.sd-swatch {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 2px;
+  display: inline-block;
+}
+.sd-swatch-fill { background: var(--sd-keep); }
+.sd-swatch-ghost { background: var(--color-border); opacity: 0.7; }
+.sd-swatch-emp { width: 2px; height: 0.9rem; background: var(--sd-empirical); }
+.sd-swatch-argmax { color: var(--warm-green); }
+
+.sd-caption {
+  margin: var(--space-3) 0 0;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  line-height: var(--leading-normal);
+}
+
+/* Honor reduced-motion: no width/position animation, no row flash transition. */
+@media (prefers-reduced-motion: reduce) {
+  .sd-fill,
+  .sd-emp,
+  .sd-row {
+    transition: none;
+  }
+}

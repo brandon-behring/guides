@@ -1,0 +1,826 @@
+{
+  "model": "gpt2",
+  "generated": "2026-06-01",
+  "prompts": [
+    {
+      "prompt": "Thank you very",
+      "logits": [
+        {
+          "token": " much",
+          "logit": -45.4287
+        },
+        {
+          "token": " very",
+          "logit": -51.3938
+        },
+        {
+          "token": ",",
+          "logit": -51.4053
+        },
+        {
+          "token": "much",
+          "logit": -52.4595
+        },
+        {
+          "token": " Much",
+          "logit": -53.2318
+        },
+        {
+          "token": " well",
+          "logit": -53.78
+        },
+        {
+          "token": " highly",
+          "logit": -53.9948
+        },
+        {
+          "token": " greatly",
+          "logit": -54.0334
+        },
+        {
+          "token": " sincerely",
+          "logit": -54.1336
+        },
+        {
+          "token": " MUCH",
+          "logit": -54.3507
+        },
+        {
+          "token": " deeply",
+          "logit": -55.2797
+        },
+        {
+          "token": " good",
+          "logit": -55.3942
+        },
+        {
+          "token": " carefully",
+          "logit": -55.537
+        },
+        {
+          "token": " best",
+          "logit": -55.5441
+        },
+        {
+          "token": " many",
+          "logit": -55.6368
+        },
+        {
+          "token": " hard",
+          "logit": -55.7471
+        },
+        {
+          "token": " kind",
+          "logit": -55.7709
+        },
+        {
+          "token": " nearly",
+          "logit": -55.8034
+        },
+        {
+          "token": " little",
+          "logit": -55.9045
+        },
+        {
+          "token": " dearly",
+          "logit": -55.9407
+        },
+        {
+          "token": " lot",
+          "logit": -56.1592
+        },
+        {
+          "token": " for",
+          "logit": -56.1901
+        },
+        {
+          "token": " great",
+          "logit": -56.4271
+        },
+        {
+          "token": " special",
+          "logit": -56.5172
+        },
+        {
+          "token": " happy",
+          "logit": -56.533
+        },
+        {
+          "token": " dear",
+          "logit": -56.6136
+        },
+        {
+          "token": " appreci",
+          "logit": -56.6457
+        },
+        {
+          "token": " kindly",
+          "logit": -56.7082
+        },
+        {
+          "token": " often",
+          "logit": -56.9861
+        },
+        {
+          "token": " strongly",
+          "logit": -56.999
+        },
+        {
+          "token": ".",
+          "logit": -57.0048
+        },
+        {
+          "token": " heavily",
+          "logit": -57.0701
+        },
+        {
+          "token": "very",
+          "logit": -57.1363
+        },
+        {
+          "token": " so",
+          "logit": -57.1624
+        },
+        {
+          "token": " and",
+          "logit": -57.2272
+        },
+        {
+          "token": " badly",
+          "logit": -57.2296
+        },
+        {
+          "token": " really",
+          "logit": -57.2426
+        },
+        {
+          "token": " sorry",
+          "logit": -57.2755
+        },
+        {
+          "token": " VERY",
+          "logit": -57.3725
+        },
+        {
+          "token": " nicely",
+          "logit": -57.3867
+        },
+        {
+          "token": " hum",
+          "logit": -57.3957
+        },
+        {
+          "token": " important",
+          "logit": -57.399
+        },
+        {
+          "token": " warm",
+          "logit": -57.4392
+        },
+        {
+          "token": " thank",
+          "logit": -57.4498
+        },
+        {
+          "token": " nice",
+          "logit": -57.4557
+        },
+        {
+          "token": "Much",
+          "logit": -57.5257
+        },
+        {
+          "token": " s",
+          "logit": -57.5914
+        },
+        {
+          "token": " closely",
+          "logit": -57.6734
+        },
+        {
+          "token": " seriously",
+          "logit": -57.7322
+        },
+        {
+          "token": " Merry",
+          "logit": -57.7385
+        }
+      ]
+    },
+    {
+      "prompt": "Water is made of hydrogen and",
+      "logits": [
+        {
+          "token": " oxygen",
+          "logit": -105.6221
+        },
+        {
+          "token": " helium",
+          "logit": -106.1303
+        },
+        {
+          "token": " carbon",
+          "logit": -108.2224
+        },
+        {
+          "token": " methane",
+          "logit": -108.7933
+        },
+        {
+          "token": " is",
+          "logit": -109.4112
+        },
+        {
+          "token": " sulfur",
+          "logit": -109.4342
+        },
+        {
+          "token": " chlorine",
+          "logit": -109.5833
+        },
+        {
+          "token": " nitrogen",
+          "logit": -109.6521
+        },
+        {
+          "token": " other",
+          "logit": -109.7489
+        },
+        {
+          "token": " CO",
+          "logit": -109.8244
+        },
+        {
+          "token": " glucose",
+          "logit": -109.8272
+        },
+        {
+          "token": " water",
+          "logit": -109.9311
+        },
+        {
+          "token": " a",
+          "logit": -110.4046
+        },
+        {
+          "token": " sodium",
+          "logit": -110.6637
+        },
+        {
+          "token": " the",
+          "logit": -110.7733
+        },
+        {
+          "token": " uranium",
+          "logit": -110.7815
+        },
+        {
+          "token": " ammonia",
+          "logit": -110.799
+        },
+        {
+          "token": " hydrogen",
+          "logit": -111.0698
+        },
+        {
+          "token": " aluminum",
+          "logit": -111.0859
+        },
+        {
+          "token": " gas",
+          "logit": -111.09
+        },
+        {
+          "token": " phosphorus",
+          "logit": -111.1059
+        },
+        {
+          "token": " ozone",
+          "logit": -111.3077
+        },
+        {
+          "token": " heat",
+          "logit": -111.3146
+        },
+        {
+          "token": " when",
+          "logit": -111.3302
+        },
+        {
+          "token": " it",
+          "logit": -111.3464
+        },
+        {
+          "token": " lithium",
+          "logit": -111.3647
+        },
+        {
+          "token": " electrons",
+          "logit": -111.3753
+        },
+        {
+          "token": " can",
+          "logit": -111.4609
+        },
+        {
+          "token": " its",
+          "logit": -111.4788
+        },
+        {
+          "token": " neut",
+          "logit": -111.5316
+        },
+        {
+          "token": " iron",
+          "logit": -111.6744
+        },
+        {
+          "token": " silicon",
+          "logit": -111.6836
+        },
+        {
+          "token": " not",
+          "logit": -111.7147
+        },
+        {
+          "token": " calcium",
+          "logit": -111.72
+        },
+        {
+          "token": " liquid",
+          "logit": -111.7206
+        },
+        {
+          "token": " copper",
+          "logit": -111.7624
+        },
+        {
+          "token": " some",
+          "logit": -111.7647
+        },
+        {
+          "token": " van",
+          "logit": -111.7996
+        },
+        {
+          "token": " de",
+          "logit": -111.8109
+        },
+        {
+          "token": " no",
+          "logit": -111.8111
+        },
+        {
+          "token": " has",
+          "logit": -111.8816
+        },
+        {
+          "token": " air",
+          "logit": -111.9272
+        },
+        {
+          "token": " eth",
+          "logit": -111.9613
+        },
+        {
+          "token": " platinum",
+          "logit": -111.9667
+        },
+        {
+          "token": " in",
+          "logit": -111.9784
+        },
+        {
+          "token": " sunlight",
+          "logit": -111.9974
+        },
+        {
+          "token": " zinc",
+          "logit": -112.0079
+        },
+        {
+          "token": " natural",
+          "logit": -112.0254
+        },
+        {
+          "token": " silver",
+          "logit": -112.0372
+        },
+        {
+          "token": " poly",
+          "logit": -112.0433
+        }
+      ]
+    },
+    {
+      "prompt": "The opposite of hot is",
+      "logits": [
+        {
+          "token": " cold",
+          "logit": -69.638
+        },
+        {
+          "token": " the",
+          "logit": -70.3207
+        },
+        {
+          "token": " a",
+          "logit": -70.6045
+        },
+        {
+          "token": " hot",
+          "logit": -71.0388
+        },
+        {
+          "token": " not",
+          "logit": -71.1043
+        },
+        {
+          "token": " cool",
+          "logit": -71.7385
+        },
+        {
+          "token": " cooler",
+          "logit": -72.14
+        },
+        {
+          "token": " when",
+          "logit": -72.2021
+        },
+        {
+          "token": " actually",
+          "logit": -72.2245
+        },
+        {
+          "token": " also",
+          "logit": -72.3853
+        },
+        {
+          "token": " still",
+          "logit": -72.4835
+        },
+        {
+          "token": " dry",
+          "logit": -72.5292
+        },
+        {
+          "token": " warm",
+          "logit": -72.7132
+        },
+        {
+          "token": " good",
+          "logit": -72.7801
+        },
+        {
+          "token": " often",
+          "logit": -72.7822
+        },
+        {
+          "token": " an",
+          "logit": -72.7965
+        },
+        {
+          "token": ",",
+          "logit": -72.8043
+        },
+        {
+          "token": " that",
+          "logit": -72.8125
+        },
+        {
+          "token": " always",
+          "logit": -72.838
+        },
+        {
+          "token": " very",
+          "logit": -72.9451
+        },
+        {
+          "token": " in",
+          "logit": -72.9729
+        },
+        {
+          "token": " more",
+          "logit": -73.1378
+        },
+        {
+          "token": " colder",
+          "logit": -73.2671
+        },
+        {
+          "token": " no",
+          "logit": -73.373
+        },
+        {
+          "token": " low",
+          "logit": -73.3877
+        },
+        {
+          "token": " what",
+          "logit": -73.3938
+        },
+        {
+          "token": " going",
+          "logit": -73.3995
+        },
+        {
+          "token": " one",
+          "logit": -73.4214
+        },
+        {
+          "token": " healthy",
+          "logit": -73.4431
+        },
+        {
+          "token": " true",
+          "logit": -73.5481
+        },
+        {
+          "token": " to",
+          "logit": -73.5706
+        },
+        {
+          "token": " water",
+          "logit": -73.5807
+        },
+        {
+          "token": " usually",
+          "logit": -73.5864
+        },
+        {
+          "token": " really",
+          "logit": -73.6323
+        },
+        {
+          "token": " sweet",
+          "logit": -73.6349
+        },
+        {
+          "token": " cooling",
+          "logit": -73.6744
+        },
+        {
+          "token": " just",
+          "logit": -73.7463
+        },
+        {
+          "token": " generally",
+          "logit": -73.7615
+        },
+        {
+          "token": " bad",
+          "logit": -73.7817
+        },
+        {
+          "token": " something",
+          "logit": -73.7869
+        },
+        {
+          "token": " less",
+          "logit": -73.8282
+        },
+        {
+          "token": " sunny",
+          "logit": -73.8598
+        },
+        {
+          "token": " dark",
+          "logit": -73.8711
+        },
+        {
+          "token": " sometimes",
+          "logit": -73.9016
+        },
+        {
+          "token": " now",
+          "logit": -73.9361
+        },
+        {
+          "token": " mild",
+          "logit": -73.9496
+        },
+        {
+          "token": " heat",
+          "logit": -73.9539
+        },
+        {
+          "token": " slow",
+          "logit": -73.9703
+        },
+        {
+          "token": " hotter",
+          "logit": -73.9838
+        },
+        {
+          "token": " wet",
+          "logit": -73.9889
+        }
+      ]
+    },
+    {
+      "prompt": "My favorite color is",
+      "logits": [
+        {
+          "token": " the",
+          "logit": -89.4868
+        },
+        {
+          "token": " blue",
+          "logit": -90.2515
+        },
+        {
+          "token": " a",
+          "logit": -90.5978
+        },
+        {
+          "token": " black",
+          "logit": -90.6326
+        },
+        {
+          "token": " red",
+          "logit": -90.6553
+        },
+        {
+          "token": " pink",
+          "logit": -90.796
+        },
+        {
+          "token": " white",
+          "logit": -90.8462
+        },
+        {
+          "token": " green",
+          "logit": -91.046
+        },
+        {
+          "token": " purple",
+          "logit": -91.0517
+        },
+        {
+          "token": " orange",
+          "logit": -91.0923
+        },
+        {
+          "token": " my",
+          "logit": -91.2829
+        },
+        {
+          "token": " yellow",
+          "logit": -91.668
+        },
+        {
+          "token": " actually",
+          "logit": -92.0116
+        },
+        {
+          "token": " dark",
+          "logit": -92.0618
+        },
+        {
+          "token": " \"",
+          "logit": -92.0749
+        },
+        {
+          "token": " probably",
+          "logit": -92.1444
+        },
+        {
+          "token": " that",
+          "logit": -92.268
+        },
+        {
+          "token": " definitely",
+          "logit": -92.3837
+        },
+        {
+          "token": " this",
+          "logit": -92.3878
+        },
+        {
+          "token": " not",
+          "logit": -92.4022
+        },
+        {
+          "token": " brown",
+          "logit": -92.4514
+        },
+        {
+          "token": " gold",
+          "logit": -92.5374
+        },
+        {
+          "token": " peach",
+          "logit": -92.5476
+        },
+        {
+          "token": " lime",
+          "logit": -92.551
+        },
+        {
+          "token": " Black",
+          "logit": -92.5619
+        },
+        {
+          "token": " also",
+          "logit": -92.6132
+        },
+        {
+          "token": " Red",
+          "logit": -92.8202
+        },
+        {
+          "token": " navy",
+          "logit": -92.8569
+        },
+        {
+          "token": " bright",
+          "logit": -92.8603
+        },
+        {
+          "token": " an",
+          "logit": -92.8839
+        },
+        {
+          "token": " one",
+          "logit": -92.9315
+        },
+        {
+          "token": " Blue",
+          "logit": -92.9596
+        },
+        {
+          "token": " gray",
+          "logit": -92.9638
+        },
+        {
+          "token": " #",
+          "logit": -92.9922
+        },
+        {
+          "token": " always",
+          "logit": -93.0096
+        },
+        {
+          "token": " violet",
+          "logit": -93.0346
+        },
+        {
+          "token": " usually",
+          "logit": -93.0508
+        },
+        {
+          "token": " really",
+          "logit": -93.0948
+        },
+        {
+          "token": " silver",
+          "logit": -93.115
+        },
+        {
+          "token": " in",
+          "logit": -93.1618
+        },
+        {
+          "token": " so",
+          "logit": -93.1652
+        },
+        {
+          "token": " just",
+          "logit": -93.1675
+        },
+        {
+          "token": " grey",
+          "logit": -93.1918
+        },
+        {
+          "token": " from",
+          "logit": -93.208
+        },
+        {
+          "token": ",",
+          "logit": -93.3039
+        },
+        {
+          "token": ":",
+          "logit": -93.3361
+        },
+        {
+          "token": " what",
+          "logit": -93.349
+        },
+        {
+          "token": " your",
+          "logit": -93.3571
+        },
+        {
+          "token": " Green",
+          "logit": -93.3656
+        },
+        {
+          "token": " her",
+          "logit": -93.4095
+        }
+      ]
+    }
+  ]
+}
