@@ -1,13 +1,17 @@
-# capstone-test.yml — Phase 1.5 SKETCH (not active).
+# capstone-test.yml — Phase 1.5 SKETCH (intentionally dormant).
 #
-# This workflow activates when the hub repo gains a capstone/ artifact.
-# Currently the hub does NOT host capstone code (per-guide repos do, and
-# only arc-relevant guides require capstones — pilot is domain-pedagogy
-# tier per design doc v0.2 §10.6.5).
+# Activates when the hub repo gains a capstone/ artifact. Currently the hub does
+# NOT host capstone code (per-guide repos do, and only arc-relevant guides
+# require capstones); see design doc v0.2 §10.6.5. The real job template is
+# preserved (commented) at the bottom.
+#
+# The `not-active` job exists only so this is a VALID workflow file: an `on:`
+# block with no `jobs:` registers as an invalid-workflow failure on every push.
+# It never runs (`if: false`) and the path filters keep it dormant regardless.
 #
 # To activate (Phase 1.5+):
 #   1. Add capstone/ subdirectory with pyproject.toml + src/ + evals/
-#   2. Uncomment the `jobs:` block below
+#   2. Replace the `not-active` job with the template at the bottom
 #   3. Mirror per-capstone needs: Python pytest, Quarto render, etc.
 
 name: capstone-test
@@ -22,6 +26,14 @@ on:
     paths:
       - 'capstone/**'
 
+jobs:
+  not-active:
+    if: ${{ false }} # dormant placeholder — see header
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "capstone-test is a Phase 1.5 sketch — not active yet."
+
+# Real job template (activate per the header):
 # jobs:
 #   test:
 #     runs-on: ubuntu-latest
