@@ -1,14 +1,17 @@
-# companion-test.yml — Phase 1 SKETCH (not active).
+# companion-test.yml — Phase 1 SKETCH (intentionally dormant).
 #
-# This workflow activates when the hub repo gains a companion/ Python package.
-# Currently the hub does NOT host companion code (per-guide repos do). This
-# file is present so Phase 1 retrospective work has a template to adapt per
-# design doc v0.2 §18.2.
+# Activates when the hub repo gains a companion/ Python package. Currently the
+# hub does NOT host companion code (per-guide repos do); see design doc v0.2
+# §18.2. The real job template is preserved (commented) at the bottom.
+#
+# The `not-active` job exists only so this is a VALID workflow file: an `on:`
+# block with no `jobs:` registers as an invalid-workflow failure on every push.
+# It never runs (`if: false`) and the path filters keep it dormant regardless.
 #
 # To activate (Phase 1+):
 #   1. Add companion/ subdirectory with pyproject.toml + tests/
-#   2. Uncomment the `jobs:` block below
-#   3. Add `companion/` to path filters in the `on:` block
+#   2. Replace the `not-active` job with the template at the bottom
+#   3. Keep `companion/` in the path filters
 
 name: companion-test
 
@@ -22,6 +25,14 @@ on:
     paths:
       - 'companion/**'
 
+jobs:
+  not-active:
+    if: ${{ false }} # dormant placeholder — see header
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "companion-test is a Phase 1 sketch — not active yet."
+
+# Real job template (activate per the header):
 # jobs:
 #   test:
 #     runs-on: ubuntu-latest

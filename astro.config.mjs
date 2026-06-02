@@ -16,4 +16,15 @@ import { guidesFamilyStyle } from './shared/styles/guides-family.js';
 export default await defineBookConfig({
   styles: [researchPortfolioStyle, guidesFamilyStyle],
   // site, routes.frontmatter, deploy all come from guidesFamilyStyle.
+  //
+  // Bundle the self-hosted variable-font CSS during SSR. These packages'
+  // entry points are .css files; when Vite externalizes them, Astro's dev
+  // SSR loader (Node ESM) can't import a .css and every page 500s with
+  // "Unknown file extension .css" (Base.astro imports them). noExternal tells
+  // Vite to process them instead. Harmless in build (already bundled there).
+  vite: {
+    ssr: {
+      noExternal: ['@fontsource-variable/roboto', '@fontsource-variable/source-code-pro'],
+    },
+  },
 });
