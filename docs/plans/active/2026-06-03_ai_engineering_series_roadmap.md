@@ -1,6 +1,14 @@
 # Roadmap: a company-agnostic, interview-prep-led series on the AI-native dimensions of AI engineering
 
-**Status:** approved 2026-06-03 · living roadmap for the AI-native guide-series workstream.
+> ⚠️ **PARTIALLY SUPERSEDED (2026-06-04).** After this doc was written, the plan was course-corrected. Read
+> `2026-06-04_session_handoff.md` first for the **final direction**: **ONE** repo `guides-ai-engineering` (guides as
+> content collections — *not* 7 separate repos) · demand-prioritized set (evals · llm-app · production · craft ·
+> working-with-AI lead; fine-tuning/safety demoted) · demand spine **folded into building** · success = **public
+> teaching traction**. Still valid here: the pedagogy/chapter-shape (§5), demo strategy (§6–§6.1), dogfooding loop
+> (§6.2), the Evaluation worked example (§13), and the build-your-own companions (§14). The first guide is built in
+> `~/guides-ai-engineering`.
+
+**Status:** approved 2026-06-03 · living roadmap for the AI-native guide-series workstream · **partially superseded — see banner above.**
 **Relationship to canonical design:** supplements design v0.3 (`docs/design/2026-05-23_design_v0.3.md`); the
 **company-agnostic, interview-prep-led, dual-use** positioning here supersedes v0.3's Anthropic-arc emphasis — a v0.4
 design amendment to make that canonical is a recommended follow-up (not yet done).

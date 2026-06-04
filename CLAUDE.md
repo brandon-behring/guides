@@ -4,7 +4,7 @@ Hub repo for `guides.brandon-behring.dev`. Built with `@brandon_m_behring/book-s
 
 ## Where things live
 
-- **Active session handoff** (read first if resuming): `docs/plans/active/2026-05-24_session_handoff.md`
+- **Active session handoff** (read first if resuming): `docs/plans/active/2026-06-04_session_handoff.md` — AI-engineering series final (course-corrected) direction + current state; supersedes the 2026-05-24 handoff and the stale architecture/guide-set/sequencing in the 2026-06-03 roadmap doc. First guide (Evaluation) is built in the sibling repo `~/guides-ai-engineering`.
 - **Active design doc (v0.3, canonical)**: `docs/design/2026-05-23_design_v0.3.md` — first design doc native to this repo; supersedes v0.2
 - **Active workstream plan**: `docs/plans/active/2026-05-22_research_workstream_v2.md` — Research Workstream v2 (all 11 phases complete)
 - **Active AI-native series roadmap (2026-06-03)**: `docs/plans/active/2026-06-03_ai_engineering_series_roadmap.md` — company-agnostic, interview-prep-led series on the AI-native dimensions of AI engineering (pedagogy-driven transform of vol08/09/25 + AIES); supersedes v0.3's Anthropic-arc emphasis (v0.4 amendment pending). First move = build the demand spine at `docs/research/role_demand_and_interview_signals/`.
