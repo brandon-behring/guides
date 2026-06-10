@@ -1,0 +1,45 @@
+name: research-lint
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/research/**'
+      - 'scripts/research_lint.py'
+      - '.github/workflows/research-lint.yml'
+  pull_request:
+    paths:
+      - 'docs/research/**'
+      - 'scripts/research_lint.py'
+      - '.github/workflows/research-lint.yml'
+
+jobs:
+  research-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out guides
+        uses: actions/checkout@v4
+
+      # Reuse the upstream strict-live validators rather than vendoring a copy
+      # (durable upstream policy). Pinned to a published tag for determinism;
+      # bump deliberately in a PR.
+      - name: Check out research_toolkit (pinned)
+        uses: actions/checkout@v4
+        with:
+          repository: brandon-behring/research_toolkit
+          ref: v2.4.0
+          path: .research_toolkit
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install validator dependencies
+        run: pip install pyyaml
+
+      # Offline tier only (no cache, no network). The cache-dependent validators
+      # (cache_manifest, pre_selection_manifest, verify_citations) run locally via
+      # `python scripts/research_lint.py --with-cache`, where ~/Claude/research_cache exists.
+      - name: Lint research dossiers
+        run: python scripts/research_lint.py --toolkit .research_toolkit

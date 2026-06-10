@@ -6,13 +6,14 @@ Hub repo for `guides.brandon-behring.dev`. Built with `@brandon_m_behring/book-s
 
 - **Series roadmap v2 (read first if resuming)**: `docs/plans/active/2026-06-10_series_roadmap_v2.md` — canonical roadmap for the company-agnostic, interview-prep-led AI-native series; consolidates the 06-03 roadmap + 06-04 handoff + 06-08 audit (all now in `done/`). Guide #1 (Evaluation, 13 ch) complete + reviewed + public; guide #2 (llm-app-engineering) in progress — both in the sibling repo `~/guides-ai-engineering` (its `docs/RESUME.md` continues the build). Site launch gated on guide #2 completion. Demand framing: `docs/research/role_demand_and_interview_signals/`.
 - **Active design doc (v0.4, canonical)**: `docs/design/2026-06-10_design_v0.4.md` — amends v0.3 (positioning → company-agnostic; architecture → series-scoped repos; build-validated chapter shape, 4-dim rubric spine, static-demo policy, independent-review gate). v0.3's §2 specs remain canonical where not amended.
+- **Pedagogy playbook (author-facing digest)**: `docs/design/PEDAGOGY.md` — visual principles + four-layer authoring model + consolidated DECIDED/DEFERRED/OPEN decision log (distilled from an internal cross-pollination review, 2026-05-24; points to the design docs, not a new source of truth)
 - **Research Workstream v2 (complete)**: `docs/plans/done/2026-05-22_research_workstream_v2.md` — all 11 phases done 2026-05-23.
 - **Per-phase wrap-up docs** (friction logs): `docs/plans/done/*.md` (10 docs as of 2026-05-24)
 - **Methodology page (v0.2, user-facing)**: `src/content/frontmatter/methodology.mdx`
 - **Frontmatter pages** (this repo's primary content): `src/content/frontmatter/*.mdx` — methodology, about
 - **Research dossiers (9 pedagogy)**: `docs/research/<topic>/` — 5 migrated v1-era (each has MIGRATION.md noting v2.2 upgrade deferred) + 4 new v2.2 strict-live
 - **Shared scaffold style**: `shared/styles/guides-family.ts` — canonical `guidesFamilyStyle` (composes on top of researchPortfolioStyle)
-- **Scripts**: `scripts/backfill_pdf_cache_text.py` — consumer-side workaround for research_toolkit#11 (deletable once #11 ships)
+- **Scripts**: `scripts/backfill_pdf_cache_text.py` — consumer-side workaround for research_toolkit#11 (deletable once #11 ships); `scripts/research_lint.py` — dossier integrity gate wrapping research_toolkit validators (CI: `.github/workflows/research-lint.yml`, pinned to toolkit v2.4.0; local full check via `--with-cache`)
 - **Components, layouts, default routes**: `@brandon_m_behring/book-scaffold-astro/{components,layouts}/...`
 - **Style customizations**: `src/styles/` (overrides package styles)
 - **Style guide v0.0**: `docs/style-guide-v0.0.md`

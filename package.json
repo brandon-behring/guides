@@ -13,6 +13,7 @@
     "build:notebooks": "book-scaffold render-notebooks",
     "build:traces": "python3 scripts/build_traces.py",
     "validate": "book-scaffold validate",
+    "lint:research": "python3 scripts/research_lint.py",
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview"
