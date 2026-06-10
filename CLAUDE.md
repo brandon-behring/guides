@@ -4,9 +4,9 @@ Hub repo for `guides.brandon-behring.dev`. Built with `@brandon_m_behring/book-s
 
 ## Where things live
 
-- **Active session handoff** (read first if resuming): `docs/plans/active/2026-05-24_session_handoff.md`
-- **Active design doc (v0.3, canonical)**: `docs/design/2026-05-23_design_v0.3.md` — first design doc native to this repo; supersedes v0.2
-- **Active workstream plan**: `docs/plans/active/2026-05-22_research_workstream_v2.md` — Research Workstream v2 (all 11 phases complete)
+- **Series roadmap v2 (read first if resuming)**: `docs/plans/active/2026-06-10_series_roadmap_v2.md` — canonical roadmap for the company-agnostic, interview-prep-led AI-native series; consolidates the 06-03 roadmap + 06-04 handoff + 06-08 audit (all now in `done/`). Guide #1 (Evaluation, 13 ch) complete + reviewed + public; guide #2 (llm-app-engineering) in progress — both in the sibling repo `~/guides-ai-engineering` (its `docs/RESUME.md` continues the build). Site launch gated on guide #2 completion. Demand framing: `docs/research/role_demand_and_interview_signals/`.
+- **Active design doc (v0.4, canonical)**: `docs/design/2026-06-10_design_v0.4.md` — amends v0.3 (positioning → company-agnostic; architecture → series-scoped repos; build-validated chapter shape, 4-dim rubric spine, static-demo policy, independent-review gate). v0.3's §2 specs remain canonical where not amended.
+- **Research Workstream v2 (complete)**: `docs/plans/done/2026-05-22_research_workstream_v2.md` — all 11 phases done 2026-05-23.
 - **Per-phase wrap-up docs** (friction logs): `docs/plans/done/*.md` (10 docs as of 2026-05-24)
 - **Methodology page (v0.2, user-facing)**: `src/content/frontmatter/methodology.mdx`
 - **Frontmatter pages** (this repo's primary content): `src/content/frontmatter/*.mdx` — methodology, about
@@ -38,8 +38,8 @@ These docs have local-only erratum + supersession notes added 2026-05-23 / 2026-
 
 ## Toolkit references
 
-- **book-scaffold-astro** (`brandon-behring/book-scaffold-astro`, v4.2.0): [PACKAGE_DESIGN.md](https://github.com/brandon-behring/book-scaffold-astro/blob/main/package/PACKAGE_DESIGN.md), [MIGRATION-v3-to-v4.md](https://github.com/brandon-behring/book-scaffold-astro/blob/main/package/MIGRATION-v3-to-v4.md). File issues at https://github.com/brandon-behring/book-scaffold-astro/issues with label `consumer:guides`. As of 2026-05-24, 8 of 8 our filed `consumer:guides` issues closed (a 9th docs-only filing is in progress this session).
-- **research_toolkit** (`brandon-behring/research_toolkit`, v2.3.0-candidate): v2.2+ strict-live pipeline driving the 11 dossiers. 4 `consumer:guides` issues filed this session; 2 closed (#9, #12), 2 open (#10, #11). My PDF backfill script (`scripts/backfill_pdf_cache_text.py`) is the consumer-side workaround for #11.
+- **book-scaffold-astro** (`brandon-behring/book-scaffold-astro`; hub on v4.2.0, guide repo on v4.14.2 — hub upgrade scheduled at site launch per roadmap v2 §5): [PACKAGE_DESIGN.md](https://github.com/brandon-behring/book-scaffold-astro/blob/main/package/PACKAGE_DESIGN.md), [MIGRATION-v3-to-v4.md](https://github.com/brandon-behring/book-scaffold-astro/blob/main/package/MIGRATION-v3-to-v4.md). File issues at https://github.com/brandon-behring/book-scaffold-astro/issues with label `consumer:guides`. As of 2026-06-10: 8 earlier `consumer:guides` issues closed; **#129/#130/#132 open**; #103 (demo kit) labeled; #15 (multibook) closed-deferred-post-v4.x.
+- **research_toolkit** (`brandon-behring/research_toolkit`, v2.6.0): v2.2+ strict-live pipeline driving the 11 dossiers. All 6 `consumer:guides` issues closed. My PDF backfill script (`scripts/backfill_pdf_cache_text.py`) was the consumer-side workaround for #11.
 
 ## Durable policy
 

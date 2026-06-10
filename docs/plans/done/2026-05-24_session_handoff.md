@@ -1,5 +1,8 @@
 # Session handoff — 2026-05-24
 
+> ⚠️ **SUPERSEDED.** First by the 2026-06-04 handoff, now by `../active/2026-06-10_series_roadmap_v2.md`
+> (canonical series roadmap). Kept as the historical record of the 2026-05-24 session state.
+
 ## Update 2026-05-24 (later same day) — Phase D depth-expansion DONE
 
 Follow-up **(c)** from §4 below was executed. All 4 thin Phase D dossiers depth-expanded + agent-indexed:
