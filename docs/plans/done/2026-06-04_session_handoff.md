@@ -1,5 +1,10 @@
 # Session handoff — AI Engineering guide series (2026-06-04)
 
+> ⚠️ **SUPERSEDED (2026-06-10)** by `../active/2026-06-10_series_roadmap_v2.md` (series roadmap v2). The state
+> below is stale — it describes a 3-chapter, local-only vertical slice; guide #1 has since shipped complete +
+> independently reviewed + public, and guide #2 started. The "Final direction" section was folded into roadmap v2
+> §1/§3 and design v0.4 §2.
+
 **Read this first.** It supersedes the architecture/guide-set/sequencing in
 `2026-06-03_ai_engineering_series_roadmap.md` (which records the *pre-correction*
 plan — see §"Final direction" below for what changed).

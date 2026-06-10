@@ -1,5 +1,10 @@
 # Roadmap audit — AI-engineering guide series (2026-06-08)
 
+> ⚠️ **SUPERSEDED (2026-06-10)** by `../active/2026-06-10_series_roadmap_v2.md` (series roadmap v2). Ground truth +
+> locked decisions were absorbed into v2 §2–§3: the demand-spine-descoped and one-self-contained-Evaluation-guide
+> decisions are carried; the "publish gate = complete guide" decision was **met and retired** (guide #1 completed,
+> reviewed, pushed public 2026-06-09; guide #2 started); the recommended next unit was executed and exceeded.
+
 ## Context
 
 An audit of the AI-engineering series roadmap "and where we are." The planning docs

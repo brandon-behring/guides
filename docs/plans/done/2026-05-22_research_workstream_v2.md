@@ -1,5 +1,8 @@
 # Research workstream v2 — depth-expand, cache primaries, migrate
 
+> ✅ **COMPLETE (2026-05-23).** All 11 phases done; per-phase wrap-up docs live in this `done/` folder. Moved out of
+> `active/` 2026-06-10. Series strategy continues at `../active/2026-06-10_series_roadmap_v2.md`.
+
 ## Context
 
 The guides project has 5 first-pass pedagogy dossiers in `~/interview_prep_series/docs/research/` (116 entries total) that informed design doc v0.2 and `/methodology` v0.1. They are **v1-era**: no primary-doc cache, no `evidence_ledger.yml`, no `cache_manifest.yml`, all entries `status: unverified`, and 30–50% of the original depth target (200–300/topic).
