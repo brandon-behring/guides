@@ -152,7 +152,7 @@ explicitly. The remainder live in the archived v0.2 doc.)*
 | AnkiCard integration timeline | book-scaffold-astro#16 | Committed to `<Card>` + `.apkg` |
 | First-class multibook routing | book-scaffold-astro#15 | Workaround continues |
 | Depth-expand thin dossiers (target 100–200) | `/research-gather` rounds | **✅ Substantially done 2026-05-24** — 4 thin dossiers → 177 entries (see handoff update) |
-| PDF text-extraction completeness | research_toolkit#11 | `scripts/backfill_pdf_cache_text.py` workaround |
+| PDF text-extraction completeness | research_toolkit#11 | **✅ Resolved** — #11 shipped (closed 2026-05-23); the local backfill workaround script was deleted 2026-06-10 |
 | Migrated-dossier v2.2 upgrade (5 v1-era) | Future re-gather | Each has `MIGRATION.md`; cite from v1 agent_index meanwhile |
 
 ### OPEN — v0.4 design questions (session handoff, 2026-05-24)

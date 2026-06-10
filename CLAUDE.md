@@ -13,7 +13,7 @@ Hub repo for `guides.brandon-behring.dev`. Built with `@brandon_m_behring/book-s
 - **Frontmatter pages** (this repo's primary content): `src/content/frontmatter/*.mdx` — methodology, about
 - **Research dossiers (9 pedagogy)**: `docs/research/<topic>/` — 5 migrated v1-era (each has MIGRATION.md noting v2.2 upgrade deferred) + 4 new v2.2 strict-live
 - **Shared scaffold style**: `shared/styles/guides-family.ts` — canonical `guidesFamilyStyle` (composes on top of researchPortfolioStyle)
-- **Scripts**: `scripts/backfill_pdf_cache_text.py` — consumer-side workaround for research_toolkit#11 (deletable once #11 ships); `scripts/research_lint.py` — dossier integrity gate wrapping research_toolkit validators (CI: `.github/workflows/research-lint.yml`, pinned to toolkit v2.4.0; local full check via `--with-cache`)
+- **Scripts**: `scripts/research_lint.py` — dossier integrity gate wrapping research_toolkit validators (CI: `.github/workflows/research-lint.yml`, pinned to toolkit **v2.4.0** — the v2.6.0 bump is blocked on display-vs-evidence repairs in the 4 depth-expanded dossiers; local full check via `--with-cache`)
 - **Components, layouts, default routes**: `@brandon_m_behring/book-scaffold-astro/{components,layouts}/...`
 - **Style customizations**: `src/styles/` (overrides package styles)
 - **Style guide v0.0**: `docs/style-guide-v0.0.md`
@@ -40,7 +40,7 @@ These docs have local-only erratum + supersession notes added 2026-05-23 / 2026-
 ## Toolkit references
 
 - **book-scaffold-astro** (`brandon-behring/book-scaffold-astro`; hub on v4.2.0, guide repo on v4.14.2 — hub upgrade scheduled at site launch per roadmap v2 §5): [PACKAGE_DESIGN.md](https://github.com/brandon-behring/book-scaffold-astro/blob/main/package/PACKAGE_DESIGN.md), [MIGRATION-v3-to-v4.md](https://github.com/brandon-behring/book-scaffold-astro/blob/main/package/MIGRATION-v3-to-v4.md). File issues at https://github.com/brandon-behring/book-scaffold-astro/issues with label `consumer:guides`. As of 2026-06-10: 8 earlier `consumer:guides` issues closed; **#129/#130/#132 open**; #103 (demo kit) labeled; #15 (multibook) closed-deferred-post-v4.x.
-- **research_toolkit** (`brandon-behring/research_toolkit`, v2.6.0): v2.2+ strict-live pipeline driving the 11 dossiers. All 6 `consumer:guides` issues closed. My PDF backfill script (`scripts/backfill_pdf_cache_text.py`) was the consumer-side workaround for #11.
+- **research_toolkit** (`brandon-behring/research_toolkit`, v2.6.0): v2.2+ strict-live pipeline driving the 11 dossiers. All 6 `consumer:guides` issues closed. (The local PDF backfill script that worked around #11 was deleted 2026-06-10 after #11 shipped.)
 
 ## Durable policy
 
