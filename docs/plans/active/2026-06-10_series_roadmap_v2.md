@@ -35,8 +35,8 @@ industry-variation callout → PFL stretch. LOS frontmatter anchors ↔ prose an
 | Item | State |
 |---|---|
 | **Guide #1 — Evaluation** | **COMPLETE + independently reviewed + public.** 13 ch (0–12), ~2,369 MDX lines, 9 ICAP island demos. 5-dim review done, all findings fixed (`~/guides-ai-engineering/docs/REVIEW_FINDINGS_2026-06-08.md`); anchors bijective. Pushed `f52ea51`. |
-| **Guide #2 — LLM app engineering** | **IN PROGRESS, 2/13.** Ch 0–1 authored; 13-ch RAG-centric plan at `~/guides-ai-engineering/docs/guide-02-llm-app-engineering.md`. Pushed `2dc503c`. Next: **Ch 2 (Retrieval 101)**. |
-| Companion (`companion/`, stdlib-only) | `mini_eval` 6 modules **24/24 tests** · `mini_rag` seeded (`search`: TF-IDF+cosine+top_k) **7/7 tests**. |
+| **Guide #2 — LLM app engineering** | **COMPLETE + independently reviewed (2026-06-10, same-day update).** All 13 ch (0–12) in the §5 shape; 7 new islands; 3-agent review, all findings fixed (`~/guides-ai-engineering/docs/REVIEW_FINDINGS_2026-06-10.md`). Pushed through `121cca4`. **→ the §5 launch gate is MET.** |
+| Companion (`companion/`, stdlib-only) | `mini_eval` 6 modules **24/24** · `mini_rag` 5 modules (search·chunk·pipeline·rerank·budget) **29/29** · `mini_agent` 3 modules (loop·tools·orchestrate+crew) **12/12**. |
 | Multi-guide routing | One `chapters` collection + `generateId` folder-namespacing → `/chapters/<guide>/<slug>/`; slugs unique per guide. `/chapters/` index still mixes guides (scaffold #15). |
 | Scaffold | Guide repo **v4.14.2** (build+validate green) · hub **v4.2.0** (upgrade scheduled at launch-prep, §5). |
 | Upstream (`book-scaffold-astro`) | **#129** /index collision, **#130** LOS-anchor lint, **#132** 2nd-consumer multi-guide signal — open; **#103** demo kit — labeled+commented; **#15** multibook — closed-deferred-post-v4.x. |
@@ -162,8 +162,10 @@ keep feeding evidence via **#132**) · standalone fine-tuning/safety guides · `
 
 ## 9 · Next unit of work
 
-1. **Guide #2 Ch 2 — Retrieval 101** (`~/guides-ai-engineering/docs/RESUME.md` + `docs/guide-02-llm-app-engineering.md`):
-   teach + import `mini_rag.search`; embeddings & vector-search mechanism; computed demo candidate (similarity/top-k
-   explorer). Then Ch 3 onward per §4.
-2. At guide-2 ~Ch7: pre-draft the guide-3 (production) outline while the RAG-in-production material is warm.
-3. At guide-2 complete+reviewed: open §5 launch (user Cloudflare session + Claude pre-work in one sitting).
+*(Updated same-day, 2026-06-10: §4 executed in full — guide #2 complete + reviewed. The gate is met.)*
+
+1. **Open the §5 launch workstream** — Phase L0 needs one user Cloudflare-dashboard sitting (create the two Pages
+   projects) plus Claude pre-work (hub build check, `_redirects`, link checks); then L1 domain + proxy (incl. the hub
+   scaffold upgrade), then L2 polish + instrumentation.
+2. **Pre-draft the guide-3 (Production AI systems) outline** while the guide-2 Ch 7 material is warm (seeds in §6).
+3. **Post-launch**: revisit the craft-capstone open decision (§3) and the WIP-labeling choice with real pages live.
