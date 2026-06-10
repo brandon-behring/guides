@@ -36,9 +36,10 @@ industry-variation callout → PFL stretch. LOS frontmatter anchors ↔ prose an
 |---|---|
 | **Guide #1 — Evaluation** | **COMPLETE + independently reviewed + public.** 13 ch (0–12), ~2,369 MDX lines, 9 ICAP island demos. 5-dim review done, all findings fixed (`~/guides-ai-engineering/docs/REVIEW_FINDINGS_2026-06-08.md`); anchors bijective. Pushed `f52ea51`. |
 | **Guide #2 — LLM app engineering** | **COMPLETE + independently reviewed (2026-06-10, same-day update).** All 13 ch (0–12) in the §5 shape; 7 new islands; 3-agent review, all findings fixed (`~/guides-ai-engineering/docs/REVIEW_FINDINGS_2026-06-10.md`). Pushed through `121cca4`. **→ the §5 launch gate is MET.** |
-| Companion (`companion/`, stdlib-only) | `mini_eval` 6 modules **24/24** · `mini_rag` 5 modules (search·chunk·pipeline·rerank·budget) **29/29** · `mini_agent` 3 modules (loop·tools·orchestrate+crew) **12/12**. |
+| **Guide #3 — Production AI systems** | **Outline + Ch 0 authored (2026-06-10).** `docs/guide-03-production-ai-systems.md` (13-ch production-loop spine + `mini_prod` companion shape) + Ch 0 in the §5 shape, on the landing picker as "in progress". Ch 1+ start post-launch. |
+| Companion (`companion/`, stdlib-only) | `mini_eval` 6 modules **24/24** · `mini_rag` 5 modules (search·chunk·pipeline·rerank·budget) **29/29** · `mini_agent` 3 modules (loop·tools·orchestrate+crew) **12/12**. `mini_prod` planned (guide-3 Ch 2+). |
 | Multi-guide routing | One `chapters` collection + `generateId` folder-namespacing → `/chapters/<guide>/<slug>/`; slugs unique per guide. `/chapters/` index still mixes guides (scaffold #15). |
-| Scaffold | Guide repo **v4.14.2** (build+validate green) · hub **v4.2.0** (upgrade scheduled at launch-prep, §5). |
+| Scaffold | **Both repos v4.14.2** (hub upgraded 2026-06-10 during L0 pre-work; build+validate green both; npm latest 4.23.0 deliberately not taken — matched shells beat newest). |
 | Upstream (`book-scaffold-astro`) | **#129** /index collision, **#130** LOS-anchor lint, **#132** 2nd-consumer multi-guide signal — open; **#103** demo kit — labeled+commented; **#15** multibook — closed-deferred-post-v4.x. |
 | **Distribution** | **No live site.** `guides.brandon-behring.dev` does not resolve; no Cloudflare Pages project for either repo; guide repo had no LICENSE and no CI (license fixed this session, §7; CI lands at launch, §5). Both repos are public **source**. |
 | Hub repo | Strategy + demand research; branch `ai-engineering-series-roadmap` merged to `main` this session. |
@@ -95,10 +96,10 @@ repos' `wrangler.toml`): hub Pages project serves `guides.brandon-behring.dev`; 
 project, proxied at `/ai-engineering/*`.
 
 **Phase L0 — live at all (pages.dev)**
-- *Claude (pre-work)*: verify `npm run build` green in **both** repos (hub on v4.2.0 unverified recently — and see
-  the upgrade below); add `public/_redirects` to the guide repo (`/ → /ai-engineering/ 302` — with
-  `base=/ai-engineering/` the pages.dev root otherwise 404s); reconcile Node-version notes (**both repos Node 22** —
-  Astro 6.1.7 requires ≥22.12.0; the old "hub: Node 20" notes were stale).
+- *Claude (pre-work)*: **✅ DONE 2026-06-10** — builds + validate green in both repos; guide repo
+  `public/_redirects` added (`/ → /ai-engineering/ 302`, verified in `dist/`); Node notes reconciled (**both repos
+  Node 22** — Astro 6.1.7 requires ≥22.12.0; the old "hub: Node 20" notes were stale); hub scaffold upgraded (pulled
+  forward from L1, below); runbook rewritten. **The user dashboard sitting is the only L0 step left.**
 - *User (Cloudflare dashboard — account actions, not scriptable here)*: Workers & Pages → create Pages project from
   `github.com/brandon-behring/guides-ai-engineering` (build `npm run build`, output `dist`, Node 22) → yields
   `guides-ai-engineering.pages.dev`. Same for the hub (`guides-hub`, Node 22). Step-by-step runbook (both projects):
@@ -110,9 +111,9 @@ project, proxied at `/ai-engineering/*`.
 - *Path proxy*: **Worker on `guides.brandon-behring.dev/ai-engineering/*` → fetches from the guide Pages project**
   (matches both wrangler.toml comments). Claude writes the Worker + wrangler config in the hub repo; user deploys the
   route. Fallback only if the Worker is unwanted: `ai-engineering.` subdomain (requires `site`/`base` churn — avoid).
-- *Claude*: **hub scaffold v4.2.0 → v4.14.x upgrade** (load-bearing now: two visibly different shells on one domain
-  otherwise); hub landing links to `/ai-engineering/`; sitemap/robots sanity; correct the stale "is connected"
-  comment in the hub `wrangler.toml`.
+- *Claude*: ~~hub scaffold v4.2.0 → v4.14.x upgrade~~ (**done early, 2026-06-10** — both repos on v4.14.2) ·
+  ~~correct the stale "is connected" comment in the hub `wrangler.toml`~~ (**done 2026-06-10**) · hub landing links
+  to `/ai-engineering/`; sitemap/robots sanity.
 
 **Phase L2 — traction polish + instrumentation**
 - *Claude*: OG/social metadata + canonical URLs (link unfurls matter); README "Read it live →" links;
@@ -129,7 +130,7 @@ project, proxied at `/ai-engineering/*`.
 
 | # | Guide | Seeds (transform) | Companion | Demand evidence | Status |
 |---|---|---|---|---|---|
-| 3 | **Production AI systems** | vol08 ch6,12-13 · vol09 ch15-16,18 | eval-in-prod/monitoring atop `mini_eval` (shape decided at planning) | production ~18%; "no prod experience" + "ignoring ops/cost/eval" failure modes | **Locked next after #2** |
+| 3 | **Production AI systems** | vol08 ch6,12-13 · vol09 ch15-16,18 | `mini_prod` (latency/cascade/trace/monitor/drift), reuses `mini_eval`+`mini_rag`+`mini_agent` — shape decided 2026-06-10 | production ~18%; "no prod experience" + "ignoring ops/cost/eval" failure modes | **Outline + Ch 0 authored 2026-06-10** (`~/guides-ai-engineering/docs/guide-03-production-ai-systems.md`); Ch 1+ post-launch |
 | 4? | **Working with AI** (AI-assisted engineering) | demand-spine AI-assisted-coding deep-dive · AIES | light (workflow artifacts, not a lib) | AI-assisted-coding interviews normalizing; communication = #1 failure mode | Candidate |
 | — | **Craft-capstone** | AIES · vol09 ch19-20 · 4-dim rubric anchors | — | per-guide ch12s may already carry it | **OPEN** — decide post-guide-2 (§3) |
 
@@ -148,11 +149,26 @@ Unchanged: **fine-tuning absorbed** (guide-2 Ch10 teaches the judgment call), **
 - Memory: roadmap/design/session-state files + MEMORY.md repointed; research-toolkit version corrected to v2.6.0.
 - Hub branch merged to `main` + pushed.
 
+**Executed 2026-06-10 (later session — hygiene tie-offs + L0 pre-work + guide-3 kickoff)**:
+- The 2026-05-24 cross-pollination work (research-lint CI + `scripts/research_lint.py` + `docs/design/PEDAGOGY.md` +
+  4× cache_manifest portable-path migration) **squash-merged to `main` and pushed** — it had sat on an unmerged local
+  branch since 05-24 despite being recorded as "shipped". The memo itself stays local (it reviews a private sibling
+  repo in detail); the wrap-up doc was redacted + renamed (`2026-05-24_cross_pollination_p1_p2_wrap_up.md`).
+- `fix/inactive-test-workflows` branch found **superseded** (main already carries the `if: false` no-op-job fix) —
+  deleted. `ai-engineering-series-roadmap` (merged) deleted local + origin.
+- `scripts/backfill_pdf_cache_text.py` **deleted** — research_toolkit#11 shipped (closed 2026-05-23).
+- Hub scaffold **v4.2.0 → v4.14.2**; runbook rewritten; `wrangler.toml` corrected; guide repo `_redirects` added.
+  All hub CI green incl. the new research-lint workflow.
+
 **Standing flags**:
 - `~/interview_prep_series/docs/AI_ENG_SYSTEM_INVENTORY.md` — the transform's seed inventory — is still **untracked**
   in that repo (user's repo, user's call; re-flagging per the 06-08 audit).
-- Hub `wrangler.toml` claims a Pages connection that doesn't exist — correct during §5 L1.
-- `book-scaffold validate` counts 16 files in the guide repo (13+2 chapters + authors.mdx) — cosmetic.
+- **research-lint pin stays at toolkit v2.4.0**: v2.6.0's stricter display-vs-evidence substring check fails the 4
+  depth-expanded dossiers (~140 agent-index Mechanism bullets not verbatim substrings of cached sources). Bumping the
+  pin is blocked on that repair pass — natural to fold into the long-pending `/dossier-audit` promotion round.
+- Two name-only `claude-books` mentions remain in older public `done/` wrap-ups (05-22 preflight, 06-04 handoff) —
+  name + one-line context only, judged tolerable 2026-06-10; the detailed memo is what stays local.
+- `book-scaffold validate` counts include `authors.mdx` (28 in the guide repo as of guide-3 Ch 0) — cosmetic.
 
 ## 8 · Deferred / not-doing
 
@@ -163,10 +179,15 @@ keep feeding evidence via **#132**) · standalone fine-tuning/safety guides · `
 
 ## 9 · Next unit of work
 
-*(Updated same-day, 2026-06-10: §4 executed in full — guide #2 complete + reviewed. The gate is met.)*
+*(Updated 2026-06-10, third pass: hygiene tie-offs done (§7) · L0 Claude pre-work done · hub scaffold upgraded ·
+guide-3 outline + Ch 0 authored (§6). Items 1–2 of the previous pass are executed up to their user-action gates.)*
 
-1. **Open the §5 launch workstream** — Phase L0 needs one user Cloudflare-dashboard sitting (create the two Pages
-   projects) plus Claude pre-work (hub build check, `_redirects`, link checks); then L1 domain + proxy (incl. the hub
-   scaffold upgrade), then L2 polish + instrumentation.
-2. **Pre-draft the guide-3 (Production AI systems) outline** while the guide-2 Ch 7 material is warm (seeds in §6).
-3. **Post-launch**: revisit the craft-capstone open decision (§3) and the WIP-labeling choice with real pages live.
+1. **User Cloudflare-dashboard sitting** — the only step left in Phase L0: create the two Pages projects per the
+   rewritten runbook (`docs/deploy-cloudflare-pages.md`; both repos, Node 22, ~20 min). Claude post-checks
+   (`/url-freshness-check` on live URLs, island hydration) immediately after.
+2. **Then L1** (custom domain + the `/ai-engineering/*` Worker proxy — Claude writes it, user deploys the route) **and
+   L2** (OG metadata, guide-repo CI, analytics token). Note for L2's WIP-labeling decision: guide-3 Ch 0 is live on
+   the landing picker labeled "in progress — chapter 0 of ~13" (the building-in-the-open option, de facto).
+3. **Post-launch**: guide-3 Ch 1+ authoring (outline at `~/guides-ai-engineering/docs/guide-03-production-ai-systems.md`);
+   revisit the craft-capstone open decision (§3); the dossier display-vs-evidence repair pass that unblocks the
+   research-lint v2.6.0 pin bump (§7).
