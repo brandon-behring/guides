@@ -161,8 +161,10 @@ Unchanged: **fine-tuning absorbed** (guide-2 Ch10 teaches the judgment call), **
   All hub CI green incl. the new research-lint workflow.
 
 **Standing flags**:
-- `~/interview_prep_series/docs/AI_ENG_SYSTEM_INVENTORY.md` — the transform's seed inventory — is still **untracked**
-  in that repo (user's repo, user's call; re-flagging per the 06-08 audit).
+- ~~`AI_ENG_SYSTEM_INVENTORY.md` untracked~~ — **resolved 2026-06-10**: committed + pushed in `interview_prep_series`
+  (`e8acc735`, WIP-snapshot commit) as part of the cross-machine remote-completeness pass. That repo's regenerated
+  freshness audit (same commit) flags **25 HIGH staleness findings in vol08** — re-verify seed numbers during guide-3
+  transforms (the guide-3 outline already mandates this).
 - **research-lint pin stays at toolkit v2.4.0**: v2.6.0's stricter display-vs-evidence substring check fails the 4
   depth-expanded dossiers (~140 agent-index Mechanism bullets not verbatim substrings of cached sources). Bumping the
   pin is blocked on that repair pass — natural to fold into the long-pending `/dossier-audit` promotion round.
