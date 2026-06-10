@@ -97,11 +97,12 @@ project, proxied at `/ai-engineering/*`.
 **Phase L0 — live at all (pages.dev)**
 - *Claude (pre-work)*: verify `npm run build` green in **both** repos (hub on v4.2.0 unverified recently — and see
   the upgrade below); add `public/_redirects` to the guide repo (`/ → /ai-engineering/ 302` — with
-  `base=/ai-engineering/` the pages.dev root otherwise 404s); reconcile Node-version notes (guide: 22, hub: 20).
+  `base=/ai-engineering/` the pages.dev root otherwise 404s); reconcile Node-version notes (**both repos Node 22** —
+  Astro 6.1.7 requires ≥22.12.0; the old "hub: Node 20" notes were stale).
 - *User (Cloudflare dashboard — account actions, not scriptable here)*: Workers & Pages → create Pages project from
   `github.com/brandon-behring/guides-ai-engineering` (build `npm run build`, output `dist`, Node 22) → yields
-  `guides-ai-engineering.pages.dev`. Same for the hub (`guides-hub`, Node 20). Step-by-step runbook (hub):
-  `docs/deploy-cloudflare-pages.md` (written 2026-05-20; re-verify settings against it at launch).
+  `guides-ai-engineering.pages.dev`. Same for the hub (`guides-hub`, Node 22). Step-by-step runbook (both projects):
+  `docs/deploy-cloudflare-pages.md` (rewritten 2026-06-10 — Node 22, no `BOOK_PRESET`, root-mounted URLs).
 - *Claude (post)*: full link-check of the live URLs (`/url-freshness-check`), verify islands hydrate + demo JSON loads.
 
 **Phase L1 — custom domain + path proxy**

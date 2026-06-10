@@ -1,6 +1,6 @@
 # guides — AI authoring guide
 
-Hub repo for `guides.brandon-behring.dev`. Built with `@brandon_m_behring/book-scaffold-astro` v4.2.0 (`styles: [researchPortfolioStyle, guidesFamilyStyle]` composition; `routes.frontmatter: { prefix: '' }` mounts methodology + about at root).
+Hub repo for `guides.brandon-behring.dev`. Built with `@brandon_m_behring/book-scaffold-astro` v4.14.2 (`styles: [researchPortfolioStyle, guidesFamilyStyle]` composition; `routes.frontmatter: { prefix: '' }` mounts methodology + about at root).
 
 ## Where things live
 
@@ -39,7 +39,7 @@ These docs have local-only erratum + supersession notes added 2026-05-23 / 2026-
 
 ## Toolkit references
 
-- **book-scaffold-astro** (`brandon-behring/book-scaffold-astro`; hub on v4.2.0, guide repo on v4.14.2 — hub upgrade scheduled at site launch per roadmap v2 §5): [PACKAGE_DESIGN.md](https://github.com/brandon-behring/book-scaffold-astro/blob/main/package/PACKAGE_DESIGN.md), [MIGRATION-v3-to-v4.md](https://github.com/brandon-behring/book-scaffold-astro/blob/main/package/MIGRATION-v3-to-v4.md). File issues at https://github.com/brandon-behring/book-scaffold-astro/issues with label `consumer:guides`. As of 2026-06-10: 8 earlier `consumer:guides` issues closed; **#129/#130/#132 open**; #103 (demo kit) labeled; #15 (multibook) closed-deferred-post-v4.x.
+- **book-scaffold-astro** (`brandon-behring/book-scaffold-astro`; hub **and** guide repo both on v4.14.2 — hub upgraded 2026-06-10 during launch pre-work; npm latest is 4.23.0, matched the guide repo's lock instead for identical shells): [PACKAGE_DESIGN.md](https://github.com/brandon-behring/book-scaffold-astro/blob/main/package/PACKAGE_DESIGN.md), [MIGRATION-v3-to-v4.md](https://github.com/brandon-behring/book-scaffold-astro/blob/main/package/MIGRATION-v3-to-v4.md). File issues at https://github.com/brandon-behring/book-scaffold-astro/issues with label `consumer:guides`. As of 2026-06-10: 8 earlier `consumer:guides` issues closed; **#129/#130/#132 open**; #103 (demo kit) labeled; #15 (multibook) closed-deferred-post-v4.x.
 - **research_toolkit** (`brandon-behring/research_toolkit`, v2.6.0): v2.2+ strict-live pipeline driving the 11 dossiers. All 6 `consumer:guides` issues closed. (The local PDF backfill script that worked around #11 was deleted 2026-06-10 after #11 shipped.)
 
 ## Durable policy

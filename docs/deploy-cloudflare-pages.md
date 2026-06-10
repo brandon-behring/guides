@@ -1,158 +1,137 @@
-# Cloudflare Pages — hub deploy guide
+# Cloudflare Pages — launch runbook (hub + guide repo)
 
-How to wire `~/guides/` → `guides.brandon-behring.dev`. Phase 0b Step 5. Follow this once after `gh repo create + push`.
+How to wire `~/guides/` → `guides.brandon-behring.dev` and `~/guides-ai-engineering/` → its own
+Pages project (proxied at `/ai-engineering/*` in Phase L1). This is the dashboard half of roadmap
+v2 §5 **Phase L0**; the Claude pre-work (builds verified, `_redirects`, this runbook) is done.
 
-**Time**: ~15 min total (5 min dashboard config + 5–10 min DNS propagation).
+**Rewritten 2026-06-10.** The 2026-05-20 original prescribed `NODE_VERSION=20` and a `BOOK_PRESET`
+env var — both wrong since the scaffold v4 migration: presets were removed in v4.0.0 (style
+composition now lives in `astro.config.mjs`), and Astro 6.1.7 requires **Node ≥22.12.0** in both
+repos. It also verified `/frontmatter/...` URLs that v4 mounts at root.
+
+**Time**: ~20 min total for both projects (dashboard config + 5–10 min DNS propagation in L1).
 
 ---
 
 ## Prerequisites
 
-Before you start, confirm all four:
-
-- [ ] `~/guides/` is pushed to `github.com/brandon-behring/guides` (Phase 0b Step 9). Verify: `gh repo view brandon-behring/guides` doesn't error.
-- [ ] Cloudflare account exists. The account that owns the `brandon-behring.dev` DNS zone.
-- [ ] `brandon-behring.dev` DNS zone is active in Cloudflare. Verify in dashboard: **Websites → brandon-behring.dev** should resolve.
-- [ ] Local `npm run build` in `~/guides/` exits 0 (already verified during Phase 0b, but re-confirm if you've made changes since).
-
----
-
-## Step 1 — Create the Pages project
-
-1. Cloudflare dashboard → **Workers & Pages** (left sidebar).
-2. **Create application** → **Pages** tab → **Connect to Git**.
-3. Authorize Cloudflare to access your GitHub if you haven't already (one-time per account).
-4. Pick the `brandon-behring/guides` repo. **Begin setup**.
+- [ ] Both repos pushed and green: `gh repo view brandon-behring/guides` and
+  `gh repo view brandon-behring/guides-ai-engineering` don't error; local `npm run build` exits 0
+  in both (re-verified 2026-06-10, hub on scaffold v4.14.2).
+- [ ] Cloudflare account owning the `brandon-behring.dev` DNS zone; zone active in the dashboard
+  (**Websites → brandon-behring.dev**).
 
 ---
 
-## Step 2 — Build settings
+## Step 1 — Create the two Pages projects
 
-Cloudflare will ask for build configuration. Use these **exact** values:
+For each repo: Cloudflare dashboard → **Workers & Pages** → **Create application** → **Pages** →
+**Connect to Git** → pick the repo → **Begin setup**.
+
+**Project A — hub** (`brandon-behring/guides`):
 
 | Field | Value |
 |---|---|
-| Project name | `guides-hub` (or `guides` — your call; affects only the `*.pages.dev` subdomain) |
+| Project name | `guides-hub` |
 | Production branch | `main` |
-| Framework preset | **Astro** (Cloudflare detects this; confirm it's selected) |
+| Framework preset | **Astro** (confirm Cloudflare's auto-detect picked it) |
 | Build command | `npm run build` |
 | Build output directory | `dist` |
-| Root directory (advanced) | `/` (leave empty/default) |
-| Node version | `20` (set via `NODE_VERSION` env var below if not auto-detected) |
+| Root directory | `/` (default) |
 
-**Environment variables** (click "Add variable" for each):
+**Project B — guide repo** (`brandon-behring/guides-ai-engineering`): identical settings, project
+name `guides-ai-engineering`.
 
-| Name | Value | Scope |
+**Environment variables** (both projects, Production + Preview):
+
+| Name | Value | Why |
 |---|---|---|
-| `BOOK_PRESET` | `research-portfolio` | Production + Preview |
-| `NODE_VERSION` | `20` | Production + Preview |
+| `NODE_VERSION` | `22` | Astro 6.1.7 requires Node ≥22.12.0; Cloudflare's default may be older |
 
-The `BOOK_PRESET` env var is critical — without it, `book-scaffold validate` and the Astro build resolve to `minimal` preset and skip research-portfolio features (KaTeX, AICollaborationDisclosure styling, etc.). The repo's `.env` file IS committed and sets this same value, but Cloudflare Pages doesn't auto-load `.env` files (same gotcha we hit locally in Phase 0b dogfooding).
+No other env vars. (`BOOK_PRESET` is obsolete — do not set it; the v4 scaffold reads its style
+composition from `astro.config.mjs`, which is committed.)
 
-5. **Save and Deploy**. First build runs (~2–3 min). Watch the build log — should end with "Pagefind found references to the Default UI" and "Finished in 0.0Xs".
-
----
-
-## Step 3 — Verify the `.pages.dev` deploy
-
-After build completes, Cloudflare gives you a `https://guides-hub.pages.dev` URL.
-
-Confirm these resolve:
-
-- [ ] `https://guides-hub.pages.dev/` — landing page (currently sparse; Phase 1 will fill in)
-- [ ] `https://guides-hub.pages.dev/frontmatter/about/` — about page with AICollaborationDisclosure
-- [ ] `https://guides-hub.pages.dev/frontmatter/methodology/` — methodology v0.1
-- [ ] `https://guides-hub.pages.dev/search/` — Pagefind search UI
-
-If anything 404s, check the build log for the missing route. Most likely cause: an MDX parse error in a frontmatter file the local build skipped.
+**Save and Deploy**. Each first build runs ~2–3 min; the log should end with Pagefind output and
+"Finished in 0.0Xs".
 
 ---
 
-## Step 4 — Custom domain
+## Step 2 — Verify the `.pages.dev` deploys
 
-1. In the Pages project: **Custom domains** tab → **Set up a custom domain**.
-2. Enter `guides.brandon-behring.dev`. Cloudflare detects you own the zone and offers to add the CNAME automatically. **Activate domain**.
-3. Cloudflare adds a `CNAME` record: `guides` → `guides-hub.pages.dev`.
-4. Wait 1–5 min for DNS propagation. (Sometimes Cloudflare's edge picks it up faster.)
+Hub (`https://guides-hub.pages.dev`):
 
-Verify:
+- [ ] `/` — landing page
+- [ ] `/methodology/` and `/about/` — frontmatter pages (root-mounted; the old `/frontmatter/...`
+  paths no longer exist)
+- [ ] `/search/` — Pagefind UI
 
-- [ ] `https://guides.brandon-behring.dev/` resolves (same content as `pages.dev` URL above)
-- [ ] HTTPS cert is auto-provisioned (Cloudflare handles this; should be live within 5 min)
-- [ ] `/frontmatter/about/` and `/frontmatter/methodology/` resolve at the custom domain
+Guide repo (`https://guides-ai-engineering.pages.dev`):
+
+- [ ] `/` — 302-redirects to `/ai-engineering/` (via `public/_redirects`; the site builds with
+  `base=/ai-engineering/`, so the bare root would otherwise 404)
+- [ ] `/ai-engineering/` — landing picker (Evaluation + LLM app engineering)
+- [ ] `/ai-engineering/chapters/evaluation/why-evaluation/` — a guide-1 chapter renders, island
+  demos hydrate (interact with one explorer)
+- [ ] `/ai-engineering/chapters/llm-app-engineering/retrieval-101/` — a guide-2 chapter renders
+
+If anything 404s, check the build log for the missing route; the most likely cause is an MDX parse
+error the local build skipped. Then hand back to Claude for the scripted post-checks
+(`/url-freshness-check` over the live URLs + island/demo-JSON verification).
 
 ---
 
-## Step 5 — Confirm auto-deploy
+## Step 3 (Phase L1) — custom domain + path proxy
 
-Push a trivial change to `main` (e.g., edit `README.md`, change a date) and confirm:
-
-- [ ] Cloudflare Pages dashboard shows a new build firing within ~30s of the push
-- [ ] Build completes, new commit hash visible in the production URL's headers (`cf-ray` or `etag`)
-- [ ] GitHub Actions tab also shows `astro-build` + `content-validate` workflows running green (these are separate from Pages; Pages does its own build)
+1. Hub Pages project → **Custom domains** → add `guides.brandon-behring.dev` → **Activate**
+   (Cloudflare inserts the CNAME automatically; propagation 1–5 min).
+2. Verify `https://guides.brandon-behring.dev/` + `/methodology/` + HTTPS cert.
+3. **Path proxy**: Claude writes a Worker in the hub repo routing
+   `guides.brandon-behring.dev/ai-engineering/*` → the `guides-ai-engineering` Pages project; you
+   deploy the route from the dashboard. (Fallback only if the Worker is unwanted: an
+   `ai-engineering.` subdomain — avoid; it churns `site`/`base` in the guide repo.)
 
 ---
 
-## What's deferred to Phase 1
+## Step 4 — Confirm auto-deploy
 
-These are NOT in Phase 0b scope; the hub `wrangler.toml` has placeholder comments for them:
-
-- **Pilot subroute proxy**: when `~/guides-experimentation/` deploys to its own `guides-experimentation.pages.dev`, the hub needs to proxy `/experimentation/*` → that Pages project. Two options:
-  1. **Cloudflare Workers** in front of both Pages projects, with a router that maps `/experimentation/*` to the pilot. (Most flexible; most setup.)
-  2. **Cloudflare Pages `_redirects` file** in the hub `public/` with `/experimentation/* https://guides-experimentation.pages.dev/:splat 200`. (Simpler; preserves URL.)
-  3. **Separate subdomain** `experimentation.guides.brandon-behring.dev`. (Cleanest separation; user picked subroute in Phase 0b planning so this is the fallback.)
-- **`_redirects` for frontmatter prettyURLs**: scaffold's auto-route serves `/frontmatter/methodology/` not `/methodology/`. Phase 1 may add `/methodology /frontmatter/methodology/ 200` (rewrite, no redirect) and `/about /frontmatter/about/ 200`.
-- **Edge functions**: not needed for Phase 0b. If LLM-as-coach interface lands in v1.1, may use Cloudflare Workers for a backend.
-- **Analytics**: defer until needed. Privacy-respecting analytics (Plausible, Umami) per design doc — NOT Google Analytics or vendor-locked tools.
+Push a trivial change to `main` in either repo and confirm the matching Pages project fires a
+build within ~30s and goes green. GitHub Actions runs separately (hub: astro-build,
+content-validate, research-lint; guide repo: CI lands in Phase L2).
 
 ---
 
 ## Troubleshooting
 
-**Build fails with `command not found: book-scaffold`**: `npm ci` didn't install the scaffold. Check `package.json` has `@brandon_m_behring/book-scaffold-astro` in `dependencies` (not just `devDependencies`).
+**Build fails with `command not found: book-scaffold`** — `@brandon_m_behring/book-scaffold-astro`
+must be in `dependencies` (it is, both repos).
 
-**Build succeeds but pages 404**: check the framework preset is Astro (Cloudflare's default for `package.json` detection should work). If preset is "None", Cloudflare won't run the build command correctly.
+**Build fails on Node version** — confirm `NODE_VERSION=22` is set in the Pages project's
+**Settings → Environment variables** (not GitHub).
 
-**Custom domain shows "Pending"** for >10 min: check DNS in **brandon-behring.dev → DNS** that the CNAME for `guides` exists and points to `guides-hub.pages.dev`. If not, Cloudflare's automatic CNAME insertion didn't fire — add it manually.
+**Build succeeds but pages 404** — confirm the framework preset is Astro so Cloudflare serves
+`dist` correctly.
 
-**`BOOK_PRESET` not respected**: the env var must be set in Cloudflare **Pages project → Settings → Environment variables**, not in repo-level `.github/secrets/`. Pages env vars are separate from GitHub Actions env vars.
+**Guide repo root 404s** — `public/_redirects` missing from the deploy; confirm the file exists in
+the repo and shows up in the build's `dist/`.
 
-**Pagefind fails to index**: check build log for "Discovered 0 languages". Means the HTML doesn't have `<html lang="en">`. Scaffold should set this; if missing, check `astro.config.mjs` for an explicit language config.
-
----
-
-## Information Cloudflare needs from you (summary)
-
-If you skim the above and just need the dashboard inputs, here's the minimal list:
-
-1. **GitHub repo URL**: `github.com/brandon-behring/guides`
-2. **Production branch**: `main`
-3. **Build command**: `npm run build`
-4. **Build output**: `dist`
-5. **Env vars**: `BOOK_PRESET=research-portfolio`, `NODE_VERSION=20`
-6. **Custom domain**: `guides.brandon-behring.dev`
-
-Nothing else. No API tokens to configure, no secrets to add (the repo is public; nothing to authenticate against). Total clicks: ~12.
+**Pagefind "Discovered 0 languages"** — `<html lang>` missing; scaffold sets this, so check
+`astro.config.mjs` wasn't overridden.
 
 ---
 
-## What I (Claude / future-you) need from this setup
+## Dashboard inputs (minimal summary)
 
-After it's live, the following become true and unblock other work:
-
-- `https://guides.brandon-behring.dev/methodology/` is a real URL I can link to from design docs, this hub's README, and per-guide AUTHORS.md files
-- Phase 1 work has a deployment target (currently chapters can't be reviewed at URL; only local `npm run dev`)
-- The career-bridge framing has a public-facing artifact to point at
-- The `_redirects` file (Phase 1) becomes the place to wire the pilot subroute
-
-Until this guide is followed, all the above stay aspirational. The local `npm run build` passes; that's the prerequisite. Cloudflare is the publishing step.
+1. Repos: `github.com/brandon-behring/guides`, `github.com/brandon-behring/guides-ai-engineering`
+2. Production branch: `main` (both)
+3. Build command: `npm run build` · output: `dist` (both)
+4. Env var: `NODE_VERSION=22` (both)
+5. Custom domain (L1, hub only): `guides.brandon-behring.dev`
 
 ---
 
 ## Cross-references
 
-- Hub repo: `~/guides/`
-- Hub `wrangler.toml` (placeholder Pages config + Phase 1 subroute comments): `~/guides/wrangler.toml`
-- Phase 0b plan: `~/.claude/plans/continue-with-working-on-gentle-cocke.md` (Step 5)
-- Design doc v0.2 §18: `~/interview_prep_series/docs/plans/active/2026-05-19_guides_design_rethink_v0.2.md`
-- Scaffold dogfooding findings (BOOK_PRESET gotcha): `~/.claude/projects/-Users-brandonbehring-interview-prep-series/memory/reference_book_scaffold_astro.md`
+- Launch plan: `docs/plans/active/2026-06-10_series_roadmap_v2.md` §5 (L0 → L1 → L2)
+- Hub `wrangler.toml` + guide `wrangler.toml` — Pages config stubs matching the settings above
+- Old runbook content (Node 20 / `BOOK_PRESET` / `/frontmatter/` paths) — superseded; see git
+  history of this file if needed
