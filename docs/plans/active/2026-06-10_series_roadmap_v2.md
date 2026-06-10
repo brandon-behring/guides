@@ -163,8 +163,12 @@ Unchanged: **fine-tuning absorbed** (guide-2 Ch10 teaches the judgment call), **
 **Standing flags**:
 - ~~`AI_ENG_SYSTEM_INVENTORY.md` untracked~~ — **resolved 2026-06-10**: committed + pushed in `interview_prep_series`
   (`e8acc735`, WIP-snapshot commit) as part of the cross-machine remote-completeness pass. That repo's regenerated
-  freshness audit (same commit) flags **25 HIGH staleness findings in vol08** — re-verify seed numbers during guide-3
-  transforms (the guide-3 outline already mandates this).
+  freshness audit (same commit) reports **25 HIGH findings in vol08 — but all 25 are one velocity-scanner rule**
+  (`datedcontent{March 2026}` past vol08's HIGH-velocity threshold), mostly evergreen chapter-intro stamps, *not* 25
+  distinct stale numbers. **Examined 2026-06-10**: the real re-verify surface is the volatile-number subset
+  (`appendix_b` API/pricing, `appendix_c` model comparison, `ch13` cost, `ch08` MCP/agent landscape, `ch11` OWASP
+  version). Figures refreshed + parked in the guide-3 outline's "Seed freshness notes (vol08)" block [verified
+  2026-06-10] — that drives the guide-3 transforms when chapter authoring starts.
 - **research-lint pin stays at toolkit v2.4.0**: v2.6.0's stricter display-vs-evidence substring check fails the 4
   depth-expanded dossiers (~140 agent-index Mechanism bullets not verbatim substrings of cached sources). Bumping the
   pin is blocked on that repair pass — natural to fold into the long-pending `/dossier-audit` promotion round.
