@@ -1,118 +1,119 @@
-# Cloudflare Pages — launch runbook (hub + guide repo)
+# Cloudflare Workers — launch runbook (hub + guide repo)
 
 How to wire `~/guides/` → `guides.brandon-behring.dev` and `~/guides-ai-engineering/` → its own
-Pages project (proxied at `/ai-engineering/*` in Phase L1). This is the dashboard half of roadmap
-v2 §5 **Phase L0**; the Claude pre-work (builds verified, `_redirects`, this runbook) is done.
+Worker (proxied at `/ai-engineering/*` in Phase L1). This is the dashboard half of roadmap
+v2 §5 **Phase L0**.
 
-**Rewritten 2026-06-10.** The 2026-05-20 original prescribed `NODE_VERSION=20` and a `BOOK_PRESET`
-env var — both wrong since the scaffold v4 migration: presets were removed in v4.0.0 (style
-composition now lives in `astro.config.mjs`), and Astro 6.1.7 requires **Node ≥22.12.0** in both
-repos. It also verified `/frontmatter/...` URLs that v4 mounts at root.
+**Rewritten 2026-06-11 (Workers static assets).** The first launch attempt surfaced that this
+Cloudflare account has **no Pages creation flow** — the dashboard offers Workers only (Cloudflare's
+Pages→Workers convergence). Both repos were converted the same day: `wrangler.toml` now uses
+`[assets] directory = "./dist"` instead of `pages_build_output_dir`, and the guide repo's
+`public/_redirects` gained a `/ai-engineering/* /:splat 200` rewrite (Workers assets supports
+`_redirects` natively, including 200-rewrites). All URL shapes verified locally under
+`npx wrangler dev` before this rewrite. The filename keeps "pages" for link stability; the
+2026-06-10 Pages-based version is in git history.
 
-**Time**: ~20 min total for both projects (dashboard config + 5–10 min DNS propagation in L1).
+**Time**: ~15 min total for both projects (dashboard config + 1–5 min DNS in L1).
 
 ---
 
 ## Prerequisites
 
-- [ ] Both repos pushed and green: `gh repo view brandon-behring/guides` and
-  `gh repo view brandon-behring/guides-ai-engineering` don't error; local `npm run build` exits 0
-  in both (re-verified 2026-06-10, hub on scaffold v4.14.2).
-- [ ] Cloudflare account owning the `brandon-behring.dev` DNS zone; zone active in the dashboard
-  (**Websites → brandon-behring.dev**).
+- [ ] Both repos pushed with the Workers-assets `wrangler.toml` (2026-06-11 commits) and green
+  local builds.
+- [ ] Cloudflare account owning the `brandon-behring.dev` DNS zone; zone active in the dashboard.
 
 ---
 
-## Step 1 — Create the two Pages projects
+## Step 1 — Create the two Worker projects (Workers Builds)
 
-For each repo: Cloudflare dashboard → **Workers & Pages** → **Create application** → **Pages** →
-**Connect to Git** → pick the repo → **Begin setup**.
+For each repo: dashboard → **Workers & Pages** → **Create application** → **Import a repository**
+(the Git-connected Workers flow) → pick the repo.
 
-**Project A — hub** (`brandon-behring/guides`):
-
-| Field | Value |
-|---|---|
-| Project name | `guides-hub` |
-| Production branch | `main` |
-| Framework preset | **Astro** (confirm Cloudflare's auto-detect picked it) |
-| Build command | `npm run build` |
-| Build output directory | `dist` |
-| Root directory | `/` (default) |
-
-**Project B — guide repo** (`brandon-behring/guides-ai-engineering`): identical settings, project
-name `guides-ai-engineering`.
-
-**Environment variables** (both projects, Production + Preview):
-
-| Name | Value | Why |
+| Field | Project A — hub | Project B — guide repo |
 |---|---|---|
-| `NODE_VERSION` | `22` | Astro 6.1.7 requires Node ≥22.12.0; Cloudflare's default may be older |
+| Repo | `brandon-behring/guides` | `brandon-behring/guides-ai-engineering` |
+| Project/Worker name | `guides-hub` (matches `wrangler.toml`) | `guides-ai-engineering` (matches `wrangler.toml`) |
+| Production branch | `main` | `main` |
+| Build command | `npm run build` | `npm run build` |
+| Deploy command | `npx wrangler deploy` (default) | `npx wrangler deploy` (default) |
 
-No other env vars. (`BOOK_PRESET` is obsolete — do not set it; the v4 scaffold reads its style
-composition from `astro.config.mjs`, which is committed.)
+**No environment variables needed.** Workers Builds auto-detects Node from the build image
+(observed: `nodejs@22.16.0` — satisfies Astro 6's ≥22.12.0). `NODE_VERSION` and `BOOK_PRESET`
+are both obsolete here.
 
-**Save and Deploy**. Each first build runs ~2–3 min; the log should end with Pagefind output and
-"Finished in 0.0Xs".
+**If a project already exists from a failed attempt** (e.g. `guides-hub` created before the
+2026-06-11 wrangler.toml conversion): don't delete it — the next push to `main` (or **Retry
+build** on the failed deployment) picks up the fixed config and succeeds.
+
+**A healthy build log**: `Success: Build command completed` → `Executing user deploy command:
+npx wrangler deploy` → an upload of N assets → "Deployed guides-… (https://…workers.dev)".
+The earlier failure mode ("Missing entry-point") is gone once `[assets]` is in wrangler.toml.
 
 ---
 
-## Step 2 — Verify the `.pages.dev` deploys
+## Step 2 — Verify the `.workers.dev` deploys
 
-Hub (`https://guides-hub.pages.dev`):
+URLs are `https://<name>.<account-subdomain>.workers.dev` (the dashboard shows the exact URL on
+each Worker's overview page).
+
+Hub (`guides-hub`):
 
 - [ ] `/` — landing page
-- [ ] `/methodology/` and `/about/` — frontmatter pages (root-mounted; the old `/frontmatter/...`
-  paths no longer exist)
+- [ ] `/methodology/` and `/about/` — root-mounted frontmatter pages
 - [ ] `/search/` — Pagefind UI
 
-Guide repo (`https://guides-ai-engineering.pages.dev`):
+Guide repo (`guides-ai-engineering`):
 
-- [ ] `/` — 302-redirects to `/ai-engineering/` (via `public/_redirects`; the site builds with
-  `base=/ai-engineering/`, so the bare root would otherwise 404)
-- [ ] `/ai-engineering/` — landing picker (Evaluation + LLM app engineering)
-- [ ] `/ai-engineering/chapters/evaluation/why-evaluation/` — a guide-1 chapter renders, island
-  demos hydrate (interact with one explorer)
-- [ ] `/ai-engineering/chapters/llm-app-engineering/retrieval-101/` — a guide-2 chapter renders
+- [ ] `/` — 302 → `/ai-engineering/` (via `public/_redirects`)
+- [ ] `/ai-engineering/` — landing picker (Evaluation + LLM app engineering + guide 3 "in progress")
+- [ ] `/ai-engineering/chapters/evaluation/why-evaluation/` — guide-1 chapter renders; interact
+  with an island demo to confirm hydration
+- [ ] `/ai-engineering/chapters/llm-app-engineering/retrieval-101/` — guide-2 chapter renders
+- [ ] `/chapters/` — also 200: scaffold-emitted links ignore the base (upstream
+  [#140](https://github.com/brandon-behring/book-scaffold-astro/issues/140)); the `_redirects`
+  200-rewrite makes both link shapes resolve standalone
 
-If anything 404s, check the build log for the missing route; the most likely cause is an MDX parse
-error the local build skipped. Then hand back to Claude for the scripted post-checks
-(`/url-freshness-check` over the live URLs + island/demo-JSON verification).
+All six checks passed locally under `npx wrangler dev` (2026-06-11) — production should match.
+Then hand back to Claude for the scripted post-checks (`/url-freshness-check` over the live URLs +
+island/demo-JSON verification).
 
 ---
 
 ## Step 3 (Phase L1) — custom domain + path proxy
 
-1. Hub Pages project → **Custom domains** → add `guides.brandon-behring.dev` → **Activate**
-   (Cloudflare inserts the CNAME automatically; propagation 1–5 min).
+1. `guides-hub` Worker → **Settings** → **Domains & Routes** → **Add** → **Custom domain** →
+   `guides.brandon-behring.dev` (Cloudflare inserts DNS automatically; propagation 1–5 min).
 2. Verify `https://guides.brandon-behring.dev/` + `/methodology/` + HTTPS cert.
-3. **Path proxy**: Claude writes a Worker in the hub repo routing
-   `guides.brandon-behring.dev/ai-engineering/*` → the `guides-ai-engineering` Pages project; you
-   deploy the route from the dashboard. (Fallback only if the Worker is unwanted: an
-   `ai-engineering.` subdomain — avoid; it churns `site`/`base` in the guide repo.)
+3. **Path proxy**: Claude adds a `main` script to the hub Worker (assets binding + 
+   `run_worker_first = ["/ai-engineering/*"]`) that proxies `/ai-engineering/*` to the
+   `guides-ai-engineering` Worker; deploys via the normal push. **Blocked-aware**: scaffold
+   [#140](https://github.com/brandon-behring/book-scaffold-astro/issues/140) (base-unaware links)
+   must ship first, or guide-repo navigation escapes the `/ai-engineering/` prefix onto hub routes.
 
 ---
 
 ## Step 4 — Confirm auto-deploy
 
-Push a trivial change to `main` in either repo and confirm the matching Pages project fires a
-build within ~30s and goes green. GitHub Actions runs separately (hub: astro-build,
-content-validate, research-lint; guide repo: CI lands in Phase L2).
+Push a trivial change to `main` in either repo and confirm the matching Worker fires a build
+within ~30s and deploys. GitHub Actions runs separately (hub: astro-build, content-validate,
+research-lint; guide repo: CI lands in Phase L2).
 
 ---
 
 ## Troubleshooting
 
-**Build fails with `command not found: book-scaffold`** — `@brandon_m_behring/book-scaffold-astro`
-must be in `dependencies` (it is, both repos).
+**`Missing entry-point to Worker script or to assets directory`** — wrangler.toml predates the
+2026-06-11 conversion; it must contain `[assets] directory = "./dist"` (not
+`pages_build_output_dir`).
 
-**Build fails on Node version** — confirm `NODE_VERSION=22` is set in the Pages project's
-**Settings → Environment variables** (not GitHub).
+**`wrangler deploy` warns "run on a Pages project"** — same cause as above.
 
-**Build succeeds but pages 404** — confirm the framework preset is Astro so Cloudflare serves
-`dist` correctly.
+**Build fails on Node version** — Workers Builds should auto-detect Node 22; if not, add a
+`.node-version` file containing `22` to the repo root.
 
-**Guide repo root 404s** — `public/_redirects` missing from the deploy; confirm the file exists in
-the repo and shows up in the build's `dist/`.
+**Guide repo root 404s or `/ai-engineering/` 404s** — `public/_redirects` missing the 2026-06-11
+rules; confirm `dist/_redirects` has the `/ai-engineering/* /:splat 200` rewrite line.
 
 **Pagefind "Discovered 0 languages"** — `<html lang>` missing; scaffold sets this, so check
 `astro.config.mjs` wasn't overridden.
@@ -123,8 +124,8 @@ the repo and shows up in the build's `dist/`.
 
 1. Repos: `github.com/brandon-behring/guides`, `github.com/brandon-behring/guides-ai-engineering`
 2. Production branch: `main` (both)
-3. Build command: `npm run build` · output: `dist` (both)
-4. Env var: `NODE_VERSION=22` (both)
+3. Build command: `npm run build` · deploy command: `npx wrangler deploy` (both, defaults)
+4. Env vars: none
 5. Custom domain (L1, hub only): `guides.brandon-behring.dev`
 
 ---
@@ -132,6 +133,6 @@ the repo and shows up in the build's `dist/`.
 ## Cross-references
 
 - Launch plan: `docs/plans/active/2026-06-10_series_roadmap_v2.md` §5 (L0 → L1 → L2)
-- Hub `wrangler.toml` + guide `wrangler.toml` — Pages config stubs matching the settings above
-- Old runbook content (Node 20 / `BOOK_PRESET` / `/frontmatter/` paths) — superseded; see git
-  history of this file if needed
+- Hub `wrangler.toml` + guide `wrangler.toml` — Workers-assets configs matching the settings above
+- Upstream: base-unaware links [book-scaffold-astro#140](https://github.com/brandon-behring/book-scaffold-astro/issues/140)
+- Superseded versions: 2026-06-10 Pages rewrite and the 2026-05-20 original — git history of this file

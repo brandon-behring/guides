@@ -8,7 +8,8 @@
  * `styles: [researchPortfolioStyle, guidesFamilyStyle]` composition per
  * book-scaffold-astro v4.0.0. The family style supplies site +
  * routes.frontmatter (prefix '' → mount /methodology + /about at root) +
- * deploy: 'pages' (closes scaffold #49 + #50).
+ * deploy: 'workers' (closes scaffold #49 + #50; 'pages' → 'workers' 2026-06-11,
+ * see wrangler.toml).
  */
 import { defineBookConfig, researchPortfolioStyle } from '@brandon_m_behring/book-scaffold-astro';
 import { guidesFamilyStyle } from './shared/styles/guides-family.js';

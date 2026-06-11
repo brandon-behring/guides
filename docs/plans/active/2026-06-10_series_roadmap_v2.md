@@ -101,7 +101,7 @@ doesn't resolve and guide #1 is readable only as MDX source on GitHub. Launch cl
 repos' `wrangler.toml`): hub Pages project serves `guides.brandon-behring.dev`; guide repo deploys as its own Pages
 project, proxied at `/ai-engineering/*`.
 
-**Phase L0 — live at all (pages.dev)**
+**Phase L0 — live at all (workers.dev)** *(2026-06-11: was "pages.dev" — see the Workers-conversion bullet below)*
 - *Claude (pre-work)*: **✅ DONE 2026-06-10** — builds + validate green in both repos; guide repo
   `public/_redirects` added (`/ → /ai-engineering/ 302`, verified in `dist/`); Node notes reconciled (**both repos
   Node 22** — Astro 6.1.7 requires ≥22.12.0; the old "hub: Node 20" notes were stale); hub scaffold upgraded (pulled
@@ -109,19 +109,29 @@ project, proxied at `/ai-engineering/*`.
 - *Claude (launch-prep)*: **✅ DONE 2026-06-11** — `routes: { landing: false }` set in the guide repo's book config
   (commit `11c5559`); clears the **#129** index/landing route-collision WARN the custom two-guide landing emitted on
   every build (the maintainer-recommended escape hatch, available on v4.14.2; #129/#130/#132 closed → §2/§7).
-  Verified: build green, zero router WARNs, custom landing still renders. **The user dashboard sitting is now the
-  only L0 step left.**
-- *User (Cloudflare dashboard — account actions, not scriptable here)*: Workers & Pages → create Pages project from
-  `github.com/brandon-behring/guides-ai-engineering` (build `npm run build`, output `dist`, Node 22) → yields
-  `guides-ai-engineering.pages.dev`. Same for the hub (`guides-hub`, Node 22). Step-by-step runbook (both projects):
-  `docs/deploy-cloudflare-pages.md` (rewritten 2026-06-10 — Node 22, no `BOOK_PRESET`, root-mounted URLs).
+  Verified: build green, zero router WARNs, custom landing still renders.
+- *Claude (Workers conversion)*: **✅ DONE 2026-06-11** — the first dashboard attempt surfaced that this Cloudflare
+  account has **no Pages creation flow** (Workers-only; the Pages→Workers convergence). Both repos converted to
+  **Workers static assets**: `wrangler.toml` → `[assets] directory = "./dist"`; guide repo `_redirects` gained an
+  `/ai-engineering/* /:splat 200` rewrite so both base-prefixed and base-unaware link shapes serve standalone. In
+  the process discovered scaffold components emit **base-unaware links** (breaks the L1 path proxy) → filed
+  upstream **#140** (see §7). All URL shapes verified under `npx wrangler dev`. Runbook rewritten same day.
+  **The user dashboard sitting is now the only L0 step left.**
+- *User (Cloudflare dashboard — account actions, not scriptable here)*: Workers & Pages → **Import a repository**
+  (Workers Builds) for `github.com/brandon-behring/guides-ai-engineering` and the hub (`guides-hub`); build
+  `npm run build`, deploy `npx wrangler deploy` (defaults), no env vars → yields `<name>.<account>.workers.dev`.
+  The failed `guides-hub` project from the first attempt is reusable — retry/push picks up the fixed config.
+  Step-by-step runbook: `docs/deploy-cloudflare-pages.md` (rewritten 2026-06-11 — Workers static assets; filename
+  kept for link stability).
 - *Claude (post)*: full link-check of the live URLs (`/url-freshness-check`), verify islands hydrate + demo JSON loads.
 
 **Phase L1 — custom domain + path proxy**
 - *User*: attach `guides.brandon-behring.dev` to the hub Pages project (Cloudflare DNS handles the CNAME).
-- *Path proxy*: **Worker on `guides.brandon-behring.dev/ai-engineering/*` → fetches from the guide Pages project**
-  (matches both wrangler.toml comments). Claude writes the Worker + wrangler config in the hub repo; user deploys the
-  route. Fallback only if the Worker is unwanted: `ai-engineering.` subdomain (requires `site`/`base` churn — avoid).
+- *Path proxy*: hub Worker gains a `main` script (assets binding + `run_worker_first = ["/ai-engineering/*"]`)
+  proxying `/ai-engineering/*` → the `guides-ai-engineering` Worker (2026-06-11: both repos are Workers static
+  assets now, so the proxy is part of the hub Worker itself, not a separate route deploy). Claude writes it; deploys
+  via normal push. **Blocked on scaffold #140** (base-unaware links escape the `/ai-engineering/` prefix onto hub
+  routes — §7). Fallback only if unwanted: `ai-engineering.` subdomain (requires `site`/`base` churn — avoid).
 - *Claude*: ~~hub scaffold v4.2.0 → v4.14.x upgrade~~ (**done early, 2026-06-10** — both repos on v4.14.2) ·
   ~~correct the stale "is connected" comment in the hub `wrangler.toml`~~ (**done 2026-06-10**) · hub landing links
   to `/ai-engineering/`; sitemap/robots sanity.
@@ -173,6 +183,11 @@ Unchanged: **fine-tuning absorbed** (guide-2 Ch10 teaches the judgment call), **
   All hub CI green incl. the new research-lint workflow.
 
 **Standing flags**:
+- **Scaffold #140 — base-unaware links (filed 2026-06-11, blocks L1)**: `Sidebar.astro`/`Base.astro`/`search.astro`
+  (+ chapter listings) hardcode root-relative hrefs, ignoring `base: '/ai-engineering/'`. Standalone workers.dev
+  serving is unaffected (the guide repo's `_redirects` 200-rewrite covers both link shapes — temporary workaround,
+  remove when #140 ships), but on the L1 hub-domain proxy, navigation would escape `/ai-engineering/` onto hub
+  routes. L0 + custom-domain (L1 step 1–2) can proceed; the path proxy (L1 step 3) waits on #140.
 - **Upstream consumer:guides issues resolved 2026-06-11**: #129 (index collision), #130 (native `validate`
   anchor-lint), #132 (multi-guide recipe 21) all **CLOSED via PR #136 → v4.20.0**. We're on v4.14.2, so the fixes
   aren't installed yet; they arrive with the **post-launch v4.23.0 bump** (§2). The #130 native anchor lint then

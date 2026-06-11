@@ -1,18 +1,20 @@
-# Cloudflare Pages config — guides.brandon-behring.dev (hub repo).
+# Cloudflare Workers (static assets) config — guides.brandon-behring.dev (hub repo).
 #
-# Not yet deployed. The Pages project gets created from this repo at launch
-# (roadmap v2 §5 Phase L0; runbook: docs/deploy-cloudflare-pages.md).
+# Deployed via Workers Builds (Git-connected). Converted from a Pages config
+# 2026-06-11: Cloudflare's dashboard no longer offers Pages project creation on
+# this account (Workers-only flow), so the launch uses Workers static assets.
+# Runbook: docs/deploy-cloudflare-pages.md.
 #
-#   Framework preset: Astro
-#   Build command:    npm run build
-#   Build output:     dist
-#   Root directory:   /
-#   Node version:     22  (Astro 6 requires >=22.12.0)
+#   Build command:  npm run build
+#   Deploy command: npx wrangler deploy   (Workers Builds default)
+#   Node version:   22 (auto-detected by Workers Builds; Astro 6 requires >=22.12.0)
 #
-# Phase L1 deliverable: Worker path proxy
-#   guides.brandon-behring.dev/ai-engineering/* → guides-ai-engineering Pages project
+# Phase L1 deliverable: path proxy
+#   guides.brandon-behring.dev/ai-engineering/* → guides-ai-engineering worker
 # (pilot /experimentation/* proxy follows the same pattern when that guide ships).
 
 name = "guides-hub"
 compatibility_date = "2026-05-19"
-pages_build_output_dir = "./dist"
+
+[assets]
+directory = "./dist"

@@ -21,5 +21,8 @@ export const guidesFamilyStyle = defineStyle({
   name: 'guides-family',
   site: 'https://guides.brandon-behring.dev',
   routes: { frontmatter: { enabled: true, prefix: '' } },
-  deploy: 'pages',
+  // Informational only (the scaffold ignores it at runtime). 'workers' since
+  // 2026-06-11: Cloudflare retired Pages creation on this account; the family
+  // deploys as Workers static assets (see each repo's wrangler.toml).
+  deploy: 'workers',
 });
