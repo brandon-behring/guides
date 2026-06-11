@@ -1,6 +1,8 @@
 # AI-engineering series — roadmap v2
 
-**Date**: 2026-06-10 · **Status**: canonical roadmap for the AI-native guide series — the single read-first doc.
+**Date**: 2026-06-10 · **Last refined**: 2026-06-11 (sixth pass — upstream sweep: #129/#130/#132 closed; guide #2
+marked complete in §4; v4.23.0 bump recorded post-launch) · **Status**: canonical roadmap for the AI-native guide
+series — the single read-first doc.
 **Supersedes** (all moved to `../done/`):
 - `2026-06-03_ai_engineering_series_roadmap.md` — the original roadmap. Still-valid reference there: **§5** chapter
   shape (full spec), **§6–6.2** demo/viz strategy + the learn→drill→improve dogfooding loop, **§13** Evaluation
@@ -39,8 +41,8 @@ industry-variation callout → PFL stretch. LOS frontmatter anchors ↔ prose an
 | **Guide #3 — Production AI systems** | **Outline + Ch 0 authored (2026-06-10).** `docs/guide-03-production-ai-systems.md` (13-ch production-loop spine + `mini_prod` companion shape) + Ch 0 in the §5 shape, on the landing picker as "in progress". Ch 1+ start post-launch. |
 | Companion (`companion/`, stdlib-only) | `mini_eval` 6 modules **24/24** · `mini_rag` 5 modules (search·chunk·pipeline·rerank·budget) **29/29** · `mini_agent` 3 modules (loop·tools·orchestrate+crew) **12/12**. `mini_prod` planned (guide-3 Ch 2+). |
 | Multi-guide routing | One `chapters` collection + `generateId` folder-namespacing → `/chapters/<guide>/<slug>/`; slugs unique per guide. `/chapters/` index still mixes guides (scaffold #15). |
-| Scaffold | **Both repos v4.14.2** (hub upgraded 2026-06-10 during L0 pre-work; build+validate green both; npm latest 4.23.0 deliberately not taken — matched shells beat newest). |
-| Upstream (`book-scaffold-astro`) | **#129** /index collision, **#130** LOS-anchor lint, **#132** 2nd-consumer multi-guide signal — open; **#103** demo kit — labeled+commented; **#15** multibook — closed-deferred-post-v4.x. |
+| Scaffold | **Both repos v4.14.2** (hub upgraded 2026-06-10 during L0 pre-work; build+validate green both). npm latest is **v4.23.0**; bump **deferred to post-launch** (it now carries the native LOS-anchor-lint check — see Upstream — so the post-launch bump *replaces* the manual bijection step; not worth pre-launch scaffold churn). |
+| Upstream (`book-scaffold-astro`) | **#129/#130/#132 all CLOSED 2026-06-10 (PR #136 → v4.20.0)** — #129 index collision (escape hatch `routes:{landing:false}`), #130 native `validate` anchor-lint (check #9, default-on, both-directions), #132 multi-guide `generateId` pattern blessed as recipe 21. **These fixes are in v4.20.0+, NOT in our installed v4.14.2.** **#103** demo kit — still **open** (labeled+commented). **#15** multibook closed → successor **#80** (v5.x: multibook routing + AnkiCard CLI). **#83** (P3): roll v4.8.0 Provenance backfill to consumers — *guides* listed unchecked (see §7). |
 | **Distribution** | **No live site.** `guides.brandon-behring.dev` does not resolve; no Cloudflare Pages project for either repo; guide repo had no LICENSE and no CI (license fixed this session, §7; CI lands at launch, §5). Both repos are public **source**. |
 | Hub repo | Strategy + demand research; branch `ai-engineering-series-roadmap` merged to `main` this session. |
 
@@ -65,28 +67,32 @@ industry-variation callout → PFL stretch. LOS frontmatter anchors ↔ prose an
 | **Design v0.4** | **Authored** (not just a banner) | Pending since 06-03; v0.3 §4 explicitly deferred open questions to v0.4+. |
 | **Hub branch** | Merge `ai-engineering-series-roadmap` → `main` | Ends "canonical strategy lives on an unmerged branch". |
 
-## 4 · Workstream A — finish guide #2 (ACTIVE)
+## 4 · Workstream A — guide #2 (COMPLETE 2026-06-10)
 
-**Next unit of work: Ch 2 — Retrieval 101** (embeddings & vector search; first chapter to import `mini_rag`).
+**Done — the §5 launch gate is met.** All 13 chapters (0–12) authored in the §5 shape, independently reviewed, all
+findings fixed (`~/guides-ai-engineering/docs/REVIEW_FINDINGS_2026-06-10.md`), anchors bijective, pushed through
+`121cca4`. The **active workstream is now §5 (launch)**. This section is retained as the delivery record.
 
-Chapter order (locked, per `docs/guide-02-llm-app-engineering.md`):
+Chapter order (as delivered, per `docs/guide-02-llm-app-engineering.md`):
 **Ch2** Retrieval 101 → **Ch3** chunking & document representation → **Ch4** RAG end-to-end → **Ch5** evaluating RAG
 (bridges guide #1) → **Ch6** advanced RAG (rerank/HyDE/routing) → **Ch7** RAG in production (latency/cost; hands off
 to guide #3) → **Ch8** agents & tool use → **Ch9** multi-agent orchestration → **Ch10** fine-tune vs RAG vs prompt
 (judgment) → **Ch11** system-design capstone → **Ch12** interview craft & transfer.
 
-**Companion growth map**: `mini_rag.search` exists (Ch2) → `chunk` (Ch3) → `pipeline` (Ch4) → **bridge to
-`mini_eval.retrieval`** at Ch5 (reuse, don't rebuild) → `rerank` (Ch6) → profiler/caching patterns (Ch7) →
-**`mini_agent` seeded Ch8–9** (ReAct loop, then multi-agent) → Ch10–12 prose/judgment, no new modules. Every module:
-stdlib-only, tested, "for learning, not production", bridged to the production tool (LangChain/LlamaIndex/RAGAS).
+**Companion (as delivered)**: `mini_rag` 5 modules (search·chunk·pipeline·rerank·budget, **29/29**) with the
+`mini_eval.retrieval` reuse bridge at Ch5; `mini_agent` 3 modules (loop·tools·orchestrate+crew, **12/12**) seeded
+Ch8–9; Ch10–12 prose/judgment, no new modules. Every module: stdlib-only, tested, "for learning, not production",
+bridged to the production tool (LangChain/LlamaIndex/RAGAS).
 
-**Demo policy continues**: computed demos via `scripts/build_demo_data.py` (dump→JSON→island); hand-authored quiz
-JSON (`ScenarioQuiz`) wherever live model outputs would otherwise be fabricated.
+**Demo policy (continues for guide #3)**: computed demos via `scripts/build_demo_data.py` (dump→JSON→island);
+hand-authored quiz JSON (`ScenarioQuiz`) wherever live model outputs would otherwise be fabricated.
 
-**Completion gate (replicates guide #1)**: independent **5-dimension review** (math / demo-honesty / factual /
-pedagogy / island+MDX) by a fresh agent → findings doc (`docs/REVIEW_FINDINGS_<date>.md`) → all fixes applied →
-LOS anchors bijective in all chapters → `npm run build` + validate green → all companion tests pass. Only then is
-guide #2 "complete" — which opens §5.
+**Completion gate (met for guide #2; template for guide #3)**: independent **5-dimension review** (math /
+demo-honesty / factual / pedagogy / island+MDX) by a fresh agent → findings doc (`docs/REVIEW_FINDINGS_<date>.md`) →
+all fixes applied → LOS anchors bijective in all chapters → `npm run build` + validate green → all companion tests
+pass. **Forward note**: once the guide repo is on scaffold **≥v4.20.0** (post-launch bump, §2/§7), the native
+`validate` anchor-lint (#130) performs the bijection check mechanically — it *replaces* the manual "anchors
+bijective" step in the guide-3 gate rather than relying on the independent reviewer to catch dangling anchors.
 
 ## 5 · Workstream B — launch (gated on guide #2 complete + reviewed)
 
@@ -99,7 +105,12 @@ project, proxied at `/ai-engineering/*`.
 - *Claude (pre-work)*: **✅ DONE 2026-06-10** — builds + validate green in both repos; guide repo
   `public/_redirects` added (`/ → /ai-engineering/ 302`, verified in `dist/`); Node notes reconciled (**both repos
   Node 22** — Astro 6.1.7 requires ≥22.12.0; the old "hub: Node 20" notes were stale); hub scaffold upgraded (pulled
-  forward from L1, below); runbook rewritten. **The user dashboard sitting is the only L0 step left.**
+  forward from L1, below); runbook rewritten.
+- *Claude (launch-prep, 2026-06-11)*: set `routes: { landing: false }` in the guide repo's book config — clears the
+  **#129** index/landing route-collision WARN the custom two-guide landing emits on every build (the
+  maintainer-recommended escape hatch, available on v4.14.2 now that #129 is resolved upstream; #129/#130/#132 closed
+  → §2/§7). 1-line, low-risk; do before the first live build. **After this, the user dashboard sitting is the only L0
+  step left.**
 - *User (Cloudflare dashboard — account actions, not scriptable here)*: Workers & Pages → create Pages project from
   `github.com/brandon-behring/guides-ai-engineering` (build `npm run build`, output `dist`, Node 22) → yields
   `guides-ai-engineering.pages.dev`. Same for the hub (`guides-hub`, Node 22). Step-by-step runbook (both projects):
@@ -124,7 +135,8 @@ project, proxied at `/ai-engineering/*`.
 - **WIP visibility decision (decide at launch)**: in-progress guides on the live site — label "in progress" on the
   landing picker (on-brand for building in the open) vs `draft:` flags. Before relying on drafts: route filtering is
   verified, **listing filtering is not** — if the listing shows unrouted drafts, that's an upstream bug → file
-  `consumer:guides`, don't hack locally.
+  `consumer:guides`, don't hack locally. (Multi-guide routing itself is now blessed as **recipe 21**; the live
+  first-class-support channel is **#80**, not the closed #132 — file new multi-guide friction there.)
 
 ## 6 · Workstream C — guide #3+
 
@@ -161,6 +173,14 @@ Unchanged: **fine-tuning absorbed** (guide-2 Ch10 teaches the judgment call), **
   All hub CI green incl. the new research-lint workflow.
 
 **Standing flags**:
+- **Upstream consumer:guides issues resolved 2026-06-11**: #129 (index collision), #130 (native `validate`
+  anchor-lint), #132 (multi-guide recipe 21) all **CLOSED via PR #136 → v4.20.0**. We're on v4.14.2, so the fixes
+  aren't installed yet; they arrive with the **post-launch v4.23.0 bump** (§2). The #130 native anchor lint then
+  *replaces* the manual "anchors bijective" step in the guide-3 completion gate (§4). The #129 WARN is cleared now via
+  `routes:{landing:false}` (§5 L0). #15 multibook closed → live channel **#80**; **#103** demo kit still open.
+- **#83 Provenance backfill (P3, upstream "tracked")**: v4.8.0 ships a per-chapter `Provenance` audit block; *guides*
+  is an unchecked consumer in the rollout issue. On v4.14.2 every chapter already renders it with the "Audit history
+  not yet recorded" fallback. **Decide backfill-vs-leave at the post-launch scaffold bump** — record-only for now.
 - ~~`AI_ENG_SYSTEM_INVENTORY.md` untracked~~ — **resolved 2026-06-10**: committed + pushed in `interview_prep_series`
   (`e8acc735`, WIP-snapshot commit) as part of the cross-machine remote-completeness pass. That repo's regenerated
   freshness audit (same commit) reports **25 HIGH findings in vol08 — but all 25 are one velocity-scanner rule**
@@ -179,21 +199,26 @@ Unchanged: **fine-tuning absorbed** (guide-2 Ch10 teaches the judgment call), **
 ## 8 · Deferred / not-doing
 
 Demand-spine P1/P3 strict-live synthesis · `/ai-eng-sim` live-LLM personal simulator (BYO-key public variant remains
-the likely future path) · Pyodide in-browser execution · scaffold **#15** per-guide chapter index (upstream-deferred;
-keep feeding evidence via **#132**) · standalone fine-tuning/safety guides · `methodology.mdx` refresh from v0.4
+the likely future path) · Pyodide in-browser execution · scaffold first-class multibook / per-guide chapter index
+(upstream-deferred to v5.x as **#80**; #15 + #132 both closed — feed evidence on #80) · standalone fine-tuning/safety
+guides · `methodology.mdx` refresh from v0.4
 (follow-up, noted in v0.4) · Cloudflare deploy of anything **before** the §5 gate.
 
 ## 9 · Next unit of work
 
-*(Updated 2026-06-10, third pass: hygiene tie-offs done (§7) · L0 Claude pre-work done · hub scaffold upgraded ·
-guide-3 outline + Ch 0 authored (§6). Items 1–2 of the previous pass are executed up to their user-action gates.)*
+*(Re-stamped 2026-06-11, sixth pass — roadmap refine + upstream sweep: #129/#130/#132 closed (folded into §2/§7),
+guide #2 marked complete in §4, v4.23.0 bump recorded post-launch; the 2026-06-10 fifth-pass vol08 freshness work is
+in §7. The top-3 below are unchanged in priority — #1 is still the user Cloudflare sitting.)*
 
-1. **User Cloudflare-dashboard sitting** — the only step left in Phase L0: create the two Pages projects per the
+1. **User Cloudflare-dashboard sitting** — the last user step in Phase L0: create the two Pages projects per the
    rewritten runbook (`docs/deploy-cloudflare-pages.md`; both repos, Node 22, ~20 min). Claude post-checks
-   (`/url-freshness-check` on live URLs, island hydration) immediately after.
+   (`/url-freshness-check` on live URLs, island hydration) immediately after. **Claude launch-prep first** (1-line):
+   set `routes:{landing:false}` in the guide repo to clear the #129 collision WARN before the live build (§5 L0).
 2. **Then L1** (custom domain + the `/ai-engineering/*` Worker proxy — Claude writes it, user deploys the route) **and
    L2** (OG metadata, guide-repo CI, analytics token). Note for L2's WIP-labeling decision: guide-3 Ch 0 is live on
    the landing picker labeled "in progress — chapter 0 of ~13" (the building-in-the-open option, de facto).
-3. **Post-launch**: guide-3 Ch 1+ authoring (outline at `~/guides-ai-engineering/docs/guide-03-production-ai-systems.md`);
-   revisit the craft-capstone open decision (§3); the dossier display-vs-evidence repair pass that unblocks the
-   research-lint v2.6.0 pin bump (§7).
+3. **Post-launch**: scaffold **v4.14.2 → v4.23.0** bump (both repos) — brings the native anchor-lint gate (#130) for
+   guide-3 + the other deferred upstream fixes; guide-3 Ch 1+ authoring (outline at
+   `~/guides-ai-engineering/docs/guide-03-production-ai-systems.md`); revisit the craft-capstone open decision (§3);
+   the dossier display-vs-evidence repair pass that unblocks the research-lint v2.6.0 pin bump (§7); decide #83
+   Provenance backfill-vs-leave (§7).
