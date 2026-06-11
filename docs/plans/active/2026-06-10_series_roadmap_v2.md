@@ -106,11 +106,11 @@ project, proxied at `/ai-engineering/*`.
   `public/_redirects` added (`/ → /ai-engineering/ 302`, verified in `dist/`); Node notes reconciled (**both repos
   Node 22** — Astro 6.1.7 requires ≥22.12.0; the old "hub: Node 20" notes were stale); hub scaffold upgraded (pulled
   forward from L1, below); runbook rewritten.
-- *Claude (launch-prep, 2026-06-11)*: set `routes: { landing: false }` in the guide repo's book config — clears the
-  **#129** index/landing route-collision WARN the custom two-guide landing emits on every build (the
-  maintainer-recommended escape hatch, available on v4.14.2 now that #129 is resolved upstream; #129/#130/#132 closed
-  → §2/§7). 1-line, low-risk; do before the first live build. **After this, the user dashboard sitting is the only L0
-  step left.**
+- *Claude (launch-prep)*: **✅ DONE 2026-06-11** — `routes: { landing: false }` set in the guide repo's book config
+  (commit `11c5559`); clears the **#129** index/landing route-collision WARN the custom two-guide landing emitted on
+  every build (the maintainer-recommended escape hatch, available on v4.14.2; #129/#130/#132 closed → §2/§7).
+  Verified: build green, zero router WARNs, custom landing still renders. **The user dashboard sitting is now the
+  only L0 step left.**
 - *User (Cloudflare dashboard — account actions, not scriptable here)*: Workers & Pages → create Pages project from
   `github.com/brandon-behring/guides-ai-engineering` (build `npm run build`, output `dist`, Node 22) → yields
   `guides-ai-engineering.pages.dev`. Same for the hub (`guides-hub`, Node 22). Step-by-step runbook (both projects):
@@ -210,10 +210,10 @@ guides · `methodology.mdx` refresh from v0.4
 guide #2 marked complete in §4, v4.23.0 bump recorded post-launch; the 2026-06-10 fifth-pass vol08 freshness work is
 in §7. The top-3 below are unchanged in priority — #1 is still the user Cloudflare sitting.)*
 
-1. **User Cloudflare-dashboard sitting** — the last user step in Phase L0: create the two Pages projects per the
-   rewritten runbook (`docs/deploy-cloudflare-pages.md`; both repos, Node 22, ~20 min). Claude post-checks
-   (`/url-freshness-check` on live URLs, island hydration) immediately after. **Claude launch-prep first** (1-line):
-   set `routes:{landing:false}` in the guide repo to clear the #129 collision WARN before the live build (§5 L0).
+1. **User Cloudflare-dashboard sitting** — the last L0 step (Claude's `routes:{landing:false}` launch-prep done
+   2026-06-11, `11c5559` — §5 L0): create the two Pages projects per the rewritten runbook
+   (`docs/deploy-cloudflare-pages.md`; both repos, Node 22, ~20 min). Claude post-checks
+   (`/url-freshness-check` on live URLs, island hydration) immediately after.
 2. **Then L1** (custom domain + the `/ai-engineering/*` Worker proxy — Claude writes it, user deploys the route) **and
    L2** (OG metadata, guide-repo CI, analytics token). Note for L2's WIP-labeling decision: guide-3 Ch 0 is live on
    the landing picker labeled "in progress — chapter 0 of ~13" (the building-in-the-open option, de facto).
