@@ -5,6 +5,9 @@ dist-pdf/
 .astro/
 .env.local
 
+# Wrangler dev cache (created by local `npx wrangler dev` runs)
+.wrangler/
+
 # Generated data (rebuilt by build-bib / build-labels)
 src/data/*.json
 !src/data/.gitkeep
