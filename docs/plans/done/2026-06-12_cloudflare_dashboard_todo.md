@@ -10,10 +10,11 @@ same day and pushed: hub `c540b3b`, guide repo `76b50f7`. All URL shapes verifie
 Full detail: `docs/deploy-cloudflare-pages.md` (rewritten 2026-06-11 for Workers; filename kept
 for link stability). Launch plan: `docs/plans/active/2026-06-10_series_roadmap_v2.md` §5.
 
-**Status 2026-06-12**: sections 1–4 ✅ DONE — both Workers live at `*.brandon-m-behring.workers.dev`,
-post-checks passed (plus two findings fixed: scaffold ChapterNav 404s → upstream #141 + stopgap
-301s, missing favicon → shipped; guide-repo commit `cae4a7f`). **Remaining: §5 custom domain
-(user) + §6 L2.**
+**Status 2026-06-12 (final — file moved to done/)**: sections 1–5 ✅ DONE — both Workers live at
+`*.brandon-m-behring.workers.dev`, post-checks passed (plus two findings fixed: scaffold ChapterNav
+404s → upstream #141 + stopgap 301s, missing favicon → shipped; guide-repo commit `cae4a7f`), and
+`guides.brandon-behring.dev` live on the hub Worker (HTTP/2, valid cert, sweep clean). **Remaining
+work is tracked in roadmap v2 §5, not here: path proxy (blocked on #140/#141) + §6 L2.**
 
 ---
 
@@ -78,9 +79,9 @@ All of these passed locally under `npx wrangler dev` 2026-06-11 — production s
 
 ## 5. Phase L1 — custom domain (can do anytime after step 1)
 
-- [ ] `guides-hub` Worker → **Settings** → **Domains & Routes** → **Add** → **Custom domain**
+- [x] `guides-hub` Worker → **Settings** → **Domains & Routes** → **Add** → **Custom domain**
       → `guides.brandon-behring.dev` (Cloudflare inserts DNS automatically; 1–5 min propagation)
-- [ ] Verify `https://guides.brandon-behring.dev/` + `/methodology/` + HTTPS cert
+- [x] Verify `https://guides.brandon-behring.dev/` + `/methodology/` + HTTPS cert
 
 **Do NOT expect `/ai-engineering/*` on the custom domain yet.** The path proxy (hub-Worker
 `main` script + `run_worker_first = ["/ai-engineering/*"]`) is Claude-side work and is
