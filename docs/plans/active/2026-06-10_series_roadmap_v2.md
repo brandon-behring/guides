@@ -101,7 +101,7 @@ doesn't resolve and guide #1 is readable only as MDX source on GitHub. Launch cl
 repos' `wrangler.toml`): hub Pages project serves `guides.brandon-behring.dev`; guide repo deploys as its own Pages
 project, proxied at `/ai-engineering/*`.
 
-**Phase L0 — live at all (workers.dev)** *(2026-06-11: was "pages.dev" — see the Workers-conversion bullet below)*
+**Phase L0 — live at all (workers.dev)** *(2026-06-11: was "pages.dev" — see the Workers-conversion bullet below)* — **✅ COMPLETE 2026-06-12**
 - *Claude (pre-work)*: **✅ DONE 2026-06-10** — builds + validate green in both repos; guide repo
   `public/_redirects` added (`/ → /ai-engineering/ 302`, verified in `dist/`); Node notes reconciled (**both repos
   Node 22** — Astro 6.1.7 requires ≥22.12.0; the old "hub: Node 20" notes were stale); hub scaffold upgraded (pulled
@@ -117,13 +117,17 @@ project, proxied at `/ai-engineering/*`.
   the process discovered scaffold components emit **base-unaware links** (breaks the L1 path proxy) → filed
   upstream **#140** (see §7). All URL shapes verified under `npx wrangler dev`. Runbook rewritten same day.
   **The user dashboard sitting is now the only L0 step left.**
-- *User (Cloudflare dashboard — account actions, not scriptable here)*: Workers & Pages → **Import a repository**
-  (Workers Builds) for `github.com/brandon-behring/guides-ai-engineering` and the hub (`guides-hub`); build
-  `npm run build`, deploy `npx wrangler deploy` (defaults), no env vars → yields `<name>.<account>.workers.dev`.
-  The failed `guides-hub` project from the first attempt is reusable — retry/push picks up the fixed config.
-  Step-by-step runbook: `docs/deploy-cloudflare-pages.md` (rewritten 2026-06-11 — Workers static assets; filename
-  kept for link stability).
-- *Claude (post)*: full link-check of the live URLs (`/url-freshness-check`), verify islands hydrate + demo JSON loads.
+- *User (Cloudflare dashboard — account actions, not scriptable here)*: **✅ DONE 2026-06-12** — both Workers
+  live: `guides-hub` + `guides-ai-engineering` at `*.brandon-m-behring.workers.dev` (Workers Builds, defaults per
+  the runbook `docs/deploy-cloudflare-pages.md`; the failed first-attempt `guides-hub` project was reused as
+  planned).
+- *Claude (post)*: **✅ DONE 2026-06-12** — live verification: all 12 checklist URLs exact (hub 5×200; guide
+  302/302 + landing/chapters 200); island hydration confirmed in-browser (ThresholdExplorer live state update);
+  demo JSON confirmed **build-time-bundled** into island JS (no runtime fetch path); hub link sweep zero broken.
+  Found + fixed: (a) **every ChapterNav prev/next link 404s** — scaffold drops the `/chapters/` route prefix →
+  filed **#141** (§7), stopgap `_redirects` 301s shipped; (b) missing `public/favicon.svg` → family mark copied
+  from the hub. Both in guide-repo commit `cae4a7f`, re-verified on production after the auto-rebuild (which also
+  confirmed runbook Step-4 auto-deploy).
 
 **Phase L1 — custom domain + path proxy**
 - *User*: attach `guides.brandon-behring.dev` to the hub Pages project (Cloudflare DNS handles the CNAME).
@@ -188,6 +192,11 @@ Unchanged: **fine-tuning absorbed** (guide-2 Ch10 teaches the judgment call), **
   serving is unaffected (the guide repo's `_redirects` 200-rewrite covers both link shapes — temporary workaround,
   remove when #140 ships), but on the L1 hub-domain proxy, navigation would escape `/ai-engineering/` onto hub
   routes. L0 + custom-domain (L1 step 1–2) can proceed; the path proxy (L1 step 3) waits on #140.
+- **Scaffold #141 — ChapterNav drops the `/chapters/` route prefix (filed 2026-06-12)**: `ChapterNav.astro:17,23`
+  emits `/{collection}/{slug}/`, so every prev/next link 404s — everywhere, not just under `base` (distinct from and
+  worse than #140). Found by the L0 post-deploy link sweep (6 broken URLs). Stopgap: three `_redirects` 301 rules
+  (`/evaluation/*`, `/llm-app-engineering/*`, `/production-ai-systems/*` → `/chapters/...`) in guide-repo commit
+  `cae4a7f` — remove when #141 ships. Like #140, the real fix must land before the L1 path proxy.
 - **Upstream consumer:guides issues resolved 2026-06-11**: #129 (index collision), #130 (native `validate`
   anchor-lint), #132 (multi-guide recipe 21) all **CLOSED via PR #136 → v4.20.0**. We're on v4.14.2, so the fixes
   aren't installed yet; they arrive with the **post-launch v4.23.0 bump** (§2). The #130 native anchor lint then

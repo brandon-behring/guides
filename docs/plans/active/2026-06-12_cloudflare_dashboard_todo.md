@@ -10,6 +10,11 @@ same day and pushed: hub `c540b3b`, guide repo `76b50f7`. All URL shapes verifie
 Full detail: `docs/deploy-cloudflare-pages.md` (rewritten 2026-06-11 for Workers; filename kept
 for link stability). Launch plan: `docs/plans/active/2026-06-10_series_roadmap_v2.md` §5.
 
+**Status 2026-06-12**: sections 1–4 ✅ DONE — both Workers live at `*.brandon-m-behring.workers.dev`,
+post-checks passed (plus two findings fixed: scaffold ChapterNav 404s → upstream #141 + stopgap
+301s, missing favicon → shipped; guide-repo commit `cae4a7f`). **Remaining: §5 custom domain
+(user) + §6 L2.**
+
 ---
 
 ## 1. Fix the existing `guides-hub` Worker (hub repo)
@@ -17,22 +22,22 @@ for link stability). Launch plan: `docs/plans/active/2026-06-10_series_roadmap_v
 The failed project is **reusable — do not delete it**. The fixed `wrangler.toml`
 (`[assets] directory = "./dist"`) is already on `main`.
 
-- [ ] Dashboard → **Workers & Pages** → `guides-hub` → **Deployments**
-- [ ] A new build may have auto-triggered from the `c540b3b` push. If not: **Retry build** on
+- [x] Dashboard → **Workers & Pages** → `guides-hub` → **Deployments**
+- [x] A new build may have auto-triggered from the `c540b3b` push. If not: **Retry build** on
       the failed deployment.
-- [ ] Confirm the healthy log signature:
+- [x] Confirm the healthy log signature:
       `Success: Build command completed` → `Executing user deploy command: npx wrangler deploy`
       → asset upload → `Deployed guides-hub (https://….workers.dev)`
-- [ ] Note the `.workers.dev` URL from the Worker's overview page.
+- [x] Note the `.workers.dev` URL from the Worker's overview page.
 
 The old failure mode (`Missing entry-point to Worker script or to assets directory`) is gone
 once the build checks out a commit ≥ `c540b3b`.
 
 ## 2. Create the `guides-ai-engineering` Worker (guide repo)
 
-- [ ] **Workers & Pages** → **Create application** → **Import a repository** →
+- [x] **Workers & Pages** → **Create application** → **Import a repository** →
       `brandon-behring/guides-ai-engineering`
-- [ ] Settings (defaults are correct):
+- [x] Settings (defaults are correct):
 
   | Field | Value |
   |---|---|
@@ -42,24 +47,24 @@ once the build checks out a commit ≥ `c540b3b`.
   | Deploy command | `npx wrangler deploy` (default) |
   | Environment variables | **none** — Node 22 auto-detected (`nodejs@22.16.0` observed; Astro 6 needs ≥22.12.0) |
 
-- [ ] Confirm the same healthy log signature and note the `.workers.dev` URL.
+- [x] Confirm the same healthy log signature and note the `.workers.dev` URL.
 
 ## 3. Spot-check the live deploys (~2 min)
 
 Hub (`guides-hub.….workers.dev`):
 
-- [ ] `/` — landing page
-- [ ] `/methodology/` and `/about/` — root-mounted frontmatter pages
-- [ ] `/search/` — Pagefind UI
+- [x] `/` — landing page
+- [x] `/methodology/` and `/about/` — root-mounted frontmatter pages
+- [x] `/search/` — Pagefind UI
 
 Guide repo (`guides-ai-engineering.….workers.dev`):
 
-- [ ] `/` — 302 → `/ai-engineering/` (via `public/_redirects`)
-- [ ] `/ai-engineering/` — two-guide landing picker
-- [ ] `/ai-engineering/chapters/evaluation/why-evaluation/` — guide-1 chapter; click an island
+- [x] `/` — 302 → `/ai-engineering/` (via `public/_redirects`)
+- [x] `/ai-engineering/` — two-guide landing picker
+- [x] `/ai-engineering/chapters/evaluation/why-evaluation/` — guide-1 chapter; click an island
       demo to confirm hydration
-- [ ] `/ai-engineering/chapters/llm-app-engineering/retrieval-101/` — guide-2 chapter
-- [ ] `/chapters/` — also 200 (scaffold links ignore `base`, upstream
+- [x] `/ai-engineering/chapters/llm-app-engineering/retrieval-101/` — guide-2 chapter
+- [x] `/chapters/` — also 200 (scaffold links ignore `base`, upstream
       [#140](https://github.com/brandon-behring/book-scaffold-astro/issues/140); the
       `_redirects` 200-rewrite makes both shapes resolve standalone)
 
@@ -67,7 +72,7 @@ All of these passed locally under `npx wrangler dev` 2026-06-11 — production s
 
 ## 4. Hand back to Claude
 
-- [ ] Paste both `.workers.dev` URLs into a Claude session → Claude runs the scripted
+- [x] Paste both `.workers.dev` URLs into a Claude session → Claude runs the scripted
       post-checks (link-check over live URLs, island hydration, demo-JSON loading) and marks
       Phase L0 done in the roadmap.
 
