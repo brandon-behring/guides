@@ -130,15 +130,20 @@ project, proxied at `/ai-engineering/*`.
   confirmed runbook Step-4 auto-deploy).
 
 **Phase L1 — custom domain + path proxy**
-- *User*: attach `guides.brandon-behring.dev` to the hub Pages project (Cloudflare DNS handles the CNAME).
+- *User*: **✅ DONE 2026-06-12** — `guides.brandon-behring.dev` attached to the `guides-hub` Worker (custom
+  domain, auto-DNS). Verified same day: all hub pages 200 over HTTP/2, valid cert (GTS, exp 2026-08-20),
+  link sweep clean, sitemap-index + robots 200. No hub page links to `/ai-engineering/` yet, so the
+  not-yet-proxied path has no 404 exposure.
 - *Path proxy*: hub Worker gains a `main` script (assets binding + `run_worker_first = ["/ai-engineering/*"]`)
   proxying `/ai-engineering/*` → the `guides-ai-engineering` Worker (2026-06-11: both repos are Workers static
   assets now, so the proxy is part of the hub Worker itself, not a separate route deploy). Claude writes it; deploys
   via normal push. **Blocked on scaffold #140** (base-unaware links escape the `/ai-engineering/` prefix onto hub
   routes — §7). Fallback only if unwanted: `ai-engineering.` subdomain (requires `site`/`base` churn — avoid).
 - *Claude*: ~~hub scaffold v4.2.0 → v4.14.x upgrade~~ (**done early, 2026-06-10** — both repos on v4.14.2) ·
-  ~~correct the stale "is connected" comment in the hub `wrangler.toml`~~ (**done 2026-06-10**) · hub landing links
-  to `/ai-engineering/`; sitemap/robots sanity.
+  ~~correct the stale "is connected" comment in the hub `wrangler.toml`~~ (**done 2026-06-10**) ·
+  ~~sitemap/robots sanity~~ (**verified live 2026-06-12**) · hub landing links to `/ai-engineering/` — waits
+  for the path proxy (linking now would 404 on the custom domain; interim option: link the guide's
+  workers.dev URL from the landing).
 
 **Phase L2 — traction polish + instrumentation**
 - *Claude*: OG/social metadata + canonical URLs (link unfurls matter); README "Read it live →" links;
