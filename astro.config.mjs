@@ -18,6 +18,12 @@ export default await defineBookConfig({
   styles: [researchPortfolioStyle, guidesFamilyStyle],
   // site, routes.frontmatter, deploy all come from guidesFamilyStyle.
   //
+  // Default social card for link unfurls. The scaffold emits no og:image
+  // unless one is set (Base.astro, v4.6.0 "D3" — no implicit fallback to avoid
+  // broken meta tags); a per-page `image` frontmatter still overrides this.
+  // Resolved against site → https://guides.brandon-behring.dev/og-default.png.
+  seo: { ogImage: '/og-default.png' },
+  //
   // Bundle the self-hosted variable-font CSS during SSR. These packages'
   // entry points are .css files; when Vite externalizes them, Astro's dev
   // SSR loader (Node ESM) can't import a .css and every page 500s with

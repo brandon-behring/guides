@@ -1,14 +1,15 @@
 # guides
 
-Hub repo for [`guides.brandon-behring.dev`](https://guides.brandon-behring.dev) — interview-prep guides for data science, ML engineering, and AI engineering. Built with [`@brandon_m_behring/book-scaffold-astro`](https://github.com/brandon-behring/book-scaffold-astro) (`research-portfolio` preset, v3.5.0).
+Hub repo for **[`guides.brandon-behring.dev`](https://guides.brandon-behring.dev)** (live) — interview-prep guides for data science, ML engineering, and AI engineering. Built with [`@brandon_m_behring/book-scaffold-astro`](https://github.com/brandon-behring/book-scaffold-astro) (`research-portfolio` preset, v4.14.2), deployed on Cloudflare Workers static assets.
 
 This repo serves the landing page, `/methodology`, and `/about`. **Per-guide content lives in sibling repos** and deploys to subroutes:
 
-| Guide | Repo | URL |
+| Guide | Repo | Status |
 |---|---|---|
-| `experimentation` | `github.com/brandon-behring/guides-experimentation` | `guides.brandon-behring.dev/experimentation/` (Phase 1) |
+| AI engineering (`/ai-engineering/`) | `github.com/brandon-behring/guides-ai-engineering` | **Live** — Evaluation + LLM App Engineering complete; Production AI Systems in progress. Currently at [`guides-ai-engineering.brandon-m-behring.workers.dev`](https://guides-ai-engineering.brandon-m-behring.workers.dev); mounts at `/ai-engineering/` once the path proxy ships. |
+| Experimentation (`/experimentation/`) | `github.com/brandon-behring/guides-experimentation` | Planned (Phase 1). |
 
-Why split: per-guide self-contained repos (Architecture A, locked in design doc v0.2 §9) so each guide has its own companion Python package, capstone artifact, ADRs, and independent release cadence. See `/methodology` once live.
+Why split: per-guide self-contained repos (Architecture A, locked in design doc v0.2 §9) so each guide has its own companion Python package, capstone artifact, ADRs, and independent release cadence. See [`/methodology`](https://guides.brandon-behring.dev/methodology).
 
 ## Getting started
 
@@ -24,7 +25,7 @@ npm run validate    # pre-flight content checks
 npm run build       # → dist/
 ```
 
-Cloudflare Pages auto-deploys from `main` via dashboard config (no manual wrangler invocation required). See `wrangler.toml` for the connected-project metadata.
+Cloudflare **Workers** (static assets) auto-deploys from `main` via a Git-connected Workers Build (`npx wrangler deploy`; no manual invocation required). See `wrangler.toml` (`[assets] directory = "./dist"`) for the connected-project metadata.
 
 ## Content
 
