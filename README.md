@@ -6,7 +6,7 @@ This repo serves the landing page, `/methodology`, and `/about`. **Per-guide con
 
 | Guide | Repo | Status |
 |---|---|---|
-| AI engineering (`/ai-engineering/`) | `github.com/brandon-behring/guides-ai-engineering` | **Live** — Evaluation + LLM App Engineering complete; Production AI Systems in progress. Currently at [`guides-ai-engineering.brandon-m-behring.workers.dev`](https://guides-ai-engineering.brandon-m-behring.workers.dev); mounts at `/ai-engineering/` once the path proxy ships. |
+| AI engineering (`/ai-engineering/`) | `github.com/brandon-behring/guides-ai-engineering` | **Live** — Evaluation, LLM App Engineering, and Production AI Systems all complete (13 chapters each). Currently at [`guides-ai-engineering.brandon-m-behring.workers.dev`](https://guides-ai-engineering.brandon-m-behring.workers.dev); mounts at `/ai-engineering/` once the path proxy ships. |
 | Experimentation (`/experimentation/`) | `github.com/brandon-behring/guides-experimentation` | Planned (Phase 1). |
 
 Why split: per-guide self-contained repos (Architecture A, locked in design doc v0.2 §9) so each guide has its own companion Python package, capstone artifact, ADRs, and independent release cadence. See [`/methodology`](https://guides.brandon-behring.dev/methodology).
