@@ -18,6 +18,13 @@ export default await defineBookConfig({
   styles: [researchPortfolioStyle, guidesFamilyStyle],
   // site, routes.frontmatter, deploy all come from guidesFamilyStyle.
   //
+  // Suppress the scaffold's auto-injected root landing so our custom
+  // src/pages/index.astro (the guides front door) owns `/`. Routes shallow-merge
+  // ({...style.routes, ...these}), so this overrides only `landing` — the style's
+  // routes.frontmatter (the prefix-'' mount of /methodology + /about) is preserved.
+  // The scaffold #129 escape hatch; proven on v4.14.2 by the guide repo.
+  routes: { landing: false },
+  //
   // Default social card for link unfurls. The scaffold emits no og:image
   // unless one is set (Base.astro, v4.6.0 "D3" — no implicit fallback to avoid
   // broken meta tags); a per-page `image` frontmatter still overrides this.

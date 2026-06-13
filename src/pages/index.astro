@@ -1,0 +1,48 @@
+---
+// Hub front door for guides.brandon-behring.dev. Replaces the scaffold's auto-injected
+// landing (suppressed via `routes: { landing: false }` in astro.config.mjs) so the live
+// guides are reachable from the custom domain. Mirrors the picker pattern in the sibling
+// guide repo (~/guides-ai-engineering/src/pages/index.astro).
+import Base from '@brandon_m_behring/book-scaffold-astro/layouts/Base.astro';
+---
+<Base
+  title="Interview-prep guides for data science, ML &amp; AI engineering"
+  description="Company-agnostic guides organized by what interviews actually test and the documented reasons strong candidates fail — taught for transfer, not memorization. Each guide ships a hand-built companion library and static interactive demos."
+>
+  <article class="prose">
+    <h1>Interview-prep guides, taught for transfer</h1>
+    <p>
+      Company-agnostic guides for data science, ML engineering, and AI
+      engineering — organized by what interviews actually test and the documented
+      reasons strong candidates fail, taught for transfer to the novel problems real
+      interviews throw at you, not memorization. Each guide ships a hand-built
+      <code>companion</code> library you assemble chapter-by-chapter and static,
+      client-side interactive demos (no model, no server).
+    </p>
+
+    <h2>Guides</h2>
+    <ol>
+      <li>
+        {/* Interim link: the guide is served from its own Worker until the hub path
+            proxy ships (blocked on scaffold #140 + #141). Swap to /ai-engineering/ then. */}
+        <strong><a href="https://guides-ai-engineering.brandon-m-behring.workers.dev/ai-engineering/">AI engineering</a></strong>
+        — the AI-native dimensions of building on language models. Three complete
+        guides: <em>Evaluation &amp; benchmarking</em>, <em>LLM application
+        engineering</em>, and <em>Production AI systems</em> — 13 chapters each, with a
+        hand-built companion (<code>mini_eval</code>, <code>mini_rag</code>,
+        <code>mini_agent</code>, <code>mini_prod</code>) and interactive ICAP demos.
+      </li>
+      <li>
+        <strong>Experimentation</strong> — causal inference and A/B testing for
+        product decisions. <em>Planned.</em>
+      </li>
+    </ol>
+
+    <p>
+      How these are built: <a href="/methodology">methodology</a> ·
+      <a href="/about">about &amp; AI-collaboration disclosure</a> ·
+      <a href="/search">search</a> ·
+      <a href="https://brandon-behring.dev">brandon-behring.dev</a>.
+    </p>
+  </article>
+</Base>
