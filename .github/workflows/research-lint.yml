@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: brandon-behring/research_toolkit
-          ref: v2.4.0
+          ref: v2.6.0
           path: .research_toolkit
 
       - name: Set up Python
