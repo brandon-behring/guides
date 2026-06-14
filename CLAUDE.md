@@ -13,7 +13,7 @@ Hub repo for `guides.brandon-behring.dev`. Built with `@brandon_m_behring/book-s
 - **Frontmatter pages** (this repo's primary content): `src/content/frontmatter/*.mdx` — methodology, about
 - **Research dossiers (9 pedagogy)**: `docs/research/<topic>/` — 5 migrated v1-era (each has MIGRATION.md noting v2.2 upgrade deferred) + 4 new v2.2 strict-live
 - **Shared scaffold style**: `shared/styles/guides-family.ts` — canonical `guidesFamilyStyle` (composes on top of researchPortfolioStyle)
-- **Scripts**: `scripts/research_lint.py` — dossier integrity gate wrapping research_toolkit validators (CI: `.github/workflows/research-lint.yml`, pinned to toolkit **v2.4.0** — the v2.6.0 bump is blocked on display-vs-evidence repairs in the 4 depth-expanded dossiers; local full check via `--with-cache`)
+- **Scripts**: `scripts/research_lint.py` — dossier integrity gate wrapping research_toolkit validators (CI: `.github/workflows/research-lint.yml`, pinned to toolkit **v2.6.1** — bumped 2026-06-14; the display-vs-evidence audit exempts paraphrase-backed Mechanisms *before* the cache read (all 182 dossier evidence entries are `extraction_method: paraphrase`), so the 4 depth-expanded dossiers pass the strict check with no display repairs and the offline CI tier needs no cache blobs. v2.6.1 hardened the exemption predicate (mixed-method + malformed `supports`) after a 3-voice adversarial review; local full check via `--with-cache`)
 - **Components, layouts, default routes**: `@brandon_m_behring/book-scaffold-astro/{components,layouts}/...`
 - **Style customizations**: `src/styles/` (overrides package styles)
 - **Style guide v0.0**: `docs/style-guide-v0.0.md`

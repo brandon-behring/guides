@@ -215,9 +215,14 @@ Unchanged: **fine-tuning absorbed** (guide-2 Ch10 teaches the judgment call), **
   (`appendix_b` API/pricing, `appendix_c` model comparison, `ch13` cost, `ch08` MCP/agent landscape, `ch11` OWASP
   version). Figures refreshed + parked in the guide-3 outline's "Seed freshness notes (vol08)" block [verified
   2026-06-10] — that drives the guide-3 transforms when chapter authoring starts.
-- **research-lint pin stays at toolkit v2.4.0**: v2.6.0's stricter display-vs-evidence substring check fails the 4
-  depth-expanded dossiers (~140 agent-index Mechanism bullets not verbatim substrings of cached sources). Bumping the
-  pin is blocked on that repair pass — natural to fold into the long-pending `/dossier-audit` promotion round.
+- ~~**research-lint pin stays at toolkit v2.4.0**~~ **RESOLVED 2026-06-14 — pin now v2.6.1.** The stricter
+  display-vs-evidence substring check was failing the 4 depth-expanded dossiers (182 agent-index Mechanism bullets not
+  verbatim substrings of cached sources). Rather than a lossy 182-bullet verbatim re-anchor, the toolkit was adjusted:
+  `agent_index_display` now exempts paraphrase-backed Mechanisms (`extraction_method: paraphrase`) *before* the cache
+  read — all 182 dossier entries are paraphrase, so they pass with no display edits and the offline CI tier needs no
+  cache blobs (toolkit commits `7ed179d`+`1bd4f79`, tag `v2.6.0`; hub CI green). A 3-voice adversarial review of that
+  change then hardened the exemption predicate (mixed-method + malformed `supports` edges) → **v2.6.1** (commit
+  `29f2b59`); hub pin bumped to v2.6.1.
 - Two name-only `claude-books` mentions remain in older public `done/` wrap-ups (05-22 preflight, 06-04 handoff) —
   name + one-line context only, judged tolerable 2026-06-10; the detailed memo is what stays local.
 - `book-scaffold validate` counts include `authors.mdx` (28 in the guide repo as of guide-3 Ch 0) — cosmetic.
@@ -246,5 +251,5 @@ in §7. The top-3 below are unchanged in priority — #1 is still the user Cloud
 3. **Post-launch**: scaffold **v4.14.2 → v4.23.0** bump (both repos) — brings the native anchor-lint gate (#130) for
    guide-3 + the other deferred upstream fixes; guide-3 Ch 1+ authoring (outline at
    `~/guides-ai-engineering/docs/guide-03-production-ai-systems.md`); revisit the craft-capstone open decision (§3);
-   the dossier display-vs-evidence repair pass that unblocks the research-lint v2.6.0 pin bump (§7); decide #83
-   Provenance backfill-vs-leave (§7).
+   decide #83 Provenance backfill-vs-leave (§7). *(The research-lint v2.6.0 pin bump — formerly a post-launch TODO
+   here — shipped 2026-06-14 via the toolkit paraphrase exemption, no dossier repair needed; see §7.)*
