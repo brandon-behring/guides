@@ -134,11 +134,12 @@ project, proxied at `/ai-engineering/*`.
   domain, auto-DNS). Verified same day: all hub pages 200 over HTTP/2, valid cert (GTS, exp 2026-08-20),
   link sweep clean, sitemap-index + robots 200. No hub page links to `/ai-engineering/` yet, so the
   not-yet-proxied path has no 404 exposure.
-- *Path proxy*: hub Worker gains a `main` script (assets binding + `run_worker_first = ["/ai-engineering/*"]`)
-  proxying `/ai-engineering/*` → the `guides-ai-engineering` Worker (2026-06-11: both repos are Workers static
-  assets now, so the proxy is part of the hub Worker itself, not a separate route deploy). Claude writes it; deploys
-  via normal push. **Blocked on scaffold #140** (base-unaware links escape the `/ai-engineering/` prefix onto hub
-  routes — §7). Fallback only if unwanted: `ai-engineering.` subdomain (requires `site`/`base` churn — avoid).
+- *Path proxy*: **✅ LIVE 2026-06-14.** The hub Worker (`_worker.js`; `main` + `run_worker_first = ["/ai-engineering",
+  "/ai-engineering/*"]` inside `[assets]` + a `GUIDE_AI_ENGINEERING` service binding) proxies `/ai-engineering/*` →
+  the `guides-ai-engineering` Worker; everything else serves hub assets via the `ASSETS` binding. Unblocked by
+  scaffold **v4.24.0** (#140/#141 fixed + closed — guide nav is base-aware). Verified live: picker + chapters +
+  search 200, ChapterNav prev/next resolve inside `/ai-engineering/`, hub's own pages unaffected, zero escapes.
+  Hub commit `c49ea0c`.
 - *Claude*: ~~hub scaffold v4.2.0 → v4.14.x upgrade~~ (**done early, 2026-06-10** — both repos on v4.14.2) ·
   ~~correct the stale "is connected" comment in the hub `wrangler.toml`~~ (**done 2026-06-10**) ·
   ~~sitemap/robots sanity~~ (**verified live 2026-06-12**) · hub landing links to `/ai-engineering/` — waits
@@ -192,16 +193,12 @@ Unchanged: **fine-tuning absorbed** (guide-2 Ch10 teaches the judgment call), **
   All hub CI green incl. the new research-lint workflow.
 
 **Standing flags**:
-- **Scaffold #140 — base-unaware links (filed 2026-06-11, blocks L1)**: `Sidebar.astro`/`Base.astro`/`search.astro`
-  (+ chapter listings) hardcode root-relative hrefs, ignoring `base: '/ai-engineering/'`. Standalone workers.dev
-  serving is unaffected (the guide repo's `_redirects` 200-rewrite covers both link shapes — temporary workaround,
-  remove when #140 ships), but on the L1 hub-domain proxy, navigation would escape `/ai-engineering/` onto hub
-  routes. L0 + custom-domain (L1 step 1–2) can proceed; the path proxy (L1 step 3) waits on #140.
-- **Scaffold #141 — ChapterNav drops the `/chapters/` route prefix (filed 2026-06-12)**: `ChapterNav.astro:17,23`
-  emits `/{collection}/{slug}/`, so every prev/next link 404s — everywhere, not just under `base` (distinct from and
-  worse than #140). Found by the L0 post-deploy link sweep (6 broken URLs). Stopgap: three `_redirects` 301 rules
-  (`/evaluation/*`, `/llm-app-engineering/*`, `/production-ai-systems/*` → `/chapters/...`) in guide-repo commit
-  `cae4a7f` — remove when #141 ships. Like #140, the real fix must land before the L1 path proxy.
+- **Scaffold #140 + #141 — base-unaware links — ✅ RESOLVED 2026-06-14 (v4.24.0), both closed.** Every nav/anchor
+  component (`Sidebar`/`Base`/`ChapterNav`/`Cite`/`Term`/`TipsCard`/`PartReview`/`Rationale`) now derives hrefs from
+  `import.meta.env.BASE_URL` (#140); `ChapterNav` also gained the `/chapters/` segment it always lacked, so prev/next
+  no longer 404 for *any* consumer (#141). Fixed in the local scaffold repo (`+8` components, `base-aware-links.test.mjs`,
+  457 tests), released v4.24.0 (commit `e8a4ca3`, tag `v4.24.0`); guide bumped 4.14.2 → 4.24.0 (`0b07460`) and the
+  three `_redirects` stopgap 301s removed — which unblocked + shipped the L1 path proxy (§5, `c49ea0c`).
 - **Upstream consumer:guides issues resolved 2026-06-11**: #129 (index collision), #130 (native `validate`
   anchor-lint), #132 (multi-guide recipe 21) all **CLOSED via PR #136 → v4.20.0**. We're on v4.14.2, so the fixes
   aren't installed yet; they arrive with the **post-launch v4.23.0 bump** (§2). The #130 native anchor lint then
